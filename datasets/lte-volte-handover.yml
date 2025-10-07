@@ -1,0 +1,53 @@
+unique_name: lte-volte-handover
+object_type: dataset
+label: lte-volte-handover
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-volte-handover-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: VoLTE_Cid_tcID
+  data_type: double
+- name: VoLTE_Cnt_count
+  data_type: double
+- name: VoLTE_InterS1OutAtt_count
+  data_type: double
+- name: VoLTE_InterS1OutPrepSucc_count
+  data_type: double
+- name: VoLTE_InterS1OutSucc_count
+  data_type: double
+- name: VoLTE_InterX2OutAtt_count
+  data_type: double
+- name: VoLTE_InterX2OutPrepSucc_count
+  data_type: double
+- name: VoLTE_InterX2OutSucc_count
+  data_type: double
+- name: VoLTE_IntraEnbAtt_count
+  data_type: double
+- name: VoLTE_IntraEnbPrepSucc_count
+  data_type: double
+- name: VoLTE_IntraEnbSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: tcID
+  data_type: string
+- name: time_offset
+  data_type: string

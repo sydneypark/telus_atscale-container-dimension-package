@@ -1,0 +1,70 @@
+unique_name: lte-emtc-rrc-connection-number
+object_type: dataset
+label: lte-emtc-rrc-connection-number
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-rrc-connection-number-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: cNum
+  data_type: string
+- name: eMTC_ConnNo2ndNBAvg_count
+  data_type: double
+- name: eMTC_ConnNo2ndNBCnt_count
+  data_type: double
+- name: eMTC_ConnNo2ndNBMax_count
+  data_type: double
+- name: eMTC_ConnNo2ndNBTot_count
+  data_type: double
+- name: eMTC_ConnNo3rdNBAvg_count
+  data_type: double
+- name: eMTC_ConnNo3rdNBCnt_count
+  data_type: double
+- name: eMTC_ConnNo3rdNBMax_count
+  data_type: double
+- name: eMTC_ConnNo3rdNBTot_count
+  data_type: double
+- name: eMTC_ConnNo4thNBAvg_count
+  data_type: double
+- name: eMTC_ConnNo4thNBCnt_count
+  data_type: double
+- name: eMTC_ConnNo4thNBMax_count
+  data_type: double
+- name: eMTC_ConnNo4thNBTot_count
+  data_type: double
+- name: eMTC_ConnNoAvg_count
+  data_type: double
+- name: eMTC_ConnNoCnt_count
+  data_type: double
+- name: eMTC_ConnNoMax_count
+  data_type: double
+- name: eMTC_ConnNoTot_count
+  data_type: double
+- name: eMTC_ReleaseCallHoldingTimeAvg_s
+  data_type: double
+- name: eMTC_ReleaseCallHoldingTimeCnt_count
+  data_type: double
+- name: eMTC_ReleaseCallHoldingTimeTot_s
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: EMTC_USER_MAX__462
+  data_type: double
+  sql: eMTC_ConnNoMax_count

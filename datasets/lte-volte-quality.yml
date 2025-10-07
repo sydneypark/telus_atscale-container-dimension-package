@@ -1,0 +1,67 @@
+unique_name: lte-volte-quality
+object_type: dataset
+label: lte-volte-quality
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-volte-quality-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: SumVoLTECallDropQci_count
+  data_type: double
+- name: SumVoLTEDLQualityDefect_count
+  data_type: double
+- name: SumVoLTEErabIncomingHoSuccNbr_count
+  data_type: double
+- name: SumVoLTEEstabAddSuccNbr_count
+  data_type: double
+- name: SumVoLTEEstabInitSuccNbr_count
+  data_type: double
+- name: SumVoLTEInterS1OutAtt_count
+  data_type: double
+- name: SumVoLTEInterS1OutSucc_count
+  data_type: double
+- name: SumVoLTEInterX2OutAtt_count
+  data_type: double
+- name: SumVoLTEInterX2OutSucc_count
+  data_type: double
+- name: SumVoLTEIntraEnbAtt_count
+  data_type: double
+- name: SumVoLTEIntraEnbHoInSucc_count
+  data_type: double
+- name: SumVoLTEIntraEnbSucc_count
+  data_type: double
+- name: SumVoLTEULQualityDefect_count
+  data_type: double
+- name: VoLTEDLQualityDefectRate_pct
+  data_type: double
+- name: VoLTEDropRate_pct
+  data_type: double
+- name: VoLTEIntraHoSuccessRate_pct
+  data_type: double
+- name: VoLTES1HoSuccessRate_pct
+  data_type: double
+- name: VoLTEULQualityDefectRate_pct
+  data_type: double
+- name: VoLTEX2HoSuccessRate_pct
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,65 @@
+unique_name: nr-emf-time-average-exposure-per-grid
+object_type: dataset
+label: nr-emf-time-average-exposure-per-grid
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-emf-time-average-exposure-per-grid-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: EMFTimeAvgExposureGrid0_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid10_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid11_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid12_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid13_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid14_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid1_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid2_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid3_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid4_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid5_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid6_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid7_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid8_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGrid9_dBm
+  data_type: double
+- name: EMFTimeAvgExposureGridCnt_count
+  data_type: double
+- name: EMFTimeAvgExposureGridMax_dBm
+  data_type: double
+- name: GridEMF
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

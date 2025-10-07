@@ -1,0 +1,67 @@
+unique_name: nr-prb-usage-per-plmn
+object_type: dataset
+label: nr-prb-usage-per-plmn
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-prb-usage-per-plmn-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: DLAvailablePrbPlmn_count
+  data_type: double
+- name: DLUsedCommonPrbPlmn_count
+  data_type: double
+- name: DLUsedPrbPlmn_count
+  data_type: double
+- name: PLMN_UE
+  data_type: string
+- name: ULAvailablePrbPlmn_count
+  data_type: double
+- name: ULUsedCommonPrbPlmn_count
+  data_type: double
+- name: ULUsedPrbPlmn_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: SA_NR_DL_PRB_UTILIZATION_BELL_DEN__5241
+  data_type: double
+  sql: if(`PLMN_UE`="302610",`DLAvailablePrbPlmn_count`,NULL)
+- name: SA_NR_DL_PRB_UTILIZATION_BELL_NUM__5241
+  data_type: double
+  sql: if(`PLMN_UE`="302610",`DLUsedPrbPlmn_count`,NULL)
+- name: SA_NR_DL_PRB_UTILIZATION_TELUS_DEN__5241
+  data_type: double
+  sql: if(`PLMN_UE`="302220",`DLAvailablePrbPlmn_count`,NULL)
+- name: SA_NR_DL_PRB_UTILIZATION_TELUS_NUM__5241
+  data_type: double
+  sql: if(`PLMN_UE`="302220",`DLUsedPrbPlmn_count`,NULL)
+- name: SA_NR_UL_PRB_UTILIZATION_BELL_DEN__5241
+  data_type: double
+  sql: if(`PLMN_UE`="302610",`ULAvailablePrbPlmn_count`,NULL)
+- name: SA_NR_UL_PRB_UTILIZATION_BELL_NUM__5241
+  data_type: double
+  sql: if(`PLMN_UE`="302610",`ULUsedPrbPlmn_count`,NULL)
+- name: SA_NR_UL_PRB_UTILIZATION_TELUS_DEN__5241
+  data_type: double
+  sql: if(`PLMN_UE`="302220",`ULAvailablePrbPlmn_count`,NULL)
+- name: SA_NR_UL_PRB_UTILIZATION_TELUS_NUM__5241
+  data_type: double
+  sql: if(`PLMN_UE`="302220",`ULUsedPrbPlmn_count`,NULL)

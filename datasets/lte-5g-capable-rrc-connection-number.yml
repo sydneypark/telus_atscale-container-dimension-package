@@ -1,0 +1,71 @@
+unique_name: lte-5g-capable-rrc-connection-number
+object_type: dataset
+label: lte-5g-capable-rrc-connection-number
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-5g-capable-rrc-connection-number-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: EnDcAdditionUeAvg_count
+  data_type: double
+- name: EnDcAdditionUeCnt_count
+  data_type: double
+- name: EnDcAdditionUeMax_count
+  data_type: double
+- name: EnDcAdditionUeTot_count
+  data_type: double
+- name: EnDcConnNoAvg_count
+  data_type: double
+- name: EnDcConnNoCnt_count
+  data_type: double
+- name: EnDcConnNoMax_count
+  data_type: double
+- name: EnDcConnNoTot_count
+  data_type: double
+- name: Release5GCallHoldingTimeAvg_s
+  data_type: double
+- name: Release5GCallHoldingTimeCnt_count
+  data_type: double
+- name: Release5GCallHoldingTimeTot_s
+  data_type: double
+- name: Release5GSaNrCallHoldingTimeAvg_s
+  data_type: double
+- name: Release5GSaNrCallHoldingTimeCnt_count
+  data_type: double
+- name: Release5GSaNrCallHoldingTimeTot_s
+  data_type: double
+- name: SaNrCapableConnNoAvg_count
+  data_type: double
+- name: SaNrCapableConnNoCnt_count
+  data_type: double
+- name: SaNrCapableConnNoMax_count
+  data_type: double
+- name: SaNrCapableConnNoTot_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: L_USR_NSADC_PCELL_AVG_DEN_SMSG__789
+  data_type: double
+  sql: EnDcAdditionUeTot_count
+- name: L_USR_NSADC_PCELL_AVG_NUM_SMSG__789
+  data_type: double
+  sql: EnDcAdditionUeCnt_count

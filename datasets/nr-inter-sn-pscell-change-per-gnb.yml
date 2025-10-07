@@ -1,0 +1,75 @@
+unique_name: nr-inter-sn-pscell-change-per-gnb
+object_type: dataset
+label: nr-inter-sn-pscell-change-per-gnb
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-inter-sn-pscell-change-per-gnb-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: EndcInterChgSrcAtt_count
+  data_type: double
+- name: EndcInterChgSrcFail_CpFail_count
+  data_type: double
+- name: EndcInterChgSrcFail_DuFail_count
+  data_type: double
+- name: EndcInterChgSrcFail_DuTimeout_count
+  data_type: double
+- name: EndcInterChgSrcFail_MenbFail_count
+  data_type: double
+- name: EndcInterChgSrcFail_Tdcoverall_count
+  data_type: double
+- name: EndcInterChgSrcFail_UpFail_count
+  data_type: double
+- name: EndcInterChgSrcFail_UpTimeout_count
+  data_type: double
+- name: EndcInterChgSrcPrepFail_CpFail_count
+  data_type: double
+- name: EndcInterChgSrcPrepFail_DuFail_count
+  data_type: double
+- name: EndcInterChgSrcPrepFail_MenbFail_count
+  data_type: double
+- name: EndcInterChgSrcPrepFail_UpFail_count
+  data_type: double
+- name: EndcInterChgSrcPrepSucc_count
+  data_type: double
+- name: EndcInterChgSrcSucc_count
+  data_type: double
+- name: SrcCellIdentity
+  data_type: string
+- name: Target_gNB_ID
+  data_type: string
+- name: TriggeredCellIdentity
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NSA_DCINTERSGNB_PSCELLCHANGE_FR_DEN__5110
+  data_type: double
+  sql: EndcInterChgSrcAtt_count
+- name: NSA_DCINTERSGNB_PSCELLCHANGE_FR_NUM__5110
+  data_type: double
+  sql: EndcInterChgSrcAtt_count-`EndcInterChgSrcPrepSucc_count`
+- name: NSA_NR_INTER_SGNB_HO_ATT__5110
+  data_type: double
+  sql: EndcInterChgSrcAtt_count
+- name: NSA_NR_INTER_SGNB_HO_FAIL__5110
+  data_type: double
+  sql: EndcInterChgSrcAtt_count-`EndcInterChgSrcSucc_count`

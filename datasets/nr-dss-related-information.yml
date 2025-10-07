@@ -1,0 +1,69 @@
+unique_name: nr-dss-related-information
+object_type: dataset
+label: nr-dss-related-information
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-dss-related-information-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: DssMacDLCrsRateMatchingPduCnt_count
+  data_type: double
+- name: DssMacDLCrsRateMatchingPduRatio_pct
+  data_type: double
+- name: DssMacDLPduCnt_count
+  data_type: double
+- name: DssNrCceDominatedFdmSlotAvailableRb_count
+  data_type: double
+- name: DssNrCceDominatedFdmSlotNum_count
+  data_type: double
+- name: DssNrCceDominatedFdmSlotUsedRb_count
+  data_type: double
+- name: DssNrCceOnlyFdmSlotAvailableRb_count
+  data_type: double
+- name: DssNrCceOnlyFdmSlotNum_count
+  data_type: double
+- name: DssNrDLPrbAvailable_count
+  data_type: double
+- name: DssNrDLPrbRatioUsedPerAvailable_pct
+  data_type: double
+- name: DssNrDLPrbUsed_count
+  data_type: double
+- name: DssNrDLTtiAvailable_count
+  data_type: double
+- name: DssNrDLTtiRatioUsedPerAvailable_pct
+  data_type: double
+- name: DssNrDLTtiUsed_count
+  data_type: double
+- name: DssNrULPrbAvailable_count
+  data_type: double
+- name: DssNrULPrbRatioUsedPerAvailable_pct
+  data_type: double
+- name: DssNrULPrbUsed_count
+  data_type: double
+- name: DssNrULTtiAvailable_count
+  data_type: double
+- name: DssNrULTtiRatioUsedPerAvailable_pct
+  data_type: double
+- name: DssNrULTtiUsed_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

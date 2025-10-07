@@ -1,0 +1,71 @@
+unique_name: lte-emtc-rrc-connection-establishment
+object_type: dataset
+label: lte-emtc-rrc-connection-establishment
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-rrc-connection-establishment-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: EstabCause
+  data_type: string
+- name: cNum
+  data_type: string
+- name: eMTC_ConnEstabAtt_count
+  data_type: double
+- name: eMTC_ConnEstabFail_CpCcFail_count
+  data_type: double
+- name: eMTC_ConnEstabFail_CpCcTo_count
+  data_type: double
+- name: eMTC_ConnEstabFail_RrcSigTo_count
+  data_type: double
+- name: eMTC_ConnEstabFail_S1apLinkFail_count
+  data_type: double
+- name: eMTC_ConnEstabFail_S1apSigFail_count
+  data_type: double
+- name: eMTC_ConnEstabFail_UpMacFail_count
+  data_type: double
+- name: eMTC_ConnEstabFail_UpPdcpFail_count
+  data_type: double
+- name: eMTC_ConnEstabFail_UpRlcFail_count
+  data_type: double
+- name: eMTC_ConnEstabReject_CpCapaCacFail_count
+  data_type: double
+- name: eMTC_ConnEstabReject_CpCcFail_count
+  data_type: double
+- name: eMTC_ConnEstabReject_S1apMmeOvld_count
+  data_type: double
+- name: eMTC_ConnEstabSucc_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: LTE_EMTC_RRC_REQUESTS__463
+  data_type: double
+  sql: eMTC_ConnEstabAtt_count
+- name: LTE_EMTC_RRC_SUCCESSES__463
+  data_type: double
+  sql: eMTC_ConnEstabSucc_count
+- name: MOBILITY_RRC_ATT__463
+  data_type: double
+  sql: eMTC_ConnEstabAtt_count
+- name: MOBILITY_RRC_SUCC__463
+  data_type: double
+  sql: eMTC_ConnEstabSucc_count

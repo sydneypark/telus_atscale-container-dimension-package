@@ -1,0 +1,71 @@
+unique_name: lte-pucch-sinr-distribution-per-bin
+object_type: dataset
+label: lte-pucch-sinr-distribution-per-bin
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-pucch-sinr-distribution-per-bin-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PucchSinrDistBin0_count
+  data_type: double
+- name: PucchSinrDistBin10_count
+  data_type: double
+- name: PucchSinrDistBin11_count
+  data_type: double
+- name: PucchSinrDistBin12_count
+  data_type: double
+- name: PucchSinrDistBin13_count
+  data_type: double
+- name: PucchSinrDistBin14_count
+  data_type: double
+- name: PucchSinrDistBin15_count
+  data_type: double
+- name: PucchSinrDistBin16_count
+  data_type: double
+- name: PucchSinrDistBin17_count
+  data_type: double
+- name: PucchSinrDistBin18_count
+  data_type: double
+- name: PucchSinrDistBin19_count
+  data_type: double
+- name: PucchSinrDistBin1_count
+  data_type: double
+- name: PucchSinrDistBin2_count
+  data_type: double
+- name: PucchSinrDistBin3_count
+  data_type: double
+- name: PucchSinrDistBin4_count
+  data_type: double
+- name: PucchSinrDistBin5_count
+  data_type: double
+- name: PucchSinrDistBin6_count
+  data_type: double
+- name: PucchSinrDistBin7_count
+  data_type: double
+- name: PucchSinrDistBin8_count
+  data_type: double
+- name: PucchSinrDistBin9_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

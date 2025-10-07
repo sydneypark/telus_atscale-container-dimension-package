@@ -1,0 +1,45 @@
+unique_name: lte-air-mac-bytes-per-cc
+object_type: dataset
+label: lte-air-mac-bytes-per-cc
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-air-mac-bytes-per-cc-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AirMacDLByte2CC_Kbytes
+  data_type: double
+- name: AirMacDLByte3CC_Kbytes
+  data_type: double
+- name: AirMacDLByte4CC_Kbytes
+  data_type: double
+- name: AirMacDLByte5CC_Kbytes
+  data_type: double
+- name: AirMacDLByte6CC_Kbytes
+  data_type: double
+- name: AirMacDLByte7CC_Kbytes
+  data_type: double
+- name: PLMN
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

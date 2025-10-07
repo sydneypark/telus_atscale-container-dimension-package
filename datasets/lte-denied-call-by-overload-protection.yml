@@ -1,0 +1,53 @@
+unique_name: lte-denied-call-by-overload-protection
+object_type: dataset
+label: lte-denied-call-by-overload-protection
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-denied-call-by-overload-protection-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Denied_DelayTolerantAccess_count
+  data_type: double
+- name: Denied_EmergencyCall_count
+  data_type: double
+- name: Denied_HighPriorityAccess_count
+  data_type: double
+- name: Denied_Paging_count
+  data_type: double
+- name: Denied_moData_count
+  data_type: double
+- name: Denied_moSignaling_count
+  data_type: double
+- name: Denied_moVoiceCall_count
+  data_type: double
+- name: Discarded_DelayTolerantAccess_count
+  data_type: double
+- name: Discarded_EmergencyCall_count
+  data_type: double
+- name: Discarded_HighPriorityAccess_count
+  data_type: double
+- name: Discarded_moData_count
+  data_type: double
+- name: Discarded_moSignaling_count
+  data_type: double
+- name: Discarded_moVoiceCall_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,53 @@
+unique_name: lte-accessibility
+object_type: dataset
+label: lte-accessibility
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-accessibility-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: ErabAccessibilityAdd_pct
+  data_type: double
+- name: ErabAccessibilityInit_pct
+  data_type: double
+- name: ErabConnectionFailureRate_pct
+  data_type: double
+- name: SumErabEstabAddAttNbr_count
+  data_type: double
+- name: SumErabEstabAddSuccNbr_count
+  data_type: double
+- name: SumErabEstabInitAttNbr_count
+  data_type: double
+- name: SumErabEstabInitSuccNbr_count
+  data_type: double
+- name: SumRrcConnEstabAtt_count
+  data_type: double
+- name: SumRrcConnEstabSucc_count
+  data_type: double
+- name: SumS1sigS1ConnEstabAtt_count
+  data_type: double
+- name: SumS1sigS1ConnEstabSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,145 @@
+unique_name: s_acpf_gnb_du_id_cellidentitywinv_enbid_a.dataset
+object_type: dataset
+label: s_acpf_gnb_du_id_cellidentitywinv_enbid_a.dataset
+connection_id: BQ_pm_samsung.connection
+table: s_acpf_gnb_du_id_cellidentitywinv_enbid_a
+incremental:
+  column: INIT_TIME
+  grace_period: 86400s
+immutable: true
+
+columns:
+  - name: CellIdentityWithInvalid
+    data_type: string
+  - name: eNB_ID
+    data_type: string
+  - name: FamilyID
+    data_type: long
+  - name: file_key
+    data_type: string
+  - name: gNB_DU_ID
+    data_type: string
+  - name: gNB_ID
+    data_type: string
+  - name: INIT_TIME
+    data_type: datetime
+  - name: INSERT_TS
+    data_type: datetime
+  - name: LOCATION
+    data_type: string
+  - name: NSA_NR_AFR_SGNB_A__5918
+    data_type: long
+    sql: "coalesce(`S_5918C2`,0)"
+  - name: NSA_NR_AFR_SGNB_B__5918
+    data_type: long
+    sql: "coalesce(`S_5918C0`,0)"
+  - name: NSA_NR_AFR_SLO_DEN__5918
+    data_type: long
+    sql: '`S_5918C0`'
+  - name: NSA_NR_AFR_SLO_NUM__5918
+    data_type: long
+    sql: '`S_5918C0`-`S_5918C2`'
+  - name: S_5918C0
+    data_type: long
+  - name: S_5918C1
+    data_type: long
+  - name: S_5918C10
+    data_type: long
+  - name: S_5918C11
+    data_type: long
+  - name: S_5918C12
+    data_type: long
+  - name: S_5918C13
+    data_type: long
+  - name: S_5918C14
+    data_type: long
+  - name: S_5918C15
+    data_type: long
+  - name: S_5918C16
+    data_type: long
+  - name: S_5918C17
+    data_type: long
+  - name: S_5918C18
+    data_type: long
+  - name: S_5918C19
+    data_type: long
+  - name: S_5918C2
+    data_type: long
+  - name: S_5918C20
+    data_type: long
+  - name: S_5918C21
+    data_type: long
+  - name: S_5918C22
+    data_type: long
+  - name: S_5918C23
+    data_type: long
+  - name: S_5918C24
+    data_type: long
+  - name: S_5918C25
+    data_type: long
+  - name: S_5918C26
+    data_type: long
+  - name: S_5918C27
+    data_type: long
+  - name: S_5918C28
+    data_type: long
+  - name: S_5918C29
+    data_type: long
+  - name: S_5918C3
+    data_type: long
+  - name: S_5918C30
+    data_type: long
+  - name: S_5918C31
+    data_type: long
+  - name: S_5918C32
+    data_type: long
+  - name: S_5918C33
+    data_type: long
+  - name: S_5918C34
+    data_type: long
+  - name: S_5918C35
+    data_type: long
+  - name: S_5918C36
+    data_type: long
+  - name: S_5918C37
+    data_type: long
+  - name: S_5918C38
+    data_type: long
+  - name: S_5918C39
+    data_type: long
+  - name: S_5918C4
+    data_type: long
+  - name: S_5918C40
+    data_type: long
+  - name: S_5918C41
+    data_type: long
+  - name: S_5918C42
+    data_type: long
+  - name: S_5918C43
+    data_type: long
+  - name: S_5918C44
+    data_type: long
+  - name: S_5918C45
+    data_type: long
+  - name: S_5918C46
+    data_type: long
+  - name: S_5918C47
+    data_type: long
+  - name: S_5918C48
+    data_type: long
+  - name: S_5918C49
+    data_type: long
+  - name: S_5918C5
+    data_type: long
+  - name: S_5918C6
+    data_type: long
+  - name: S_5918C7
+    data_type: long
+  - name: S_5918C8
+    data_type: long
+  - name: S_5918C9
+    data_type: long
+  - name: SYSTEM_ID
+    data_type: long
+  - name: version
+    data_type: string

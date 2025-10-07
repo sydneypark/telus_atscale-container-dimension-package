@@ -1,0 +1,59 @@
+unique_name: nr-radio-link-outage-handling-operation-per-5qi
+object_type: dataset
+label: nr-radio-link-outage-handling-operation-per-5qi
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-radio-link-outage-handling-operation-per-5qi-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CauseRadioLinkOutageDL_count
+  data_type: double
+- name: CauseRadioLinkOutageUL_count
+  data_type: double
+- name: CauseRadioLinkOutage_count
+  data_type: double
+- name: CauseRadioLinkResumeDL_count
+  data_type: double
+- name: CauseRadioLinkResumeUL_count
+  data_type: double
+- name: CauseRadioLinkResume_count
+  data_type: double
+- name: CauseUnknown_count
+  data_type: double
+- name: ResumeByRadioLinkResumeDL_count
+  data_type: double
+- name: ResumeByRadioLinkResume_count
+  data_type: double
+- name: SuspendByRadioLinkOutageDL_count
+  data_type: double
+- name: SuspendByRadioLinkOutage_count
+  data_type: double
+- name: ULPathRecoveryRequestByRadioLinkResumeUL_count
+  data_type: double
+- name: ULPathSwitchRequestByRadioLinkOutageUL_count
+  data_type: double
+- name: UPC_ID
+  data_type: string
+- name: _5QI
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

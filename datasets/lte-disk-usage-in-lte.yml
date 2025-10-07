@@ -1,0 +1,45 @@
+unique_name: lte-disk-usage-in-lte
+object_type: dataset
+label: lte-disk-usage-in-lte
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-disk-usage-in-lte-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CpuId
+  data_type: string
+- name: DiskType
+  data_type: string
+- name: DiskUsageLTEAvg_pct
+  data_type: double
+- name: DiskUsageLTECnt_count
+  data_type: double
+- name: DiskUsageLTEMax_pct
+  data_type: double
+- name: DiskUsageLTEMin_pct
+  data_type: double
+- name: DiskUsageLTETot_pct
+  data_type: double
+- name: ShelfId
+  data_type: string
+- name: SlotId
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

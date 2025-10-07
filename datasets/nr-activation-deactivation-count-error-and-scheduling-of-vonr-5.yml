@@ -1,0 +1,83 @@
+unique_name: nr-activation-deactivation-count-error-and-scheduling-of-vonr-5
+object_type: dataset
+label: nr-activation-deactivation-count-error-and-scheduling-of-vonr-5
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-activation-deactivation-count-error-and-scheduling-of-vonr-5qi-1-ue-allocates-as-slot-aggregation-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AvgSlotAggPrb_count
+  data_type: double
+- name: AvgSlotAggUe_count
+  data_type: double
+- name: BLERof1stTxSlotAggVoNR_pct
+  data_type: double
+- name: BLERof2ndTxSlotAggVoNR_pct
+  data_type: double
+- name: BLERof3rdTxSlotAggVoNR_pct
+  data_type: double
+- name: BLERof4thTxSlotAggVoNR_pct
+  data_type: double
+- name: BLERof5thTxSlotAggVoNR_pct
+  data_type: double
+- name: BLERof6thTxSlotAggVoNR_pct
+  data_type: double
+- name: BLERof7thTxSlotAggVoNR_pct
+  data_type: double
+- name: BLERof8thTxSlotAggVoNR_pct
+  data_type: double
+- name: CellIdentity
+  data_type: string
+- name: ResidualBLERSlotAggVoNR_pct
+  data_type: double
+- name: ResidualErrorSlotAggVoNR_count
+  data_type: double
+- name: SlotAggActAtt_count
+  data_type: double
+- name: SlotAggActSucc_count
+  data_type: double
+- name: SlotAggDeactAtt_count
+  data_type: double
+- name: SlotAggDeactSucc_count
+  data_type: double
+- name: SlotAggNumUe_count
+  data_type: double
+- name: SlotAggPrb_count
+  data_type: double
+- name: SlotAggUlSlot_count
+  data_type: double
+- name: Tx1stSlotAggVoNR_count
+  data_type: double
+- name: Tx2ndSlotAggVoNR_count
+  data_type: double
+- name: Tx3rdSlotAggVoNR_count
+  data_type: double
+- name: Tx4thSlotAggVoNR_count
+  data_type: double
+- name: Tx5thSlotAggVoNR_count
+  data_type: double
+- name: Tx6thSlotAggVoNR_count
+  data_type: double
+- name: Tx7thSlotAggVoNR_count
+  data_type: double
+- name: Tx8thSlotAggVoNR_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

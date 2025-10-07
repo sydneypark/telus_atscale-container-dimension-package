@@ -1,0 +1,59 @@
+unique_name: lte-emtc-pdcp-packet-per-plmn-per-prc
+object_type: dataset
+label: lte-emtc-pdcp-packet-per-plmn-per-prc
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-pdcp-packet-per-plmn-per-prc-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PRC_ID
+  data_type: string
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: eMTC_PLMN0EnbQciDLByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN0EnbQciULByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN1EnbQciDLByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN1EnbQciULByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN2EnbQciDLByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN2EnbQciULByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN3EnbQciDLByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN3EnbQciULByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN4EnbQciDLByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN4EnbQciULByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN5EnbQciDLByte_Kbytes
+  data_type: double
+- name: eMTC_PLMN5EnbQciULByte_Kbytes
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,69 @@
+unique_name: lte-mro-rlf-voice-classification
+object_type: dataset
+label: lte-mro-rlf-voice-classification
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-mro-rlf-voice-classification-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CoverageHoleRsrpVoiceN_count
+  data_type: double
+- name: CoverageHoleRsrpVoice_count
+  data_type: double
+- name: CoverageHoleVoiceN_count
+  data_type: double
+- name: CoverageHoleVoice_count
+  data_type: double
+- name: HwcReestablishRlfAfterHoInterFreqVoice_count
+  data_type: double
+- name: HwcReestablishRlfAfterHoVoice_count
+  data_type: double
+- name: HwcReestablishRlfAfterTriggeringInterFreqVoice_count
+  data_type: double
+- name: HwcReestablishRlfAfterTriggeringVoice_count
+  data_type: double
+- name: MroRlfVoiceCid_count
+  data_type: double
+- name: MroRlfVoiceCnt_count
+  data_type: double
+- name: NeighborCell
+  data_type: string
+- name: PingpongHandoverVoice_count
+  data_type: double
+- name: TooEarlyHoFailureVoice_count
+  data_type: double
+- name: TooEarlyHoRlfAfterHoVoice_count
+  data_type: double
+- name: TooLateHoRlfAfterTriggeringVoice_count
+  data_type: double
+- name: TooLateHoRlfBeforeTriggeringVoice_count
+  data_type: double
+- name: WrongCellRlfAfterHoInterFreqVoice_count
+  data_type: double
+- name: WrongCellRlfAfterHoVoice_count
+  data_type: double
+- name: WrongCellRlfAfterTriggeringInterFreqVoice_count
+  data_type: double
+- name: WrongCellRlfAfterTriggeringVoice_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

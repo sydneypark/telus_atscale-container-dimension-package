@@ -1,0 +1,47 @@
+unique_name: lte-nb-iot-context-release-by-mme-and-enb-per-cell-per-ce-level
+object_type: dataset
+label: lte-nb-iot-context-release-by-mme-and-enb-per-cell-per-ce-level
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-context-release-by-mme-and-enb-per-cell-per-ce-level-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CELevel_NBIoT_Context_RelAbnormalByEnbAct_count
+  data_type: double
+- name: CELevel_NBIoT_Context_RelAbnormalByEnb_count
+  data_type: double
+- name: CELevel_NBIoT_Context_RelAbnormalByMmeAct_count
+  data_type: double
+- name: CELevel_NBIoT_Context_RelAbnormalByMme_count
+  data_type: double
+- name: CELevel_NBIoT_Context_RelNormalByEnbAct_count
+  data_type: double
+- name: CELevel_NBIoT_Context_RelNormalByEnb_count
+  data_type: double
+- name: CELevel_NBIoT_Context_RelNormalByMmeAct_count
+  data_type: double
+- name: CELevel_NBIoT_Context_RelNormalByMme_count
+  data_type: double
+- name: NBIoT_cNum
+  data_type: string
+- name: NBIoT_classLevel
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

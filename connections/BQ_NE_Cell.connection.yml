@@ -1,0 +1,6 @@
+unique_name: BQ_NE_Cell.connection
+label: BQ_NE_Cell
+object_type: connection
+as_connection: wade_bigq
+database: tu-nfv-cte-wddt-01-pr
+schema: NE_Cell

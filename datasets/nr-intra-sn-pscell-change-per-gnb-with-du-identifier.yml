@@ -1,0 +1,81 @@
+unique_name: nr-intra-sn-pscell-change-per-gnb-with-du-identifier
+object_type: dataset
+label: nr-intra-sn-pscell-change-per-gnb-with-du-identifier
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-intra-sn-pscell-change-per-gnb-with-du-identifier-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: EndcIntraChgAtt_count
+  data_type: double
+- name: EndcIntraChgFail_CpFail_count
+  data_type: double
+- name: EndcIntraChgFail_DuFail_count
+  data_type: double
+- name: EndcIntraChgFail_DuTimeout_count
+  data_type: double
+- name: EndcIntraChgFail_MenbFail_count
+  data_type: double
+- name: EndcIntraChgFail_RrcTo_count
+  data_type: double
+- name: EndcIntraChgFail_Tdcoverall_count
+  data_type: double
+- name: EndcIntraChgFail_UpFail_count
+  data_type: double
+- name: EndcIntraChgFail_UpTimeout_count
+  data_type: double
+- name: EndcIntraChgPrepFail_CpFail_count
+  data_type: double
+- name: EndcIntraChgPrepFail_DuFail_count
+  data_type: double
+- name: EndcIntraChgPrepFail_DuTimeout_count
+  data_type: double
+- name: EndcIntraChgPrepFail_MenbFail_count
+  data_type: double
+- name: EndcIntraChgPrepFail_UpFail_count
+  data_type: double
+- name: EndcIntraChgPrepFail_UpTimeout_count
+  data_type: double
+- name: EndcIntraChgPrepSucc_count
+  data_type: double
+- name: EndcIntraChgSucc_count
+  data_type: double
+- name: TgtCellIdentity
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_DU_ID
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NSA_DCINTRASGNB_PSCELLCHANGE_FR_DEN__5868
+  data_type: double
+  sql: EndcIntraChgPrepSucc_count
+- name: NSA_DCINTRASGNB_PSCELLCHANGE_FR_NUM__5868
+  data_type: double
+  sql: EndcIntraChgPrepSucc_count-`EndcIntraChgSucc_count`
+- name: NSA_NR_INTRA_SGNB_HO_ATT__5868
+  data_type: double
+  sql: EndcIntraChgPrepSucc_count
+- name: NSA_NR_INTRA_SGNB_HO_FAIL__5868
+  data_type: double
+  sql: EndcIntraChgPrepSucc_count-`EndcIntraChgSucc_count`

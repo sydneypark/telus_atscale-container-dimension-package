@@ -1,0 +1,81 @@
+unique_name: lte-dl-wideband-cqi-in-256qam
+object_type: dataset
+label: lte-dl-wideband-cqi-in-256qam
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-dl-wideband-cqi-in-256qam-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CQIErase_256QAM_count
+  data_type: double
+- name: DLLayer
+  data_type: string
+- name: DLReceivedCQI0_256QAM_count
+  data_type: double
+- name: DLReceivedCQI10_256QAM_count
+  data_type: double
+- name: DLReceivedCQI11_256QAM_count
+  data_type: double
+- name: DLReceivedCQI12_256QAM_count
+  data_type: double
+- name: DLReceivedCQI13_256QAM_count
+  data_type: double
+- name: DLReceivedCQI14_256QAM_count
+  data_type: double
+- name: DLReceivedCQI15_256QAM_count
+  data_type: double
+- name: DLReceivedCQI1_256QAM_count
+  data_type: double
+- name: DLReceivedCQI2_256QAM_count
+  data_type: double
+- name: DLReceivedCQI3_256QAM_count
+  data_type: double
+- name: DLReceivedCQI4_256QAM_count
+  data_type: double
+- name: DLReceivedCQI5_256QAM_count
+  data_type: double
+- name: DLReceivedCQI6_256QAM_count
+  data_type: double
+- name: DLReceivedCQI7_256QAM_count
+  data_type: double
+- name: DLReceivedCQI8_256QAM_count
+  data_type: double
+- name: DLReceivedCQI9_256QAM_count
+  data_type: double
+- name: DLReceivedCQIAvg_256QAM_CQI
+  data_type: double
+- name: DLReceivedCQIMax_256QAM_CQI
+  data_type: double
+- name: DLReceivedCQIMin_256QAM_CQI
+  data_type: double
+- name: cNum
+  data_type: string
+- name: codeword
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: L_CQI_SE_256QAM_DEN__419
+  data_type: double
+  sql: DLReceivedCQI0_256QAM_count+`DLReceivedCQI1_256QAM_count`+`DLReceivedCQI2_256QAM_count`+`DLReceivedCQI3_256QAM_count`+`DLReceivedCQI4_256QAM_count`+`DLReceivedCQI5_256QAM_count`+`DLReceivedCQI6_256QAM_count`+`DLReceivedCQI7_256QAM_count`+`DLReceivedCQI8_256QAM_count`+`DLReceivedCQI9_256QAM_count`+`DLReceivedCQI10_256QAM_count`+`DLReceivedCQI11_256QAM_count`+`DLReceivedCQI12_256QAM_count`+`DLReceivedCQI13_256QAM_count`+`DLReceivedCQI14_256QAM_count`+`DLReceivedCQI15_256QAM_count`
+- name: L_CQI_SE_256QAM_NUM__419
+  data_type: double
+  sql: DLReceivedCQI0_256QAM_count*0+`DLReceivedCQI1_256QAM_count`*0.1523+`DLReceivedCQI2_256QAM_count`*0.377+`DLReceivedCQI3_256QAM_count`*0.877+`DLReceivedCQI4_256QAM_count`*1.4766+`DLReceivedCQI5_256QAM_count`*1.9141+`DLReceivedCQI6_256QAM_count`*2.4063+`DLReceivedCQI7_256QAM_count`*2.7305+`DLReceivedCQI8_256QAM_count`*3.3223+`DLReceivedCQI9_256QAM_count`*3.9023+`DLReceivedCQI10_256QAM_count`*4.5234+`DLReceivedCQI11_256QAM_count`*5.1152+`DLReceivedCQI12_256QAM_count`*5.5547+`DLReceivedCQI13_256QAM_count`*6.2266+`DLReceivedCQI14_256QAM_count`*6.9141+`DLReceivedCQI15_256QAM_count`*7.4063

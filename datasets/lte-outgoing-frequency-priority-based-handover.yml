@@ -1,0 +1,45 @@
+unique_name: lte-outgoing-frequency-priority-based-handover
+object_type: dataset
+label: lte-outgoing-frequency-priority-based-handover
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-outgoing-frequency-priority-based-handover-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: FPHODiscardByCapa_count
+  data_type: double
+- name: FPHODiscardByExcessiveHo_count
+  data_type: double
+- name: FPHOOutAtt_count
+  data_type: double
+- name: FPHOOutCid_tcID
+  data_type: double
+- name: FPHOOutCnt_count
+  data_type: double
+- name: FPHOOutPrepSucc_count
+  data_type: double
+- name: FPHOOutSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: tcID
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,55 @@
+unique_name: nr-e-rab-modification-per-gnb-with-du-identifier
+object_type: dataset
+label: nr-e-rab-modification-per-gnb-with-du-identifier
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-e-rab-modification-per-gnb-with-du-identifier-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BearerType
+  data_type: string
+- name: CellIdentity
+  data_type: string
+- name: ErabModAtt_count
+  data_type: double
+- name: ErabModFail_CpFail_count
+  data_type: double
+- name: ErabModFail_DuFail_count
+  data_type: double
+- name: ErabModFail_DuTimeout_count
+  data_type: double
+- name: ErabModFail_MenbFail_count
+  data_type: double
+- name: ErabModFail_Tdcoverall_count
+  data_type: double
+- name: ErabModFail_UpFail_count
+  data_type: double
+- name: ErabModFail_UpTimeout_count
+  data_type: double
+- name: ErabModSucc_count
+  data_type: double
+- name: QCI
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_DU_ID
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

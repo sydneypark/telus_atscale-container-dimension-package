@@ -1,0 +1,63 @@
+unique_name: lte-air-mac-packet-scell
+object_type: dataset
+label: lte-air-mac-packet-scell
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-air-mac-packet-scell-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AirMacDLByteCnt_count
+  data_type: double
+- name: AirMacDLByteCurr_Kbytes
+  data_type: double
+- name: AirMacDLByte_Kbytes
+  data_type: double
+- name: AirMacDLEfctivThruAvg_Kbps
+  data_type: double
+- name: AirMacDLThruAvg_Kbps
+  data_type: double
+- name: AirMacDLThruMax_Kbps
+  data_type: double
+- name: AirMacDLThruMin_Kbps
+  data_type: double
+- name: AirMacDLTti_TTI
+  data_type: double
+- name: AirMacULByteCnt_count
+  data_type: double
+- name: AirMacULByteCurr_Kbytes
+  data_type: double
+- name: AirMacULByte_Kbytes
+  data_type: double
+- name: AirMacULEfctivThruAvg_Kbps
+  data_type: double
+- name: AirMacULThruAvg_Kbps
+  data_type: double
+- name: AirMacULThruMax_Kbps
+  data_type: double
+- name: AirMacULThruMin_Kbps
+  data_type: double
+- name: AirMacULTti_TTI
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,83 @@
+unique_name: nr-pdcp-sdu-delay-dl-distribution-for-sa
+object_type: dataset
+label: nr-pdcp-sdu-delay-dl-distribution-for-sa
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-pdcp-sdu-delay-dl-distribution-for-sa-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PLMN_UE
+  data_type: string
+- name: PdcpSduDelayDlDist_0to10ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_1000to1100ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_100to150ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_10to20ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_1100to1200ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_1200to1300ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_1300to1400ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_1400to1500ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_150to200ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_200to250ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_20to30ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_250to300ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_300to400ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_30to40ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_400to500ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_40to50ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_500to600ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_50to100ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_600to700ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_700to800ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_800to900ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_900to1000ms_count
+  data_type: double
+- name: PdcpSduDelayDlDist_Exceed1500ms_count
+  data_type: double
+- name: SNSSAI
+  data_type: string
+- name: UPC_ID
+  data_type: string
+- name: _5QI
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

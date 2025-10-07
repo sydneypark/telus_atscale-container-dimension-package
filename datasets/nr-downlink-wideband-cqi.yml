@@ -1,0 +1,81 @@
+unique_name: nr-downlink-wideband-cqi
+object_type: dataset
+label: nr-downlink-wideband-cqi
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-downlink-wideband-cqi-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CQIErase_count
+  data_type: double
+- name: CQI_Table
+  data_type: string
+- name: CellIdentity
+  data_type: string
+- name: DLReceivedCQI0_count
+  data_type: double
+- name: DLReceivedCQI10_count
+  data_type: double
+- name: DLReceivedCQI11_count
+  data_type: double
+- name: DLReceivedCQI12_count
+  data_type: double
+- name: DLReceivedCQI13_count
+  data_type: double
+- name: DLReceivedCQI14_count
+  data_type: double
+- name: DLReceivedCQI15_count
+  data_type: double
+- name: DLReceivedCQI1_count
+  data_type: double
+- name: DLReceivedCQI2_count
+  data_type: double
+- name: DLReceivedCQI3_count
+  data_type: double
+- name: DLReceivedCQI4_count
+  data_type: double
+- name: DLReceivedCQI5_count
+  data_type: double
+- name: DLReceivedCQI6_count
+  data_type: double
+- name: DLReceivedCQI7_count
+  data_type: double
+- name: DLReceivedCQI8_count
+  data_type: double
+- name: DLReceivedCQI9_count
+  data_type: double
+- name: DLReceivedCQIAvg_CQI
+  data_type: double
+- name: RX_RI
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NR_DL_CQI_256QAM_DEN__5018
+  data_type: double
+  sql: if(`CQI_Table`="256QAM",`DLReceivedCQI0_count`+`DLReceivedCQI1_count`+`DLReceivedCQI2_count`+`DLReceivedCQI3_count`+`DLReceivedCQI4_count`+`DLReceivedCQI5_count`+`DLReceivedCQI6_count`+`DLReceivedCQI7_count`+`DLReceivedCQI8_count`+`DLReceivedCQI9_count`+`DLReceivedCQI10_count`+`DLReceivedCQI11_count`+`DLReceivedCQI12_count`+`DLReceivedCQI13_count`+`DLReceivedCQI14_count`+`DLReceivedCQI15_count`,0)
+- name: NR_DL_CQI_256QAM_NUM__5018
+  data_type: double
+  sql: if(`CQI_Table`="256QAM",`DLReceivedCQI0_count`*0+`DLReceivedCQI1_count`*0.1523+`DLReceivedCQI2_count`*0.377+`DLReceivedCQI3_count`*0.877+`DLReceivedCQI4_count`*1.4766+`DLReceivedCQI5_count`*1.9141+`DLReceivedCQI6_count`*2.4063+`DLReceivedCQI7_count`*2.7305+`DLReceivedCQI8_count`*3.3223+`DLReceivedCQI9_count`*3.9023+`DLReceivedCQI10_count`*4.5234+`DLReceivedCQI11_count`*5.1152+`DLReceivedCQI12_count`*5.5547+`DLReceivedCQI13_count`*6.2266+`DLReceivedCQI14_count`*6.9141+`DLReceivedCQI15_count`*7.4063,0)
+- name: NR_DL_CQI_64QAM_DEN__5018
+  data_type: double
+  sql: if(`CQI_Table`="64QAM",`DLReceivedCQI0_count`+`DLReceivedCQI1_count`+`DLReceivedCQI2_count`+`DLReceivedCQI3_count`+`DLReceivedCQI4_count`+`DLReceivedCQI5_count`+`DLReceivedCQI6_count`+`DLReceivedCQI7_count`+`DLReceivedCQI8_count`+`DLReceivedCQI9_count`+`DLReceivedCQI10_count`+`DLReceivedCQI11_count`+`DLReceivedCQI12_count`+`DLReceivedCQI13_count`+`DLReceivedCQI14_count`+`DLReceivedCQI15_count`,0)
+- name: NR_DL_CQI_64QAM_NUM__5018
+  data_type: double
+  sql: if(`CQI_Table`="64QAM",`DLReceivedCQI0_count`*0+`DLReceivedCQI1_count`*0.0586+`DLReceivedCQI2_count`*0.0977+`DLReceivedCQI3_count`*0.1523+`DLReceivedCQI4_count`*0.2344+`DLReceivedCQI5_count`*0.377+`DLReceivedCQI6_count`*0.6016+`DLReceivedCQI7_count`*0.877+`DLReceivedCQI8_count`*1.1758+`DLReceivedCQI9_count`*1.4766+`DLReceivedCQI10_count`*1.9141+`DLReceivedCQI11_count`*2.4063+`DLReceivedCQI12_count`*2.7305+`DLReceivedCQI13_count`*3.3223+`DLReceivedCQI14_count`*3.9023+`DLReceivedCQI15_count`*4.5234,0)

@@ -1,0 +1,69 @@
+unique_name: nr-pusch-sinr-distribution-per-bin-for-redcap
+object_type: dataset
+label: nr-pusch-sinr-distribution-per-bin-for-redcap
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-pusch-sinr-distribution-per-bin-for-redcap-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: SinrDistULWbPreComp_Bin0_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin10_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin11_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin12_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin13_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin14_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin15_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin16_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin17_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin18_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin19_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin1_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin2_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin3_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin4_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin5_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin6_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin7_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin8_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin9_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

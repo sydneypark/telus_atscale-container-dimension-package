@@ -1,0 +1,59 @@
+unique_name: nr-vm-ethernet-packet
+object_type: dataset
+label: nr-vm-ethernet-packet
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-vm-ethernet-packet-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: InErrorRate_VM_pct
+  data_type: double
+- name: InErrors_VM_count
+  data_type: double
+- name: InOctets_VM_Mbytes
+  data_type: double
+- name: InPkts_VM_count
+  data_type: double
+- name: InThruPeakCnt_VM_count
+  data_type: double
+- name: InThruPeak_VM_Mbps
+  data_type: double
+- name: OutErrorRate_VM_pct
+  data_type: double
+- name: OutErrors_VM_count
+  data_type: double
+- name: OutOctets_VM_Mbytes
+  data_type: double
+- name: OutPkts_VM_count
+  data_type: double
+- name: OutThruPeakCnt_VM_count
+  data_type: double
+- name: OutThruPeak_VM_Mbps
+  data_type: double
+- name: PortID
+  data_type: string
+- name: PortType
+  data_type: string
+- name: VNFC_ID
+  data_type: string
+- name: VNFC_Type
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

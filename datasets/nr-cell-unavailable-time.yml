@@ -1,0 +1,74 @@
+unique_name: nr-cell-unavailable-time
+object_type: dataset
+label: nr-cell-unavailable-time
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-cell-unavailable-time-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellAvailPmPeriodTime_s
+  data_type: double
+- name: CellAvailabilityEx_pct
+  data_type: double
+- name: CellAvailability_pct
+  data_type: double
+- name: CellIdentity
+  data_type: string
+- name: CellUnavailableTimeDown_s
+  data_type: double
+- name: CellUnavailableTimeES_s
+  data_type: double
+- name: CellUnavailableTimeLock_s
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: CELL_AVAIL_EXCLUDING_ENERGY_SAVING_DEN__5077
+  data_type: double
+  sql: CellAvailPmPeriodTime_s
+- name: CELL_AVAIL_EXCLUDING_ENERGY_SAVING_NUM__5077
+  data_type: double
+  sql: CellUnavailableTimeDown_s-`CellUnavailableTimeES_s`
+- name: NR_AVAIL_DEN__5077
+  data_type: double
+  sql: CellAvailPmPeriodTime_s-`CellUnavailableTimeES_s`
+- name: NR_AVAIL_NUM__5077
+  data_type: double
+  sql: CellAvailPmPeriodTime_s-`CellUnavailableTimeDown_s`
+- name: N_CELL_AVAIL_DUR__5077
+  data_type: double
+  sql: CellAvailPmPeriodTime_s-coalesce(`CellUnavailableTimeDown_s`,0)
+- name: N_CELL_UNAVAIL_DUR_MANUAL__5077
+  data_type: double
+  sql: CellUnavailableTimeDown_s-coalesce(`CellUnavailableTimeES_s`,0)-coalesce(`CellUnavailableTimeLock_s`,0)
+- name: N_CELL_UNAVAIL_DUR_SYS__5077
+  data_type: double
+  sql: CellUnavailableTimeLock_s
+- name: SA_NR_CELL_AVAIL_EXCLUDEES_DEN__5077
+  data_type: double
+  sql: CellAvailPmPeriodTime_s
+- name: SA_NR_CELL_AVAIL_EXCLUDEES_NUM__5077
+  data_type: double
+  sql: CellAvailPmPeriodTime_s-`CellUnavailableTimeDown_s`+`CellUnavailableTimeES_s`
+- name: SA_NR_CELL_AVAIL_EXCLUDING_ENERGY_SAVING_DEN__5077
+  data_type: double
+  sql: CellAvailPmPeriodTime_s
+- name: SA_NR_CELL_AVAIL_EXCLUDING_ENERGY_SAVING_NUM__5077
+  data_type: double
+  sql: CellUnavailableTimeDown_s-`CellUnavailableTimeES_s`

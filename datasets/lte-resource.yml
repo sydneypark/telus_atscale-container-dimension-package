@@ -1,0 +1,63 @@
+unique_name: lte-resource
+object_type: dataset
+label: lte-resource
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-resource-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CpuUsageAvg_pct
+  data_type: double
+- name: CpuUsageCnt_count
+  data_type: double
+- name: CpuUsageMaxDuration_s
+  data_type: double
+- name: CpuUsageMax_pct
+  data_type: double
+- name: CpuUsageMin_pct
+  data_type: double
+- name: CpuUsageTot_pct
+  data_type: double
+- name: DiskUsageAvg_pct
+  data_type: double
+- name: DiskUsageCnt_count
+  data_type: double
+- name: DiskUsageMax_pct
+  data_type: double
+- name: DiskUsageMin_pct
+  data_type: double
+- name: DiskUsageTot_pct
+  data_type: double
+- name: MemUsageAvg_pct
+  data_type: double
+- name: MemUsageCnt_count
+  data_type: double
+- name: MemUsageMax_pct
+  data_type: double
+- name: MemUsageMin_pct
+  data_type: double
+- name: MemUsageTot_pct
+  data_type: double
+- name: ShelfId
+  data_type: string
+- name: SlotId
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

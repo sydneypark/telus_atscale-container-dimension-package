@@ -1,0 +1,63 @@
+unique_name: lte-upm-rlf-classification
+object_type: dataset
+label: lte-upm-rlf-classification
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-upm-rlf-classification-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: HwcReestablishRlfAfterHoInterFreqUpm_count
+  data_type: double
+- name: HwcReestablishRlfAfterHoUpm_count
+  data_type: double
+- name: HwcReestablishRlfAfterTriggeringInterFreqUpm_count
+  data_type: double
+- name: HwcReestablishRlfAfterTriggeringUpm_count
+  data_type: double
+- name: NeighborCell
+  data_type: string
+- name: TooEarlyHoFailureUpm_count
+  data_type: double
+- name: TooEarlyHoRlfAfterHoUpm_count
+  data_type: double
+- name: TooLateHoRlfAfterTriggeringUpm_count
+  data_type: double
+- name: TooLateHoRlfBeforeTriggeringUpm_count
+  data_type: double
+- name: UpmHoPrepSuccess_count
+  data_type: double
+- name: UpmHoSuccess_count
+  data_type: double
+- name: UpmRlfCid_NeighborCell_ID
+  data_type: double
+- name: UpmRlfCnt_count
+  data_type: double
+- name: WrongCellRlfAfterHoInterFreqUpm_count
+  data_type: double
+- name: WrongCellRlfAfterHoUpm_count
+  data_type: double
+- name: WrongCellRlfAfterTriggeringInterFreqUpm_count
+  data_type: double
+- name: WrongCellRlfAfterTriggeringUpm_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,75 @@
+unique_name: nr-ue-associated-f1ap-message-in-gnb-du
+object_type: dataset
+label: nr-ue-associated-f1ap-message-in-gnb-du
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ue-associated-f1ap-message-in-gnb-du-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_F1apAccessAndMobilityIndication_count
+  data_type: double
+- name: Rx_F1apDlRrcMessageTransfer_count
+  data_type: double
+- name: Rx_F1apErrorIndication_count
+  data_type: double
+- name: Rx_F1apResetAcknowledge_count
+  data_type: double
+- name: Rx_F1apReset_count
+  data_type: double
+- name: Rx_F1apUeContextModificationConfirm_count
+  data_type: double
+- name: Rx_F1apUeContextModificationRefuse_count
+  data_type: double
+- name: Rx_F1apUeContextModificationRequest_count
+  data_type: double
+- name: Rx_F1apUeContextReleaseCommand_count
+  data_type: double
+- name: Rx_F1apUeContextSetupRequest_count
+  data_type: double
+- name: Tx_F1apAccessSuccess_count
+  data_type: double
+- name: Tx_F1apErrorIndication_count
+  data_type: double
+- name: Tx_F1apInitialUlRrcMessageTransfer_count
+  data_type: double
+- name: Tx_F1apResetAcknowledge_count
+  data_type: double
+- name: Tx_F1apReset_count
+  data_type: double
+- name: Tx_F1apRrcDeliveryReport_count
+  data_type: double
+- name: Tx_F1apUeContextModificationFailure_count
+  data_type: double
+- name: Tx_F1apUeContextModificationRequired_count
+  data_type: double
+- name: Tx_F1apUeContextModificationResponse_count
+  data_type: double
+- name: Tx_F1apUeContextReleaseComplete_count
+  data_type: double
+- name: Tx_F1apUeContextReleaseRequest_count
+  data_type: double
+- name: Tx_F1apUeContextSetupFailure_count
+  data_type: double
+- name: Tx_F1apUeContextSetupResponse_count
+  data_type: double
+- name: Tx_F1apUlRrcMessageTransfer_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

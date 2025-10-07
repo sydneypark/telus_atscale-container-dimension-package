@@ -1,0 +1,121 @@
+unique_name: s_acpf_srccellidentity_a.dataset
+object_type: dataset
+label: s_acpf_srccellidentity_a.dataset
+connection_id: BQ_pm_samsung.connection
+table: s_acpf_srccellidentity_a
+incremental:
+  column: INIT_TIME
+  grace_period: 86400s
+immutable: true
+
+columns:
+  - name: FamilyID
+    data_type: long
+  - name: file_key
+    data_type: string
+  - name: gNB_ID
+    data_type: string
+  - name: INIT_TIME
+    data_type: datetime
+  - name: INSERT_TS
+    data_type: datetime
+  - name: LOCATION
+    data_type: string
+  - name: NSA_DCINTERSGNB_PSCELLCHANGE_FR_DEN__5110
+    data_type: long
+    sql: '`S_5110C0`'
+  - name: NSA_DCINTERSGNB_PSCELLCHANGE_FR_NUM__5110
+    data_type: long
+    sql: '`S_5110C0`-`S_5110C1`'
+  - name: NSA_DCINTRASGNB_PSCELLCHANGE_FR_DEN__5109
+    data_type: long
+    sql: '`S_5109C1`'
+  - name: NSA_DCINTRASGNB_PSCELLCHANGE_FR_NUM__5109
+    data_type: long
+    sql: '`S_5109C1`-`S_5109C2`'
+  - name: NSA_NR_INTER_SGNB_HO_ATT__5110
+    data_type: long
+    sql: '`S_5110C0`'
+  - name: NSA_NR_INTER_SGNB_HO_FAIL__5110
+    data_type: long
+    sql: '`S_5110C0`-`S_5110C2`'
+  - name: NSA_NR_INTRA_SGNB_HO_ATT__5109
+    data_type: long
+    sql: '`S_5109C1`'
+  - name: NSA_NR_INTRA_SGNB_HO_FAIL__5109
+    data_type: long
+    sql: '`S_5109C1`-`S_5109C2`'
+  - name: S_5109C0
+    data_type: long
+  - name: S_5109C1
+    data_type: long
+  - name: S_5109C10
+    data_type: long
+  - name: S_5109C11
+    data_type: long
+  - name: S_5109C12
+    data_type: long
+  - name: S_5109C13
+    data_type: long
+  - name: S_5109C14
+    data_type: long
+  - name: S_5109C15
+    data_type: long
+  - name: S_5109C16
+    data_type: long
+  - name: S_5109C2
+    data_type: long
+  - name: S_5109C3
+    data_type: long
+  - name: S_5109C4
+    data_type: long
+  - name: S_5109C5
+    data_type: long
+  - name: S_5109C6
+    data_type: long
+  - name: S_5109C7
+    data_type: long
+  - name: S_5109C8
+    data_type: long
+  - name: S_5109C9
+    data_type: long
+  - name: S_5110C0
+    data_type: long
+  - name: S_5110C1
+    data_type: long
+  - name: S_5110C10
+    data_type: long
+  - name: S_5110C11
+    data_type: long
+  - name: S_5110C12
+    data_type: long
+  - name: S_5110C13
+    data_type: long
+  - name: S_5110C2
+    data_type: long
+  - name: S_5110C3
+    data_type: long
+  - name: S_5110C4
+    data_type: long
+  - name: S_5110C5
+    data_type: long
+  - name: S_5110C6
+    data_type: long
+  - name: S_5110C7
+    data_type: long
+  - name: S_5110C8
+    data_type: long
+  - name: S_5110C9
+    data_type: long
+  - name: SrcCellIdentity
+    data_type: string
+  - name: SYSTEM_ID
+    data_type: long
+  - name: Target_gNB_ID
+    data_type: string
+  - name: TgtCellIdentity
+    data_type: string
+  - name: TriggeredCellIdentity
+    data_type: string
+  - name: version
+    data_type: string

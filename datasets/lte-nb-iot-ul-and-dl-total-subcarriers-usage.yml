@@ -1,0 +1,57 @@
+unique_name: lte-nb-iot-ul-and-dl-total-subcarriers-usage
+object_type: dataset
+label: lte-nb-iot-ul-and-dl-total-subcarriers-usage
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-ul-and-dl-total-subcarriers-usage-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NBIoT_NumResourceDL_count
+  data_type: double
+- name: NBIoT_NumResourceUL_count
+  data_type: double
+- name: NBIoT_NumUsedResourceDLControl_count
+  data_type: double
+- name: NBIoT_NumUsedResourceDLData_count
+  data_type: double
+- name: NBIoT_NumUsedResourceDL_count
+  data_type: double
+- name: NBIoT_NumUsedResourceUL_count
+  data_type: double
+- name: NBIoT_ResourceUsageDL_pct
+  data_type: double
+- name: NBIoT_ResourceUsageUL_pct
+  data_type: double
+- name: NBIoT_cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NBIOT_DL_RESOURCE_UTILIZATION_RATIO_DEN__193
+  data_type: double
+  sql: NBIoT_NumResourceDL_count
+- name: NBIOT_DL_RESOURCE_UTILIZATION_RATIO_NUM__193
+  data_type: double
+  sql: NBIoT_NumUsedResourceDL_count
+- name: NBIOT_UL_RESOURCE_UTILIZATION_RATIO_DEN__193
+  data_type: double
+  sql: NBIoT_NumResourceUL_count
+- name: NBIOT_UL_RESOURCE_UTILIZATION_RATIO_NUM__193
+  data_type: double
+  sql: NBIoT_NumUsedResourceUL_count

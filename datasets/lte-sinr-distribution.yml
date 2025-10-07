@@ -1,0 +1,144 @@
+unique_name: lte-sinr-distribution
+object_type: dataset
+label: lte-sinr-distribution
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-sinr-distribution-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: SinrDistULWbPostComp_Bin0_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin10_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin11_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin12_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin13_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin14_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin15_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin16_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin17_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin18_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin19_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin1_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin2_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin3_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin4_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin5_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin6_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin7_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin8_count
+  data_type: double
+- name: SinrDistULWbPostComp_Bin9_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin0_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin10_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin11_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin12_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin13_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin14_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin15_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin16_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin17_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin18_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin19_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin1_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin2_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin3_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin4_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin5_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin6_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin7_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin8_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin9_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: POST_UL_SINR_DEN__257
+  data_type: double
+  sql: SinrDistULWbPostComp_Bin0_count+`SinrDistULWbPostComp_Bin1_count`+`SinrDistULWbPostComp_Bin2_count`+`SinrDistULWbPostComp_Bin3_count`+`SinrDistULWbPostComp_Bin4_count`+`SinrDistULWbPostComp_Bin5_count`+`SinrDistULWbPostComp_Bin6_count`+`SinrDistULWbPostComp_Bin7_count`+`SinrDistULWbPostComp_Bin8_count`+`SinrDistULWbPostComp_Bin9_count`+`SinrDistULWbPostComp_Bin10_count`+`SinrDistULWbPostComp_Bin11_count`+`SinrDistULWbPostComp_Bin12_count`+`SinrDistULWbPostComp_Bin13_count`+`SinrDistULWbPostComp_Bin14_count`+`SinrDistULWbPostComp_Bin15_count`+`SinrDistULWbPostComp_Bin16_count`+`SinrDistULWbPostComp_Bin17_count`+`SinrDistULWbPostComp_Bin18_count`+`SinrDistULWbPostComp_Bin19_count`
+- name: POST_UL_SINR_NUM__257
+  data_type: double
+  sql: -9*`SinrDistULWbPostComp_Bin0_count` + -7*`SinrDistULWbPostComp_Bin1_count`
+    + -5*`SinrDistULWbPostComp_Bin2_count` + -3*`SinrDistULWbPostComp_Bin3_count`
+    + -1*`SinrDistULWbPostComp_Bin4_count` + 1*`SinrDistULWbPostComp_Bin5_count` +
+    3*`SinrDistULWbPostComp_Bin6_count` + 5*`SinrDistULWbPostComp_Bin7_count` + 7*`SinrDistULWbPostComp_Bin8_count`
+    + 9*`SinrDistULWbPostComp_Bin9_count` + 11*`SinrDistULWbPostComp_Bin10_count`
+    + 13*`SinrDistULWbPostComp_Bin11_count` + 15*`SinrDistULWbPostComp_Bin12_count`
+    + 17*`SinrDistULWbPostComp_Bin13_count` + 19*`SinrDistULWbPostComp_Bin14_count`
+    + 21*`SinrDistULWbPostComp_Bin15_count` + 23*`SinrDistULWbPostComp_Bin16_count`
+    + 25*`SinrDistULWbPostComp_Bin17_count` + 27*`SinrDistULWbPostComp_Bin18_count`
+    + 29*`SinrDistULWbPostComp_Bin19_count`
+- name: PRE_UL_SINR_DEN__257
+  data_type: double
+  sql: SinrDistULWbPreComp_Bin0_count+`SinrDistULWbPreComp_Bin1_count`+`SinrDistULWbPreComp_Bin2_count`+`SinrDistULWbPreComp_Bin3_count`+`SinrDistULWbPreComp_Bin4_count`+`SinrDistULWbPreComp_Bin5_count`+`SinrDistULWbPreComp_Bin6_count`+`SinrDistULWbPreComp_Bin7_count`+`SinrDistULWbPreComp_Bin8_count`+`SinrDistULWbPreComp_Bin9_count`+`SinrDistULWbPreComp_Bin10_count`+`SinrDistULWbPreComp_Bin11_count`+`SinrDistULWbPreComp_Bin12_count`+`SinrDistULWbPreComp_Bin13_count`+`SinrDistULWbPreComp_Bin14_count`+`SinrDistULWbPreComp_Bin15_count`+`SinrDistULWbPreComp_Bin16_count`+`SinrDistULWbPreComp_Bin17_count`+`SinrDistULWbPreComp_Bin18_count`+`SinrDistULWbPreComp_Bin19_count`
+- name: PRE_UL_SINR_NUM__257
+  data_type: double
+  sql: -9*`SinrDistULWbPreComp_Bin0_count` + -7*`SinrDistULWbPreComp_Bin1_count` +
+    -5*`SinrDistULWbPreComp_Bin2_count` + -3*`SinrDistULWbPreComp_Bin3_count` + -1*`SinrDistULWbPreComp_Bin4_count`
+    + 1*`SinrDistULWbPreComp_Bin5_count` + 3*`SinrDistULWbPreComp_Bin6_count` + 5*`SinrDistULWbPreComp_Bin7_count`
+    + 7*`SinrDistULWbPreComp_Bin8_count` + 9*`SinrDistULWbPreComp_Bin9_count` + 11*`SinrDistULWbPreComp_Bin10_count`
+    + 13*`SinrDistULWbPreComp_Bin11_count` + 15*`SinrDistULWbPreComp_Bin12_count`
+    + 17*`SinrDistULWbPreComp_Bin13_count` + 19*`SinrDistULWbPreComp_Bin14_count`
+    + 21*`SinrDistULWbPreComp_Bin15_count` + 23*`SinrDistULWbPreComp_Bin16_count`
+    + 25*`SinrDistULWbPreComp_Bin17_count` + 27*`SinrDistULWbPreComp_Bin18_count`
+    + 29*`SinrDistULWbPreComp_Bin19_count`
+- name: UL_SINR_DEN__257
+  data_type: double
+  sql: SinrDistULWbPostComp_Bin0_count+`SinrDistULWbPostComp_Bin1_count`+`SinrDistULWbPostComp_Bin2_count`+`SinrDistULWbPostComp_Bin3_count`+`SinrDistULWbPostComp_Bin4_count`+`SinrDistULWbPostComp_Bin5_count`+`SinrDistULWbPostComp_Bin6_count`+`SinrDistULWbPostComp_Bin7_count`+`SinrDistULWbPostComp_Bin8_count`+`SinrDistULWbPostComp_Bin9_count`+`SinrDistULWbPostComp_Bin10_count`+`SinrDistULWbPostComp_Bin11_count`+`SinrDistULWbPostComp_Bin12_count`+`SinrDistULWbPostComp_Bin13_count`+`SinrDistULWbPostComp_Bin14_count`+`SinrDistULWbPostComp_Bin15_count`+`SinrDistULWbPostComp_Bin16_count`+`SinrDistULWbPostComp_Bin17_count`+`SinrDistULWbPostComp_Bin18_count`+`SinrDistULWbPostComp_Bin19_count`
+- name: UL_SINR_NUM__257
+  data_type: double
+  sql: -9*`SinrDistULWbPostComp_Bin0_count`+-7*`SinrDistULWbPostComp_Bin1_count`+-5*`SinrDistULWbPostComp_Bin2_count`+-3*`SinrDistULWbPostComp_Bin3_count`+-1*`SinrDistULWbPostComp_Bin4_count`+1*`SinrDistULWbPostComp_Bin5_count`+3*`SinrDistULWbPostComp_Bin6_count`+5*`SinrDistULWbPostComp_Bin7_count`+7*`SinrDistULWbPostComp_Bin8_count`+9*`SinrDistULWbPostComp_Bin9_count`+11*`SinrDistULWbPostComp_Bin10_count`+13*`SinrDistULWbPostComp_Bin11_count`+15*`SinrDistULWbPostComp_Bin12_count`+17*`SinrDistULWbPostComp_Bin13_count`+19*`SinrDistULWbPostComp_Bin14_count`+21*`SinrDistULWbPostComp_Bin15_count`+23*`SinrDistULWbPostComp_Bin16_count`+25*`SinrDistULWbPostComp_Bin17_count`+27*`SinrDistULWbPostComp_Bin18_count`+29*`SinrDistULWbPostComp_Bin19_count`

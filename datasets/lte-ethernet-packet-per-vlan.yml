@@ -1,0 +1,51 @@
+unique_name: lte-ethernet-packet-per-vlan
+object_type: dataset
+label: lte-ethernet-packet-per-vlan
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-ethernet-packet-per-vlan-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: RxDropPacketCnt_count
+  data_type: double
+- name: RxOctetCnt_count
+  data_type: double
+- name: RxOctet_Mbytes
+  data_type: double
+- name: RxPacket_count
+  data_type: double
+- name: RxThroughputAvg_Mbps
+  data_type: double
+- name: TxDropPacketCnt_count
+  data_type: double
+- name: TxOctetCnt_count
+  data_type: double
+- name: TxOctet_Mbytes
+  data_type: double
+- name: TxPacket_count
+  data_type: double
+- name: TxThroughputAvg_Mbps
+  data_type: double
+- name: VlanId
+  data_type: string
+- name: VrId
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,69 @@
+unique_name: lte-pdcp-packet-per-plmn
+object_type: dataset
+label: lte-pdcp-packet-per-plmn
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-pdcp-packet-per-plmn-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PLMN0EnbQciDLByte_Kbytes
+  data_type: double
+- name: PLMN0EnbQciULByte_Kbytes
+  data_type: double
+- name: PLMN1EnbQciDLByte_Kbytes
+  data_type: double
+- name: PLMN1EnbQciULByte_Kbytes
+  data_type: double
+- name: PLMN2EnbQciDLByte_Kbytes
+  data_type: double
+- name: PLMN2EnbQciULByte_Kbytes
+  data_type: double
+- name: PLMN3EnbQciDLByte_Kbytes
+  data_type: double
+- name: PLMN3EnbQciULByte_Kbytes
+  data_type: double
+- name: PLMN4EnbQciDLByte_Kbytes
+  data_type: double
+- name: PLMN4EnbQciULByte_Kbytes
+  data_type: double
+- name: PLMN5EnbQciDLByte_Kbytes
+  data_type: double
+- name: PLMN5EnbQciULByte_Kbytes
+  data_type: double
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: L_THRP_BITS_DL.BELL__189
+  data_type: double
+  sql: PLMN1EnbQciDLByte_Kbytes*8*1000
+- name: L_THRP_BITS_DL.TELUS__189
+  data_type: double
+  sql: PLMN0EnbQciDLByte_Kbytes*8*1000
+- name: L_THRP_BITS_UL.BELL__189
+  data_type: double
+  sql: PLMN1EnbQciULByte_Kbytes*8*1000
+- name: L_THRP_BITS_UL.TELUS__189
+  data_type: double
+  sql: PLMN0EnbQciULByte_Kbytes*8*1000

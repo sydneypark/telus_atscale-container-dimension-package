@@ -1,0 +1,67 @@
+unique_name: nr-uplink-ue-throughput
+object_type: dataset
+label: nr-uplink-ue-throughput
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-uplink-ue-throughput-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: LCG
+  data_type: string
+- name: ULUeThruTime_slots
+  data_type: double
+- name: ULUeThruVol_Kbytes
+  data_type: double
+- name: ULUeThru_Kbps
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: AVG_UL_UE_THPT_DEN__5144
+  data_type: double
+  sql: ULUeThruTime_slots/8000
+- name: AVG_UL_UE_THPT_NUM__5144
+  data_type: double
+  sql: ULUeThruVol_Kbytes*8*1.024
+- name: NSA_NR_UL_THPT_DEN__5144
+  data_type: double
+  sql: (`ULUeThruTime_slots`*1000000/8000/1.54)
+- name: NSA_NR_UL_THPT_NUM__5144
+  data_type: double
+  sql: (`ULUeThruVol_Kbytes`*8*1024)
+- name: NSA_NR_UL_THPT_SLO_DEN__5144
+  data_type: double
+  sql: (`ULUeThruTime_slots`/8)/(1000)
+- name: NSA_NR_UL_THPT_SLO_NUM__5144
+  data_type: double
+  sql: ULUeThruVol_Kbytes*8*1.024/1000
+- name: SA_NR_AVG_UL_UE_THPT_DEN__5144
+  data_type: double
+  sql: ULUeThruTime_slots/8000
+- name: SA_NR_AVG_UL_UE_THPT_NUM__5144
+  data_type: double
+  sql: ULUeThruVol_Kbytes*8*1.024
+- name: SLO_SA_NR_UL_THPT_DEN__5144
+  data_type: double
+  sql: ULUeThruTime_slots/8000
+- name: SLO_SA_NR_UL_THPT_NUM__5144
+  data_type: double
+  sql: ULUeThruVol_Kbytes*8*1024/1000000

@@ -1,0 +1,51 @@
+unique_name: lte-en-dc-radiolinkfailureinformation
+object_type: dataset
+label: lte-en-dc-radiolinkfailureinformation
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-en-dc-radiolinkfailureinformation-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DL_RLF_beamFailureRecoveryFailure_count
+  data_type: double
+- name: DL_RLF_others_count
+  data_type: double
+- name: DL_RLF_randomAccessProblem_count
+  data_type: double
+- name: DL_RLF_rlc_MaxNumRetx_count
+  data_type: double
+- name: DL_RLF_scg_reconfigFailure_count
+  data_type: double
+- name: DL_RLF_srb3_IntegrityFailure_count
+  data_type: double
+- name: DL_RLF_synchReconfigFailure_SCG_count
+  data_type: double
+- name: DL_RLF_t310_Expiry_count
+  data_type: double
+- name: DL_RLF_t312_Expiry_count
+  data_type: double
+- name: UL_RLF_RadioConnection_UeLost_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gNbId
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,43 @@
+unique_name: lte-ru-temperature
+object_type: dataset
+label: lte-ru-temperature
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-ru-temperature-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BID
+  data_type: string
+- name: Cascade
+  data_type: string
+- name: RuPort
+  data_type: string
+- name: RuTempAvg_C
+  data_type: double
+- name: RuTempCnt_count
+  data_type: double
+- name: RuTempMax_C
+  data_type: double
+- name: RuTempMin_C
+  data_type: double
+- name: RuTempTot_C
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

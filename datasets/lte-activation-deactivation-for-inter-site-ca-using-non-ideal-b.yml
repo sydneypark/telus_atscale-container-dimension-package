@@ -1,0 +1,69 @@
+unique_name: lte-activation-deactivation-for-inter-site-ca-using-non-ideal-b
+object_type: dataset
+label: lte-activation-deactivation-for-inter-site-ca-using-non-ideal-b
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-activation-deactivation-for-inter-site-ca-using-non-ideal-backhaul-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CRNTIcollision_count
+  data_type: double
+- name: SCellActFailActMacCeResBler_count
+  data_type: double
+- name: SCellActFailBhLatency_count
+  data_type: double
+- name: SCellActFailCaCac_count
+  data_type: double
+- name: SCellActFailMaxBearerPCell_count
+  data_type: double
+- name: SCellActFailMaxBearerSCell_count
+  data_type: double
+- name: SCellActFailMaxPCellperSCell_count
+  data_type: double
+- name: SCellActFailRlcSegTestFail_count
+  data_type: double
+- name: SCellActFailSCellSetupTimeOut_count
+  data_type: double
+- name: SCellActUEAvg_count
+  data_type: double
+- name: SCellActUECnt_count
+  data_type: double
+- name: SCellActUEMaxCnt_count
+  data_type: double
+- name: SCellActUEMax_count
+  data_type: double
+- name: SCellActUETot_count
+  data_type: double
+- name: SCellActivationAtt_count
+  data_type: double
+- name: SCellActivation_count
+  data_type: double
+- name: SCellDeactivationBhLatency_count
+  data_type: double
+- name: SCellDeactivationNoResp_count
+  data_type: double
+- name: SCellDeactivation_Mismatch_count
+  data_type: double
+- name: SCellDeactivation_TO_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

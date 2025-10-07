@@ -1,0 +1,67 @@
+unique_name: nr-downlink-wideband-cqi-as-scell
+object_type: dataset
+label: nr-downlink-wideband-cqi-as-scell
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-downlink-wideband-cqi-as-scell-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CQI_Table
+  data_type: string
+- name: CellIdentity
+  data_type: string
+- name: DLReceivedCQI0_SCELL_count
+  data_type: double
+- name: DLReceivedCQI10_SCELL_count
+  data_type: double
+- name: DLReceivedCQI11_SCELL_count
+  data_type: double
+- name: DLReceivedCQI12_SCELL_count
+  data_type: double
+- name: DLReceivedCQI13_SCELL_count
+  data_type: double
+- name: DLReceivedCQI14_SCELL_count
+  data_type: double
+- name: DLReceivedCQI15_SCELL_count
+  data_type: double
+- name: DLReceivedCQI1_SCELL_count
+  data_type: double
+- name: DLReceivedCQI2_SCELL_count
+  data_type: double
+- name: DLReceivedCQI3_SCELL_count
+  data_type: double
+- name: DLReceivedCQI4_SCELL_count
+  data_type: double
+- name: DLReceivedCQI5_SCELL_count
+  data_type: double
+- name: DLReceivedCQI6_SCELL_count
+  data_type: double
+- name: DLReceivedCQI7_SCELL_count
+  data_type: double
+- name: DLReceivedCQI8_SCELL_count
+  data_type: double
+- name: DLReceivedCQI9_SCELL_count
+  data_type: double
+- name: DLReceivedCQIAvg_SCELL_CQI
+  data_type: double
+- name: RX_RI
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

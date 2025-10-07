@@ -1,0 +1,83 @@
+unique_name: lte-emtc-rrc-connection-re-establishment
+object_type: dataset
+label: lte-emtc-rrc-connection-re-establishment
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-rrc-connection-re-establishment-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: ReEstabCause
+  data_type: string
+- name: cNum
+  data_type: string
+- name: eMTC_ConnReEstabAtt_count
+  data_type: double
+- name: eMTC_ConnReEstabFail_CpCcFail_count
+  data_type: double
+- name: eMTC_ConnReEstabFail_RrcSigTo_count
+  data_type: double
+- name: eMTC_ConnReEstabFail_S1apLSigFail_count
+  data_type: double
+- name: eMTC_ConnReEstabFail_S1apLinkFail_count
+  data_type: double
+- name: eMTC_ConnReEstabFail_UpMacFail_count
+  data_type: double
+- name: eMTC_ConnReEstabFail_UpPdcpFail_count
+  data_type: double
+- name: eMTC_ConnReEstabFail_UpRlcFail_count
+  data_type: double
+- name: eMTC_ConnReEstabReject_CpCapaCaccFail_count
+  data_type: double
+- name: eMTC_ConnReEstabReject_CpCcFail_count
+  data_type: double
+- name: eMTC_ConnReEstabReject_CpQosCacFail_count
+  data_type: double
+- name: eMTC_ConnReEstabSucc_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabAtt_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabFail_CpCcFail_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabFail_RrcSigTo_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabFail_S1apLinkFail_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabFail_UpMacFail_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabFail_UpPdcpFail_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabFail_UpRlcFail_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabReject_CpCapaCacFail_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabReject_CpCcFail_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabReject_CpQosCacFail_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabReject_ErrIndication_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabReject_RlfHoNotPossible_count
+  data_type: double
+- name: eMTC_InterEnbConnReEstabSucc_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

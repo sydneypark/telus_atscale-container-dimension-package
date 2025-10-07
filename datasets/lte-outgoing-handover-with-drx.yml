@@ -1,0 +1,83 @@
+unique_name: lte-outgoing-handover-with-drx
+object_type: dataset
+label: lte-outgoing-handover-with-drx
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-outgoing-handover-with-drx-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DrxOutAtt_count
+  data_type: double
+- name: DrxOutFail_CpCcFail_count
+  data_type: double
+- name: DrxOutFail_CpCcTo_count
+  data_type: double
+- name: DrxOutFail_RrcSigFail_count
+  data_type: double
+- name: DrxOutFail_S1apCuFail_count
+  data_type: double
+- name: DrxOutFail_S1apLinkFail_count
+  data_type: double
+- name: DrxOutFail_S1apRoTo_count
+  data_type: double
+- name: DrxOutFail_S1apSigFail_count
+  data_type: double
+- name: DrxOutFail_UpGtpFail_count
+  data_type: double
+- name: DrxOutFail_UpMacFail_count
+  data_type: double
+- name: DrxOutFail_UpPdcpFail_count
+  data_type: double
+- name: DrxOutFail_UpRlcFail_count
+  data_type: double
+- name: DrxOutFail_X2apCuFail_count
+  data_type: double
+- name: DrxOutFail_X2apLinkFail_count
+  data_type: double
+- name: DrxOutFail_X2apRoTo_count
+  data_type: double
+- name: DrxOutFail_X2apSigFail_count
+  data_type: double
+- name: DrxOutPrepFail_CpCcFail_count
+  data_type: double
+- name: DrxOutPrepFail_S1apCuFail_count
+  data_type: double
+- name: DrxOutPrepFail_S1apLinkFail_count
+  data_type: double
+- name: DrxOutPrepFail_S1apRpTo_count
+  data_type: double
+- name: DrxOutPrepFail_S1apSigFail_count
+  data_type: double
+- name: DrxOutPrepFail_X2apCuFail_count
+  data_type: double
+- name: DrxOutPrepFail_X2apLinkFail_count
+  data_type: double
+- name: DrxOutPrepFail_X2apRpTo_count
+  data_type: double
+- name: DrxOutPrepFail_X2apSigFail_count
+  data_type: double
+- name: DrxOutPrepSucc_count
+  data_type: double
+- name: DrxOutSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,59 @@
+unique_name: lte-anchor-selection-for-en-dc
+object_type: dataset
+label: lte-anchor-selection-for-en-dc
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-anchor-selection-for-en-dc-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AnchorHoOutforEnDcAtt_count
+  data_type: double
+- name: AnchorHoOutforEnDcPrepSucc_count
+  data_type: double
+- name: AnchorHoOutforEnDcSucc_count
+  data_type: double
+- name: AnchorSelectionCid_tcID
+  data_type: double
+- name: AnchorSelectionCnt_count
+  data_type: double
+- name: NonAnchorHoOutforEnDcAtt_count
+  data_type: double
+- name: NonAnchorHoOutforEnDcPrepSucc_count
+  data_type: double
+- name: NonAnchorHoOutforEnDcSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: tcID
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: L.NsaDC.PCCAnchor.HHO.HOFROut_A__836
+  data_type: double
+  sql: coalesce(`NonAnchorHoOutforEnDcSucc_count`+`AnchorHoOutforEnDcSucc_count`,0)
+- name: L.NsaDC.PCCAnchor.HHO.HOFROut_B__836
+  data_type: double
+  sql: coalesce(`NonAnchorHoOutforEnDcAtt_count`+`AnchorHoOutforEnDcAtt_count`,0)
+- name: NSA_LTE_PCCANCHOR_HHO_OUT_ATT__836
+  data_type: double
+  sql: NonAnchorHoOutforEnDcAtt_count+`AnchorHoOutforEnDcAtt_count`
+- name: NSA_LTE_PCCANCHOR_HHO_OUT_FAIL__836
+  data_type: double
+  sql: NonAnchorHoOutforEnDcAtt_count+`AnchorHoOutforEnDcAtt_count`-`AnchorHoOutforEnDcSucc_count`-`NonAnchorHoOutforEnDcSucc_count`

@@ -1,0 +1,105 @@
+unique_name: lte-air-rlc-packet
+object_type: dataset
+label: lte-air-rlc-packet
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-air-rlc-packet-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AirRlcDLByteCnt_count
+  data_type: double
+- name: AirRlcDLByteCurr_Kbytes
+  data_type: double
+- name: AirRlcDLByteRe_Kbytes
+  data_type: double
+- name: AirRlcDLByte_Kbytes
+  data_type: double
+- name: AirRlcDLThruCnt_count
+  data_type: double
+- name: AirRlcDLThruMax_Kbps
+  data_type: double
+- name: AirRlcDLThruMin_Kbps
+  data_type: double
+- name: AirRlcDLThruTot_Kbps
+  data_type: double
+- name: AirRlcDLThru_Kbps
+  data_type: double
+- name: AirRlcULByteCnt_count
+  data_type: double
+- name: AirRlcULByteCurr_Kbytes
+  data_type: double
+- name: AirRlcULByte_Kbytes
+  data_type: double
+- name: AirRlcULThruCnt_count
+  data_type: double
+- name: AirRlcULThruMax_Kbps
+  data_type: double
+- name: AirRlcULThruMin_Kbps
+  data_type: double
+- name: AirRlcULThruTot_Kbps
+  data_type: double
+- name: AirRlcULThru_Kbps
+  data_type: double
+- name: IpThruCnt_count
+  data_type: double
+- name: IpThruMax_Kbps
+  data_type: double
+- name: IpThruMin_Kbps
+  data_type: double
+- name: IpThruThpDLTime_ms
+  data_type: double
+- name: IpThruThpVoDLByte_Kbytes
+  data_type: double
+- name: IpThruTot_Kbps
+  data_type: double
+- name: IpThru_Kbps
+  data_type: double
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: DL_THPT_DEN__52
+  data_type: double
+  sql: if(`QCI` IN ("8","9"),`IpThruThpDLTime_ms`,NULL)
+- name: DL_THPT_NUM__52
+  data_type: double
+  sql: if(`QCI` IN ("8","9"),`IpThruThpVoDLByte_Kbytes`*8000,NULL)
+- name: LTE_DL_THPT_SLO_DEN__52
+  data_type: double
+  sql: if(`QCI`="8",`IpThruThpDLTime_ms`/1000,NULL)
+- name: LTE_DL_THPT_SLO_NUM__52
+  data_type: double
+  sql: if(`QCI`="8",`IpThruThpVoDLByte_Kbytes`*8/1000,NULL)
+- name: LTE_DL_Volume_SLO__52
+  data_type: double
+  sql: AirRlcDLByte_Kbytes*1000/(1024*1024)
+- name: LTE_UL_Volume_SLO__52
+  data_type: double
+  sql: AirRlcULByte_Kbytes*1000/(1024*1024)
+- name: L_THRP_BITS_DL__52
+  data_type: double
+  sql: AirRlcDLByte_Kbytes*8*1000
+- name: L_THRP_BITS_UL__52
+  data_type: double
+  sql: AirRlcULByte_Kbytes*8*1000

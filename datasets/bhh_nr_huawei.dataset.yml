@@ -1,0 +1,16 @@
+unique_name: bhh_nr_huawei.dataset
+object_type: dataset
+label: bhh_nr_huawei
+connection_id: ran_bhh.connection
+table: bhh_nr_huawei
+immutable: true
+
+columns:
+  - name: gNodeB
+    data_type: string
+  - name: INIT_TIME
+    data_type: datetime
+  - name: NRDUCellID
+    data_type: long
+  - name: Type
+    data_type: string

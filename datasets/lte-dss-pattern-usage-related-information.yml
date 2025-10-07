@@ -1,0 +1,49 @@
+unique_name: lte-dss-pattern-usage-related-information
+object_type: dataset
+label: lte-dss-pattern-usage-related-information
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-dss-pattern-usage-related-information-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DssLteDLPattern0Cnt_count
+  data_type: double
+- name: DssLteDLPattern1Cnt_count
+  data_type: double
+- name: DssLteDLPattern2Cnt_count
+  data_type: double
+- name: DssLteDLPattern3Cnt_count
+  data_type: double
+- name: DssLteULPattern0Cnt_count
+  data_type: double
+- name: DssLteULPattern1Cnt_count
+  data_type: double
+- name: DssLteULPattern2Cnt_count
+  data_type: double
+- name: DssLteULPattern2eCnt_count
+  data_type: double
+- name: DssLteULPattern3Cnt_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

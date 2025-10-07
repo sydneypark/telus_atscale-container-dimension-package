@@ -1,0 +1,14 @@
+unique_name: NE_Cell_Samsung_NEID_CID_Bridge.dataset
+object_type: dataset
+label: NE_Cell_Samsung_NEID_CID_Bridge.dataset
+connection_id: BQ_NE_Cell.connection
+table: NE_Cell_Samsung_NEID_CID_Bridge_temp
+immutable: true
+
+columns:
+  - name: cNum
+    data_type: string
+  - name: key
+    data_type: string
+  - name: NodeID
+    data_type: string

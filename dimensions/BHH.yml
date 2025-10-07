@@ -1,0 +1,23 @@
+unique_name: BHH
+object_type: dimension
+label: BHH
+type: standard
+
+hierarchies:
+
+  - unique_name: BHH
+    label: BHH
+    filter_empty: "yes"
+
+    levels:
+
+      - unique_name: BHH
+
+level_attributes:
+
+  - unique_name: BHH
+    label: BHH
+    dataset: Agnostic_BHH.dataset
+    key_columns:
+      - Type_a
+    name_column: Type

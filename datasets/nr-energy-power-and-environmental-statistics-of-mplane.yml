@@ -1,0 +1,87 @@
+unique_name: nr-energy-power-and-environmental-statistics-of-mplane
+object_type: dataset
+label: nr-energy-power-and-environmental-statistics-of-mplane
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-energy-power-and-environmental-statistics-of-mplane-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: EpeCurrentAvgCnt_count
+  data_type: double
+- name: EpeCurrentAvgTot_A
+  data_type: double
+- name: EpeCurrentAvg_A
+  data_type: double
+- name: EpeCurrentMaxCnt_count
+  data_type: double
+- name: EpeCurrentMax_A
+  data_type: double
+- name: EpeCurrentMinCnt_count
+  data_type: double
+- name: EpeCurrentMin_A
+  data_type: double
+- name: EpePowerAvgCnt_count
+  data_type: double
+- name: EpePowerAvgTot_W
+  data_type: double
+- name: EpePowerAvg_W
+  data_type: double
+- name: EpePowerMaxCnt_count
+  data_type: double
+- name: EpePowerMax_W
+  data_type: double
+- name: EpePowerMinCnt_count
+  data_type: double
+- name: EpePowerMin_W
+  data_type: double
+- name: EpeTempAvgCnt_count
+  data_type: double
+- name: EpeTempAvgTot_C
+  data_type: double
+- name: EpeTempAvg_C
+  data_type: double
+- name: EpeTempMaxCnt_count
+  data_type: double
+- name: EpeTempMax_C
+  data_type: double
+- name: EpeTempMinCnt_count
+  data_type: double
+- name: EpeTempMin_C
+  data_type: double
+- name: EpeVoltageAvgCnt_count
+  data_type: double
+- name: EpeVoltageAvgTot_V
+  data_type: double
+- name: EpeVoltageAvg_V
+  data_type: double
+- name: EpeVoltageMaxCnt_count
+  data_type: double
+- name: EpeVoltageMax_V
+  data_type: double
+- name: EpeVoltageMinCnt_count
+  data_type: double
+- name: EpeVoltageMin_V
+  data_type: double
+- name: HWComponent
+  data_type: string
+- name: ORU_ID
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,78 @@
+unique_name: nr-e-rab-addition-per-gnb-per-plmn-with-du-identifier
+object_type: dataset
+label: nr-e-rab-addition-per-gnb-per-plmn-with-du-identifier
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-e-rab-addition-per-gnb-per-plmn-with-du-identifier-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BearerType
+  data_type: string
+- name: CellIdentity
+  data_type: string
+- name: ErabAddAttPlmn_count
+  data_type: double
+- name: ErabAddFail_CpFailPlmn_count
+  data_type: double
+- name: ErabAddFail_DuFailPlmn_count
+  data_type: double
+- name: ErabAddFail_DuTimeoutPlmn_count
+  data_type: double
+- name: ErabAddFail_MenbFailPlmn_count
+  data_type: double
+- name: ErabAddFail_TdcoverallPlmn_count
+  data_type: double
+- name: ErabAddFail_UpFailPlmn_count
+  data_type: double
+- name: ErabAddFail_UpTimeoutPlmn_count
+  data_type: double
+- name: ErabAddSuccPlmn_count
+  data_type: double
+- name: PLMN_UE
+  data_type: string
+- name: QCI
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_DU_ID
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: MOBILITY_BEARER_ATT_2022__6062
+  data_type: double
+  sql: ErabAddAttPlmn_count
+- name: MOBILITY_BEARER_ATT__6062
+  data_type: double
+  sql: ErabAddAttPlmn_count
+- name: MOBILITY_BEARER_SUCC_2022__6062
+  data_type: double
+  sql: ErabAddSuccPlmn_count
+- name: MOBILITY_BEARER_SUCC_SAMSUNG__6062
+  data_type: double
+  sql: ErabAddSuccPlmn_count
+- name: MOBILITY_BEARER_SUCC__6062
+  data_type: double
+  sql: ErabAddSuccPlmn_count
+- name: NSA_NR_AFR_DATA_DEN__6062
+  data_type: double
+  sql: ErabAddAttPlmn_count
+- name: NSA_NR_AFR_DATA_NUM__6062
+  data_type: double
+  sql: ErabAddAttPlmn_count-`ErabAddSuccPlmn_count`

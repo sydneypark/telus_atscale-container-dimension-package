@@ -1,0 +1,45 @@
+unique_name: nr-downlink-bler-per-rank
+object_type: dataset
+label: nr-downlink-bler-per-rank
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-downlink-bler-per-rank-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: PdschFailCntRank1_count
+  data_type: double
+- name: PdschFailCntRank2_count
+  data_type: double
+- name: PdschFailCntRank3_count
+  data_type: double
+- name: PdschFailCntRank4_count
+  data_type: double
+- name: PdschTotalCntRank1_count
+  data_type: double
+- name: PdschTotalCntRank2_count
+  data_type: double
+- name: PdschTotalCntRank3_count
+  data_type: double
+- name: PdschTotalCntRank4_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

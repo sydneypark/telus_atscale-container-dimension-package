@@ -1,0 +1,55 @@
+unique_name: lte-emtc-volte-handover-out
+object_type: dataset
+label: lte-emtc-volte-handover-out
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-volte-handover-out-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: HoCause
+  data_type: string
+- name: cNum
+  data_type: string
+- name: eMTC_InterFreqIntraEnbOutAtt_count
+  data_type: double
+- name: eMTC_InterFreqIntraEnbOutPrepSucc_count
+  data_type: double
+- name: eMTC_InterFreqIntraEnbOutSucc_count
+  data_type: double
+- name: eMTC_InterFreqX2OutAtt_count
+  data_type: double
+- name: eMTC_InterFreqX2OutPrepSucc_count
+  data_type: double
+- name: eMTC_InterFreqX2OutSucc_count
+  data_type: double
+- name: eMTC_IntraFreqIntraEnbOutAtt_count
+  data_type: double
+- name: eMTC_IntraFreqIntraEnbOutPrepSucc_count
+  data_type: double
+- name: eMTC_IntraFreqIntraEnbOutSucc_count
+  data_type: double
+- name: eMTC_IntraFreqX2OutAtt_count
+  data_type: double
+- name: eMTC_IntraFreqX2OutPrepSucc_count
+  data_type: double
+- name: eMTC_IntraFreqX2OutSucc_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

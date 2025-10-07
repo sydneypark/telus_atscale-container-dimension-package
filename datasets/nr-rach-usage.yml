@@ -1,0 +1,55 @@
+unique_name: nr-rach-usage
+object_type: dataset
+label: nr-rach-usage
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-rach-usage-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: ContentionDetected_count
+  data_type: double
+- name: NumPreamblesSent10orOver_count
+  data_type: double
+- name: NumPreamblesSent1_count
+  data_type: double
+- name: NumPreamblesSent2_count
+  data_type: double
+- name: NumPreamblesSent3_count
+  data_type: double
+- name: NumPreamblesSent4_count
+  data_type: double
+- name: NumPreamblesSent5_count
+  data_type: double
+- name: NumPreamblesSent6_count
+  data_type: double
+- name: NumPreamblesSent7_count
+  data_type: double
+- name: NumPreamblesSent8_count
+  data_type: double
+- name: NumPreamblesSent9_count
+  data_type: double
+- name: NumPreamblesSent_count
+  data_type: double
+- name: NumRachReportReceived_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,47 @@
+unique_name: nr-drb-connection-number-per-gnb-with-du-identifier-per-plmn
+object_type: dataset
+label: nr-drb-connection-number-per-gnb-with-du-identifier-per-plmn
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-drb-connection-number-per-gnb-with-du-identifier-per-plmn-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CPC_ID
+  data_type: string
+- name: CellIdentity
+  data_type: string
+- name: DrbNoAvg_count
+  data_type: double
+- name: DrbNoCnt_count
+  data_type: double
+- name: DrbNoMax_count
+  data_type: double
+- name: DrbNoTot_count
+  data_type: double
+- name: PLMN_UE
+  data_type: string
+- name: QCI
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_DU_ID
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

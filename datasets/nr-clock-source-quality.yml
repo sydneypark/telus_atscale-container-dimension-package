@@ -1,0 +1,87 @@
+unique_name: nr-clock-source-quality
+object_type: dataset
+label: nr-clock-source-quality
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-clock-source-quality-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: GpsFeAvg_ppb
+  data_type: double
+- name: GpsFeCnt_count
+  data_type: double
+- name: GpsFeLower_ppb
+  data_type: double
+- name: GpsFeOverThreshold_count
+  data_type: double
+- name: GpsFeTot_ppb
+  data_type: double
+- name: GpsFeUpper_ppb
+  data_type: double
+- name: GpsTeAvg_ns
+  data_type: double
+- name: GpsTeCnt_count
+  data_type: double
+- name: GpsTeLower_ns
+  data_type: double
+- name: GpsTeOverThreshold_count
+  data_type: double
+- name: GpsTeTot_ns
+  data_type: double
+- name: GpsTeUpper_ns
+  data_type: double
+- name: Ieee1588FeAvg_ppb
+  data_type: double
+- name: Ieee1588FeCnt_count
+  data_type: double
+- name: Ieee1588FeLower_ppb
+  data_type: double
+- name: Ieee1588FeOverThreshold_count
+  data_type: double
+- name: Ieee1588FeTot_ppb
+  data_type: double
+- name: Ieee1588FeUpper_ppb
+  data_type: double
+- name: Ieee1588TeAvg_ns
+  data_type: double
+- name: Ieee1588TeCnt_count
+  data_type: double
+- name: Ieee1588TeLower_ns
+  data_type: double
+- name: Ieee1588TeOverThreshold_count
+  data_type: double
+- name: Ieee1588TeTot_ns
+  data_type: double
+- name: Ieee1588TeUpper_ns
+  data_type: double
+- name: SynceFeAvg_ppb
+  data_type: double
+- name: SynceFeCnt_count
+  data_type: double
+- name: SynceFeLower_ppb
+  data_type: double
+- name: SynceFeOverThreshold_count
+  data_type: double
+- name: SynceFeTot_ppb
+  data_type: double
+- name: SynceFeUpper_ppb
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

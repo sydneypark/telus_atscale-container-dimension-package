@@ -1,0 +1,61 @@
+unique_name: nr-ca-scell-addition-and-release-in-gnb-cu
+object_type: dataset
+label: nr-ca-scell-addition-and-release-in-gnb-cu
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ca-scell-addition-and-release-in-gnb-cu-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: SCellAddAtt_Blind_count
+  data_type: double
+- name: SCellAddAtt_EventA4_count
+  data_type: double
+- name: SCellAddAtt_EventA6_count
+  data_type: double
+- name: SCellAddAtt_Total_count
+  data_type: double
+- name: SCellAddFail_CellNotAvailable_count
+  data_type: double
+- name: SCellAddFail_ControlProcessingOverload_count
+  data_type: double
+- name: SCellAddFail_NoRadioResourcesAvailable_count
+  data_type: double
+- name: SCellAddFail_OMIntervention_count
+  data_type: double
+- name: SCellAddFail_ResourcesNotAvailableForTheSlice_count
+  data_type: double
+- name: SCellAddFail_UeRejection_count
+  data_type: double
+- name: SCellAddFail_UnspecifiedFailure_count
+  data_type: double
+- name: SCellNCI
+  data_type: string
+- name: SCellRel_EventA2_count
+  data_type: double
+- name: SCellRel_EventA6_count
+  data_type: double
+- name: SCellRel_OtherCause_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

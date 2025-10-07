@@ -1,0 +1,45 @@
+unique_name: nr-disk-usage-in-pnf
+object_type: dataset
+label: nr-disk-usage-in-pnf
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-disk-usage-in-pnf-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CpuID
+  data_type: string
+- name: DiskType
+  data_type: string
+- name: DiskUsageAvg_pct
+  data_type: double
+- name: DiskUsageCnt_count
+  data_type: double
+- name: DiskUsageMax_pct
+  data_type: double
+- name: DiskUsageMin_pct
+  data_type: double
+- name: DiskUsageTot_pct
+  data_type: double
+- name: ShelfID
+  data_type: string
+- name: SlotID
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

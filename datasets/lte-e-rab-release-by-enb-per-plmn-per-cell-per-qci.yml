@@ -1,0 +1,57 @@
+unique_name: lte-e-rab-release-by-enb-per-plmn-per-cell-per-qci
+object_type: dataset
+label: lte-e-rab-release-by-enb-per-plmn-per-cell-per-qci
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-e-rab-release-by-enb-per-plmn-per-cell-per-qci-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PLMN
+  data_type: string
+- name: QCI
+  data_type: string
+- name: RelAbnormalbyEnbActPlmnQci_RadioLinkFail_count
+  data_type: double
+- name: RelAbnormalbyEnbActPlmnQci_S1LinkFail_count
+  data_type: double
+- name: RelAbnormalbyEnbActPlmnQci_S1Reset_count
+  data_type: double
+- name: RelAbnormalbyEnbActPlmnQci_TimeOut_count
+  data_type: double
+- name: RelAbnormalbyEnbActPlmnQci_count
+  data_type: double
+- name: RelAbnormalbyEnbPlmnQci_count
+  data_type: double
+- name: RelNormalbyEnbActPlmnQci_Unspecified_count
+  data_type: double
+- name: RelNormalbyEnbActPlmnQci_count
+  data_type: double
+- name: RelNormalbyEnbPlmnQci_Pre_count
+  data_type: double
+- name: RelNormalbyEnbPlmnQci_UserInactivity_count
+  data_type: double
+- name: RelNormalbyEnbPlmnQci_count
+  data_type: double
+- name: RelbyEnbPlmnQci_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

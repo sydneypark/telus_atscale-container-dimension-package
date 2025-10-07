@@ -1,0 +1,53 @@
+unique_name: lte-ca-activation-information-per-cc-type
+object_type: dataset
+label: lte-ca-activation-information-per-cc-type
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-ca-activation-information-per-cc-type-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: SCellActivatedTime_2CC_ms
+  data_type: double
+- name: SCellActivatedTime_3CC_ms
+  data_type: double
+- name: SCellActivatedTime_4CC_ms
+  data_type: double
+- name: SCellActivatedTime_5CC_ms
+  data_type: double
+- name: SCellActivatedTime_6CC_ms
+  data_type: double
+- name: SCellActivatedTime_7CC_ms
+  data_type: double
+- name: SCellActivation_2CC_count
+  data_type: double
+- name: SCellActivation_3CC_count
+  data_type: double
+- name: SCellActivation_4CC_count
+  data_type: double
+- name: SCellActivation_5CC_count
+  data_type: double
+- name: SCellActivation_6CC_count
+  data_type: double
+- name: SCellActivation_7CC_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

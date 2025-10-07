@@ -1,0 +1,79 @@
+unique_name: lte-dl-ri
+object_type: dataset
+label: lte-dl-ri
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-dl-ri-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DLReceivedRI0_count
+  data_type: double
+- name: DLReceivedRI1_count
+  data_type: double
+- name: DLReceivedRI2_count
+  data_type: double
+- name: DLReceivedRI3_count
+  data_type: double
+- name: DLReceivedRI4_count
+  data_type: double
+- name: DLReceivedRIAvg_RI
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: LTE_RI_MEAN_DEN__67
+  data_type: double
+  sql: DLReceivedRI1_count+`DLReceivedRI2_count`+`DLReceivedRI3_count`+`DLReceivedRI4_count`
+- name: LTE_RI_MEAN_NUM__67
+  data_type: double
+  sql: DLReceivedRI1_count*1+`DLReceivedRI2_count`*2+`DLReceivedRI3_count`*3+`DLReceivedRI4_count`*4
+- name: L_DL_MCS_SE_RI_A__67
+  data_type: double
+  sql: DLReceivedRI1_count
+- name: L_DL_MCS_SE_RI_B__67
+  data_type: double
+  sql: DLReceivedRI2_count
+- name: L_DL_MCS_SE_RI_C__67
+  data_type: double
+  sql: DLReceivedRI3_count
+- name: L_DL_MCS_SE_RI_D__67
+  data_type: double
+  sql: DLReceivedRI4_count
+- name: L_DL_MCS_SE_RI_E__67
+  data_type: double
+  sql: DLReceivedRI1_count+`DLReceivedRI2_count`+`DLReceivedRI3_count`+`DLReceivedRI4_count`
+- name: RANK1_NUM__67
+  data_type: double
+  sql: DLReceivedRI1_count
+- name: RANK2_NUM__67
+  data_type: double
+  sql: DLReceivedRI2_count
+- name: RANK3_NUM__67
+  data_type: double
+  sql: DLReceivedRI3_count
+- name: RANK4_NUM__67
+  data_type: double
+  sql: DLReceivedRI4_count
+- name: TOTAL_RANK_DEN__67
+  data_type: double
+  sql: DLReceivedRI1_count+`DLReceivedRI2_count`+`DLReceivedRI3_count`+`DLReceivedRI4_count`

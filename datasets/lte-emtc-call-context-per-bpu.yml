@@ -1,0 +1,37 @@
+unique_name: lte-emtc-call-context-per-bpu
+object_type: dataset
+label: lte-emtc-call-context-per-bpu
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-call-context-per-bpu-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BPU_ID
+  data_type: string
+- name: eMTC_BpuCallContextCntAvg_count
+  data_type: double
+- name: eMTC_BpuCallContextCntCnt_count
+  data_type: double
+- name: eMTC_BpuCallContextCntMax_count
+  data_type: double
+- name: eMTC_BpuCallContextCntTot_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

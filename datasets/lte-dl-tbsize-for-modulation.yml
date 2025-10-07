@@ -1,0 +1,47 @@
+unique_name: lte-dl-tbsize-for-modulation
+object_type: dataset
+label: lte-dl-tbsize-for-modulation
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-dl-tbsize-for-modulation-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DLTBSizeModulationOrder2_Kbytes
+  data_type: double
+- name: DLTBSizeModulationOrder4_Kbytes
+  data_type: double
+- name: DLTBSizeModulationOrder6_Kbytes
+  data_type: double
+- name: DLTBSizeModulationOrder8_Kbytes
+  data_type: double
+- name: DLTimeModulationOrder2_count
+  data_type: double
+- name: DLTimeModulationOrder4_count
+  data_type: double
+- name: DLTimeModulationOrder6_count
+  data_type: double
+- name: DLTimeModulationOrder8_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

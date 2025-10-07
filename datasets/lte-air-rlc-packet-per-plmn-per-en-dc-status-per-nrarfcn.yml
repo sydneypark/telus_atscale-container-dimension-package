@@ -1,0 +1,57 @@
+unique_name: lte-air-rlc-packet-per-plmn-per-en-dc-status-per-nrarfcn
+object_type: dataset
+label: lte-air-rlc-packet-per-plmn-per-en-dc-status-per-nrarfcn
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-air-rlc-packet-per-plmn-per-en-dc-status-per-nrarfcn-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AirRlcBytesPlmnEndcStatus_NrArfcnCid_TargetNRArfcnDl
+  data_type: double
+- name: AirRlcBytesPlmnEndcStatus_NrArfcnCnt_count
+  data_type: double
+- name: AirRlcPduDLByteRe_NrArfcn_Kbytes
+  data_type: double
+- name: AirRlcPduDLByte_NrArfcn_Kbytes
+  data_type: double
+- name: AirRlcPduULByte_NrArfcn_Kbytes
+  data_type: double
+- name: ENDC_STATUS
+  data_type: string
+- name: IpThruDLTime_NrArfcn_ms
+  data_type: double
+- name: IpThruDL_NrArfcn_Kbps
+  data_type: double
+- name: IpThruLastTtiVoDLByte_NrArfcn_Kbytes
+  data_type: double
+- name: IpThruThpUnresVoDLByte_NrArfcn_Kbytes
+  data_type: double
+- name: IpThruVoDLByte_NrArfcn_Kbytes
+  data_type: double
+- name: PLMN
+  data_type: string
+- name: SUPPORT_QCI_OD
+  data_type: string
+- name: TargetNRArfcnDl
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,81 @@
+unique_name: lte-en-dc-addition-information
+object_type: dataset
+label: lte-en-dc-addition-information
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-en-dc-addition-information-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: EnDc_AddAtt_VolteConf_count
+  data_type: double
+- name: EnDc_AddAtt_VolteConf_imd_count
+  data_type: double
+- name: EnDc_AddAtt_count
+  data_type: double
+- name: EnDc_AddFail_InternalFail_count
+  data_type: double
+- name: EnDc_AddFail_LteBest_count
+  data_type: double
+- name: EnDc_AddFail_RrcReconfigTO_count
+  data_type: double
+- name: EnDc_AddFail_Rre_count
+  data_type: double
+- name: EnDc_AddFail_UeCtxtReleas_count
+  data_type: double
+- name: EnDc_AddFail_VolteConf_count
+  data_type: double
+- name: EnDc_AddFail_VolteConf_imd_count
+  data_type: double
+- name: EnDc_AddFail_count
+  data_type: double
+- name: EnDc_AddPrepFail_CACBackOff_count
+  data_type: double
+- name: EnDc_AddPrepFail_DcPreTO_count
+  data_type: double
+- name: EnDc_AddPrepFail_Reject_count
+  data_type: double
+- name: EnDc_AddPrepFail_count
+  data_type: double
+- name: EnDc_AddPrepSucc_count
+  data_type: double
+- name: EnDc_AddSucc_VolteConf_count
+  data_type: double
+- name: EnDc_AddSucc_VolteConf_imd_count
+  data_type: double
+- name: EnDc_AddSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gNbId
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NSA_LTE_AFR_DEN__716
+  data_type: double
+  sql: if(`sw_version`='22.B.0',`EnDc_AddAtt_count`,NULL)
+- name: NSA_LTE_AFR_NUM__716
+  data_type: double
+  sql: if(`sw_version`='22.B.0',`EnDc_AddAtt_count`-`EnDc_AddSucc_count`,NULL)
+- name: NSA_LTE_SGNB_ADD_ATT__716
+  data_type: double
+  sql: EnDc_AddAtt_count
+- name: NSA_LTE_SGNB_ADD_FAIL__716
+  data_type: double
+  sql: EnDc_AddAtt_count-`EnDc_AddSucc_count`

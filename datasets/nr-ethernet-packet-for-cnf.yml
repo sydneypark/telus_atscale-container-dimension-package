@@ -1,0 +1,59 @@
+unique_name: nr-ethernet-packet-for-cnf
+object_type: dataset
+label: nr-ethernet-packet-for-cnf
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ethernet-packet-for-cnf-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: InErrorRate_Container_pct
+  data_type: double
+- name: InErrors_Container_count
+  data_type: double
+- name: InOctets_Container_Mbytes
+  data_type: double
+- name: InPkts_Container_count
+  data_type: double
+- name: InThruPeakCnt_Container_count
+  data_type: double
+- name: InThruPeak_Container_Mbps
+  data_type: double
+- name: OutErrorRate_Container_pct
+  data_type: double
+- name: OutErrors_Container_count
+  data_type: double
+- name: OutOctets_Container_Mbytes
+  data_type: double
+- name: OutPkts_Container_count
+  data_type: double
+- name: OutThruPeakCnt_Container_count
+  data_type: double
+- name: OutThruPeak_Container_Mbps
+  data_type: double
+- name: POD_ID
+  data_type: string
+- name: POD_PortID
+  data_type: string
+- name: POD_PortType
+  data_type: string
+- name: POD_Type
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

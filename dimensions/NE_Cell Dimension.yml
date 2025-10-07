@@ -1,0 +1,245 @@
+unique_name: NE_Cell Dimension
+object_type: dimension
+label: NE_Cell Dimension
+type: standard
+
+hierarchies:
+
+  - unique_name: NE_Cell Hierarchy
+    label: NE_Cell Hierarchy
+    filter_empty: "yes"
+
+    levels:
+
+      - unique_name: NE_Cell Level
+        is_hidden: true
+
+        secondary_attributes:
+
+          - unique_name: ACPF
+            label: ACPF
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - ACPF
+            name_column: ACPF
+
+          - unique_name: AUPF
+            label: AUPF
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - AUPF
+            name_column: AUPF
+
+          - unique_name: BandID
+            label: BandID
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - BandID
+            name_column: BandID
+
+          - unique_name: BandType
+            label: BandType
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - BandType
+            name_column: BandType
+
+          - unique_name: CellName
+            label: CellName
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - CellName
+            name_column: CellName
+
+          - unique_name: Coverage_SiteID
+            label: Coverage_SiteID
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - Coverage_SiteID
+            name_column: Coverage_SiteID
+
+          - unique_name: DU_ID
+            label: DU_ID
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - DU_ID
+            name_column: DU_ID
+
+          - unique_name: FreqBand
+            label: FreqBand
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - FreqBand
+            name_column: FreqBand
+
+          - unique_name: gNB_ID
+            label: gNB_ID
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - gNB_ID
+            name_column: gNB_ID
+
+          - unique_name: Host_SiteID
+            label: Host_SiteID
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - Host_SiteID
+            name_column: Host_SiteID
+
+          - unique_name: National
+            label: National
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - National
+            name_column: National
+
+          - unique_name: NEID
+            label: NEID
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - NEID
+            name_column: NEID
+
+          - unique_name: NodeName
+            label: NodeName
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - NodeName
+            name_column: NodeName
+
+          - unique_name: OAK
+            label: OAK
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - OAK
+            name_column: OAK
+
+          - unique_name: PerformanceRegion
+            label: PerformanceRegion
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - PerformanceRegion
+            name_column: PerformanceRegion
+
+          - unique_name: prov
+            label: prov
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - prov
+            name_column: prov
+
+          - unique_name: RAT
+            label: RAT
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - RAT
+            name_column: RAT
+
+          - unique_name: RNC
+            label: RNC
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - RNC
+            name_column: RNC
+
+          - unique_name: Scenario
+            label: Scenario
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - Scenario
+            name_column: Scenario
+
+          - unique_name: SiteLatitude
+            label: SiteLatitude
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - SiteLatitude
+            name_column: SiteLatitude
+
+          - unique_name: SiteLongitude
+            label: SiteLongitude
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - SiteLongitude
+            name_column: SiteLongitude
+
+          - unique_name: TAC
+            label: TAC
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - TAC
+            name_column: TAC
+
+          - unique_name: Vendor
+            label: Vendor
+            associated_hierarchy: NE_Cell Hierarchy
+            dataset: NE_Cell_HW_SS.dataset
+            key_columns:
+              - Vendor
+            name_column: Vendor
+
+  - unique_name: Market Hierarchy
+    label: Market Hierarchy
+    filter_empty: "yes"
+    levels:
+      - unique_name: PerformanceMarket
+
+      - unique_name: NE_Cell Level
+        is_hidden: true
+
+
+level_attributes:
+
+  - unique_name: NE_Cell Level
+    label: NE_Cell Level
+    is_unique_key: true
+    dataset: NE_Cell_HW_SS.dataset
+    key_columns:
+      - key
+    name_column: CellName
+
+  - unique_name: PerformanceMarket
+    label: PerformanceMarket
+    dataset: NE_Cell_HW_SS.dataset
+    key_columns:
+      - PerformanceMarket
+    name_column: PerformanceMarket
+
+relationships:
+  - unique_name: NE_Cell_HW_SS.dataset_Sector_to_SectorMap_Sector
+    from:
+      dataset: NE_Cell_HW_SS.dataset
+      hierarchy: NE_Cell Hierarchy
+      join_columns:
+        - Sector
+      level: NE_Cell Level
+    to:
+      dimension: SectorMap
+      level: Sector
+    type: embedded
+
+modeler_metadata:
+  version: "0"
+  modified: "false"

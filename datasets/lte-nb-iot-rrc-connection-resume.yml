@@ -1,0 +1,75 @@
+unique_name: lte-nb-iot-rrc-connection-resume
+object_type: dataset
+label: lte-nb-iot-rrc-connection-resume
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-rrc-connection-resume-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NBIoT_ConnResumeAtt_count
+  data_type: double
+- name: NBIoT_ConnResumeFail_CpCcFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFail_CpCcTo_count
+  data_type: double
+- name: NBIoT_ConnResumeFail_RrcSigTo_count
+  data_type: double
+- name: NBIoT_ConnResumeFail_S1apLinkFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFail_S1apSigFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFail_UpGtpFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFail_UpMacFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFail_UpPdcpFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFail_UpRlcFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFallbackFail_CpCcFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFallbackFail_CpCcTo_count
+  data_type: double
+- name: NBIoT_ConnResumeFallbackFail_RrcSigTo_count
+  data_type: double
+- name: NBIoT_ConnResumeFallbackFail_S1apLinkFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFallbackFail_S1apSigFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFallbackFail_UpMacFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFallbackFail_UpPdcpFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFallbackFail_UpRlcFail_count
+  data_type: double
+- name: NBIoT_ConnResumeFallbackSucc_count
+  data_type: double
+- name: NBIoT_ConnResumeReject_CpCapaCacFail_count
+  data_type: double
+- name: NBIoT_ConnResumeReject_CpCcFail_count
+  data_type: double
+- name: NBIoT_ConnResumeSucc_count
+  data_type: double
+- name: NBIoT_ResumeCause
+  data_type: string
+- name: NBIoT_cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,53 @@
+unique_name: nr-rlc-packet-per-5qi
+object_type: dataset
+label: nr-rlc-packet-per-5qi
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-rlc-packet-per-5qi-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: RlcAmRetxRate_pct
+  data_type: double
+- name: RlcDLByteCnt_count
+  data_type: double
+- name: RlcDLByteRe_Kbytes
+  data_type: double
+- name: RlcDLByte_Kbytes
+  data_type: double
+- name: RlcDLPktCnt_count
+  data_type: double
+- name: RlcDLRePktCnt_count
+  data_type: double
+- name: RlcDLThru_Kbps
+  data_type: double
+- name: RlcULByteCnt_count
+  data_type: double
+- name: RlcULByte_Kbytes
+  data_type: double
+- name: RlcULPktCnt_count
+  data_type: double
+- name: RlcULThru_Kbps
+  data_type: double
+- name: _5QI
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

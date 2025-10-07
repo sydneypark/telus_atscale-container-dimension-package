@@ -1,0 +1,41 @@
+unique_name: lte-histogram
+object_type: dataset
+label: lte-histogram
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-histogram-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PortNum
+  data_type: string
+- name: RxHistogram1023_count
+  data_type: double
+- name: RxHistogram127_count
+  data_type: double
+- name: RxHistogram255_count
+  data_type: double
+- name: RxHistogram511_count
+  data_type: double
+- name: RxHistogram64_count
+  data_type: double
+- name: RxHistogramMax_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

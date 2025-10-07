@@ -1,0 +1,59 @@
+unique_name: lte-ue-associated-logical-s1-connection-establishment
+object_type: dataset
+label: lte-ue-associated-logical-s1-connection-establishment
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-ue-associated-logical-s1-connection-establishment-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: EstabCause
+  data_type: string
+- name: S1ConnEstabAtt_count
+  data_type: double
+- name: S1ConnEstabFail_CpCcFail_count
+  data_type: double
+- name: S1ConnEstabFail_S1apCuFail_count
+  data_type: double
+- name: S1ConnEstabFail_S1apLinkFail_count
+  data_type: double
+- name: S1ConnEstabFail_S1apSigFail_count
+  data_type: double
+- name: S1ConnEstabFail_S1apSigTo_count
+  data_type: double
+- name: S1ConnEstabSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: LTE_S1SIG_ATT_SLO__27
+  data_type: double
+  sql: S1ConnEstabAtt_count
+- name: LTE_S1SIG_SUCC_SLO__27
+  data_type: double
+  sql: S1ConnEstabSucc_count
+- name: S1_CONN_ESTAB_ATT__27
+  data_type: double
+  sql: S1ConnEstabAtt_count
+- name: S1_CONN_ESTAB_SUCC__27
+  data_type: double
+  sql: S1ConnEstabSucc_count

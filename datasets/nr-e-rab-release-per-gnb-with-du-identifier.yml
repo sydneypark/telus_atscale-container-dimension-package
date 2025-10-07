@@ -1,0 +1,83 @@
+unique_name: nr-e-rab-release-per-gnb-with-du-identifier
+object_type: dataset
+label: nr-e-rab-release-per-gnb-with-du-identifier
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-e-rab-release-per-gnb-with-du-identifier-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BearerType
+  data_type: string
+- name: CellIdentity
+  data_type: string
+- name: ErabRel_BeamFailureRecoveryFailure_count
+  data_type: double
+- name: ErabRel_DL_randomAccessProblem_AfterInitialAccess_count
+  data_type: double
+- name: ErabRel_DL_randomAccessProblem_count
+  data_type: double
+- name: ErabRel_DL_rlcMaxNumRetx_count
+  data_type: double
+- name: ErabRel_DL_scgReconfFailure_count
+  data_type: double
+- name: ErabRel_DL_srb3IntegrityFailure_count
+  data_type: double
+- name: ErabRel_DL_syncReconfFailure_count
+  data_type: double
+- name: ErabRel_DL_t310Expiry_count
+  data_type: double
+- name: ErabRel_MrBasedSuspendResume_count
+  data_type: double
+- name: ErabRel_OtherR16FailCauses_count
+  data_type: double
+- name: ErabRel_SwitchOffOngoing_count
+  data_type: double
+- name: ErabRel_T312Expiry_count
+  data_type: double
+- name: ErabRel_UL_outOfSync_count
+  data_type: double
+- name: ErabRel_UL_rlcMaxNumRetx_count
+  data_type: double
+- name: ErabRel_UL_srb3IntegrityFailure_count
+  data_type: double
+- name: ErabRel_count
+  data_type: double
+- name: ErabRel_radioConnectionWithUeLost_count
+  data_type: double
+- name: QCI
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_DU_ID
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NSA_NR_DCR_DATA_DEN__5880
+  data_type: double
+  sql: ErabRel_count + `ErabRel_DL_randomAccessProblem_count`+`ErabRel_DL_rlcMaxNumRetx_count`+`ErabRel_DL_scgReconfFailure_count`+`ErabRel_DL_srb3IntegrityFailure_count`+`ErabRel_DL_syncReconfFailure_count`+`ErabRel_DL_t310Expiry_count`+`ErabRel_UL_outOfSync_count`+`ErabRel_UL_rlcMaxNumRetx_count`+`ErabRel_UL_srb3IntegrityFailure_count`
+- name: NSA_NR_DCR_DATA_NUM__5880
+  data_type: double
+  sql: ErabRel_DL_randomAccessProblem_count+`ErabRel_DL_rlcMaxNumRetx_count`+`ErabRel_DL_scgReconfFailure_count`+`ErabRel_DL_srb3IntegrityFailure_count`+`ErabRel_DL_syncReconfFailure_count`+`ErabRel_DL_t310Expiry_count`+`ErabRel_UL_outOfSync_count`+`ErabRel_UL_rlcMaxNumRetx_count`+`ErabRel_UL_srb3IntegrityFailure_count`
+- name: NSA_NR_DRB_DROPS__5880
+  data_type: double
+  sql: ErabRel_DL_randomAccessProblem_count+`ErabRel_DL_rlcMaxNumRetx_count`+`ErabRel_DL_scgReconfFailure_count`+`ErabRel_DL_srb3IntegrityFailure_count`+`ErabRel_DL_syncReconfFailure_count`+`ErabRel_DL_t310Expiry_count`+`ErabRel_UL_outOfSync_count`+`ErabRel_UL_rlcMaxNumRetx_count`+`ErabRel_UL_srb3IntegrityFailure_count`
+- name: NSA_NR_DRB_REL__5880
+  data_type: double
+  sql: ErabRel_count

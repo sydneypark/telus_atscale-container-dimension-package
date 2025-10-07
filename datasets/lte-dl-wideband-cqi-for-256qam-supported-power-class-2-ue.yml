@@ -1,0 +1,75 @@
+unique_name: lte-dl-wideband-cqi-for-256qam-supported-power-class-2-ue
+object_type: dataset
+label: lte-dl-wideband-cqi-for-256qam-supported-power-class-2-ue
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-dl-wideband-cqi-for-256qam-supported-power-class-2-ue-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CQIErase_256QAM_PC2_count
+  data_type: double
+- name: DLLayer
+  data_type: string
+- name: DLReceivedCQI0_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI10_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI11_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI12_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI13_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI14_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI15_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI1_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI2_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI3_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI4_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI5_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI6_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI7_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI8_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQI9_256QAM_PC2_count
+  data_type: double
+- name: DLReceivedCQIAvg_256QAM_PC2_CQI
+  data_type: double
+- name: DLReceivedCQIMax_256QAM_PC2_CQI
+  data_type: double
+- name: DLReceivedCQIMin_256QAM_PC2_CQI
+  data_type: double
+- name: cNum
+  data_type: string
+- name: codeword
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

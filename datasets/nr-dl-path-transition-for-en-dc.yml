@@ -1,0 +1,65 @@
+unique_name: nr-dl-path-transition-for-en-dc
+object_type: dataset
+label: nr-dl-path-transition-for-en-dc
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-dl-path-transition-for-en-dc-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: McgToScgCongestionDetectionFromMcg_count
+  data_type: double
+- name: McgToSplitAggregationGain_count
+  data_type: double
+- name: McgToSplitCongestionClear_count
+  data_type: double
+- name: McgToSplitDlVolume_count
+  data_type: double
+- name: QCI
+  data_type: string
+- name: ScgToMcgCongestionDetectionFromScg_count
+  data_type: double
+- name: ScgToSplitAggregationGain_count
+  data_type: double
+- name: ScgToSplitCongestionClear_count
+  data_type: double
+- name: ScgToSplitDlVolume_count
+  data_type: double
+- name: SplitToMcgAggregationGain_count
+  data_type: double
+- name: SplitToMcgCongestionDetectionFromMcg_count
+  data_type: double
+- name: SplitToMcgCongestionDetectionFromScg_count
+  data_type: double
+- name: SplitToMcgDlVolume_count
+  data_type: double
+- name: SplitToScgAggregationGain_count
+  data_type: double
+- name: SplitToScgCongestionDetectionFromMcg_count
+  data_type: double
+- name: SplitToScgCongestionDetectionFromScg_count
+  data_type: double
+- name: SplitToScgDlVolume_count
+  data_type: double
+- name: UPC_ID
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

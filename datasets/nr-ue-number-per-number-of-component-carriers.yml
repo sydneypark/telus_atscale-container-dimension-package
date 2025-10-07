@@ -1,0 +1,77 @@
+unique_name: nr-ue-number-per-number-of-component-carriers
+object_type: dataset
+label: nr-ue-number-per-number-of-component-carriers
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ue-number-per-number-of-component-carriers-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CaUeNum_perCC1Avg_count
+  data_type: double
+- name: CaUeNum_perCC1Cnt_count
+  data_type: double
+- name: CaUeNum_perCC1Tot_count
+  data_type: double
+- name: CaUeNum_perCC2Avg_count
+  data_type: double
+- name: CaUeNum_perCC2Cnt_count
+  data_type: double
+- name: CaUeNum_perCC2Tot_count
+  data_type: double
+- name: CaUeNum_perCC3Avg_count
+  data_type: double
+- name: CaUeNum_perCC3Cnt_count
+  data_type: double
+- name: CaUeNum_perCC3Tot_count
+  data_type: double
+- name: CaUeNum_perCC4Avg_count
+  data_type: double
+- name: CaUeNum_perCC4Cnt_count
+  data_type: double
+- name: CaUeNum_perCC4Tot_count
+  data_type: double
+- name: CaUeNum_perCC5Avg_count
+  data_type: double
+- name: CaUeNum_perCC5Cnt_count
+  data_type: double
+- name: CaUeNum_perCC5Tot_count
+  data_type: double
+- name: CaUeNum_perCC6Avg_count
+  data_type: double
+- name: CaUeNum_perCC6Cnt_count
+  data_type: double
+- name: CaUeNum_perCC6Tot_count
+  data_type: double
+- name: CaUeNum_perCC7Avg_count
+  data_type: double
+- name: CaUeNum_perCC7Cnt_count
+  data_type: double
+- name: CaUeNum_perCC7Tot_count
+  data_type: double
+- name: CaUeNum_perCC8Avg_count
+  data_type: double
+- name: CaUeNum_perCC8Cnt_count
+  data_type: double
+- name: CaUeNum_perCC8Tot_count
+  data_type: double
+- name: CellIdentity
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

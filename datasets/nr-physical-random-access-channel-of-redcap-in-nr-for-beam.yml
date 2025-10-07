@@ -1,0 +1,51 @@
+unique_name: nr-physical-random-access-channel-of-redcap-in-nr-for-beam
+object_type: dataset
+label: nr-physical-random-access-channel-of-redcap-in-nr-for-beam
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-physical-random-access-channel-of-redcap-in-nr-for-beam-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: LogicalBeamID
+  data_type: string
+- name: NumRedCapConnectedMSG3IndCBRAPerBeam_count
+  data_type: double
+- name: NumRedCapIndCBRAPerBeam_count
+  data_type: double
+- name: NumRedCapMSG1IndCBRAPerBeam_count
+  data_type: double
+- name: NumRedCapMSG1IndCFRAPerBeam_count
+  data_type: double
+- name: NumRedCapMSG2IndCBRAPerBeam_count
+  data_type: double
+- name: NumRedCapMSG2IndCFRAPerBeam_count
+  data_type: double
+- name: NumRedCapMSG3IndCFRAPerBeam_count
+  data_type: double
+- name: NumRedCapMSG5IndCBRAPerBeam_count
+  data_type: double
+- name: NumRedCapSrGrantPuschCBRAPerBeam_count
+  data_type: double
+- name: NumRedCapSrGrantPuschCFRAPerBeam_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

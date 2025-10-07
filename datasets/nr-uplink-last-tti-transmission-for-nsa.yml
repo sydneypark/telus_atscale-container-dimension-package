@@ -1,0 +1,35 @@
+unique_name: nr-uplink-last-tti-transmission-for-nsa
+object_type: dataset
+label: nr-uplink-last-tti-transmission-for-nsa
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-uplink-last-tti-transmission-for-nsa-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: LCG
+  data_type: string
+- name: ULLastTimeNsa_slots
+  data_type: double
+- name: ULLastVolNsa_Kbytes
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

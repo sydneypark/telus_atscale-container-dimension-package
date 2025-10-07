@@ -1,0 +1,51 @@
+unique_name: lte-nb-iot-rrc-connection-number-per-plmn
+object_type: dataset
+label: lte-nb-iot-rrc-connection-number-per-plmn
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-rrc-connection-number-per-plmn-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NBIoT_PLMNConnNoAvg_count
+  data_type: double
+- name: NBIoT_PLMNConnNoCnt_count
+  data_type: double
+- name: NBIoT_PLMNConnNoMax_count
+  data_type: double
+- name: NBIoT_PLMNConnNoTot_count
+  data_type: double
+- name: NBIoT_cNum
+  data_type: string
+- name: PLMN
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NBIOT_AVERAGE_RRC_CONNECTED_BELL_DEN__565
+  data_type: double
+  sql: if(`PLMN`="302610",`NBIoT_PLMNConnNoCnt_count`,NULL)
+- name: NBIOT_AVERAGE_RRC_CONNECTED_BELL_NUM__565
+  data_type: double
+  sql: if(`PLMN`="302610",`NBIoT_PLMNConnNoTot_count`,NULL)
+- name: NBIOT_AVERAGE_RRC_CONNECTED_TELUS_DEN__565
+  data_type: double
+  sql: if(`PLMN`="302220",`NBIoT_PLMNConnNoCnt_count`,NULL)
+- name: NBIOT_AVERAGE_RRC_CONNECTED_TELUS_NUM__565
+  data_type: double
+  sql: if(`PLMN`="302220",`NBIoT_PLMNConnNoTot_count`,NULL)

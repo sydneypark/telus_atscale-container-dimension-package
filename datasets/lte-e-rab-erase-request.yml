@@ -1,0 +1,63 @@
+unique_name: lte-e-rab-erase-request
+object_type: dataset
+label: lte-e-rab-erase-request
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-e-rab-erase-request-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: EraseAttbyEnb_CpCcFail_count
+  data_type: double
+- name: EraseAttbyEnb_CpCcTo_count
+  data_type: double
+- name: EraseAttbyEnb_CpPreemption_count
+  data_type: double
+- name: EraseAttbyEnb_RrcHcTo_count
+  data_type: double
+- name: EraseAttbyEnb_RrcSigFail_count
+  data_type: double
+- name: EraseAttbyEnb_RrcSigTo_count
+  data_type: double
+- name: EraseAttbyEnb_S1apCuFail_count
+  data_type: double
+- name: EraseAttbyEnb_S1apRoTo_count
+  data_type: double
+- name: EraseAttbyEnb_S1apSigTo_count
+  data_type: double
+- name: EraseAttbyEnb_UpGtpFail_count
+  data_type: double
+- name: EraseAttbyEnb_UpMacFail_count
+  data_type: double
+- name: EraseAttbyEnb_UpMacUEInact_count
+  data_type: double
+- name: EraseAttbyEnb_UpPdcpFail_count
+  data_type: double
+- name: EraseAttbyEnb_UpRlcFail_count
+  data_type: double
+- name: EraseAttbyEnb_X2apRoTo_count
+  data_type: double
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

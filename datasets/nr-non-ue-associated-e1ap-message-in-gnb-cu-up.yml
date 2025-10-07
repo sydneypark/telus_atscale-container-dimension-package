@@ -1,0 +1,67 @@
+unique_name: nr-non-ue-associated-e1ap-message-in-gnb-cu-up
+object_type: dataset
+label: nr-non-ue-associated-e1ap-message-in-gnb-cu-up
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-non-ue-associated-e1ap-message-in-gnb-cu-up-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_E1apCpConfigUpdate_count
+  data_type: double
+- name: Rx_E1apCpErrorInd_count
+  data_type: double
+- name: Rx_E1apCpReset_count
+  data_type: double
+- name: Rx_E1apCpSetupRequest_count
+  data_type: double
+- name: Rx_E1apUpConfigUpdateAck_count
+  data_type: double
+- name: Rx_E1apUpConfigUpdateFailure_count
+  data_type: double
+- name: Rx_E1apUpResetAck_count
+  data_type: double
+- name: Rx_E1apUpSetupFailure_count
+  data_type: double
+- name: Rx_E1apUpSetupResponse_count
+  data_type: double
+- name: Tx_E1ApUpStatusIndication_count
+  data_type: double
+- name: Tx_E1apCpConfigUpdateAck_count
+  data_type: double
+- name: Tx_E1apCpConfigUpdateFailure_count
+  data_type: double
+- name: Tx_E1apCpResetAck_count
+  data_type: double
+- name: Tx_E1apCpSetupFailure_count
+  data_type: double
+- name: Tx_E1apCpSetupResponse_count
+  data_type: double
+- name: Tx_E1apUpConfigUpdate_count
+  data_type: double
+- name: Tx_E1apUpErrorInd_count
+  data_type: double
+- name: Tx_E1apUpReset_count
+  data_type: double
+- name: Tx_E1apUpSetupRequest_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

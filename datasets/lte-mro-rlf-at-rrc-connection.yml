@@ -1,0 +1,61 @@
+unique_name: lte-mro-rlf-at-rrc-connection
+object_type: dataset
+label: lte-mro-rlf-at-rrc-connection
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-mro-rlf-at-rrc-connection-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CoverageHoleAtSetupN_count
+  data_type: double
+- name: CoverageHoleAtSetup_count
+  data_type: double
+- name: HoToWrongCellRlfAfterHOAtSetup_count
+  data_type: double
+- name: HoToWrongCellRlfAfterHOInterFreqAtSetup_count
+  data_type: double
+- name: HoToWrongCellRlfAfterTriggeringAtSetup_count
+  data_type: double
+- name: HotoWrongCellRlfAfterTriggeringInterFreqAtSetup_count
+  data_type: double
+- name: HwcReestablishRlfAfterHOAtSetup_count
+  data_type: double
+- name: HwcReestablishRlfAfterHOInterFreqAtSetup_count
+  data_type: double
+- name: HwcReestablishRlfAfterTriggeringAtSetup_count
+  data_type: double
+- name: HwcReestablishRlfAfterTriggeringInterFreqAtSetup_count
+  data_type: double
+- name: MroRrcConnCid_NeighborCell_ID
+  data_type: double
+- name: MroRrcConnCnt_count
+  data_type: double
+- name: NeighborCell
+  data_type: string
+- name: TooEarlyHoFailureAtSetup_count
+  data_type: double
+- name: TooEarlyHoRlfAfterHOAtSetup_count
+  data_type: double
+- name: TooLateHoRlfBeforeTriggeringAtSetup_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

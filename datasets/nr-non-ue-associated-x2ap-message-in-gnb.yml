@@ -1,0 +1,75 @@
+unique_name: nr-non-ue-associated-x2ap-message-in-gnb
+object_type: dataset
+label: nr-non-ue-associated-x2ap-message-in-gnb
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-non-ue-associated-x2ap-message-in-gnb-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_ENDCX2apConfigurationUpdateAcknowledge_count
+  data_type: double
+- name: Rx_ENDCX2apConfigurationUpdateFailure_count
+  data_type: double
+- name: Rx_ENDCX2apConfigurationUpdate_count
+  data_type: double
+- name: Rx_ENDCX2apSetupFailure_count
+  data_type: double
+- name: Rx_ENDCX2apSetupRequest_count
+  data_type: double
+- name: Rx_ENDCX2apSetupResponse_count
+  data_type: double
+- name: Rx_PartialResetConfirm_count
+  data_type: double
+- name: Rx_PartialResetRequired_count
+  data_type: double
+- name: Rx_X2apErrorIndication_count
+  data_type: double
+- name: Rx_X2apResetRequest_count
+  data_type: double
+- name: Rx_X2apResetResponse_count
+  data_type: double
+- name: Tx_ENDCX2apConfigurationUpdateAcknowledge_count
+  data_type: double
+- name: Tx_ENDCX2apConfigurationUpdateFailure_count
+  data_type: double
+- name: Tx_ENDCX2apConfigurationUpdate_count
+  data_type: double
+- name: Tx_ENDCX2apSetupFailure_count
+  data_type: double
+- name: Tx_ENDCX2apSetupRequest_count
+  data_type: double
+- name: Tx_ENDCX2apSetupResponse_count
+  data_type: double
+- name: Tx_PartialResetConfirm_count
+  data_type: double
+- name: Tx_PartialResetRequired_count
+  data_type: double
+- name: Tx_X2apErrorIndication_count
+  data_type: double
+- name: Tx_X2apGnbStatusIndication_count
+  data_type: double
+- name: Tx_X2apResetRequest_count
+  data_type: double
+- name: Tx_X2apResetResponse_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

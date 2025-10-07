@@ -1,0 +1,49 @@
+unique_name: nr-rrc-inactive-state-information-with-du-identifier
+object_type: dataset
+label: nr-rrc-inactive-state-information-with-du-identifier
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-rrc-inactive-state-information-with-du-identifier-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: ResumeCause
+  data_type: string
+- name: RrcInact_RrcReject_count
+  data_type: double
+- name: RrcInact_RrcReleaseSuspend_count
+  data_type: double
+- name: RrcInact_RrcRelease_count
+  data_type: double
+- name: RrcInact_RrcResumeReq_count
+  data_type: double
+- name: RrcInact_RrcResume_count
+  data_type: double
+- name: RrcInact_RrcSetupNoUeContext_count
+  data_type: double
+- name: RrcInact_RrcSetup_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_DU_ID
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

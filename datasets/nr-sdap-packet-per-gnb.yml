@@ -1,0 +1,61 @@
+unique_name: nr-sdap-packet-per-gnb
+object_type: dataset
+label: nr-sdap-packet-per-gnb
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-sdap-packet-per-gnb-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: RemappedQoSFlows_count
+  data_type: double
+- name: RemappingTimeoutCnt_count
+  data_type: double
+- name: SdapSduBufferedByteDL_Mbytes
+  data_type: double
+- name: SdapSduBufferedByteUL_Mbytes
+  data_type: double
+- name: SdapSduBufferedCntDL_count
+  data_type: double
+- name: SdapSduBufferedCntUL_count
+  data_type: double
+- name: SdapSduByteDL_Mbytes
+  data_type: double
+- name: SdapSduByteUL_Mbytes
+  data_type: double
+- name: SdapSduCntDL_count
+  data_type: double
+- name: SdapSduCntUL_count
+  data_type: double
+- name: SdapSduDropByteDL_Mbytes
+  data_type: double
+- name: SdapSduDropByteUL_Mbytes
+  data_type: double
+- name: SdapSduDropCntDL_count
+  data_type: double
+- name: SdapSduDropCntUL_count
+  data_type: double
+- name: UPC_ID
+  data_type: string
+- name: _5QI
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

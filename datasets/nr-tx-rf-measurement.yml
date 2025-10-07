@@ -1,0 +1,45 @@
+unique_name: nr-tx-rf-measurement
+object_type: dataset
+label: nr-tx-rf-measurement
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-tx-rf-measurement-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BoardID
+  data_type: string
+- name: CascadeID
+  data_type: string
+- name: RUPortID
+  data_type: string
+- name: TXPathID
+  data_type: string
+- name: TxRfPowerAvg_dBm
+  data_type: double
+- name: TxRfPowerCnt_count
+  data_type: double
+- name: TxRfPowerMax_dBm
+  data_type: double
+- name: TxRfPowerMin_dBm
+  data_type: double
+- name: TxRfPowerTot_mW
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

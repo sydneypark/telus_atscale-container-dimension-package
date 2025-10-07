@@ -1,0 +1,49 @@
+unique_name: nr-uplink-ue-throughput-for-sa
+object_type: dataset
+label: nr-uplink-ue-throughput-for-sa
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-uplink-ue-throughput-for-sa-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: LCG
+  data_type: string
+- name: ULUeThruSa_Kbps
+  data_type: double
+- name: ULUeThruTimeSa_slots
+  data_type: double
+- name: ULUeThruVolSa_Kbytes
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: SA_NR_AVG_UL_UE_THPTLCG_DEN__5484
+  data_type: double
+  sql: ULUeThruTimeSa_slots/8000
+- name: SA_NR_AVG_UL_UE_THPTLCG_NUM__5484
+  data_type: double
+  sql: ULUeThruVolSa_Kbytes*8*1024
+- name: SA_NR_UL_THPT_DEN__5484
+  data_type: double
+  sql: ULUeThruTimeSa_slots/8000
+- name: SA_NR_UL_THPT_NUM__5484
+  data_type: double
+  sql: ULUeThruVolSa_Kbytes*8*1024/1000000

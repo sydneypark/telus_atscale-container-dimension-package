@@ -1,0 +1,65 @@
+unique_name: nr-non-ue-associated-xnap-message-in-gnb
+object_type: dataset
+label: nr-non-ue-associated-xnap-message-in-gnb
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-non-ue-associated-xnap-message-in-gnb-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_XnConfigurationUpdateAcknowledge_count
+  data_type: double
+- name: Rx_XnConfigurationUpdateFailure_count
+  data_type: double
+- name: Rx_XnConfigurationUpdate_count
+  data_type: double
+- name: Rx_XnErrorIndication_count
+  data_type: double
+- name: Rx_XnResetRequest_count
+  data_type: double
+- name: Rx_XnResetResponse_count
+  data_type: double
+- name: Rx_XnSetupFailure_count
+  data_type: double
+- name: Rx_XnSetupRequest_count
+  data_type: double
+- name: Rx_XnSetupResponse_count
+  data_type: double
+- name: Tx_XnConfigurationUpdateAcknowledge_count
+  data_type: double
+- name: Tx_XnConfigurationUpdateFailure_count
+  data_type: double
+- name: Tx_XnConfigurationUpdate_count
+  data_type: double
+- name: Tx_XnErrorIndication_count
+  data_type: double
+- name: Tx_XnResetRequest_count
+  data_type: double
+- name: Tx_XnResetResponse_count
+  data_type: double
+- name: Tx_XnSetupFailure_count
+  data_type: double
+- name: Tx_XnSetupRequest_count
+  data_type: double
+- name: Tx_XnSetupResponse_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

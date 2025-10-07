@@ -1,0 +1,37 @@
+unique_name: lte-utran-mro
+object_type: dataset
+label: lte-utran-mro
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-utran-mro-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: UtranMroCid_UtranNbrCell
+  data_type: double
+- name: UtranMroCnt_count
+  data_type: double
+- name: UtranNbrCell
+  data_type: string
+- name: UtranTooEarlyHo_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

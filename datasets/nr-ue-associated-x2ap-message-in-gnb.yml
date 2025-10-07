@@ -1,0 +1,75 @@
+unique_name: nr-ue-associated-x2ap-message-in-gnb
+object_type: dataset
+label: nr-ue-associated-x2ap-message-in-gnb
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ue-associated-x2ap-message-in-gnb-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_X2apRRCTransfer_count
+  data_type: double
+- name: Rx_X2apSgNBAdditionRequest_count
+  data_type: double
+- name: Rx_X2apSgNBChangeConfirm_count
+  data_type: double
+- name: Rx_X2apSgNBChangeRefuse_count
+  data_type: double
+- name: Rx_X2apSgNBModificationConfirm_count
+  data_type: double
+- name: Rx_X2apSgNBModificationRefuse_count
+  data_type: double
+- name: Rx_X2apSgNBModificationRequest_count
+  data_type: double
+- name: Rx_X2apSgNBReconfigurationComplete_count
+  data_type: double
+- name: Rx_X2apSgNBReleaseConfirm_count
+  data_type: double
+- name: Rx_X2apSgNBReleaseRequest_count
+  data_type: double
+- name: Tx_X2apSecondaryDataUsageReport_count
+  data_type: double
+- name: Tx_X2apSgNBActivityNotification_count
+  data_type: double
+- name: Tx_X2apSgNBAdditionRequestAcknowledge_count
+  data_type: double
+- name: Tx_X2apSgNBAdditionRequestRejectByOvld_count
+  data_type: double
+- name: Tx_X2apSgNBAdditionRequestReject_count
+  data_type: double
+- name: Tx_X2apSgNBChangeRequired_count
+  data_type: double
+- name: Tx_X2apSgNBModificationRequestAcknowledge_count
+  data_type: double
+- name: Tx_X2apSgNBModificationRequestReject_count
+  data_type: double
+- name: Tx_X2apSgNBModificationRequired_count
+  data_type: double
+- name: Tx_X2apSgNBReleaseReject_count
+  data_type: double
+- name: Tx_X2apSgNBReleaseRequestAcknowlegde_count
+  data_type: double
+- name: Tx_X2apSgNBReleaseRequired_count
+  data_type: double
+- name: eNB_ID
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,67 @@
+unique_name: nr-carrier-aggregation-message-count-for-scell-activation--2
+object_type: dataset
+label: nr-carrier-aggregation-message-count-for-scell-activation--2
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-carrier-aggregation-message-count-for-scell-activation-deactivation-per-the-number-of-being-act-deact-scells-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: NumSCells
+  data_type: string
+- name: SCellActAtt_Blind_NumSCells_count
+  data_type: double
+- name: SCellActAtt_DLTraffic_NumSCells_count
+  data_type: double
+- name: SCellActAtt_ULTraffic_NumSCells_count
+  data_type: double
+- name: SCellActFail_NumSCells_count
+  data_type: double
+- name: SCellActSucc_Blind_NumSCells_count
+  data_type: double
+- name: SCellActSucc_DLTraffic_NumSCells_count
+  data_type: double
+- name: SCellActSucc_ULTraffic_NumSCells_count
+  data_type: double
+- name: SCellDeactAtt_InterCellInterfaceDelay_NumSCells_count
+  data_type: double
+- name: SCellDeactAtt_NoUse_NumSCells_count
+  data_type: double
+- name: SCellDeactAtt_Preemption_NumSCells_count
+  data_type: double
+- name: SCellDeactAtt_SlotAggregation_NumSCells_count
+  data_type: double
+- name: SCellDeactAtt_UAI_NumSCells_count
+  data_type: double
+- name: SCellDeactFail_NumSCells_count
+  data_type: double
+- name: SCellDeactSucc_InterCellInterfaceDelay_NumSCells_count
+  data_type: double
+- name: SCellDeactSucc_NoUse_NumSCells_count
+  data_type: double
+- name: SCellDeactSucc_Preemption_NumSCells_count
+  data_type: double
+- name: SCellDeactSucc_SlotAggregation_NumSCells_count
+  data_type: double
+- name: SCellDeactSucc_UAI_NumSCells_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

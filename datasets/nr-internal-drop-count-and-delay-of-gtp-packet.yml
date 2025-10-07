@@ -1,0 +1,47 @@
+unique_name: nr-internal-drop-count-and-delay-of-gtp-packet
+object_type: dataset
+label: nr-internal-drop-count-and-delay-of-gtp-packet
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-internal-drop-count-and-delay-of-gtp-packet-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DSCP
+  data_type: string
+- name: InDelayDLAvg_ms
+  data_type: double
+- name: InDelayDLCnt_count
+  data_type: double
+- name: InDelayDLTot_ms
+  data_type: double
+- name: InDelayULAvg_ms
+  data_type: double
+- name: InDelayULCnt_count
+  data_type: double
+- name: InDelayULTot_ms
+  data_type: double
+- name: InDropCntDL_count
+  data_type: double
+- name: InDropCntUL_count
+  data_type: double
+- name: UPC_ID
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

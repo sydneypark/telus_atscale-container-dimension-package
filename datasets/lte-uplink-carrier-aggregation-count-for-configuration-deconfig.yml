@@ -1,0 +1,51 @@
+unique_name: lte-uplink-carrier-aggregation-count-for-configuration-deconfig
+object_type: dataset
+label: lte-uplink-carrier-aggregation-count-for-configuration-deconfig
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-uplink-carrier-aggregation-count-for-configuration-deconfiguration-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: ScellID
+  data_type: string
+- name: ULCaConfigDeconfigCid_ScellID
+  data_type: double
+- name: ULCaConfigDeconfigCnt_count
+  data_type: double
+- name: ULSCellConfigByAdd_count
+  data_type: double
+- name: ULSCellConfigByBetterThres_count
+  data_type: double
+- name: ULSCellConfigByEventA6_count
+  data_type: double
+- name: ULSCellConfigBySccChange_count
+  data_type: double
+- name: ULSCellDeconfigByEventA6_count
+  data_type: double
+- name: ULSCellDeconfigByMonitoring_count
+  data_type: double
+- name: ULSCellDeconfigBySccChange_count
+  data_type: double
+- name: ULSCellDeconfigByWorseThres_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

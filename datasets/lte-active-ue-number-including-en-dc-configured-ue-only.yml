@@ -1,0 +1,43 @@
+unique_name: lte-active-ue-number-including-en-dc-configured-ue-only
+object_type: dataset
+label: lte-active-ue-number-including-en-dc-configured-ue-only
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-active-ue-number-including-en-dc-configured-ue-only-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: ENDCUEActiveDLAvg_count
+  data_type: double
+- name: ENDCUEActiveDLCnt_count
+  data_type: double
+- name: ENDCUEActiveDLTot_count
+  data_type: double
+- name: ENDCUEActiveULAvg_count
+  data_type: double
+- name: ENDCUEActiveULCnt_count
+  data_type: double
+- name: ENDCUEActiveULTot_count
+  data_type: double
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

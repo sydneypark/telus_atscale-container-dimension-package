@@ -1,0 +1,85 @@
+unique_name: lte-s1-in-handover
+object_type: dataset
+label: lte-s1-in-handover
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-s1-in-handover-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: HoCause
+  data_type: string
+- name: InterS1InAtt_count
+  data_type: double
+- name: InterS1InFail_CpCcFail_count
+  data_type: double
+- name: InterS1InFail_CpCcTo_count
+  data_type: double
+- name: InterS1InFail_RrcHcTo_count
+  data_type: double
+- name: InterS1InFail_RrcSigFail_count
+  data_type: double
+- name: InterS1InFail_S1apCuFail_count
+  data_type: double
+- name: InterS1InFail_S1apLinkFail_count
+  data_type: double
+- name: InterS1InFail_S1apSigFail_count
+  data_type: double
+- name: InterS1InFail_S1apSigTo_count
+  data_type: double
+- name: InterS1InFail_UpGtpFail_count
+  data_type: double
+- name: InterS1InFail_UpMacFail_count
+  data_type: double
+- name: InterS1InFail_UpPdcpFail_count
+  data_type: double
+- name: InterS1InFail_UpRlcFail_count
+  data_type: double
+- name: InterS1InPrepSucc_count
+  data_type: double
+- name: InterS1InPrep_FailCpBhCacFail_count
+  data_type: double
+- name: InterS1InPrep_FailCpCapaCacFail_count
+  data_type: double
+- name: InterS1InPrep_FailCpCcFail_count
+  data_type: double
+- name: InterS1InPrep_FailCpCcTo_count
+  data_type: double
+- name: InterS1InPrep_FailCpQosCacFail_count
+  data_type: double
+- name: InterS1InPrep_FailS1apCuFail_count
+  data_type: double
+- name: InterS1InPrep_FailS1apLinkFail_count
+  data_type: double
+- name: InterS1InPrep_FailS1apSigFail_count
+  data_type: double
+- name: InterS1InPrep_FailUpGtpFail_count
+  data_type: double
+- name: InterS1InPrep_FailUpMacFail_count
+  data_type: double
+- name: InterS1InPrep_FailUpPdcpFail_count
+  data_type: double
+- name: InterS1InPrep_FailUpRlcFail_count
+  data_type: double
+- name: InterS1InSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,71 @@
+unique_name: nr-upc-bearer-usage-bearer-count-ue-usage-and-ue-count-sta-2
+object_type: dataset
+label: nr-upc-bearer-usage-bearer-count-ue-usage-and-ue-count-sta-2
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-upc-bearer-usage-bearer-count-ue-usage-and-ue-count-stats-per-spidincludinginvalid-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BearerCountAvg_count
+  data_type: double
+- name: BearerCountCnt_count
+  data_type: double
+- name: BearerCountMax_count
+  data_type: double
+- name: BearerCountMin_count
+  data_type: double
+- name: BearerCountTot_count
+  data_type: double
+- name: BearerUsageAvg_pct
+  data_type: double
+- name: BearerUsageCnt_count
+  data_type: double
+- name: BearerUsageMax_pct
+  data_type: double
+- name: BearerUsageMin_pct
+  data_type: double
+- name: BearerUsageTot_pct
+  data_type: double
+- name: SPIDIncludingInvalid
+  data_type: string
+- name: UPC_ID
+  data_type: string
+- name: UeCountAvg_count
+  data_type: double
+- name: UeCountCnt_count
+  data_type: double
+- name: UeCountMax_count
+  data_type: double
+- name: UeCountMin_count
+  data_type: double
+- name: UeCountTot_count
+  data_type: double
+- name: UeUsageAvg_pct
+  data_type: double
+- name: UeUsageCnt_count
+  data_type: double
+- name: UeUsageMax_pct
+  data_type: double
+- name: UeUsageMin_pct
+  data_type: double
+- name: UeUsageTot_pct
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

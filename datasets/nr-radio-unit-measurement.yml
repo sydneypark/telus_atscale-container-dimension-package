@@ -1,0 +1,73 @@
+unique_name: nr-radio-unit-measurement
+object_type: dataset
+label: nr-radio-unit-measurement
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-radio-unit-measurement-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BoardID
+  data_type: string
+- name: CascadeID
+  data_type: string
+- name: CurrentAvg_A
+  data_type: double
+- name: CurrentCnt_count
+  data_type: double
+- name: CurrentMax_A
+  data_type: double
+- name: CurrentMin_A
+  data_type: double
+- name: CurrentTot_A
+  data_type: double
+- name: PowerAvg_W
+  data_type: double
+- name: PowerCnt_count
+  data_type: double
+- name: PowerMax_W
+  data_type: double
+- name: PowerMin_W
+  data_type: double
+- name: PowerTot_W
+  data_type: double
+- name: RUPortID
+  data_type: string
+- name: TemperatureAvg_C
+  data_type: double
+- name: TemperatureCnt_count
+  data_type: double
+- name: TemperatureMax_C
+  data_type: double
+- name: TemperatureMin_C
+  data_type: double
+- name: TemperatureTot_C
+  data_type: double
+- name: VoltageAvg_V
+  data_type: double
+- name: VoltageCnt_count
+  data_type: double
+- name: VoltageMax_V
+  data_type: double
+- name: VoltageMin_V
+  data_type: double
+- name: VoltageTot_V
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

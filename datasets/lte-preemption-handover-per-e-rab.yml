@@ -1,0 +1,49 @@
+unique_name: lte-preemption-handover-per-e-rab
+object_type: dataset
+label: lte-preemption-handover-per-e-rab
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-preemption-handover-per-e-rab-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PreemptHoBearerInterS1_count
+  data_type: double
+- name: PreemptHoBearerInterX2_count
+  data_type: double
+- name: PreemptHoBearerIntra_count
+  data_type: double
+- name: PreemptHoDropBearerInterS1_count
+  data_type: double
+- name: PreemptHoDropBearerInterX2_count
+  data_type: double
+- name: PreemptHoDropBearerIntra_count
+  data_type: double
+- name: PreemptHoErabCnt_count
+  data_type: double
+- name: PreemptHoErabTargetEarfcnDL_TargetEarfcnDl
+  data_type: double
+- name: QCI
+  data_type: string
+- name: TargetEarfcnDl
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

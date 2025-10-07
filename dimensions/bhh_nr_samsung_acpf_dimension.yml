@@ -1,0 +1,33 @@
+unique_name: bhh_nr_samsung_acpf_dimension
+object_type: dimension
+label: bhh_nr_samsung_acpf_dimension
+hierarchies:
+  - unique_name: bhh_nr_samsung_acpf_hierarchy
+    label: bhh_nr_samsung_acpf_hierarchy
+    levels:
+      - unique_name: bhh_nr_samsung_acpf_level
+level_attributes:
+  - unique_name: bhh_nr_samsung_acpf_level
+    label: bhh_nr_samsung_acpf_level
+    dataset: bhh_nr_samsung_acpf.dataset
+    key_columns:
+      - INIT_TIME
+      - gNB_ID
+      - CellIdentity
+    name_column: Type
+modeler_metadata:
+  version: '0'
+  modified: 'false'
+relationships:
+  - unique_name: bhh_nr_samsung_acpf.dataset_Type_to_BHH_BHH
+    from:
+      dataset: bhh_nr_samsung_acpf.dataset
+      hierarchy: bhh_nr_samsung_acpf_hierarchy
+      join_columns:
+        - Type
+      level: bhh_nr_samsung_acpf_level
+    to:
+      dimension: BHH
+      level: BHH
+    type: embedded
+type: standard

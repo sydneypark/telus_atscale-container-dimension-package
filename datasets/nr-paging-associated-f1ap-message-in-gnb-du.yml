@@ -1,0 +1,29 @@
+unique_name: nr-paging-associated-f1ap-message-in-gnb-du
+object_type: dataset
+label: nr-paging-associated-f1ap-message-in-gnb-du
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-paging-associated-f1ap-message-in-gnb-du-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_F1apPaging_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

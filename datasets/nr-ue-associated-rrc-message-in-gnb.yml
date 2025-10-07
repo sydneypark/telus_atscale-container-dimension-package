@@ -1,0 +1,59 @@
+unique_name: nr-ue-associated-rrc-message-in-gnb
+object_type: dataset
+label: nr-ue-associated-rrc-message-in-gnb
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ue-associated-rrc-message-in-gnb-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_RRCReconfigurationComplete_count
+  data_type: double
+- name: Rx_RRCSecurityModeComplete_count
+  data_type: double
+- name: Rx_RRCSecurityModeFailure_count
+  data_type: double
+- name: Rx_RRCSetupComplete_count
+  data_type: double
+- name: Rx_RRCSetupRequest_count
+  data_type: double
+- name: Rx_RRCUECapabilityInformation_count
+  data_type: double
+- name: Rx_RRCULDedicatedMessageSegment_count
+  data_type: double
+- name: Rx_RRCUeInformationResponse_count
+  data_type: double
+- name: Tx_RRCReconfiguration_count
+  data_type: double
+- name: Tx_RRCReject_count
+  data_type: double
+- name: Tx_RRCRelease_count
+  data_type: double
+- name: Tx_RRCSecurityModeCommand_count
+  data_type: double
+- name: Tx_RRCSetup_count
+  data_type: double
+- name: Tx_RRCUECapabilityEnquiry_count
+  data_type: double
+- name: Tx_RRCUeInformationRequest_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

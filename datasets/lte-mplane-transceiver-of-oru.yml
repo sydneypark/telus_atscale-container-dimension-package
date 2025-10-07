@@ -1,0 +1,71 @@
+unique_name: lte-mplane-transceiver-of-oru
+object_type: dataset
+label: lte-mplane-transceiver-of-oru
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-mplane-transceiver-of-oru-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: ORU_ID
+  data_type: string
+- name: TransPortNum
+  data_type: string
+- name: TransRxPowerMaxCnt_count
+  data_type: double
+- name: TransRxPowerMax_dBm
+  data_type: double
+- name: TransRxPowerMinCnt_count
+  data_type: double
+- name: TransRxPowerMin_dBm
+  data_type: double
+- name: TransTemperatureMaxCnt_count
+  data_type: double
+- name: TransTemperatureMax_C
+  data_type: double
+- name: TransTemperatureMinCnt_count
+  data_type: double
+- name: TransTemperatureMin_C
+  data_type: double
+- name: TransTxBiasCntMaxCnt_count
+  data_type: double
+- name: TransTxBiasCntMax_mA
+  data_type: double
+- name: TransTxBiasCntMinCnt_count
+  data_type: double
+- name: TransTxBiasCntMin_mA
+  data_type: double
+- name: TransTxPowerMaxCnt_count
+  data_type: double
+- name: TransTxPowerMax_dBm
+  data_type: double
+- name: TransTxPowerMinCnt_count
+  data_type: double
+- name: TransTxPowerMin_dBm
+  data_type: double
+- name: TransVoltageMaxCnt_count
+  data_type: double
+- name: TransVoltageMax_mV
+  data_type: double
+- name: TransVoltageMinCnt_count
+  data_type: double
+- name: TransVoltageMin_mV
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

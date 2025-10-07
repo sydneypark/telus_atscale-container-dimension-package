@@ -1,0 +1,49 @@
+unique_name: lte-inter-rat-mro-for-nr
+object_type: dataset
+label: lte-inter-rat-mro-for-nr
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-inter-rat-mro-for-nr-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: IratNrMroCid_TargetNRArfcnDl
+  data_type: double
+- name: IratNrMroCnt_count
+  data_type: double
+- name: NrHoToWrongCellAfterTriggering_count
+  data_type: double
+- name: NrHoToWrongCellRlfAfterHo_count
+  data_type: double
+- name: NrPingpongHo_count
+  data_type: double
+- name: NrTooEarlyHoHoFailure_count
+  data_type: double
+- name: NrTooEarlyHoRlfAfterHo_count
+  data_type: double
+- name: RanNrOutAtt_count
+  data_type: double
+- name: RanNrOutSucc_count
+  data_type: double
+- name: TargetNRArfcnDl
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

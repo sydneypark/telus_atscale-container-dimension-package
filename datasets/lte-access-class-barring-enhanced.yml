@@ -1,0 +1,51 @@
+unique_name: lte-access-class-barring-enhanced
+object_type: dataset
+label: lte-access-class-barring-enhanced
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-access-class-barring-enhanced-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AcbByCpuLoad_count
+  data_type: double
+- name: AcbByManual_count
+  data_type: double
+- name: AcbByRrcConnections_count
+  data_type: double
+- name: AcbByRrcRate_count
+  data_type: double
+- name: AcbByRrcRejectRatio_count
+  data_type: double
+- name: AcbCsfb_count
+  data_type: double
+- name: AcbEmergencyCall_count
+  data_type: double
+- name: AcbMmtelVideo_count
+  data_type: double
+- name: AcbMmtelVoice_count
+  data_type: double
+- name: AcbMoData_count
+  data_type: double
+- name: AcbMoSignal_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

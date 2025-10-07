@@ -1,0 +1,57 @@
+unique_name: lte-total-prb-usage-per-plmn
+object_type: dataset
+label: lte-total-prb-usage-per-plmn
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-total-prb-usage-per-plmn-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PLMN
+  data_type: string
+- name: PLMNTotPrbDLAvg_pct
+  data_type: double
+- name: PLMNTotPrbDLCnt_count
+  data_type: double
+- name: PLMNTotPrbDLCurr_pct
+  data_type: double
+- name: PLMNTotPrbDLMax_pct
+  data_type: double
+- name: PLMNTotPrbDLMin_pct
+  data_type: double
+- name: PLMNTotPrbDLTot_pct
+  data_type: double
+- name: PLMNTotPrbULAvg_pct
+  data_type: double
+- name: PLMNTotPrbULCnt_count
+  data_type: double
+- name: PLMNTotPrbULCurr_pct
+  data_type: double
+- name: PLMNTotPrbULMax_pct
+  data_type: double
+- name: PLMNTotPrbULMin_pct
+  data_type: double
+- name: PLMNTotPrbULTot_pct
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

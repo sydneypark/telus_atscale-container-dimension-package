@@ -1,0 +1,110 @@
+unique_name: lte-pdcp-packet
+object_type: dataset
+label: lte-pdcp-packet
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-pdcp-packet-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: EnbQciDLByteCnt_s
+  data_type: double
+- name: EnbQciDLByte_Kbytes
+  data_type: double
+- name: EnbQciDLThruCnt_count
+  data_type: double
+- name: EnbQciDLThruMax_Kbps
+  data_type: double
+- name: EnbQciDLThruMin_Kbps
+  data_type: double
+- name: EnbQciDLThruTot_Kbps
+  data_type: double
+- name: EnbQciDLThru_Kbps
+  data_type: double
+- name: EnbQciULByteCnt_s
+  data_type: double
+- name: EnbQciULByte_Kbytes
+  data_type: double
+- name: EnbQciULThruCnt_count
+  data_type: double
+- name: EnbQciULThruMax_Kbps
+  data_type: double
+- name: EnbQciULThruMin_Kbps
+  data_type: double
+- name: EnbQciULThruTot_Kbps
+  data_type: double
+- name: EnbQciULThru_Kbps
+  data_type: double
+- name: PacketDLCnt_count
+  data_type: double
+- name: PacketULCnt_count
+  data_type: double
+- name: PdcpIpLatencyDL_ms
+  data_type: double
+- name: PdcpIpTLatDL_ms
+  data_type: double
+- name: PdcpIpThroughputDL_Kbps
+  data_type: double
+- name: PdcpLatSamplesCnt_count
+  data_type: double
+- name: PdcpTimeDl_ms
+  data_type: double
+- name: PdcpVolDlByte_Kbytes
+  data_type: double
+- name: QCI
+  data_type: string
+- name: RoHCDecompFailCnt_count
+  data_type: double
+- name: RoHCDecompFailRate_ppm
+  data_type: double
+- name: RoHCDecompSuccCnt_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: 5G_Traffic_DEN__30
+  data_type: double
+  sql: 8000*`PdcpVolDlByte_Kbytes`
+- name: DL_QCI8_THPT_DEN__30
+  data_type: double
+  sql: if(`QCI` IN ("8"),`PdcpTimeDl_ms`,NULL)
+- name: DL_QCI8_THPT_NUM__30
+  data_type: double
+  sql: if(`QCI` IN ("8"),`PdcpVolDlByte_Kbytes`*8000,NULL)
+- name: DL_QCI9_THPT_DEN__30
+  data_type: double
+  sql: if(`QCI` IN ("9"),`PdcpTimeDl_ms`,NULL)
+- name: DL_QCI9_THPT_NUM__30
+  data_type: double
+  sql: if(`QCI` IN ("9"),`PdcpVolDlByte_Kbytes`*8000,NULL)
+- name: DL_THPT_DEN__30
+  data_type: double
+  sql: if(`QCI` IN ("8","9"),`PdcpTimeDl_ms`,NULL)
+- name: DL_THPT_NUM__30
+  data_type: double
+  sql: if(`QCI` IN ("8","9"),`PdcpVolDlByte_Kbytes`*8000,NULL)
+- name: L_THRP_BITS_DL__30
+  data_type: double
+  sql: EnbQciDLByte_Kbytes*8*1000
+- name: L_THRP_BITS_UL__30
+  data_type: double
+  sql: EnbQciULByte_Kbytes*8*1000

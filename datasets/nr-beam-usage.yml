@@ -1,0 +1,35 @@
+unique_name: nr-beam-usage
+object_type: dataset
+label: nr-beam-usage
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-beam-usage-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BeamID
+  data_type: string
+- name: CellIdentity
+  data_type: string
+- name: DLScheduledBeamCnt_count
+  data_type: double
+- name: ULScheduledBeamCnt_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

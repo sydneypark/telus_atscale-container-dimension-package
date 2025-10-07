@@ -1,0 +1,47 @@
+unique_name: lte-nb-iot-air-mac-ul-and-dl-packets
+object_type: dataset
+label: lte-nb-iot-air-mac-ul-and-dl-packets
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-air-mac-ul-and-dl-packets-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NBIoT_AirMacDLByteCnt_count
+  data_type: double
+- name: NBIoT_AirMacDLByte_Kbytes
+  data_type: double
+- name: NBIoT_AirMacDLThru_Kbps
+  data_type: double
+- name: NBIoT_AirMacDLTti_TTI
+  data_type: double
+- name: NBIoT_AirMacULByteCnt_count
+  data_type: double
+- name: NBIoT_AirMacULByte_Kbytes
+  data_type: double
+- name: NBIoT_AirMacULThru_Kbps
+  data_type: double
+- name: NBIoT_AirMacULTti_TTI
+  data_type: double
+- name: NBIoT_cNum
+  data_type: string
+- name: NBIoT_classLevel
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

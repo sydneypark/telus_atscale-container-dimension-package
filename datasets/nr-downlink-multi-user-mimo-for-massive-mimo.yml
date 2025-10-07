@@ -1,0 +1,45 @@
+unique_name: nr-downlink-multi-user-mimo-for-massive-mimo
+object_type: dataset
+label: nr-downlink-multi-user-mimo-for-massive-mimo
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-downlink-multi-user-mimo-for-massive-mimo-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: DLMuMimoPairedLayerPerTti_count
+  data_type: double
+- name: DLMuMimoPairedUePerTti_count
+  data_type: double
+- name: DLMuMimoPrbUsage_pct
+  data_type: double
+- name: TotDLMuMimoAvailablePrb_count
+  data_type: double
+- name: TotDLMuMimoPairedLayer_count
+  data_type: double
+- name: TotDLMuMimoPairedUe_count
+  data_type: double
+- name: TotDLMuMimoUtilizedTti_count
+  data_type: double
+- name: TotDLMuPrb_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

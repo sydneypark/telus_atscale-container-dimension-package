@@ -1,0 +1,71 @@
+unique_name: nr-ue-associated-logical-ng-connection-establishment
+object_type: dataset
+label: nr-ue-associated-logical-ng-connection-establishment
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ue-associated-logical-ng-connection-establishment-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: EstabCause
+  data_type: string
+- name: NgConnEstabAtt_count
+  data_type: double
+- name: NgConnEstabFail_CpFail_count
+  data_type: double
+- name: NgConnEstabFail_E1Fail_count
+  data_type: double
+- name: NgConnEstabFail_F1Fail_count
+  data_type: double
+- name: NgConnEstabFail_NgFail_count
+  data_type: double
+- name: NgConnEstabFail_NgTimeout_count
+  data_type: double
+- name: NgConnEstabSucc_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NG_CONNECTION_SETUP_SUCCESS_RATE_DEN__5223
+  data_type: double
+  sql: NgConnEstabAtt_count
+- name: NG_CONNECTION_SETUP_SUCCESS_RATE_NUM__5223
+  data_type: double
+  sql: NgConnEstabSucc_count
+- name: SA_NR_NGCONN_SETUP_FR_DEN__5223
+  data_type: double
+  sql: NgConnEstabAtt_count
+- name: SA_NR_NGCONN_SETUP_FR_NUM__5223
+  data_type: double
+  sql: NgConnEstabAtt_count-`NgConnEstabSucc_count`
+- name: SA_NR_NG_CONNECTION_SETUP_SUCCESS_RATE_DEN__5223
+  data_type: double
+  sql: NgConnEstabAtt_count
+- name: SA_NR_NG_CONNECTION_SETUP_SUCCESS_RATE_NUM__5223
+  data_type: double
+  sql: NgConnEstabSucc_count
+- name: SLO_SA_NR_NG_CONNECTION_SETUP_SUCCESS_RATE_DEN__5223
+  data_type: double
+  sql: NgConnEstabAtt_count
+- name: SLO_SA_NR_NG_CONNECTION_SETUP_SUCCESS_RATE_NUM__5223
+  data_type: double
+  sql: NgConnEstabSucc_count

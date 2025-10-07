@@ -1,0 +1,74 @@
+unique_name: nr-rrc-connection-establishment-with-du-identifier
+object_type: dataset
+label: nr-rrc-connection-establishment-with-du-identifier
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-rrc-connection-establishment-with-du-identifier-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: ConnEstabAtt_count
+  data_type: double
+- name: ConnEstabFail_CpFail_count
+  data_type: double
+- name: ConnEstabFail_RrcTimeout_count
+  data_type: double
+- name: ConnEstabReject_CacFail_count
+  data_type: double
+- name: ConnEstabReject_CpFail_count
+  data_type: double
+- name: ConnEstabSucc_count
+  data_type: double
+- name: EstabCause
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_DU_ID
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: SA_NR_RRC_CONNECTION_SETUP_ATTEMPTS_MOSIG__5800
+  data_type: double
+  sql: if(EstabCause="MO_SIGNAL",`ConnEstabAtt_count`,NULL)
+- name: SA_NR_RRC_CONNECTION_SETUP_SUCCESS_MOSIG__5800
+  data_type: double
+  sql: if(EstabCause="MO_SIGNAL",`ConnEstabSucc_count`,NULL)
+- name: SA_NR_RRC_CONNECTION_SETUP_SUCCESS_RATE_DEN__5800
+  data_type: double
+  sql: ConnEstabAtt_count
+- name: SA_NR_RRC_CONNECTION_SETUP_SUCCESS_RATE_NUM__5800
+  data_type: double
+  sql: ConnEstabSucc_count
+- name: SA_NR_RRC_RE-ESTAB_RATE_DEN__5800
+  data_type: double
+  sql: ConnEstabSucc_count
+- name: SA_NR_RRC_SETUP_FR_DEN__5800
+  data_type: double
+  sql: ConnEstabAtt_count
+- name: SA_NR_RRC_SETUP_FR_NUM__5800
+  data_type: double
+  sql: ConnEstabAtt_count-`ConnEstabSucc_count`
+- name: SLO_SA_NR_RRC_CONNECTION_SETUP_SUCCESS_RATE_DEN__5800
+  data_type: double
+  sql: ConnEstabAtt_count
+- name: SLO_SA_NR_RRC_CONNECTION_SETUP_SUCCESS_RATE_NUM__5800
+  data_type: double
+  sql: ConnEstabSucc_count

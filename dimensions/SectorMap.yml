@@ -1,0 +1,54 @@
+unique_name: SectorMap
+object_type: dimension
+label: SectorMap
+hierarchies:
+  - unique_name: SectorMap Hierarchy
+    label: SectorMap Hierarchy
+    levels:
+      - unique_name: Sector
+        secondary_attributes:
+          - unique_name: SectorLatitude
+            label: SectorLatitude
+            contains_unique_names: false
+            dataset: SectorLatLon
+            is_unique_key: false
+            key_columns:
+              - SectorLatitude
+            name_column: SectorLatitude
+            folder: SectorMap
+          - unique_name: SectorLatitudeRural
+            label: SectorLatitudeRural
+            contains_unique_names: false
+            dataset: SectorLatLon
+            is_unique_key: false
+            key_columns:
+              - SectorLatitudeRural
+            name_column: SectorLatitudeRural
+            folder: SectorMap
+          - unique_name: SectorLongitude
+            label: SectorLongitude
+            contains_unique_names: false
+            dataset: SectorLatLon
+            is_unique_key: false
+            key_columns:
+              - SectorLongitude
+            name_column: SectorLongitude
+            folder: SectorMap
+          - unique_name: SectorLongitudeRural
+            label: SectorLongitudeRural
+            contains_unique_names: false
+            dataset: SectorLatLon
+            is_unique_key: false
+            key_columns:
+              - SectorLongitudeRural
+            name_column: SectorLongitudeRural
+            folder: SectorMap
+level_attributes:
+  - unique_name: Sector
+    label: Sector
+    contains_unique_names: false
+    dataset: SectorLatLon
+    key_columns:
+      - Sector
+    name_column: Sector
+type: standard

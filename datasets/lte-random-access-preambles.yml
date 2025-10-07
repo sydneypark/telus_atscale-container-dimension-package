@@ -1,0 +1,63 @@
+unique_name: lte-random-access-preambles
+object_type: dataset
+label: lte-random-access-preambles
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-random-access-preambles-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DedicatedPreamblesAssignFail_count
+  data_type: double
+- name: DedicatedPreambles_count
+  data_type: double
+- name: HandoverDedicatedPreambles_count
+  data_type: double
+- name: HighSpeedMonitoring_count
+  data_type: double
+- name: InterCellHoDedicatedPreamblesAssignFail_count
+  data_type: double
+- name: NoOfHighSpeed_count
+  data_type: double
+- name: NumMsg3Dedicated_count
+  data_type: double
+- name: NumMsg3HoTriggeredNonContention_count
+  data_type: double
+- name: NumMsg4GroupA_count
+  data_type: double
+- name: NumMsg4GroupB_count
+  data_type: double
+- name: RACHUsageAvg_count
+  data_type: double
+- name: RACHUsageCnt_count
+  data_type: double
+- name: RACHUsageTot_count
+  data_type: double
+- name: RandomAccessResponseDedicated_count
+  data_type: double
+- name: RandomAccessResponses_count
+  data_type: double
+- name: RandomlySelectedPreamblesHigh_count
+  data_type: double
+- name: RandomlySelectedPreamblesLow_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

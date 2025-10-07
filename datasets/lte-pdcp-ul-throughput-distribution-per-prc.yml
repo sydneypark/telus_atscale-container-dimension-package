@@ -1,0 +1,65 @@
+unique_name: lte-pdcp-ul-throughput-distribution-per-prc
+object_type: dataset
+label: lte-pdcp-ul-throughput-distribution-per-prc
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-pdcp-ul-throughput-distribution-per-prc-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PLMN
+  data_type: string
+- name: PRC_ID
+  data_type: string
+- name: PdcpULThruBin0_Prc_count
+  data_type: double
+- name: PdcpULThruBin10_Prc_count
+  data_type: double
+- name: PdcpULThruBin11_Prc_count
+  data_type: double
+- name: PdcpULThruBin12_Prc_count
+  data_type: double
+- name: PdcpULThruBin13_Prc_count
+  data_type: double
+- name: PdcpULThruBin1_Prc_count
+  data_type: double
+- name: PdcpULThruBin2_Prc_count
+  data_type: double
+- name: PdcpULThruBin3_Prc_count
+  data_type: double
+- name: PdcpULThruBin4_Prc_count
+  data_type: double
+- name: PdcpULThruBin5_Prc_count
+  data_type: double
+- name: PdcpULThruBin6_Prc_count
+  data_type: double
+- name: PdcpULThruBin7_Prc_count
+  data_type: double
+- name: PdcpULThruBin8_Prc_count
+  data_type: double
+- name: PdcpULThruBin9_Prc_count
+  data_type: double
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,79 @@
+unique_name: lte-nb-iot-rrc-message
+object_type: dataset
+label: lte-nb-iot-rrc-message
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-rrc-message-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NBIoT_RrcConnectionReconfigurationComplete_count
+  data_type: double
+- name: NBIoT_RrcConnectionReconfiguration_count
+  data_type: double
+- name: NBIoT_RrcConnectionReestablishmentComplete_count
+  data_type: double
+- name: NBIoT_RrcConnectionReestablishmentReject_count
+  data_type: double
+- name: NBIoT_RrcConnectionReestablishmentRequest_count
+  data_type: double
+- name: NBIoT_RrcConnectionReestablishment_count
+  data_type: double
+- name: NBIoT_RrcConnectionReject_count
+  data_type: double
+- name: NBIoT_RrcConnectionRelease_count
+  data_type: double
+- name: NBIoT_RrcConnectionRequest_count
+  data_type: double
+- name: NBIoT_RrcConnectionSetupComplete_count
+  data_type: double
+- name: NBIoT_RrcConnectionSetup_count
+  data_type: double
+- name: NBIoT_RrcDLInformationTransfer_count
+  data_type: double
+- name: NBIoT_RrcEarlyDataComplete_NB_count
+  data_type: double
+- name: NBIoT_RrcEarlyDataRequest_NB_count
+  data_type: double
+- name: NBIoT_RrcRrcConnectionResumeComplete_NB_count
+  data_type: double
+- name: NBIoT_RrcRrcConnectionResumeRequest_NB_count
+  data_type: double
+- name: NBIoT_RrcRrcConnectionResume_NB_count
+  data_type: double
+- name: NBIoT_RrcSecurityModeCommand_count
+  data_type: double
+- name: NBIoT_RrcSecurityModeComplete_count
+  data_type: double
+- name: NBIoT_RrcSecurityModeFailure_count
+  data_type: double
+- name: NBIoT_RrcUECapabilityEnquiry_NB_count
+  data_type: double
+- name: NBIoT_RrcUECapabilityInformation_count
+  data_type: double
+- name: NBIoT_RrcULInformationTransfer_count
+  data_type: double
+- name: NBIoT_cNum
+  data_type: string
+- name: NbTotalRrcRx_count
+  data_type: double
+- name: NbTotalRrcTx_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

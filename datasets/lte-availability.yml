@@ -1,0 +1,53 @@
+unique_name: lte-availability
+object_type: dataset
+label: lte-availability
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-availability-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellAvailPmPeriodTime_s
+  data_type: double
+- name: EutranCellAvailabilityEx_pct
+  data_type: double
+- name: EutranCellAvailability_pct
+  data_type: double
+- name: ReadCellUnavailableTimeES_s
+  data_type: double
+- name: ReadCellUnavailableTimeLock_s
+  data_type: double
+- name: ReadCellUnavailableTime_s
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: L_CELL_AVAIL_DUR__93
+  data_type: double
+  sql: CellAvailPmPeriodTime_s-coalesce(`ReadCellUnavailableTime_s`,0)
+- name: L_CELL_TIME_EXCL_POWERSAVE__93
+  data_type: double
+  sql: CellAvailPmPeriodTime_s-coalesce(`ReadCellUnavailableTimeES_s`,0)
+- name: L_CELL_UNAVAIL_DUR_MANUAL__93
+  data_type: double
+  sql: ReadCellUnavailableTime_s-coalesce(`ReadCellUnavailableTimeES_s`,0)-coalesce(`ReadCellUnavailableTimeLock_s`,0)
+- name: L_CELL_UNAVAIL_DUR_SYS__93
+  data_type: double
+  sql: ReadCellUnavailableTimeLock_s

@@ -1,0 +1,12 @@
+unique_name: Agnostic_BHH.dataset
+object_type: dataset
+label: Agnostic_BHH
+connection_id: ran_bhh.connection
+sql: "SELECT * FROM UNNEST(ARRAY<STRUCT<Type_a STRING , Type STRING>>[('Daily', 'Daily'),\
+  \ ('DailyNew', 'DailyNew'), ('DailyUL', 'DailyUL'), ('DailyULNew', 'DailyULNew')])"
+
+columns:
+  - name: Type
+    data_type: string
+  - name: Type_a
+    data_type: string

@@ -1,0 +1,16 @@
+unique_name: bhh_nr_samsung.dataset
+object_type: dataset
+label: bhh_nr_samsung
+connection_id: ran_bhh.connection
+table: bhh_nr_samsung
+immutable: true
+
+columns:
+  - name: CellIdentity
+    data_type: string
+  - name: INIT_TIME
+    data_type: datetime
+  - name: SYSTEM_ID
+    data_type: long
+  - name: Type
+    data_type: string

@@ -1,0 +1,6 @@
+unique_name: telus_pm_samsung_lte_v1
+label: telus_pm_samsung_lte_v1
+object_type: connection
+as_connection: wade_bigq
+database: tu-nfv-cte-wddt-01-pr
+schema: telus_pm_samsung_lte_v1

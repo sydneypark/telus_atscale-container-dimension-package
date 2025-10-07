@@ -1,0 +1,37 @@
+unique_name: lte-l1-l2-internal-statistics
+object_type: dataset
+label: lte-l1-l2-internal-statistics
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-l1-l2-internal-statistics-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: macDefenseOperation_count
+  data_type: double
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: phyDlDefenseOperation_count
+  data_type: double
+- name: phyUlDefenseOperation_count
+  data_type: double
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

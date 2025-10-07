@@ -1,0 +1,75 @@
+unique_name: nr-pusch-sinr-distribution-per-bin
+object_type: dataset
+label: nr-pusch-sinr-distribution-per-bin
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-pusch-sinr-distribution-per-bin-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: SinrDistULWbPreComp_Bin0_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin10_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin11_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin12_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin13_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin14_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin15_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin16_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin17_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin18_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin19_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin1_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin2_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin3_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin4_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin5_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin6_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin7_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin8_count
+  data_type: double
+- name: SinrDistULWbPreComp_Bin9_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NR_UL_SINR_DEN__5044
+  data_type: double
+  sql: SinrDistULWbPreComp_Bin0_count+`SinrDistULWbPreComp_Bin1_count`+`SinrDistULWbPreComp_Bin2_count`+`SinrDistULWbPreComp_Bin3_count`+`SinrDistULWbPreComp_Bin4_count`+`SinrDistULWbPreComp_Bin5_count`+`SinrDistULWbPreComp_Bin6_count`+`SinrDistULWbPreComp_Bin7_count`+`SinrDistULWbPreComp_Bin8_count`+`SinrDistULWbPreComp_Bin9_count`+`SinrDistULWbPreComp_Bin10_count`+`SinrDistULWbPreComp_Bin11_count`+`SinrDistULWbPreComp_Bin12_count`+`SinrDistULWbPreComp_Bin13_count`+`SinrDistULWbPreComp_Bin14_count`+`SinrDistULWbPreComp_Bin15_count`+`SinrDistULWbPreComp_Bin16_count`+`SinrDistULWbPreComp_Bin17_count`+`SinrDistULWbPreComp_Bin18_count`+`SinrDistULWbPreComp_Bin19_count`
+- name: NR_UL_SINR_NUM__5044
+  data_type: double
+  sql: -9*`SinrDistULWbPreComp_Bin0_count`+-7*`SinrDistULWbPreComp_Bin1_count`+-5*`SinrDistULWbPreComp_Bin2_count`+-3*`SinrDistULWbPreComp_Bin3_count`+-1*`SinrDistULWbPreComp_Bin4_count`+1*`SinrDistULWbPreComp_Bin5_count`+3*`SinrDistULWbPreComp_Bin6_count`+5*`SinrDistULWbPreComp_Bin7_count`+7*`SinrDistULWbPreComp_Bin8_count`+9*`SinrDistULWbPreComp_Bin9_count`+11*`SinrDistULWbPreComp_Bin10_count`+13*`SinrDistULWbPreComp_Bin11_count`+15*`SinrDistULWbPreComp_Bin12_count`+17*`SinrDistULWbPreComp_Bin13_count`+19*`SinrDistULWbPreComp_Bin14_count`+21*`SinrDistULWbPreComp_Bin15_count`+23*`SinrDistULWbPreComp_Bin16_count`+25*`SinrDistULWbPreComp_Bin17_count`+27*`SinrDistULWbPreComp_Bin18_count`+29*`SinrDistULWbPreComp_Bin19_count`

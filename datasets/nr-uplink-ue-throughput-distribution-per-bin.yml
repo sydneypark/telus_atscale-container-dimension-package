@@ -1,0 +1,47 @@
+unique_name: nr-uplink-ue-throughput-distribution-per-bin
+object_type: dataset
+label: nr-uplink-ue-throughput-distribution-per-bin
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-uplink-ue-throughput-distribution-per-bin-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: LCG
+  data_type: string
+- name: ULIpThruBin0_count
+  data_type: double
+- name: ULIpThruBin1_count
+  data_type: double
+- name: ULIpThruBin2_count
+  data_type: double
+- name: ULIpThruBin3_count
+  data_type: double
+- name: ULIpThruBin4_count
+  data_type: double
+- name: ULIpThruBin5_count
+  data_type: double
+- name: ULIpThruBin6_count
+  data_type: double
+- name: ULIpThruBin7_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

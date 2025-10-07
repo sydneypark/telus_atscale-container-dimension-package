@@ -1,0 +1,39 @@
+unique_name: nr-commercial-mobile-alert-system
+object_type: dataset
+label: nr-commercial-mobile-alert-system
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-commercial-mobile-alert-system-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PwsCancelRequesFail_count
+  data_type: double
+- name: PwsCancelRequesSucc_count
+  data_type: double
+- name: PwsCancelRequestAtt_count
+  data_type: double
+- name: WRWarningRequestAtt_count
+  data_type: double
+- name: WRWarningRequestFail_count
+  data_type: double
+- name: WRWarningRequestSucc_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

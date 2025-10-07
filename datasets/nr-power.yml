@@ -1,0 +1,71 @@
+unique_name: nr-power
+object_type: dataset
+label: nr-power
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-power-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: InterferencePowerAvg_dBm
+  data_type: double
+- name: InterferencePowerPUCCHAvg_dBm
+  data_type: double
+- name: InterferencePowerPUCCHCnt_count
+  data_type: double
+- name: InterferencePowerPUCCHTot_mW_10_13
+  data_type: double
+- name: InterferencePowerPUSCHAvg_dBm
+  data_type: double
+- name: InterferencePowerPUSCHCnt_count
+  data_type: double
+- name: InterferencePowerPUSCHTot_mW_10_13
+  data_type: double
+- name: RssiOverPathAvg_dBm
+  data_type: double
+- name: RssiOverPathCnt_count
+  data_type: double
+- name: RssiOverPathTot_mW_10_13
+  data_type: double
+- name: ThermalNoisePowerAvg_dBm
+  data_type: double
+- name: ThermalNoisePowerCnt_count
+  data_type: double
+- name: ThermalNoisePowerTot_mW_10_13
+  data_type: double
+- name: ValidPucchPrb_count
+  data_type: double
+- name: ValidPuschPrb_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: AVG_INTERFERENCE_POWER_PUSCH_DEN__5045
+  data_type: double
+  sql: InterferencePowerPUSCHCnt_count
+- name: AVG_INTERFERENCE_POWER_PUSCH_NUM__5045
+  data_type: double
+  sql: InterferencePowerPUSCHTot_mW_10_13
+- name: NR_INTERFERENCE_AVG_DEN__5045
+  data_type: double
+  sql: InterferencePowerPUSCHCnt_count
+- name: NR_INTERFERENCE_AVG_NUM__5045
+  data_type: double
+  sql: InterferencePowerPUSCHTot_mW_10_13

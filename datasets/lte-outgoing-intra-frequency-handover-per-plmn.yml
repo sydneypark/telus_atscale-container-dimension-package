@@ -1,0 +1,51 @@
+unique_name: lte-outgoing-intra-frequency-handover-per-plmn
+object_type: dataset
+label: lte-outgoing-intra-frequency-handover-per-plmn
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-outgoing-intra-frequency-handover-per-plmn-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: HoCause
+  data_type: string
+- name: IntraFreqInterEnbS1OutAtt_count
+  data_type: double
+- name: IntraFreqInterEnbS1OutPrepSucc_count
+  data_type: double
+- name: IntraFreqInterEnbS1OutSucc_count
+  data_type: double
+- name: IntraFreqInterEnbX2OutAtt_count
+  data_type: double
+- name: IntraFreqInterEnbX2OutPrepSucc_count
+  data_type: double
+- name: IntraFreqInterEnbX2OutSucc_count
+  data_type: double
+- name: IntraFreqIntraEnbOutAtt_count
+  data_type: double
+- name: IntraFreqIntraEnbOutPrepSucc_count
+  data_type: double
+- name: IntraFreqIntraEnbOutSucc_count
+  data_type: double
+- name: PLMN
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,87 @@
+unique_name: nr-dl-harq-transmission-count-and-bler
+object_type: dataset
+label: nr-dl-harq-transmission-count-and-bler
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-dl-harq-transmission-count-and-bler-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BLERof1stTxTrial_DL_pct
+  data_type: double
+- name: BLERof2ndTxTrial_DL_pct
+  data_type: double
+- name: BLERof3rdTxTrial_DL_pct
+  data_type: double
+- name: BLERof4thTxTrial_DL_pct
+  data_type: double
+- name: BLERof5thTxTrial_DL_pct
+  data_type: double
+- name: BLERof6thTxTrial_DL_pct
+  data_type: double
+- name: BLERof7thTxTrial_DL_pct
+  data_type: double
+- name: BLERof8thTxTrial_DL_pct
+  data_type: double
+- name: CellIdentity
+  data_type: string
+- name: Nrof1stTxTrial_DL_count
+  data_type: double
+- name: Nrof2ndTxTrial_DL_count
+  data_type: double
+- name: Nrof3rdTxTrial_DL_count
+  data_type: double
+- name: Nrof4thTxTrial_DL_count
+  data_type: double
+- name: Nrof5thTxTrial_DL_count
+  data_type: double
+- name: Nrof6thTxTrial_DL_count
+  data_type: double
+- name: Nrof7thTxTrial_DL_count
+  data_type: double
+- name: Nrof8thTxTrial_DL_count
+  data_type: double
+- name: NrofDtxFor1stTxTrial_DL_count
+  data_type: double
+- name: NrofDtxFor2ndTxTrial_DL_count
+  data_type: double
+- name: NrofDtxFor3rdTxTrial_DL_count
+  data_type: double
+- name: NrofDtxFor4thTxTrial_DL_count
+  data_type: double
+- name: NrofDtxFor5thTxTrial_DL_count
+  data_type: double
+- name: NrofDtxFor6thTxTrial_DL_count
+  data_type: double
+- name: NrofDtxFor7thTxTrial_DL_count
+  data_type: double
+- name: NrofDtxFor8thTxTrial_DL_count
+  data_type: double
+- name: NrofResidualError_DL_count
+  data_type: double
+- name: Residual_BLER_DL_pct
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NR_DL_RBLER_PCT_DEN__5019
+  data_type: double
+  sql: Nrof1stTxTrial_DL_count
+- name: NR_DL_RBLER_PCT_NUM__5019
+  data_type: double
+  sql: NrofResidualError_DL_count

@@ -1,0 +1,70 @@
+unique_name: lte-scell-added-information-pcell
+object_type: dataset
+label: lte-scell-added-information-pcell
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-scell-added-information-pcell-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DLCaCapabilityUE_2CC_count
+  data_type: double
+- name: DLCaCapabilityUE_3CC_count
+  data_type: double
+- name: DLCaCapabilityUE_4CC_count
+  data_type: double
+- name: DLCaCapabilityUE_5CC_count
+  data_type: double
+- name: DLCaCapabilityUE_6CC_count
+  data_type: double
+- name: DLCaCapabilityUE_7CC_count
+  data_type: double
+- name: No_DLCaCapabilityUE_count
+  data_type: double
+- name: SCellAdditionTime_2CC_s
+  data_type: double
+- name: SCellAdditionTime_3CC_s
+  data_type: double
+- name: SCellAdditionTime_4CC_s
+  data_type: double
+- name: SCellAdditionTime_5CC_s
+  data_type: double
+- name: SCellAdditionTime_6CC_s
+  data_type: double
+- name: SCellAdditionTime_7CC_s
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: 2CC_NUM__308
+  data_type: double
+  sql: SCellAdditionTime_2CC_s
+- name: 3CC_NUM__308
+  data_type: double
+  sql: SCellAdditionTime_3CC_s
+- name: 4CC_NUM__308
+  data_type: double
+  sql: SCellAdditionTime_4CC_s
+- name: 5CC_NUM__308
+  data_type: double
+  sql: SCellAdditionTime_5CC_s
+- name: SCCTOTAL__308
+  data_type: double
+  sql: SCellAdditionTime_2CC_s+`SCellAdditionTime_3CC_s`+`SCellAdditionTime_4CC_s`+`SCellAdditionTime_5CC_s`

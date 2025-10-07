@@ -1,0 +1,67 @@
+unique_name: lte-nb-iot-rrc-connection-number
+object_type: dataset
+label: lte-nb-iot-rrc-connection-number
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-rrc-connection-number-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NBIoT_ConnNoAvg_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv0Avg_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv0Cnt_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv0Max_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv0Tot_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv1Avg_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv1Cnt_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv1Max_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv1Tot_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv2Avg_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv2Cnt_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv2Max_count
+  data_type: double
+- name: NBIoT_ConnNoCeLv2Tot_count
+  data_type: double
+- name: NBIoT_ConnNoCnt_count
+  data_type: double
+- name: NBIoT_ConnNoMax_count
+  data_type: double
+- name: NBIoT_ConnNoTot_count
+  data_type: double
+- name: NBIoT_ReleaseNbCallHoldingTimeAvg_s
+  data_type: double
+- name: NBIoT_ReleaseNbCallHoldingTimeCnt_count
+  data_type: double
+- name: NBIoT_ReleaseNbCallHoldingTimeTot_s
+  data_type: double
+- name: NBIoT_cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,65 @@
+unique_name: lte-massive-mimo-statistics-for-downlink-prb-usage-per-tti
+object_type: dataset
+label: lte-massive-mimo-statistics-for-downlink-prb-usage-per-tti
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-massive-mimo-statistics-for-downlink-prb-usage-per-tti-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AvgDLPRBNumWithNonTM7TxDiversityPerTTI_count
+  data_type: double
+- name: AvgDLPRBNumWithTM7TxDiversityPerTTI_count
+  data_type: double
+- name: AvgPRBUsageWithNonTM7TxDiversity_pct
+  data_type: double
+- name: AvgPRBUsageWithTM7TxDiversity_pct
+  data_type: double
+- name: TotAvailablePrbDLNum_count
+  data_type: double
+- name: TotDLPRBNumWithNonTM7TxDiversity_count
+  data_type: double
+- name: TotDLPRBNumWithTM7TxDiversity_count
+  data_type: double
+- name: TotDLScheduledTti_count
+  data_type: double
+- name: TotPrbDLWithNonTM7Avg_pct
+  data_type: double
+- name: TotPrbDLWithNonTM7Num_count
+  data_type: double
+- name: TotPrbDLWithNonTM7perTTIAvg_count
+  data_type: double
+- name: TotPrbDLWithTM7MUAvg_pct
+  data_type: double
+- name: TotPrbDLWithTM7MUNum_count
+  data_type: double
+- name: TotPrbDLWithTM7MUperTTIAvg_count
+  data_type: double
+- name: TotPrbDLWithTM7SUAvg_pct
+  data_type: double
+- name: TotPrbDLWithTM7SUNum_count
+  data_type: double
+- name: TotPrbDLWithTM7SUperTTIAvg_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

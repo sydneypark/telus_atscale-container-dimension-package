@@ -1,0 +1,14 @@
+unique_name: NE_Cell_Huawei_UMTS_Bridge.dataset
+object_type: dataset
+label: NE_Cell_Huawei_UMTS_Bridge.dataset
+connection_id: BQ_NE_Cell.connection
+table: NE_Cell_Huawei_UMTS_Bridge
+immutable: true
+
+columns:
+  - name: cellKey
+    data_type: long
+  - name: key
+    data_type: string
+  - name: NEID_Key
+    data_type: string

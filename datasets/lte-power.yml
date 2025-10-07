@@ -1,0 +1,69 @@
+unique_name: lte-power
+object_type: dataset
+label: lte-power
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-power-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: InterferencePowerAvg_dBm
+  data_type: double
+- name: InterferencePowerCnt_count
+  data_type: double
+- name: InterferencePowerTot_dBm
+  data_type: double
+- name: RssiOverPathAvg_dBm
+  data_type: double
+- name: RssiOverPathCnt_count
+  data_type: double
+- name: RssiOverPathTot_dBm
+  data_type: double
+- name: RssiPath0Avg_dBm
+  data_type: double
+- name: RssiPath0Cnt_count
+  data_type: double
+- name: RssiPath0Curr_dBm
+  data_type: double
+- name: RssiPath0Tot_dBm
+  data_type: double
+- name: RssiPath1Avg_dBm
+  data_type: double
+- name: RssiPath1Cnt_count
+  data_type: double
+- name: RssiPath1Curr_dBm
+  data_type: double
+- name: RssiPath1Tot_dBm
+  data_type: double
+- name: ThermalNoisePowerAvg_dBm
+  data_type: double
+- name: ThermalNoisePowerCnt_count
+  data_type: double
+- name: ThermalNoisePowerTot_dBm
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: LTE_UL_INTERFERENCE_TOTAL_COUNT__57
+  data_type: double
+  sql: coalesce(`InterferencePowerCnt_count`/352,0)
+- name: LTE_UL_INTERFERENCE_TOTAL_POWER__57
+  data_type: double
+  sql: InterferencePowerTot_dBm/352

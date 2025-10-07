@@ -1,0 +1,53 @@
+unique_name: lte-du-power-consumption
+object_type: dataset
+label: lte-du-power-consumption
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-du-power-consumption-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DuCurrentAvg_A
+  data_type: double
+- name: DuCurrentCnt_count
+  data_type: double
+- name: DuCurrentMax_A
+  data_type: double
+- name: DuCurrentMin_A
+  data_type: double
+- name: DuCurrentTot_A
+  data_type: double
+- name: DuPowerAvg_W
+  data_type: double
+- name: DuVoltageAvg_V
+  data_type: double
+- name: DuVoltageCnt_count
+  data_type: double
+- name: DuVoltageMax_V
+  data_type: double
+- name: DuVoltageMin_V
+  data_type: double
+- name: DuVoltageTot_V
+  data_type: double
+- name: ShelfId
+  data_type: string
+- name: SlotId
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

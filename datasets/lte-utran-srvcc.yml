@@ -1,0 +1,83 @@
+unique_name: lte-utran-srvcc
+object_type: dataset
+label: lte-utran-srvcc
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-utran-srvcc-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: HOCause
+  data_type: string
+- name: HOIndication
+  data_type: string
+- name: UtranSrvccOutAtt_count
+  data_type: double
+- name: UtranSrvccOutFail_CpCcFail_count
+  data_type: double
+- name: UtranSrvccOutFail_CpCcTo_count
+  data_type: double
+- name: UtranSrvccOutFail_RrcSigFail_count
+  data_type: double
+- name: UtranSrvccOutFail_S1apCuFail_count
+  data_type: double
+- name: UtranSrvccOutFail_S1apLinkFail_count
+  data_type: double
+- name: UtranSrvccOutFail_S1apRoTo_count
+  data_type: double
+- name: UtranSrvccOutFail_S1apSigFail_count
+  data_type: double
+- name: UtranSrvccOutFail_UpGtpFail_count
+  data_type: double
+- name: UtranSrvccOutFail_UpMacFail_count
+  data_type: double
+- name: UtranSrvccOutFail_UpPdcpFail_count
+  data_type: double
+- name: UtranSrvccOutFail_UpRlcFail_count
+  data_type: double
+- name: UtranSrvccOutPrepFail_CpCcFail_count
+  data_type: double
+- name: UtranSrvccOutPrepFail_S1apCuFail_count
+  data_type: double
+- name: UtranSrvccOutPrepFail_S1apLinkFail_count
+  data_type: double
+- name: UtranSrvccOutPrepFail_S1apRpTo_count
+  data_type: double
+- name: UtranSrvccOutPrepFail_S1apSigFail_count
+  data_type: double
+- name: UtranSrvccOutPrepSucc_count
+  data_type: double
+- name: UtranSrvccOutSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: SRVCC_EXEC_ATTEMPTS__120
+  data_type: double
+  sql: UtranSrvccOutPrepSucc_count
+- name: SRVCC_EXEC_SUCCESSES__120
+  data_type: double
+  sql: coalesce(`UtranSrvccOutSucc_count`,0)
+- name: SRVCC_PREP_ATTEMPTS__120
+  data_type: double
+  sql: UtranSrvccOutAtt_count
+- name: SRVCC_PREP_SUCCESSES__120
+  data_type: double
+  sql: coalesce(`UtranSrvccOutPrepSucc_count`,0)

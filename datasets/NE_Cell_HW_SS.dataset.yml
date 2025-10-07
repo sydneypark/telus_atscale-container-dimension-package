@@ -1,0 +1,86 @@
+unique_name: NE_Cell_HW_SS.dataset
+object_type: dataset
+label: NE_Cell_HW_SS.dataset
+connection_id: BQ_NE_Cell.connection
+table: NE_Cell_HW_SS
+immutable: true
+
+columns:
+  - name: ACPF
+    data_type: string
+  - name: ACPF_ID
+    data_type: string
+  - name: ARFCN
+    data_type: long
+  - name: AUPF
+    data_type: string
+  - name: AUPF_ID
+    data_type: string
+  - name: BandGroup
+    data_type: long
+  - name: BandID
+    data_type: string
+  - name: BandType
+    data_type: string
+  - name: CellID
+    data_type: long
+  - name: CellIdentity
+    data_type: string
+  - name: CellName
+    data_type: string
+  - name: Coverage_SiteID
+    data_type: string
+  - name: DU_ID
+    data_type: string
+  - name: FreqBand
+    data_type: long
+  - name: gNB_ID
+    data_type: string
+  - name: Host_SiteID
+    data_type: string
+  - name: key
+    data_type: string
+  - name: key_type
+    data_type: string
+  - name: LAC
+    data_type: long
+  - name: LocalCellID
+    data_type: long
+  - name: National
+    data_type: string
+  - name: NEID
+    data_type: string
+  - name: NodeID
+    data_type: long
+  - name: NodeName
+    data_type: string
+  - name: OAK
+    data_type: string
+  - name: PerformanceMarket
+    data_type: string
+  - name: PerformanceRegion
+    data_type: string
+  - name: prov
+    data_type: string
+  - name: RAT
+    data_type: string
+  - name: Region
+    data_type: string
+  - name: RNC
+    data_type: string
+  - name: Scenario
+    data_type: string
+  - name: Sector
+    data_type: string
+  - name: SiteLatitude
+    data_type: double
+  - name: SiteLongitude
+    data_type: double
+  - name: TAC
+    data_type: long
+  - name: Top20
+    data_type: string
+  - name: ToyCell
+    data_type: long
+  - name: Vendor
+    data_type: string

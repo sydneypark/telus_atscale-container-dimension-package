@@ -1,0 +1,63 @@
+unique_name: lte-telus-pm-samsung-nr-sgnb-addition-due-to-intra-lte-handover
+object_type: dataset
+label: lte-telus-pm-samsung-nr-sgnb-addition-due-to-intra-lte-handover
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-nr-sgnb-addition-due-to-intra-lte-handover-without-sgnb-change-with-du-identifier-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: EndcAddLteHoNoSgnbChgAtt_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgFail_CpFail_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgFail_DuFail_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgFail_MenbFail_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgFail_Tdcoverall_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgFail_UpFail_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgPrepFail_CpFail_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgPrepFail_DuFail_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgPrepFail_DuTimeout_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgPrepFail_MenbFail_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgPrepFail_UpFail_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgPrepFail_UpTimeout_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgPrepSucc_count
+  data_type: double
+- name: EndcAddLteHoNoSgnbChgSucc_count
+  data_type: double
+- name: eNB_ID
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_DU_ID
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

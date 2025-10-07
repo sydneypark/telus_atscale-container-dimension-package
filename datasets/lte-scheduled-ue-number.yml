@@ -1,0 +1,67 @@
+unique_name: lte-scheduled-ue-number
+object_type: dataset
+label: lte-scheduled-ue-number
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-scheduled-ue-number-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DLScheduledTTINum_count
+  data_type: double
+- name: DLScheduledUEAvg0_count
+  data_type: double
+- name: DLScheduledUEAvg_count
+  data_type: double
+- name: DLScheduledUENum_count
+  data_type: double
+- name: DLScheduledUEperTTIMaxCnt_count
+  data_type: double
+- name: DLScheduledUEperTTIMax_count
+  data_type: double
+- name: DLScheduledUEperTTIMinCnt_count
+  data_type: double
+- name: DLScheduledUEperTTIMin_count
+  data_type: double
+- name: DLTTINum_count
+  data_type: double
+- name: ULScheduledTTINum_count
+  data_type: double
+- name: ULScheduledUEAvg0_count
+  data_type: double
+- name: ULScheduledUEAvg_count
+  data_type: double
+- name: ULScheduledUENum_count
+  data_type: double
+- name: ULScheduledUEperTTIMaxCnt_count
+  data_type: double
+- name: ULScheduledUEperTTIMax_count
+  data_type: double
+- name: ULScheduledUEperTTIMinCnt_count
+  data_type: double
+- name: ULScheduledUEperTTIMin_count
+  data_type: double
+- name: ULTTINum_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

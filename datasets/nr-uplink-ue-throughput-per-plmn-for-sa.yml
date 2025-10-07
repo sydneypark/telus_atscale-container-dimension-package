@@ -1,0 +1,49 @@
+unique_name: nr-uplink-ue-throughput-per-plmn-for-sa
+object_type: dataset
+label: nr-uplink-ue-throughput-per-plmn-for-sa
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-uplink-ue-throughput-per-plmn-for-sa-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: LCG
+  data_type: string
+- name: PLMN_UE
+  data_type: string
+- name: ULUeThruTimePlmnSa_slots
+  data_type: double
+- name: ULUeThruVolPlmnSa_Kbytes
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: SA_NR_UL_THPT_BELL_DEN__5486
+  data_type: double
+  sql: if(`PLMN_UE`="302610",`ULUeThruTimePlmnSa_slots`/8000,NULL)
+- name: SA_NR_UL_THPT_BELL_NUM__5486
+  data_type: double
+  sql: if(`PLMN_UE`="302610",`ULUeThruVolPlmnSa_Kbytes`* 8 * 1.024/1000,NULL)
+- name: SA_NR_UL_THPT_TELUS_DEN__5486
+  data_type: double
+  sql: if(`PLMN_UE`="302220",`ULUeThruTimePlmnSa_slots`/8000,NULL)
+- name: SA_NR_UL_THPT_TELUS_NUM__5486
+  data_type: double
+  sql: if(`PLMN_UE`="302220",`ULUeThruVolPlmnSa_Kbytes`* 8 * 1.024/1000,NULL)

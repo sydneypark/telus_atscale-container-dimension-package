@@ -1,0 +1,215 @@
+unique_name: s_acpf_gnb_du_id_cellidentity_tgteutrancellidentity_a.dataset
+object_type: dataset
+label: s_acpf_gnb_du_id_cellidentity_tgteutrancellidentity_a.dataset
+connection_id: BQ_pm_samsung.connection
+table: s_acpf_gnb_du_id_cellidentity_tgteutrancellidentity_a
+incremental:
+  column: INIT_TIME
+  grace_period: 86400s
+immutable: true
+
+columns:
+  - name: CellIdentity
+    data_type: string
+  - name: EPS_FALLBACK_SUCCESS_RATE_EUTRAN_DEN__5850
+    data_type: long
+    sql: '`S_5850C1`'
+  - name: EPS_FALLBACK_SUCCESS_RATE_EUTRAN_NUM__5850
+    data_type: long
+    sql: '`S_5850C3`'
+  - name: FamilyID
+    data_type: long
+  - name: file_key
+    data_type: string
+  - name: gNB_DU_ID
+    data_type: string
+  - name: gNB_ID
+    data_type: string
+  - name: INIT_TIME
+    data_type: datetime
+  - name: INSERT_TS
+    data_type: datetime
+  - name: INTERRAT_HANDOVER_SUCCESS_RATE_EUTRAN_DEN__5849
+    data_type: long
+    sql: '`S_5849C1`'
+  - name: INTERRAT_HANDOVER_SUCCESS_RATE_EUTRAN_NUM__5849
+    data_type: long
+    sql: '`S_5849C3`'
+  - name: LOCATION
+    data_type: string
+  - name: S_5842C0
+    data_type: long
+  - name: S_5842C1
+    data_type: long
+  - name: S_5842C2
+    data_type: long
+  - name: S_5842C3
+    data_type: long
+  - name: S_5849C0
+    data_type: long
+  - name: S_5849C1
+    data_type: long
+  - name: S_5849C10
+    data_type: long
+  - name: S_5849C11
+    data_type: long
+  - name: S_5849C12
+    data_type: long
+  - name: S_5849C13
+    data_type: long
+  - name: S_5849C14
+    data_type: long
+  - name: S_5849C15
+    data_type: long
+  - name: S_5849C16
+    data_type: long
+  - name: S_5849C17
+    data_type: long
+  - name: S_5849C18
+    data_type: long
+  - name: S_5849C19
+    data_type: long
+  - name: S_5849C2
+    data_type: long
+  - name: S_5849C20
+    data_type: long
+  - name: S_5849C21
+    data_type: long
+  - name: S_5849C22
+    data_type: long
+  - name: S_5849C23
+    data_type: long
+  - name: S_5849C24
+    data_type: long
+  - name: S_5849C25
+    data_type: long
+  - name: S_5849C26
+    data_type: long
+  - name: S_5849C27
+    data_type: long
+  - name: S_5849C28
+    data_type: long
+  - name: S_5849C29
+    data_type: long
+  - name: S_5849C3
+    data_type: long
+  - name: S_5849C30
+    data_type: long
+  - name: S_5849C31
+    data_type: long
+  - name: S_5849C32
+    data_type: long
+  - name: S_5849C33
+    data_type: long
+  - name: S_5849C4
+    data_type: long
+  - name: S_5849C5
+    data_type: long
+  - name: S_5849C6
+    data_type: long
+  - name: S_5849C7
+    data_type: long
+  - name: S_5849C8
+    data_type: long
+  - name: S_5849C9
+    data_type: long
+  - name: S_5850C0
+    data_type: long
+  - name: S_5850C1
+    data_type: long
+  - name: S_5850C10
+    data_type: long
+  - name: S_5850C11
+    data_type: long
+  - name: S_5850C12
+    data_type: long
+  - name: S_5850C13
+    data_type: long
+  - name: S_5850C14
+    data_type: long
+  - name: S_5850C15
+    data_type: long
+  - name: S_5850C16
+    data_type: long
+  - name: S_5850C17
+    data_type: long
+  - name: S_5850C18
+    data_type: long
+  - name: S_5850C19
+    data_type: long
+  - name: S_5850C2
+    data_type: long
+  - name: S_5850C20
+    data_type: long
+  - name: S_5850C21
+    data_type: long
+  - name: S_5850C22
+    data_type: long
+  - name: S_5850C23
+    data_type: long
+  - name: S_5850C24
+    data_type: long
+  - name: S_5850C25
+    data_type: long
+  - name: S_5850C26
+    data_type: long
+  - name: S_5850C27
+    data_type: long
+  - name: S_5850C28
+    data_type: long
+  - name: S_5850C29
+    data_type: long
+  - name: S_5850C3
+    data_type: long
+  - name: S_5850C30
+    data_type: long
+  - name: S_5850C31
+    data_type: long
+  - name: S_5850C32
+    data_type: long
+  - name: S_5850C33
+    data_type: long
+  - name: S_5850C34
+    data_type: long
+  - name: S_5850C4
+    data_type: long
+  - name: S_5850C5
+    data_type: long
+  - name: S_5850C6
+    data_type: long
+  - name: S_5850C7
+    data_type: long
+  - name: S_5850C8
+    data_type: long
+  - name: S_5850C9
+    data_type: long
+  - name: SA_NR_EPS_FALLBACK_HOFR_DEN__5850
+    data_type: long
+    sql: '`S_5850C1`'
+  - name: SA_NR_EPS_FALLBACK_HOFR_NUM__5850
+    data_type: long
+    sql: '`S_5850C1`-`S_5850C3`'
+  - name: SA_NR_EPS_FALLBACK_SUCCESS_RATE_EUTRAN_DEN__5850
+    data_type: long
+    sql: '`S_5850C1`'
+  - name: SA_NR_EPS_FALLBACK_SUCCESS_RATE_EUTRAN_NUM__5850
+    data_type: long
+    sql: '`S_5850C3`'
+  - name: SA_NR_INTERRAT_HANDOVER_SUCCESS_RATE_EUTRAN_DEN__5849
+    data_type: long
+    sql: '`S_5849C1`'
+  - name: SA_NR_INTERRAT_HANDOVER_SUCCESS_RATE_EUTRAN_NUM__5849
+    data_type: long
+    sql: '`S_5849C3`'
+  - name: SA_NR_INTERRAT_HOFR_DEN__5849
+    data_type: long
+    sql: '`S_5849C1`'
+  - name: SA_NR_INTERRAT_HOFR_NUM__5849
+    data_type: long
+    sql: '`S_5849C1`-`S_5849C3`'
+  - name: SYSTEM_ID
+    data_type: long
+  - name: TgtEUTRANCellIdentity
+    data_type: string
+  - name: version
+    data_type: string

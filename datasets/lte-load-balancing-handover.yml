@@ -1,0 +1,49 @@
+unique_name: lte-load-balancing-handover
+object_type: dataset
+label: lte-load-balancing-handover
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-load-balancing-handover-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: LbhoCid_tcID
+  data_type: double
+- name: LbhoCnt_count
+  data_type: double
+- name: MlbHOAtt_count
+  data_type: double
+- name: MlbHOPrepAtt_count
+  data_type: double
+- name: MlbHOPrepFailureNoResource_count
+  data_type: double
+- name: MlbHOSucc_count
+  data_type: double
+- name: MlbNotTriggered_LoadCondition_count
+  data_type: double
+- name: MlbNotTriggered_RadioCondition_count
+  data_type: double
+- name: Step
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: tcID
+  data_type: string
+- name: time_offset
+  data_type: string

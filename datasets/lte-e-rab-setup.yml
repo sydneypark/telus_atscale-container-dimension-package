@@ -1,0 +1,143 @@
+unique_name: lte-e-rab-setup
+object_type: dataset
+label: lte-e-rab-setup
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-e-rab-setup-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: ErabInitFailNbr_CpBhCacFail_count
+  data_type: double
+- name: ErabInitFailNbr_CpCapaCacFail_count
+  data_type: double
+- name: ErabInitFailNbr_CpCcFail_count
+  data_type: double
+- name: ErabInitFailNbr_CpCcTo_count
+  data_type: double
+- name: ErabInitFailNbr_CpQosCacFail_count
+  data_type: double
+- name: ErabInitFailNbr_RrcSigFail_count
+  data_type: double
+- name: ErabInitFailNbr_RrcSigTo_count
+  data_type: double
+- name: ErabInitFailNbr_S1apCuFail_count
+  data_type: double
+- name: ErabInitFailNbr_S1apLinkFail_count
+  data_type: double
+- name: ErabInitFailNbr_S1apSigFail_count
+  data_type: double
+- name: ErabInitFailNbr_UpGtpFail_count
+  data_type: double
+- name: ErabInitFailNbr_UpMacFail_count
+  data_type: double
+- name: ErabInitFailNbr_UpPdcpFail_count
+  data_type: double
+- name: ErabInitFailNbr_UpRlcFail_count
+  data_type: double
+- name: EstabCause
+  data_type: string
+- name: EstabInitAttNbr_count
+  data_type: double
+- name: EstabInitSuccNbr_count
+  data_type: double
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: LTE_AFR_Data_SLO_DEN__8
+  data_type: double
+  sql: if(`QCI`="1",0,`EstabInitAttNbr_count`)
+- name: LTE_AFR_Data_SLO_NUM__8
+  data_type: double
+  sql: if(`QCI`="1",0,`EstabInitAttNbr_count`-`EstabInitSuccNbr_count`)
+- name: LTE_NonGBR_ERAB_Attempts__8
+  data_type: double
+  sql: if(`QCI` IN ("5","6","7","8","9"),`EstabInitAttNbr_count`,NULL)
+- name: LTE_NonGBR_ERAB_Successes__8
+  data_type: double
+  sql: if(`QCI` IN ("5","6","7","8","9"),`EstabInitSuccNbr_count`,NULL)
+- name: LTE_QCI65_ERAB_ATTEMPTS__8
+  data_type: double
+  sql: if(`QCI` IN ("65"),`EstabInitAttNbr_count`,NULL)
+- name: LTE_QCI65_ERAB_FAILS__8
+  data_type: double
+  sql: if(`QCI` IN ("65"),`EstabInitAttNbr_count`-`EstabInitSuccNbr_count`,NULL)
+- name: LTE_QCI69_ERAB_ATTEMPTS__8
+  data_type: double
+  sql: if(`QCI` IN ("69"),`EstabInitAttNbr_count`,NULL)
+- name: LTE_QCI69_ERAB_FAILS__8
+  data_type: double
+  sql: if(`QCI` IN ("69"),`EstabInitAttNbr_count`-`EstabInitSuccNbr_count`,NULL)
+- name: LTE_QCI6_ERAB_ATTEMPTS__8
+  data_type: double
+  sql: if(`QCI` IN ("6"),`EstabInitAttNbr_count`,NULL)
+- name: LTE_QCI6_ERAB_SUCCESSES__8
+  data_type: double
+  sql: if(`QCI` IN ("6"),`EstabInitSuccNbr_count`,NULL)
+- name: LTE_TOT_ERAB_SETUP_ATT_SWAP__8
+  data_type: double
+  sql: EstabInitAttNbr_count
+- name: LTE_TOT_ERAB_SETUP_ATT__8
+  data_type: double
+  sql: EstabInitAttNbr_count
+- name: LTE_TOT_ERAB_SETUP_FAIL_SWAP__8
+  data_type: double
+  sql: EstabInitAttNbr_count-coalesce(`EstabInitSuccNbr_count`,0)
+- name: LTE_TOT_ERAB_SETUP_FAIL__8
+  data_type: double
+  sql: EstabInitAttNbr_count-coalesce(`EstabInitSuccNbr_count`,0)
+- name: MOBILITY_BEARER_ATT_2022__8
+  data_type: double
+  sql: if(`QCI` IN ("5","6","7","8"),`EstabInitAttNbr_count`,NULL)
+- name: MOBILITY_BEARER_ATT_no_eMTC__8
+  data_type: double
+  sql: if(`QCI` IN ("5","6","7","8"),`EstabInitAttNbr_count`,NULL)
+- name: MOBILITY_BEARER_ATT__8
+  data_type: double
+  sql: if(`QCI` IN ("5","6","7","8"),`EstabInitAttNbr_count`,NULL)
+- name: MOBILITY_BEARER_SUCC_2022__8
+  data_type: double
+  sql: if(`QCI` IN ("5","6","7","8"),`EstabInitSuccNbr_count`,NULL)
+- name: MOBILITY_BEARER_SUCC_no_eMTC__8
+  data_type: double
+  sql: if(`QCI` IN ("5","6","7","8"),`EstabInitSuccNbr_count`,NULL)
+- name: MOBILITY_BEARER_SUCC_SAMSUNG__8
+  data_type: double
+  sql: if(`QCI` IN ("5","6","7","8"),`EstabInitSuccNbr_count`,NULL)
+- name: MOBILITY_BEARER_SUCC__8
+  data_type: double
+  sql: if(`QCI` IN ("5","6","7","8"),`EstabInitSuccNbr_count`,NULL)
+- name: VoLTE_Access_Attempts__8
+  data_type: long
+- name: VOLTE_ACCESS_FAILS_SWAP__8
+  data_type: double
+  sql: if(`QCI`="1",`EstabInitAttNbr_count`-coalesce(`EstabInitSuccNbr_count`,0),NULL)
+- name: VoLTE_Access_Fails__8
+  data_type: long
+- name: WHSIA_BEARER_ATT__8
+  data_type: double
+  sql: if(`QCI` IN ("9"),`EstabInitAttNbr_count`,NULL)
+- name: WHSIA_BEARER_SUCC__8
+  data_type: double
+  sql: if(`QCI` IN ("9"),`EstabInitSuccNbr_count`,NULL)

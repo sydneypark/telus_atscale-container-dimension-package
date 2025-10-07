@@ -1,0 +1,32 @@
+unique_name: bhh_lte_nokia_dimension
+object_type: dimension
+label: bhh_lte_nokia_dimension
+hierarchies:
+  - unique_name: bhh_lte_nokia_hierarchy
+    label: bhh_lte_nokia_hierarchy
+    filter_empty: 'yes'
+    levels:
+      - unique_name: bhh_lte_nokia_level
+level_attributes:
+  - unique_name: bhh_lte_nokia_level
+    label: bhh_lte_nokia_level
+    dataset: bhh_lte_nokia.dataset
+    key_columns:
+      - INIT_TIME
+      - MRBTS
+      - LNBTS
+      - LNCEL
+    name_column: Type
+relationships:
+  - unique_name: bhh_lte_nokia.dataset_Type_to_BHH_BHH
+    from:
+      dataset: bhh_lte_nokia.dataset
+      hierarchy: bhh_lte_nokia_hierarchy
+      join_columns:
+        - Type
+      level: bhh_lte_nokia_level
+    to:
+      dimension: BHH
+      level: BHH
+    type: embedded
+type: standard

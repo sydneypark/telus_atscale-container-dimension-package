@@ -1,0 +1,69 @@
+unique_name: lte-pdcch-usage-information
+object_type: dataset
+label: lte-pdcch-usage-information
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-pdcch-usage-information-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Cfi1_count
+  data_type: double
+- name: Cfi2_count
+  data_type: double
+- name: Cfi3_count
+  data_type: double
+- name: CommonCceAgg4_count
+  data_type: double
+- name: CommonCceAgg4plus3dBBoost_count
+  data_type: double
+- name: CommonCceAgg8_count
+  data_type: double
+- name: PDCCHCcePerUser_CCE
+  data_type: double
+- name: PDCCHCceUsedAgg1_count
+  data_type: double
+- name: PDCCHCceUsedAgg2_count
+  data_type: double
+- name: PDCCHCceUsedAgg4_count
+  data_type: double
+- name: PDCCHCceUsedAgg8_count
+  data_type: double
+- name: UECceAgg1_count
+  data_type: double
+- name: UECceAgg2_count
+  data_type: double
+- name: UECceAgg2plus3dBBoost_count
+  data_type: double
+- name: UECceAgg4_count
+  data_type: double
+- name: UECceAgg4plus3dBBoost_count
+  data_type: double
+- name: UECceAgg8_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: LTE_CFI_MEAN_DEN__262
+  data_type: double
+  sql: Cfi1_count+`Cfi2_count`+`Cfi3_count`
+- name: LTE_CFI_MEAN_NUM__262
+  data_type: double
+  sql: Cfi1_count*1+`Cfi2_count`*2+`Cfi3_count`*3

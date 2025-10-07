@@ -1,0 +1,75 @@
+unique_name: nr-drb-setup
+object_type: dataset
+label: nr-drb-setup
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-drb-setup-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: DrbSetupAtt_count
+  data_type: double
+- name: DrbSetupFail_CpFail_count
+  data_type: double
+- name: DrbSetupFail_E1Fail_count
+  data_type: double
+- name: DrbSetupFail_E1Timeout_count
+  data_type: double
+- name: DrbSetupFail_F1Fail_count
+  data_type: double
+- name: DrbSetupFail_F1Timeout_count
+  data_type: double
+- name: DrbSetupFail_NgFail_count
+  data_type: double
+- name: DrbSetupFail_RrcTimeout_count
+  data_type: double
+- name: DrbSetupSucc_count
+  data_type: double
+- name: _5QI
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: DRB_SETUP_SUCCESS_RATE_DEN__5218
+  data_type: double
+  sql: DrbSetupAtt_count
+- name: DRB_SETUP_SUCCESS_RATE_NUM__5218
+  data_type: double
+  sql: DrbSetupSucc_count
+- name: SA_NR_DRB_SETUP_FR_DEN__5218
+  data_type: double
+  sql: DrbSetupAtt_count
+- name: SA_NR_DRB_SETUP_FR_NUM__5218
+  data_type: double
+  sql: DrbSetupAtt_count-`DrbSetupSucc_count`
+- name: SA_NR_DRB_SETUP_SUCCESS_RATE_DEN__5218
+  data_type: double
+  sql: DrbSetupAtt_count
+- name: SA_NR_DRB_SETUP_SUCCESS_RATE_NUM__5218
+  data_type: double
+  sql: DrbSetupSucc_count
+- name: SLO_SA_NR_SERVICE_ACCESSIBILITY_DEN__5218
+  data_type: double
+  sql: DrbSetupAtt_count
+- name: SLO_SA_NR_SERVICE_ACCESSIBILITY_NUM__5218
+  data_type: double
+  sql: DrbSetupAtt_count-`DrbSetupSucc_count`

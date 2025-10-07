@@ -1,0 +1,87 @@
+unique_name: lte-nb-iot-transmission-times-of-npdsch-and-npusch-per-mcs
+object_type: dataset
+label: lte-nb-iot-transmission-times-of-npdsch-and-npusch-per-mcs
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-transmission-times-of-npdsch-and-npusch-per-mcs-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NBIoT_DLTransmittedMcs0_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs10_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs11_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs12_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs13_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs1_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs2_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs3_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs4_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs5_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs6_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs7_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs8_count
+  data_type: double
+- name: NBIoT_DLTransmittedMcs9_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs0_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs10_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs11_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs12_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs13_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs1_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs2_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs3_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs4_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs5_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs6_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs7_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs8_count
+  data_type: double
+- name: NBIoT_ULReceivedMcs9_count
+  data_type: double
+- name: NBIoT_cNum
+  data_type: string
+- name: NBIoT_classLevel
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

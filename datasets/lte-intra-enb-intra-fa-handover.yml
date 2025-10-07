@@ -1,0 +1,85 @@
+unique_name: lte-intra-enb-intra-fa-handover
+object_type: dataset
+label: lte-intra-enb-intra-fa-handover
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-intra-enb-intra-fa-handover-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: HoCause
+  data_type: string
+- name: IntraFa_IntraEnbAtt_count
+  data_type: double
+- name: IntraFa_IntraEnbCnt_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_CpCcFail_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_CpCcTo_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_RrcHcTo_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_RrcSigFail_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_S1apCuFail_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_S1apLinkFail_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_S1apSigFail_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_UpGtpFail_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_UpMacFail_count
+  data_type: double
+- name: IntraFa_IntraEnbFail_UpRlcFail_count
+  data_type: double
+- name: IntraFa_IntraEnbNbrCid_tcID
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_CpBhCacFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_CpCapaCacFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_CpCcFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_CpCcTo_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_CpQosCacFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_RrcSigFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_S1apCuFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_S1apLinkFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_S1apSigFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_UpMacFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepFail_UpRlcFail_count
+  data_type: double
+- name: IntraFa_IntraEnbPrepSucc_count
+  data_type: double
+- name: IntraFa_IntraEnbSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: tcID
+  data_type: string
+- name: time_offset
+  data_type: string

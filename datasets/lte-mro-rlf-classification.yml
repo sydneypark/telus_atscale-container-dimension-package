@@ -1,0 +1,75 @@
+unique_name: lte-mro-rlf-classification
+object_type: dataset
+label: lte-mro-rlf-classification
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-mro-rlf-classification-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BlackCellRlfAfterHo_count
+  data_type: double
+- name: CoverageHoleN_count
+  data_type: double
+- name: CoverageHoleRsrpN_count
+  data_type: double
+- name: CoverageHoleRsrp_count
+  data_type: double
+- name: CoverageHole_count
+  data_type: double
+- name: HwcReestablishRlfAfterHoInterFreq_count
+  data_type: double
+- name: HwcReestablishRlfAfterHo_count
+  data_type: double
+- name: HwcReestablishRlfAfterTriggeringInterFreq_count
+  data_type: double
+- name: HwcReestablishRlfAfterTriggering_count
+  data_type: double
+- name: MroRlfCid_NeighborCell_ID
+  data_type: double
+- name: MroRlfCnt_count
+  data_type: double
+- name: NeighborCell
+  data_type: string
+- name: PingpongHandover_count
+  data_type: double
+- name: TooEarlyHoFailure_count
+  data_type: double
+- name: TooEarlyHoRlfAfterHo_count
+  data_type: double
+- name: TooLateHoRlfAfterTriggering_count
+  data_type: double
+- name: TooLateHoRlfBeforeTriggering_count
+  data_type: double
+- name: WrongCellRlfAfterHoInterFreq_count
+  data_type: double
+- name: WrongCellRlfAfterHoTargetToOtherInterFreq_count
+  data_type: double
+- name: WrongCellRlfAfterHoTargetToOther_count
+  data_type: double
+- name: WrongCellRlfAfterHo_count
+  data_type: double
+- name: WrongCellRlfAfterTriggeringInterFreq_count
+  data_type: double
+- name: WrongCellRlfAfterTriggering_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

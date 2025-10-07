@@ -1,0 +1,45 @@
+unique_name: lte-ca-ue-per-bpu
+object_type: dataset
+label: lte-ca-ue-per-bpu
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-ca-ue-per-bpu-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BPU_ID
+  data_type: string
+- name: PCellUEPerBpuAvg_count
+  data_type: double
+- name: PCellUEPerBpuCnt_count
+  data_type: double
+- name: PCellUEPerBpuMax_count
+  data_type: double
+- name: PCellUEPerBpuTot_count
+  data_type: double
+- name: SCellUEPerBpuAvg_count
+  data_type: double
+- name: SCellUEPerBpuCnt_count
+  data_type: double
+- name: SCellUEPerBpuMax_count
+  data_type: double
+- name: SCellUEPerBpuTot_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

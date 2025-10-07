@@ -1,0 +1,57 @@
+unique_name: lte-ul-256qam-active
+object_type: dataset
+label: lte-ul-256qam-active
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-ul-256qam-active-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DowngradeAttemptPcell_count
+  data_type: double
+- name: DowngradeAttemptScell_count
+  data_type: double
+- name: DowngradeSuccessPcell_count
+  data_type: double
+- name: DowngradeSuccessScell_count
+  data_type: double
+- name: UEActiveTimeUL256QAMPcellAvg_ms
+  data_type: double
+- name: UEActiveTimeUL256QAMPcellCnt_count
+  data_type: double
+- name: UEActiveTimeUL256QAMPcellTot_ms
+  data_type: double
+- name: UEActiveTimeUL256QAMScellAvg_ms
+  data_type: double
+- name: UEActiveTimeUL256QAMScellCnt_count
+  data_type: double
+- name: UEActiveTimeUL256QAMScellTot_ms
+  data_type: double
+- name: UpgradeAttemptPcell_count
+  data_type: double
+- name: UpgradeAttemptScell_count
+  data_type: double
+- name: UpgradeSuccessPcell_count
+  data_type: double
+- name: UpgradeSuccessScell_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

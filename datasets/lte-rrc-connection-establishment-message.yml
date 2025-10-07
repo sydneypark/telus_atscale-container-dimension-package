@@ -1,0 +1,70 @@
+unique_name: lte-rrc-connection-establishment-message
+object_type: dataset
+label: lte-rrc-connection-establishment-message
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-rrc-connection-establishment-message-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: EstabCause
+  data_type: string
+- name: RrcEstabMsg_RrcConnectionRequest_count
+  data_type: double
+- name: RrcEstabMsg_RrcConnectionSetupComplete_count
+  data_type: double
+- name: RrcEstabMsg_RrcConnectionSetup_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: LTE_RRC_REQUESTS__905
+  data_type: double
+  sql: RrcEstabMsg_RrcConnectionRequest_count
+- name: LTE_RRC_REQ_MOSIG__905
+  data_type: double
+  sql: if( `EstabCause`="MO_SIGNAL", `RrcEstabMsg_RrcConnectionRequest_count`,NULL)
+- name: LTE_RRC_SUCCESSES__905
+  data_type: double
+  sql: RrcEstabMsg_RrcConnectionSetupComplete_count
+- name: LTE_RRC_SUCC_MOSIG__905
+  data_type: double
+  sql: if( `EstabCause`="MO_SIGNAL", `RrcEstabMsg_RrcConnectionSetupComplete_count`,
+    NULL )
+- name: MOBILITY_RRC_ATT_no_eMTC__905
+  data_type: double
+  sql: if( `EstabCause`="MO_SIGNAL",NULL,`RrcEstabMsg_RrcConnectionRequest_count`)
+- name: MOBILITY_RRC_ATT__905
+  data_type: double
+  sql: if( `EstabCause`="MO_SIGNAL",NULL,`RrcEstabMsg_RrcConnectionRequest_count`)
+- name: MOBILITY_RRC_SUCC_no_eMTC__905
+  data_type: double
+  sql: if(  `EstabCause`="MO_SIGNAL",NULL,`RrcEstabMsg_RrcConnectionSetupComplete_count`)
+- name: MOBILITY_RRC_SUCC__905
+  data_type: double
+  sql: if(  `EstabCause`="MO_SIGNAL",NULL,`RrcEstabMsg_RrcConnectionSetupComplete_count`)
+- name: WHSIA_RRC_ATT__905
+  data_type: double
+  sql: if( `EstabCause`="MO_SIGNAL",NULL,`RrcEstabMsg_RrcConnectionRequest_count`)
+- name: WHSIA_RRC_SUCC__905
+  data_type: double
+  sql: if(  `EstabCause`="MO_SIGNAL",NULL,`RrcEstabMsg_RrcConnectionSetupComplete_count`)

@@ -1,0 +1,73 @@
+unique_name: nr-non-ue-associated-ngap-message-in-gnb
+object_type: dataset
+label: nr-non-ue-associated-ngap-message-in-gnb
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-non-ue-associated-ngap-message-in-gnb-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_AMFConfigurationUpdate_count
+  data_type: double
+- name: Rx_AMFStatusIndication_count
+  data_type: double
+- name: Rx_ErrorIndication_count
+  data_type: double
+- name: Rx_NGPaging_count
+  data_type: double
+- name: Rx_NGPriorityPaging_count
+  data_type: double
+- name: Rx_NGResetAcknowledge_count
+  data_type: double
+- name: Rx_NGReset_count
+  data_type: double
+- name: Rx_NGSetupFailure_count
+  data_type: double
+- name: Rx_NGSetupResponse_count
+  data_type: double
+- name: Rx_NGWriteReplaceWarningRequest_count
+  data_type: double
+- name: Rx_RANConfigurationUpdateAcknowledge_count
+  data_type: double
+- name: Rx_RANConfigurationUpdateFailure_count
+  data_type: double
+- name: Tx_AMFConfigurationUpdateAcknowledge_count
+  data_type: double
+- name: Tx_AMFConfigurationUpdateFailure_count
+  data_type: double
+- name: Tx_ErrorIndication_count
+  data_type: double
+- name: Tx_NGPWSFailureIndication_count
+  data_type: double
+- name: Tx_NGPWSRestartIndication_count
+  data_type: double
+- name: Tx_NGResetAcknowledge_count
+  data_type: double
+- name: Tx_NGReset_count
+  data_type: double
+- name: Tx_NGSetupRequest_count
+  data_type: double
+- name: Tx_NGWriteReplaceWarningResponse_count
+  data_type: double
+- name: Tx_RANConfigurationUpdate_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

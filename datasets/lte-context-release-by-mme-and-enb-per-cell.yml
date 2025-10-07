@@ -1,0 +1,45 @@
+unique_name: lte-context-release-by-mme-and-enb-per-cell
+object_type: dataset
+label: lte-context-release-by-mme-and-enb-per-cell
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-context-release-by-mme-and-enb-per-cell-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Context_RelAbnormalByEnbAct_count
+  data_type: double
+- name: Context_RelAbnormalByEnb_count
+  data_type: double
+- name: Context_RelAbnormalByMmeAct_count
+  data_type: double
+- name: Context_RelAbnormalByMme_count
+  data_type: double
+- name: Context_RelNormalByEnbAct_count
+  data_type: double
+- name: Context_RelNormalByEnb_count
+  data_type: double
+- name: Context_RelNormalByMmeAct_count
+  data_type: double
+- name: Context_RelNormalByMme_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

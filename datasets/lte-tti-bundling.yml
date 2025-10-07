@@ -1,0 +1,45 @@
+unique_name: lte-tti-bundling
+object_type: dataset
+label: lte-tti-bundling
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-tti-bundling-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: TtibActAtt_count
+  data_type: double
+- name: TtibActSucc_count
+  data_type: double
+- name: TtibDeactAtt_count
+  data_type: double
+- name: TtibDeactSucc_count
+  data_type: double
+- name: TtibNoAvg_count
+  data_type: double
+- name: TtibNoCnt_count
+  data_type: double
+- name: TtibNoMax_count
+  data_type: double
+- name: TtibNoTot_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

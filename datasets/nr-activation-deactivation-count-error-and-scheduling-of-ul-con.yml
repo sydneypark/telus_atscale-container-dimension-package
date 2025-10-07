@@ -1,0 +1,63 @@
+unique_name: nr-activation-deactivation-count-error-and-scheduling-of-ul-con
+object_type: dataset
+label: nr-activation-deactivation-count-error-and-scheduling-of-ul-con
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-activation-deactivation-count-error-and-scheduling-of-ul-configured-grant-type2-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: ConfiguredGrantActAtt_count
+  data_type: double
+- name: ConfiguredGrantActSucc_count
+  data_type: double
+- name: ConfiguredGrantDeactAtt_count
+  data_type: double
+- name: ConfiguredGrantDeactSucc_count
+  data_type: double
+- name: ConfiguredGrantMcs_count
+  data_type: double
+- name: ConfiguredGrantNumUe_count
+  data_type: double
+- name: ConfiguredGrantPrb_count
+  data_type: double
+- name: ConfiguredGrantUlSlot_count
+  data_type: double
+- name: ResidualErrorConfiguredGrant_count
+  data_type: double
+- name: Tx1stConfiguredGrant_count
+  data_type: double
+- name: Tx2ndConfiguredGrant_count
+  data_type: double
+- name: Tx3rdConfiguredGrant_count
+  data_type: double
+- name: Tx4thConfiguredGrant_count
+  data_type: double
+- name: Tx5thConfiguredGrant_count
+  data_type: double
+- name: Tx6thConfiguredGrant_count
+  data_type: double
+- name: Tx7thConfiguredGrant_count
+  data_type: double
+- name: Tx8thConfiguredGrant_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

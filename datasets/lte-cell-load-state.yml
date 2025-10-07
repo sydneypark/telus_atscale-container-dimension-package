@@ -1,0 +1,49 @@
+unique_name: lte-cell-load-state
+object_type: dataset
+label: lte-cell-load-state
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-cell-load-state-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: cNum
+  data_type: string
+- name: cellLoadDLRscHeavyDurationAvg_s
+  data_type: double
+- name: cellLoadDLRscHeavyDurationCnt_count
+  data_type: double
+- name: cellLoadDLRscHeavyDurationTot_s
+  data_type: double
+- name: cellLoadDLRscHeavyStateCnt_count
+  data_type: double
+- name: cellLoadDLRscLightStateCnt_count
+  data_type: double
+- name: cellLoadULRscHeavyDurationAvg_s
+  data_type: double
+- name: cellLoadULRscHeavyDurationCnt_count
+  data_type: double
+- name: cellLoadULRscHeavyDurationTot_s
+  data_type: double
+- name: cellLoadULRscHeavyStateCnt_count
+  data_type: double
+- name: cellLoadULRscLightStateCnt_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

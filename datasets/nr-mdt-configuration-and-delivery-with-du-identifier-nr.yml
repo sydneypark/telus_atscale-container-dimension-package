@@ -1,0 +1,49 @@
+unique_name: nr-mdt-configuration-and-delivery-with-du-identifier-nr
+object_type: dataset
+label: nr-mdt-configuration-and-delivery-with-du-identifier-nr
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-mdt-configuration-and-delivery-with-du-identifier-nr-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CPC_ID
+  data_type: string
+- name: CellIdentity
+  data_type: string
+- name: ImmediateMDTM1Configuration_count
+  data_type: double
+- name: ImmediateMDTM1Delivery_count
+  data_type: double
+- name: LoggedMDTCapableUeNumAvg_count
+  data_type: double
+- name: LoggedMDTCapableUeNumCnt_count
+  data_type: double
+- name: LoggedMDTCapableUeNumTot_count
+  data_type: double
+- name: LoggedMDTConfiguration_count
+  data_type: double
+- name: LoggedMDTDelivery_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_DU_ID
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

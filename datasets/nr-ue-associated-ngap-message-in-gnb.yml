@@ -1,0 +1,73 @@
+unique_name: nr-ue-associated-ngap-message-in-gnb
+object_type: dataset
+label: nr-ue-associated-ngap-message-in-gnb
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ue-associated-ngap-message-in-gnb-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_NGDownlinkNASTransport_count
+  data_type: double
+- name: Rx_NGInitialContextSetupRequest_count
+  data_type: double
+- name: Rx_NGPDUSessionResourceModifyConfirm_count
+  data_type: double
+- name: Rx_NGPDUSessionResourceModifyRequest_count
+  data_type: double
+- name: Rx_NGPDUSessionResourceReleaseCommand_count
+  data_type: double
+- name: Rx_NGPDUSessionResourceSetupRequest_count
+  data_type: double
+- name: Rx_NGUEContextModificationRequest_count
+  data_type: double
+- name: Rx_NGUEContextReleaseCommand_count
+  data_type: double
+- name: Tx_NGInitialContextSetupFailure_count
+  data_type: double
+- name: Tx_NGInitialContextSetupResponse_count
+  data_type: double
+- name: Tx_NGInitialUEMessage_count
+  data_type: double
+- name: Tx_NGNASNonDeliveryIndication_count
+  data_type: double
+- name: Tx_NGPDUSessionResourceModifyIndication_count
+  data_type: double
+- name: Tx_NGPDUSessionResourceModifyResponse_count
+  data_type: double
+- name: Tx_NGPDUSessionResourceReleaseResponse_count
+  data_type: double
+- name: Tx_NGPDUSessionResourceSetupResponse_count
+  data_type: double
+- name: Tx_NGUECapabilityInfoIndication_count
+  data_type: double
+- name: Tx_NGUEContextModificationFailure_count
+  data_type: double
+- name: Tx_NGUEContextModificationResponse_count
+  data_type: double
+- name: Tx_NGUEContextReleaseComplete_count
+  data_type: double
+- name: Tx_NGUEContextReleaseRequest_count
+  data_type: double
+- name: Tx_NGUplinkNASTransport_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,55 @@
+unique_name: nr-downlink-mimo-for-redcap
+object_type: dataset
+label: nr-downlink-mimo-for-redcap
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-downlink-mimo-for-redcap-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: DLAvgMuMimoLayers_A6_count
+  data_type: double
+- name: DLAvgMuMimoPrb_A6_pct
+  data_type: double
+- name: DLAvgNumMuMimoUEs_A6_count
+  data_type: double
+- name: DLAvgNumScheduledUEs_count
+  data_type: double
+- name: DLAvgNumSuMimoUEs_count
+  data_type: double
+- name: DLMuMimoLayers_A6_count
+  data_type: double
+- name: DLMuMimoPrb_A6_count
+  data_type: double
+- name: DLNumAvailablePrb_count
+  data_type: double
+- name: DLNumMuMimoUEs_A6_count
+  data_type: double
+- name: DLNumPdschAvailableSlots_count
+  data_type: double
+- name: DLNumScheduledSlots_count
+  data_type: double
+- name: DLNumScheduledUEs_count
+  data_type: double
+- name: DLNumSuMimoUEs_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

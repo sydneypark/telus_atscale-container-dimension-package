@@ -1,0 +1,71 @@
+unique_name: lte-lte-physical-downlink-uplink-shared-channel-capacity-usage
+object_type: dataset
+label: lte-lte-physical-downlink-uplink-shared-channel-capacity-usage
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-lte-physical-downlink-uplink-shared-channel-capacity-usage-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DLCapaUsageCnt0to10_count
+  data_type: double
+- name: DLCapaUsageCnt10to20_count
+  data_type: double
+- name: DLCapaUsageCnt20to30_count
+  data_type: double
+- name: DLCapaUsageCnt30to40_count
+  data_type: double
+- name: DLCapaUsageCnt40to50_count
+  data_type: double
+- name: DLCapaUsageCnt50to60_count
+  data_type: double
+- name: DLCapaUsageCnt60to70_count
+  data_type: double
+- name: DLCapaUsageCnt70to80_count
+  data_type: double
+- name: DLCapaUsageCnt80to90_count
+  data_type: double
+- name: DLCapaUsageCnt90to100_count
+  data_type: double
+- name: Duplex
+  data_type: string
+- name: POD_ID
+  data_type: string
+- name: ULCapaUsageCnt0to10_count
+  data_type: double
+- name: ULCapaUsageCnt10to20_count
+  data_type: double
+- name: ULCapaUsageCnt20to30_count
+  data_type: double
+- name: ULCapaUsageCnt30to40_count
+  data_type: double
+- name: ULCapaUsageCnt40to50_count
+  data_type: double
+- name: ULCapaUsageCnt50to60_count
+  data_type: double
+- name: ULCapaUsageCnt60to70_count
+  data_type: double
+- name: ULCapaUsageCnt70to80_count
+  data_type: double
+- name: ULCapaUsageCnt80to90_count
+  data_type: double
+- name: ULCapaUsageCnt90to100_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

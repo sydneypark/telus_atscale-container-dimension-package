@@ -1,0 +1,87 @@
+unique_name: lte-e-rab-release-by-mme-per-cell-per-qci
+object_type: dataset
+label: lte-e-rab-release-by-mme-per-cell-per-qci
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-e-rab-release-by-mme-per-cell-per-qci-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: QCI
+  data_type: string
+- name: RelAbnormalbyMmeActQci_AuthenticationFailure_count
+  data_type: double
+- name: RelAbnormalbyMmeActQci_EutranGen_count
+  data_type: double
+- name: RelAbnormalbyMmeActQci_InteractionWithOtherProcedure_count
+  data_type: double
+- name: RelAbnormalbyMmeActQci_NasUnspecified_count
+  data_type: double
+- name: RelAbnormalbyMmeActQci_OmIntervention_count
+  data_type: double
+- name: RelAbnormalbyMmeActQci_RadioConnectionWithUELost_count
+  data_type: double
+- name: RelAbnormalbyMmeActQci_S1Reset_count
+  data_type: double
+- name: RelAbnormalbyMmeActQci_count
+  data_type: double
+- name: RelAbnormalbyMmeQci_AuthenticationFailure_count
+  data_type: double
+- name: RelAbnormalbyMmeQci_EutranGen_count
+  data_type: double
+- name: RelAbnormalbyMmeQci_InteractionWithOtherProcedure_count
+  data_type: double
+- name: RelAbnormalbyMmeQci_NasUnspecified_count
+  data_type: double
+- name: RelAbnormalbyMmeQci_OmIntervention_count
+  data_type: double
+- name: RelAbnormalbyMmeQci_RadioConnectionWithUELost_count
+  data_type: double
+- name: RelAbnormalbyMmeQci_count
+  data_type: double
+- name: RelNormalbyMmeActQci_Unspecified_count
+  data_type: double
+- name: RelNormalbyMmeActQci_count
+  data_type: double
+- name: RelNormalbyMmeQci_count
+  data_type: double
+- name: RelbyMmeQci_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: LTE_DATA_DCR_SLO_DEN__421
+  data_type: double
+  sql: if(`QCI`="1",0,`RelbyMmeQci_count`)
+- name: LTE_DATA_DCR_SLO_NUM__421
+  data_type: double
+  sql: if(`QCI`="1",0,`RelAbnormalbyMmeQci_count`)
+- name: VoLTE_Calls_SLO__421
+  data_type: double
+  sql: if(`QCI`="1",`RelbyMmeQci_count`-`RelAbnormalbyMmeQci_EutranGen_count`,NULL)
+- name: VOLTE_CALLS__421
+  data_type: double
+  sql: if(`QCI`="1",`RelbyMmeQci_count`-`RelAbnormalbyMmeQci_EutranGen_count`,NULL)
+- name: VoLTE_Drops_SLO__421
+  data_type: double
+  sql: if(`QCI`="1",`RelAbnormalbyMmeQci_count`-`RelAbnormalbyMmeQci_EutranGen_count`,NULL)
+- name: VoLTE_Drops__421
+  data_type: double
+  sql: if(`QCI`="1",`RelAbnormalbyMmeQci_count`-`RelAbnormalbyMmeQci_EutranGen_count`,NULL)

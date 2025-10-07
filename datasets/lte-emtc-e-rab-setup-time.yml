@@ -1,0 +1,41 @@
+unique_name: lte-emtc-e-rab-setup-time
+object_type: dataset
+label: lte-emtc-e-rab-setup-time
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-e-rab-setup-time-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: eMTC_EstabTimeAvg_ms
+  data_type: double
+- name: eMTC_EstabTimeCnt_count
+  data_type: double
+- name: eMTC_EstabTimeMax_ms
+  data_type: double
+- name: eMTC_EstabTimeTot_ms
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

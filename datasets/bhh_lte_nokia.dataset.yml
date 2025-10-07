@@ -1,0 +1,18 @@
+unique_name: bhh_lte_nokia.dataset
+object_type: dataset
+label: bhh_lte_nokia
+connection_id: ran_bhh.connection
+table: bhh_lte_nokia
+immutable: true
+
+columns:
+  - name: INIT_TIME
+    data_type: datetime
+  - name: LNBTS
+    data_type: string
+  - name: LNCEL
+    data_type: string
+  - name: MRBTS
+    data_type: string
+  - name: Type
+    data_type: string

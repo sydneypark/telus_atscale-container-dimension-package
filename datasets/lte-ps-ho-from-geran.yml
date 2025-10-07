@@ -1,0 +1,85 @@
+unique_name: lte-ps-ho-from-geran
+object_type: dataset
+label: lte-ps-ho-from-geran
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-ps-ho-from-geran-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: HOCause
+  data_type: string
+- name: RatGeranInAtt_count
+  data_type: double
+- name: RatGeranInFail_CpCcFail_count
+  data_type: double
+- name: RatGeranInFail_CpCcTo_count
+  data_type: double
+- name: RatGeranInFail_RrcHcTo_count
+  data_type: double
+- name: RatGeranInFail_RrcSigFail_count
+  data_type: double
+- name: RatGeranInFail_S1apCuFail_count
+  data_type: double
+- name: RatGeranInFail_S1apLinkFail_count
+  data_type: double
+- name: RatGeranInFail_S1apSigFail_count
+  data_type: double
+- name: RatGeranInFail_S1apSigTo_count
+  data_type: double
+- name: RatGeranInFail_UpGtpFail_count
+  data_type: double
+- name: RatGeranInFail_UpMacFail_count
+  data_type: double
+- name: RatGeranInFail_UpPdcpFail_count
+  data_type: double
+- name: RatGeranInFail_UpRlcFail_count
+  data_type: double
+- name: RatGeranInPrepFail_CpBhCacFail_count
+  data_type: double
+- name: RatGeranInPrepFail_CpCapaCacFail_count
+  data_type: double
+- name: RatGeranInPrepFail_CpCcFail_count
+  data_type: double
+- name: RatGeranInPrepFail_CpCcTo_count
+  data_type: double
+- name: RatGeranInPrepFail_CpQosCacFail_count
+  data_type: double
+- name: RatGeranInPrepFail_S1apCuFail_count
+  data_type: double
+- name: RatGeranInPrepFail_S1apLinkFail_count
+  data_type: double
+- name: RatGeranInPrepFail_S1apSigFail_count
+  data_type: double
+- name: RatGeranInPrepFail_UpGtpFail_count
+  data_type: double
+- name: RatGeranInPrepFail_UpMacFail_count
+  data_type: double
+- name: RatGeranInPrepFail_UpPdcpFail_count
+  data_type: double
+- name: RatGeranInPrepFail_UpRlcFail_count
+  data_type: double
+- name: RatGeranInPrepSucc_count
+  data_type: double
+- name: RatGeranInSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

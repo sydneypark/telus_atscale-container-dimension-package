@@ -1,0 +1,797 @@
+unique_name: s_acpf_cellidentity_a.dataset
+object_type: dataset
+label: s_acpf_cellidentity_a.dataset
+connection_id: BQ_pm_samsung.connection
+table: s_acpf_cellidentity_a
+incremental:
+  column: INIT_TIME
+  grace_period: 86400s
+immutable: true
+
+columns:
+  - name: _5QI
+    data_type: string
+  - name: BearerType
+    data_type: string
+  - name: CellIdentity
+    data_type: string
+  - name: CPC_ID
+    data_type: string
+  - name: DRB_SETUP_SUCCESS_RATE_DEN__5218
+    data_type: long
+    sql: '`S_5218C0`'
+  - name: DRB_SETUP_SUCCESS_RATE_NUM__5218
+    data_type: long
+    sql: '`S_5218C1`'
+  - name: eNB_ID
+    data_type: string
+  - name: EstabCause
+    data_type: string
+  - name: FamilyID
+    data_type: long
+  - name: file_key
+    data_type: string
+  - name: gNB_ID
+    data_type: string
+  - name: INIT_TIME
+    data_type: datetime
+  - name: INSERT_TS
+    data_type: datetime
+  - name: INTRAFRE_HANDOVER_SUCCESS_RATE_DEN__5236
+    data_type: long
+    sql: '`S_5236C0`'
+  - name: INTRAFRE_HANDOVER_SUCCESS_RATE_NUM__5236
+    data_type: long
+    sql: '`S_5236C2`'
+  - name: LOCATION
+    data_type: string
+  - name: MeNB_ID
+    data_type: string
+  - name: MOBILITY_BEARER_ATT_2022__5543
+    data_type: long
+    sql: '`S_5543C0`'
+  - name: MOBILITY_BEARER_ATT__5543
+    data_type: long
+    sql: '`S_5543C0`'
+  - name: MOBILITY_BEARER_ATT_no_eMTC__5543
+    data_type: long
+    sql: '`S_5543C0`'
+  - name: MOBILITY_BEARER_SUCC_2022__5543
+    data_type: long
+    sql: '`S_5543C1`'
+  - name: MOBILITY_BEARER_SUCC__5543
+    data_type: long
+    sql: '`S_5543C1`'
+  - name: MOBILITY_BEARER_SUCC_no_eMTC__5543
+    data_type: long
+    sql: '`S_5543C1`'
+  - name: MOBILITY_BEARER_SUCC_SAMSUNG__5543
+    data_type: long
+    sql: '`S_5543C1`'
+  - name: NG_CONNECTION_SETUP_SUCCESS_RATE_DEN__5223
+    data_type: long
+    sql: '`S_5223C0`'
+  - name: NG_CONNECTION_SETUP_SUCCESS_RATE_NUM__5223
+    data_type: long
+    sql: '`S_5223C1`'
+  - name: NR_USR_NSADC_PSCELL_AVG_DEN_SMSG__5115
+    data_type: long
+    sql: '`S_5115C3`'
+  - name: NR_USR_NSADC_PSCELL_AVG_NUM_SMSG__5115
+    data_type: long
+    sql: '`S_5115C2`'
+  - name: NSA_NR_AFR_DATA_DEN__5543
+    data_type: long
+    sql: '`S_5543C0`'
+  - name: NSA_NR_AFR_DATA_NUM__5543
+    data_type: long
+    sql: '`S_5543C0`-`S_5543C1`'
+  - name: NSA_NR_AFR_SGNB_A__5090
+    data_type: long
+    sql: "coalesce(`S_5090C2`,0)"
+  - name: NSA_NR_AFR_SGNB_A__5091
+    data_type: long
+    sql: "coalesce(`S_5091C2`,0)"
+  - name: NSA_NR_AFR_SGNB_A__5095
+    data_type: long
+    sql: "coalesce(`S_5095C2`,0)"
+  - name: NSA_NR_AFR_SGNB_A__5096
+    data_type: long
+    sql: "coalesce(`S_5096C2`,0)"
+  - name: NSA_NR_AFR_SGNB_B__5090
+    data_type: long
+    sql: "coalesce(`S_5090C0`,0)"
+  - name: NSA_NR_AFR_SGNB_B__5091
+    data_type: long
+    sql: "coalesce(`S_5091C0`,0)"
+  - name: NSA_NR_AFR_SGNB_B__5095
+    data_type: long
+    sql: "coalesce(`S_5095C0`,0)"
+  - name: NSA_NR_AFR_SGNB_B__5096
+    data_type: long
+    sql: "coalesce(`S_5096C0`,0)"
+  - name: NSA_NR_AFR_SLO_DEN__5090
+    data_type: long
+    sql: '`S_5090C0`'
+  - name: NSA_NR_AFR_SLO_DEN__5091
+    data_type: long
+    sql: '`S_5091C0`'
+  - name: NSA_NR_AFR_SLO_DEN__5095
+    data_type: long
+    sql: '`S_5095C0`'
+  - name: NSA_NR_AFR_SLO_DEN__5096
+    data_type: long
+    sql: '`S_5096C0`'
+  - name: NSA_NR_AFR_SLO_NUM__5090
+    data_type: long
+    sql: '`S_5090C0`-`S_5090C2`'
+  - name: NSA_NR_AFR_SLO_NUM__5091
+    data_type: long
+    sql: '`S_5091C0`-`S_5091C2`'
+  - name: NSA_NR_AFR_SLO_NUM__5095
+    data_type: long
+    sql: '`S_5095C0`-`S_5095C2`'
+  - name: NSA_NR_AFR_SLO_NUM__5096
+    data_type: long
+    sql: '`S_5096C0`-`S_5096C2`'
+  - name: NSA_NR_DCR_DATA_DEN__5120
+    data_type: long
+    sql: '`S_5120C0` + `S_5120C3`+`S_5120C4`+`S_5120C6`+`S_5120C5`+`S_5120C2`+`S_5120C1`+`S_5120C7`+`S_5120C8`+`S_5120C9`'
+  - name: NSA_NR_DCR_DATA_NUM__5120
+    data_type: long
+    sql: '`S_5120C3`+`S_5120C4`+`S_5120C6`+`S_5120C5`+`S_5120C2`+`S_5120C1`+`S_5120C7`+`S_5120C8`+`S_5120C9`'
+  - name: NSA_NR_DCR_SLO_DEN__5105
+    data_type: long
+    sql: '`S_5105C0`'
+  - name: NSA_NR_DCR_SLO_DEN__5106
+    data_type: long
+    sql: '`S_5106C0`'
+  - name: NSA_NR_DCR_SLO_DEN__5111
+    data_type: long
+    sql: '`S_5111C0`'
+  - name: NSA_NR_DCR_SLO_NUM__5106
+    data_type: long
+    sql: '`S_5106C1`+`S_5106C2`+`S_5106C3`+`S_5106C4`+`S_5106C5`+`S_5106C6`+`S_5106C7`+`S_5106C8`+`S_5106C9`'
+  - name: NSA_NR_DRB_DROPS__5120
+    data_type: long
+    sql: '`S_5120C3`+`S_5120C4`+`S_5120C6`+`S_5120C5`+`S_5120C2`+`S_5120C1`+`S_5120C7`+`S_5120C8`+`S_5120C9`'
+  - name: NSA_NR_DRB_REL__5120
+    data_type: long
+    sql: '`S_5120C0`'
+  - name: PLMN_UE
+    data_type: string
+  - name: QCI
+    data_type: string
+  - name: ReEstabCause
+    data_type: string
+  - name: RRC_REESTABLISHMENT_SUCCESS_RATE_DEN__5203
+    data_type: long
+    sql: '`S_5203C0`+`S_5203C14`'
+  - name: RRC_REESTABLISHMENT_SUCCESS_RATE_NUM__5203
+    data_type: long
+    sql: '`S_5203C3`+`S_5203C4`+`S_5203C17`+`S_5203C18`'
+  - name: S_5090C0
+    data_type: long
+  - name: S_5090C1
+    data_type: long
+  - name: S_5090C10
+    data_type: long
+  - name: S_5090C11
+    data_type: long
+  - name: S_5090C12
+    data_type: long
+  - name: S_5090C13
+    data_type: long
+  - name: S_5090C2
+    data_type: long
+  - name: S_5090C3
+    data_type: long
+  - name: S_5090C4
+    data_type: long
+  - name: S_5090C5
+    data_type: long
+  - name: S_5090C6
+    data_type: long
+  - name: S_5090C7
+    data_type: long
+  - name: S_5090C8
+    data_type: long
+  - name: S_5090C9
+    data_type: long
+  - name: S_5091C0
+    data_type: long
+  - name: S_5091C1
+    data_type: long
+  - name: S_5091C10
+    data_type: long
+  - name: S_5091C11
+    data_type: long
+  - name: S_5091C12
+    data_type: long
+  - name: S_5091C13
+    data_type: long
+  - name: S_5091C2
+    data_type: long
+  - name: S_5091C3
+    data_type: long
+  - name: S_5091C4
+    data_type: long
+  - name: S_5091C5
+    data_type: long
+  - name: S_5091C6
+    data_type: long
+  - name: S_5091C7
+    data_type: long
+  - name: S_5091C8
+    data_type: long
+  - name: S_5091C9
+    data_type: long
+  - name: S_5095C0
+    data_type: long
+  - name: S_5095C1
+    data_type: long
+  - name: S_5095C10
+    data_type: long
+  - name: S_5095C11
+    data_type: long
+  - name: S_5095C12
+    data_type: long
+  - name: S_5095C13
+    data_type: long
+  - name: S_5095C2
+    data_type: long
+  - name: S_5095C3
+    data_type: long
+  - name: S_5095C4
+    data_type: long
+  - name: S_5095C5
+    data_type: long
+  - name: S_5095C6
+    data_type: long
+  - name: S_5095C7
+    data_type: long
+  - name: S_5095C8
+    data_type: long
+  - name: S_5095C9
+    data_type: long
+  - name: S_5096C0
+    data_type: long
+  - name: S_5096C1
+    data_type: long
+  - name: S_5096C10
+    data_type: long
+  - name: S_5096C11
+    data_type: long
+  - name: S_5096C12
+    data_type: long
+  - name: S_5096C13
+    data_type: long
+  - name: S_5096C2
+    data_type: long
+  - name: S_5096C3
+    data_type: long
+  - name: S_5096C4
+    data_type: long
+  - name: S_5096C5
+    data_type: long
+  - name: S_5096C6
+    data_type: long
+  - name: S_5096C7
+    data_type: long
+  - name: S_5096C8
+    data_type: long
+  - name: S_5096C9
+    data_type: long
+  - name: S_5105C0
+    data_type: long
+  - name: S_5105C1
+    data_type: long
+  - name: S_5105C2
+    data_type: long
+  - name: S_5105C3
+    data_type: long
+  - name: S_5106C0
+    data_type: long
+  - name: S_5106C1
+    data_type: long
+  - name: S_5106C10
+    data_type: long
+  - name: S_5106C11
+    data_type: long
+  - name: S_5106C12
+    data_type: long
+  - name: S_5106C13
+    data_type: long
+  - name: S_5106C14
+    data_type: long
+  - name: S_5106C15
+    data_type: long
+  - name: S_5106C2
+    data_type: long
+  - name: S_5106C3
+    data_type: long
+  - name: S_5106C4
+    data_type: long
+  - name: S_5106C5
+    data_type: long
+  - name: S_5106C6
+    data_type: long
+  - name: S_5106C7
+    data_type: long
+  - name: S_5106C8
+    data_type: long
+  - name: S_5106C9
+    data_type: long
+  - name: S_5111C0
+    data_type: long
+  - name: S_5115C0
+    data_type: double
+  - name: S_5115C1
+    data_type: long
+  - name: S_5115C2
+    data_type: long
+  - name: S_5115C3
+    data_type: long
+  - name: S_5115C4
+    data_type: long
+  - name: S_5115C5
+    data_type: double
+  - name: S_5115C6
+    data_type: long
+  - name: S_5115C7
+    data_type: long
+  - name: S_5120C0
+    data_type: long
+  - name: S_5120C1
+    data_type: long
+  - name: S_5120C10
+    data_type: long
+  - name: S_5120C11
+    data_type: long
+  - name: S_5120C12
+    data_type: long
+  - name: S_5120C13
+    data_type: long
+  - name: S_5120C14
+    data_type: long
+  - name: S_5120C15
+    data_type: long
+  - name: S_5120C2
+    data_type: long
+  - name: S_5120C3
+    data_type: long
+  - name: S_5120C4
+    data_type: long
+  - name: S_5120C5
+    data_type: long
+  - name: S_5120C6
+    data_type: long
+  - name: S_5120C7
+    data_type: long
+  - name: S_5120C8
+    data_type: long
+  - name: S_5120C9
+    data_type: long
+  - name: S_5203C0
+    data_type: long
+  - name: S_5203C1
+    data_type: long
+  - name: S_5203C10
+    data_type: long
+  - name: S_5203C11
+    data_type: long
+  - name: S_5203C12
+    data_type: long
+  - name: S_5203C13
+    data_type: long
+  - name: S_5203C14
+    data_type: long
+  - name: S_5203C15
+    data_type: long
+  - name: S_5203C16
+    data_type: long
+  - name: S_5203C17
+    data_type: long
+  - name: S_5203C18
+    data_type: long
+  - name: S_5203C19
+    data_type: long
+  - name: S_5203C2
+    data_type: long
+  - name: S_5203C20
+    data_type: long
+  - name: S_5203C21
+    data_type: long
+  - name: S_5203C22
+    data_type: long
+  - name: S_5203C23
+    data_type: long
+  - name: S_5203C24
+    data_type: long
+  - name: S_5203C25
+    data_type: long
+  - name: S_5203C26
+    data_type: long
+  - name: S_5203C27
+    data_type: long
+  - name: S_5203C3
+    data_type: long
+  - name: S_5203C4
+    data_type: long
+  - name: S_5203C5
+    data_type: long
+  - name: S_5203C6
+    data_type: long
+  - name: S_5203C7
+    data_type: long
+  - name: S_5203C8
+    data_type: long
+  - name: S_5203C9
+    data_type: long
+  - name: S_5213C0
+    data_type: long
+  - name: S_5213C1
+    data_type: long
+  - name: S_5213C2
+    data_type: long
+  - name: S_5213C3
+    data_type: long
+  - name: S_5213C4
+    data_type: long
+  - name: S_5213C5
+    data_type: long
+  - name: S_5217C0
+    data_type: double
+  - name: S_5217C1
+    data_type: long
+  - name: S_5217C10
+    data_type: long
+  - name: S_5217C11
+    data_type: double
+  - name: S_5217C12
+    data_type: long
+  - name: S_5217C13
+    data_type: long
+  - name: S_5217C14
+    data_type: double
+  - name: S_5217C15
+    data_type: long
+  - name: S_5217C16
+    data_type: long
+  - name: S_5217C17
+    data_type: long
+  - name: S_5217C18
+    data_type: double
+  - name: S_5217C19
+    data_type: double
+  - name: S_5217C2
+    data_type: long
+  - name: S_5217C20
+    data_type: long
+  - name: S_5217C21
+    data_type: long
+  - name: S_5217C22
+    data_type: double
+  - name: S_5217C23
+    data_type: long
+  - name: S_5217C24
+    data_type: long
+  - name: S_5217C3
+    data_type: long
+  - name: S_5217C4
+    data_type: double
+  - name: S_5217C5
+    data_type: double
+  - name: S_5217C6
+    data_type: long
+  - name: S_5217C7
+    data_type: long
+  - name: S_5217C8
+    data_type: long
+  - name: S_5217C9
+    data_type: long
+  - name: S_5218C0
+    data_type: long
+  - name: S_5218C1
+    data_type: long
+  - name: S_5218C2
+    data_type: long
+  - name: S_5218C3
+    data_type: long
+  - name: S_5218C4
+    data_type: long
+  - name: S_5218C5
+    data_type: long
+  - name: S_5218C6
+    data_type: long
+  - name: S_5218C7
+    data_type: long
+  - name: S_5218C8
+    data_type: long
+  - name: S_5223C0
+    data_type: long
+  - name: S_5223C1
+    data_type: long
+  - name: S_5223C2
+    data_type: long
+  - name: S_5223C3
+    data_type: long
+  - name: S_5223C4
+    data_type: long
+  - name: S_5223C5
+    data_type: long
+  - name: S_5223C6
+    data_type: long
+  - name: S_5236C0
+    data_type: long
+  - name: S_5236C1
+    data_type: long
+  - name: S_5236C10
+    data_type: long
+  - name: S_5236C11
+    data_type: long
+  - name: S_5236C12
+    data_type: long
+  - name: S_5236C13
+    data_type: long
+  - name: S_5236C14
+    data_type: long
+  - name: S_5236C15
+    data_type: long
+  - name: S_5236C16
+    data_type: long
+  - name: S_5236C17
+    data_type: long
+  - name: S_5236C18
+    data_type: long
+  - name: S_5236C19
+    data_type: long
+  - name: S_5236C2
+    data_type: long
+  - name: S_5236C20
+    data_type: long
+  - name: S_5236C21
+    data_type: long
+  - name: S_5236C22
+    data_type: long
+  - name: S_5236C23
+    data_type: long
+  - name: S_5236C24
+    data_type: long
+  - name: S_5236C25
+    data_type: long
+  - name: S_5236C26
+    data_type: long
+  - name: S_5236C27
+    data_type: long
+  - name: S_5236C28
+    data_type: long
+  - name: S_5236C29
+    data_type: long
+  - name: S_5236C3
+    data_type: long
+  - name: S_5236C30
+    data_type: long
+  - name: S_5236C31
+    data_type: long
+  - name: S_5236C32
+    data_type: long
+  - name: S_5236C4
+    data_type: long
+  - name: S_5236C5
+    data_type: long
+  - name: S_5236C6
+    data_type: long
+  - name: S_5236C7
+    data_type: long
+  - name: S_5236C8
+    data_type: long
+  - name: S_5236C9
+    data_type: long
+  - name: S_5390C0
+    data_type: long
+  - name: S_5390C1
+    data_type: long
+  - name: S_5390C10
+    data_type: long
+  - name: S_5390C11
+    data_type: long
+  - name: S_5390C12
+    data_type: long
+  - name: S_5390C13
+    data_type: long
+  - name: S_5390C14
+    data_type: long
+  - name: S_5390C15
+    data_type: long
+  - name: S_5390C16
+    data_type: long
+  - name: S_5390C17
+    data_type: long
+  - name: S_5390C18
+    data_type: long
+  - name: S_5390C19
+    data_type: long
+  - name: S_5390C2
+    data_type: long
+  - name: S_5390C20
+    data_type: long
+  - name: S_5390C21
+    data_type: long
+  - name: S_5390C22
+    data_type: long
+  - name: S_5390C23
+    data_type: long
+  - name: S_5390C24
+    data_type: long
+  - name: S_5390C25
+    data_type: long
+  - name: S_5390C26
+    data_type: long
+  - name: S_5390C27
+    data_type: long
+  - name: S_5390C28
+    data_type: long
+  - name: S_5390C29
+    data_type: long
+  - name: S_5390C3
+    data_type: long
+  - name: S_5390C30
+    data_type: long
+  - name: S_5390C4
+    data_type: long
+  - name: S_5390C5
+    data_type: long
+  - name: S_5390C6
+    data_type: long
+  - name: S_5390C7
+    data_type: long
+  - name: S_5390C8
+    data_type: long
+  - name: S_5390C9
+    data_type: long
+  - name: S_5543C0
+    data_type: long
+  - name: S_5543C1
+    data_type: long
+  - name: S_5543C2
+    data_type: long
+  - name: S_5543C3
+    data_type: long
+  - name: S_5543C4
+    data_type: long
+  - name: S_5543C5
+    data_type: long
+  - name: S_5543C6
+    data_type: long
+  - name: S_5543C7
+    data_type: long
+  - name: S_5543C8
+    data_type: long
+  - name: SA_NR_AVERAGE_RRC_CONNECTIONS_DEN__5217
+    data_type: long
+    sql: '`S_5217C3`'
+  - name: SA_NR_AVERAGE_RRC_CONNECTIONS_NUM__5217
+    data_type: long
+    sql: '`S_5217C2`'
+  - name: SA_NR_DCR_DEN__5390
+    data_type: long
+    sql: '`S_5390C0`-`S_5390C7`'
+  - name: SA_NR_DCR_NUM__5390
+    data_type: long
+    sql: '`S_5390C0`-`S_5390C7`-`S_5390C4`-`S_5390C2`- `S_5390C14`-`S_5390C6`- `S_5390C22`-`S_5390C21`+`S_5390C9`'
+  - name: SA_NR_DCR_TEMP_DEN__5390
+    data_type: long
+    sql: '`S_5390C0`-`S_5390C9`'
+  - name: SA_NR_DCR_TEMP_NUM__5390
+    data_type: long
+    sql: '`S_5390C0`-`S_5390C4`-`S_5390C2`- `S_5390C14`-`S_5390C6`-`S_5390C10`- `S_5390C22`+`S_5390C9`'
+  - name: SA_NR_DRB_DROP_RATE_DEN__5390
+    data_type: long
+    sql: '`S_5390C0`'
+  - name: SA_NR_DRB_DROP_RATE_NUM__5390
+    data_type: long
+    sql: '`S_5390C0`-`S_5390C4`-`S_5390C2`-`S_5390C14` - `S_5390C6` + `S_5390C7`'
+  - name: SA_NR_DRB_SETUP_FR_DEN__5218
+    data_type: long
+    sql: '`S_5218C0`'
+  - name: SA_NR_DRB_SETUP_FR_NUM__5218
+    data_type: long
+    sql: '`S_5218C0`-`S_5218C1`'
+  - name: SA_NR_DRB_SETUP_SUCCESS_RATE_DEN__5218
+    data_type: long
+    sql: '`S_5218C0`'
+  - name: SA_NR_DRB_SETUP_SUCCESS_RATE_NUM__5218
+    data_type: long
+    sql: '`S_5218C1`'
+  - name: SA_NR_INTRAFRE_HANDOVER_SUCCESS_RATE_DEN__5236
+    data_type: long
+    sql: '`S_5236C0`'
+  - name: SA_NR_INTRAFRE_HANDOVER_SUCCESS_RATE_NUM__5236
+    data_type: long
+    sql: '`S_5236C2`'
+  - name: SA_NR_INTRAFREQ_HOFR_DEN__5236
+    data_type: long
+    sql: '`S_5236C0`'
+  - name: SA_NR_INTRAFREQ_HOFR_NUM__5236
+    data_type: long
+    sql: '`S_5236C0`-`S_5236C2`'
+  - name: SA_NR_NG_CONNECTION_SETUP_SUCCESS_RATE_DEN__5223
+    data_type: long
+    sql: '`S_5223C0`'
+  - name: SA_NR_NG_CONNECTION_SETUP_SUCCESS_RATE_NUM__5223
+    data_type: long
+    sql: '`S_5223C1`'
+  - name: SA_NR_NGCONN_SETUP_FR_DEN__5223
+    data_type: long
+    sql: '`S_5223C0`'
+  - name: SA_NR_NGCONN_SETUP_FR_NUM__5223
+    data_type: long
+    sql: '`S_5223C0`-`S_5223C1`'
+  - name: SA_NR_RRC_CONNECTION_SETUP_ATTEMPTS_MOSIG__5213
+    data_type: long
+    sql: "if(`EstabCause`=\"MO_SIGNAL\",`S_5213C0`,NULL)"
+  - name: SA_NR_RRC_CONNECTION_SETUP_SUCCESS_MOSIG__5213
+    data_type: long
+    sql: "if(`EstabCause`=\"MO_SIGNAL\",`S_5213C1`,NULL)"
+  - name: SA_NR_RRC_CONNECTION_SETUP_SUCCESS_RATE_DEN__5213
+    data_type: long
+    sql: '`S_5213C0`'
+  - name: SA_NR_RRC_CONNECTION_SETUP_SUCCESS_RATE_NUM__5213
+    data_type: long
+    sql: '`S_5213C1`'
+  - name: SA_NR_RRC_RE-ESTAB_FR_DEN__5203
+    data_type: long
+    sql: '`S_5203C0`+`S_5203C14`'
+  - name: SA_NR_RRC_RE-ESTAB_FR_NUM__5203
+    data_type: long
+    sql: '`S_5203C0`+`S_5203C14`-`S_5203C18`-`S_5203C17`-`S_5203C4`-`S_5203C3`'
+  - name: SA_NR_RRC_REESTABLISHMENT_SUCCESS_RATE_DEN__5203
+    data_type: long
+    sql: '`S_5203C0`+`S_5203C14`'
+  - name: SA_NR_RRC_REESTABLISHMENT_SUCCESS_RATE_NUM__5203
+    data_type: long
+    sql: '`S_5203C3`+`S_5203C4`+`S_5203C17`+`S_5203C18`'
+  - name: SA_NR_RRC_SETUP_FR_DEN__5213
+    data_type: long
+    sql: '`S_5213C0`'
+  - name: SA_NR_RRC_SETUP_FR_NUM__5213
+    data_type: long
+    sql: '`S_5213C0`-`S_5213C1`'
+  - name: SA_NR_RRC_USERNUMBER_AVG_DEN__5217
+    data_type: long
+    sql: '`S_5217C3`'
+  - name: SA_NR_RRC_USERNUMBER_AVG_NUM__5217
+    data_type: long
+    sql: '`S_5217C2`'
+  - name: SA_NR_RRC_USERNUMBER_MAX_CF__5217
+    data_type: long
+    sql: '`S_5217C1`'
+  - name: SLO_SA_NR_NG_CONNECTION_SETUP_SUCCESS_RATE_DEN__5223
+    data_type: long
+    sql: '`S_5223C0`'
+  - name: SLO_SA_NR_NG_CONNECTION_SETUP_SUCCESS_RATE_NUM__5223
+    data_type: long
+    sql: '`S_5223C1`'
+  - name: SLO_SA_NR_RRC_CONNECTION_SETUP_SUCCESS_RATE_DEN__5213
+    data_type: long
+    sql: '`S_5213C0`'
+  - name: SLO_SA_NR_RRC_CONNECTION_SETUP_SUCCESS_RATE_NUM__5213
+    data_type: long
+    sql: '`S_5213C1`'
+  - name: SLO_SA_NR_SERVICE_ACCESSIBILITY_DEN__5218
+    data_type: long
+    sql: '`S_5218C0`'
+  - name: SLO_SA_NR_SERVICE_ACCESSIBILITY_NUM__5218
+    data_type: long
+    sql: '`S_5218C0`-`S_5218C1`'
+  - name: SLO_SA_NR_SERVICE_RETAINABILITY_DEN__5390
+    data_type: long
+    sql: '`S_5390C0`-`S_5390C7`'
+  - name: SLO_SA_NR_SERVICE_RETAINABILITY_NUM__5390
+    data_type: long
+    sql: '`S_5390C0`-`S_5390C7`-`S_5390C4`-`S_5390C2`-`S_5390C14` - `S_5390C6`+`S_5390C7`'
+  - name: SYSTEM_ID
+    data_type: long
+  - name: version
+    data_type: string

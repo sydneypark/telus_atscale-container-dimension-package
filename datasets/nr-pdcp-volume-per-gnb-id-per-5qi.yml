@@ -1,0 +1,83 @@
+unique_name: nr-pdcp-volume-per-gnb-id-per-5qi
+object_type: dataset
+label: nr-pdcp-volume-per-gnb-id-per-5qi
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-pdcp-volume-per-gnb-id-per-5qi-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PdcpAvgThroughputDL_Kbps
+  data_type: double
+- name: PdcpAvgThroughputUL_Kbps
+  data_type: double
+- name: PdcpMaxThroughputDL_Kbps
+  data_type: double
+- name: PdcpMaxThroughputUL_Kbps
+  data_type: double
+- name: PdcpMinThroughputDL_Kbps
+  data_type: double
+- name: PdcpMinThroughputUL_Kbps
+  data_type: double
+- name: PdcpSduMaxVolumeDL_Mbytes
+  data_type: double
+- name: PdcpSduMaxVolumeUL_Mbytes
+  data_type: double
+- name: PdcpSduMinVolumeDL_Mbytes
+  data_type: double
+- name: PdcpSduMinVolumeUL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeDLAvg_Mbytes
+  data_type: double
+- name: PdcpSduVolumeDLCnt_count
+  data_type: double
+- name: PdcpSduVolumeDL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeNonSplitNrDL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeNonSplitNrUL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeSplitLteDL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeSplitLteUL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeSplitNrDL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeSplitNrUL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeULAvg_Mbytes
+  data_type: double
+- name: PdcpSduVolumeULCnt_count
+  data_type: double
+- name: PdcpSduVolumeUL_Mbytes
+  data_type: double
+- name: UPC_ID
+  data_type: string
+- name: _5QI
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: DL_PDCP_SDU_DATA_VL_5QI__5196
+  data_type: double
+  sql: PdcpSduVolumeDL_Mbytes*1.024*1.024
+- name: SA_NR_DL_TRAFFIC_VL__5196
+  data_type: double
+  sql: if(`sw_version`='22.B.0',`PdcpSduVolumeDL_Mbytes`*1024*1024/1000000,NULL)

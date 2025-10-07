@@ -1,0 +1,79 @@
+unique_name: lte-emtc-active-e-rab-number-per-plmn
+object_type: dataset
+label: lte-emtc-active-e-rab-number-per-plmn
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-active-e-rab-number-per-plmn-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: eMTC_UsageNbrPLMN0Avg_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN0Cnt_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN0Max_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN0Tot_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN1Avg_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN1Cnt_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN1Max_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN1Tot_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN2Avg_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN2Cnt_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN2Max_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN2Tot_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN3Avg_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN3Cnt_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN3Max_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN3Tot_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN4Avg_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN4Cnt_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN4Max_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN4Tot_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN5Avg_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN5Cnt_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN5Max_count
+  data_type: double
+- name: eMTC_UsageNbrPLMN5Tot_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

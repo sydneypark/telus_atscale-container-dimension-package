@@ -1,0 +1,65 @@
+unique_name: lte-packet-loss-rate
+object_type: dataset
+label: lte-packet-loss-rate
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-packet-loss-rate-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PdcpSduAirIntfAvg_ppm
+  data_type: double
+- name: PdcpSduAirIntfCnt_count
+  data_type: double
+- name: PdcpSduAirIntfTot_ppm
+  data_type: double
+- name: PdcpSduLossDLNum_count
+  data_type: double
+- name: PdcpSduLossRateULCnt_count
+  data_type: double
+- name: PdcpSduLossRateULTot_ppm
+  data_type: double
+- name: PdcpSduLossRateUL_ppm
+  data_type: double
+- name: PdcpSduLossULNum_count
+  data_type: double
+- name: PdcpSduTotalDLNum_count
+  data_type: double
+- name: PdcpSduTotalULNum_count
+  data_type: double
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: VOLTE_DL_PLR_DEN__34
+  data_type: double
+  sql: if(`QCI`="1",`PdcpSduTotalDLNum_count`,NULL)
+- name: VOLTE_DL_PLR_NUM__34
+  data_type: double
+  sql: if(`QCI`="1",`PdcpSduLossDLNum_count`,NULL)
+- name: VOLTE_UL_PLR_DEN__34
+  data_type: double
+  sql: if(`QCI`="1",`PdcpSduTotalULNum_count`,NULL)
+- name: VOLTE_UL_PLR_NUM__34
+  data_type: double
+  sql: if(`QCI`="1",`PdcpSduLossULNum_count`,NULL)

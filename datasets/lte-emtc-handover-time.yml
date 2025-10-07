@@ -1,0 +1,59 @@
+unique_name: lte-emtc-handover-time
+object_type: dataset
+label: lte-emtc-handover-time
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-handover-time-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: HoTimeCid_scID
+  data_type: double
+- name: HoTimeCnt_count
+  data_type: double
+- name: IntraHoTimeAvg_ms
+  data_type: double
+- name: IntraHoTimeCnt_count
+  data_type: double
+- name: IntraHoTimeMax_ms
+  data_type: double
+- name: IntraHoTimeTot_ms
+  data_type: double
+- name: S1HoTimeAvg_ms
+  data_type: double
+- name: S1HoTimeCnt_count
+  data_type: double
+- name: S1HoTimeMax_ms
+  data_type: double
+- name: S1HoTimeTot_ms
+  data_type: double
+- name: X2HoTimeAvg_ms
+  data_type: double
+- name: X2HoTimeCnt_count
+  data_type: double
+- name: X2HoTimeMax_ms
+  data_type: double
+- name: X2HoTimeTot_ms
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: scID
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

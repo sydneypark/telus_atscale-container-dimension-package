@@ -1,0 +1,53 @@
+unique_name: nr-ethernet-packet-per-vlan
+object_type: dataset
+label: nr-ethernet-packet-per-vlan
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ethernet-packet-per-vlan-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CpuID
+  data_type: string
+- name: VlanID
+  data_type: string
+- name: VlanRxDropPacketCnt_count
+  data_type: double
+- name: VlanRxOctetCnt_count
+  data_type: double
+- name: VlanRxOctet_Mbytes
+  data_type: double
+- name: VlanRxPacket_count
+  data_type: double
+- name: VlanRxThroughputAvg_Mbps
+  data_type: double
+- name: VlanTxDropPacketCnt_count
+  data_type: double
+- name: VlanTxOctetCnt_count
+  data_type: double
+- name: VlanTxOctet_Mbytes
+  data_type: double
+- name: VlanTxPacket_count
+  data_type: double
+- name: VlanTxThroughputAvg_Mbps
+  data_type: double
+- name: VrID
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

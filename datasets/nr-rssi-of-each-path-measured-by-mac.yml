@@ -1,0 +1,41 @@
+unique_name: nr-rssi-of-each-path-measured-by-mac
+object_type: dataset
+label: nr-rssi-of-each-path-measured-by-mac
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-rssi-of-each-path-measured-by-mac-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: RSSI_Path
+  data_type: string
+- name: RssiPathAvg_dBm
+  data_type: double
+- name: RssiPathCnt_count
+  data_type: double
+- name: RssiPathMax_dBm
+  data_type: double
+- name: RssiPathMin_dBm
+  data_type: double
+- name: RssiPathTot_mW_10_13
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

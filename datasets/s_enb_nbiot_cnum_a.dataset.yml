@@ -1,0 +1,1567 @@
+unique_name: s_enb_nbiot_cnum_a.dataset
+object_type: dataset
+label: s_enb_nbiot_cnum_a.dataset
+connection_id: BQ_pm_samsung.connection
+table: s_enb_nbiot_cnum_a
+incremental:
+  column: INIT_TIME
+  grace_period: 86400s
+immutable: true
+
+columns:
+  - name: FamilyID
+    data_type: long
+  - name: file_key
+    data_type: string
+  - name: INIT_TIME
+    data_type: datetime
+  - name: INSERT_TS
+    data_type: datetime
+  - name: LOCATION
+    data_type: string
+  - name: NBIOT_AVAILIBILITY_RATE_DEN__79
+    data_type: long
+    sql: '`S_79C2`'
+  - name: NBIOT_AVAILIBILITY_RATE_NUM__79
+    data_type: long
+    sql: '`S_79C2`-`S_79C1`+`S_79C4`'
+  - name: NBIOT_AVERAGE_RRC_CONNECTED_BELL_DEN__565
+    data_type: long
+    sql: "if(`PLMN`=\"302610\",`S_565C3`,NULL)"
+  - name: NBIOT_AVERAGE_RRC_CONNECTED_BELL_NUM__565
+    data_type: long
+    sql: "if(`PLMN`=\"302610\",`S_565C2`,NULL)"
+  - name: NBIOT_AVERAGE_RRC_CONNECTED_TELUS_DEN__565
+    data_type: long
+    sql: "if(`PLMN`=\"302220\",`S_565C3`,NULL)"
+  - name: NBIOT_AVERAGE_RRC_CONNECTED_TELUS_NUM__565
+    data_type: long
+    sql: "if(`PLMN`=\"302220\",`S_565C2`,NULL)"
+  - name: NBIoT_CallDropEstabCause
+    data_type: string
+  - name: NBIoT_classLevel
+    data_type: string
+  - name: NBIoT_cNum
+    data_type: string
+  - name: NBIOT_DL_PACKET_LOSS_RATE_DEN__580
+    data_type: long
+    sql: '`S_580C4`'
+  - name: NBIOT_DL_PACKET_LOSS_RATE_NUM__580
+    data_type: long
+    sql: '`S_580C5`'
+  - name: NBIOT_DL_PDCP_SDU_DELAY_DEN__650
+    data_type: long
+    sql: '`S_650C2`'
+  - name: NBIOT_DL_PDCP_SDU_DELAY_NUM__650
+    data_type: long
+    sql: '`S_650C1`'
+  - name: NBIOT_DL_RESIDUAL_BLER_DEN__197
+    data_type: long
+    sql: '`S_197C5`'
+  - name: NBIOT_DL_RESIDUAL_BLER_NUM__197
+    data_type: long
+    sql: '`S_197C9`'
+  - name: NBIOT_DL_RESOURCE_UTILIZATION_RATIO_DEN__193
+    data_type: long
+    sql: '`S_193C5`'
+  - name: NBIOT_DL_RESOURCE_UTILIZATION_RATIO_NUM__193
+    data_type: long
+    sql: '`S_193C4`'
+  - name: NBIOT_DL_USER_THROUGHPUT_DEN__179
+    data_type: double
+    sql: '`S_179C8`/1000'
+  - name: NBIOT_DL_USER_THROUGHPUT_NUM__179
+    data_type: long
+    sql: '`S_179C7`*8'
+  - name: NBIOT_ERAB_SETUP_FAILURE_RATE_DEN__566
+    data_type: long
+    sql: '`S_566C0`'
+  - name: NBIOT_ERAB_SETUP_FAILURE_RATE_DEN__567
+    data_type: long
+    sql: '`S_567C0`'
+  - name: NBIOT_ERAB_SETUP_FAILURE_RATE_NUM__566
+    data_type: long
+    sql: '`S_566C0`-`S_566C1`'
+  - name: NBIOT_ERAB_SETUP_FAILURE_RATE_NUM__567
+    data_type: long
+    sql: '`S_567C0`-`S_567C1`'
+  - name: NBIoT_EstabCause
+    data_type: string
+  - name: NBIoT_pathNum
+    data_type: string
+  - name: NBIOT_PDCP_DATA_DL_VL__576
+    data_type: double
+    sql: '`S_576C4`/1000'
+  - name: NBIOT_PDCP_DATA_UL_VL__576
+    data_type: double
+    sql: '`S_576C0`/1000'
+  - name: NBIoT_ReEstabCause
+    data_type: string
+  - name: NBIoT_ResumeCause
+    data_type: string
+  - name: NBIOT_SERVICE_DROP_RATE_DEN__570
+    data_type: long
+    sql: '`S_570C1`'
+  - name: NBIOT_SERVICE_DROP_RATE_DEN__572
+    data_type: long
+    sql: '`S_572C0`+`S_572C1`+`S_572C2`'
+  - name: NBIOT_SERVICE_DROP_RATE_DEN__573
+    data_type: long
+    sql: '`S_573C1`'
+  - name: NBIOT_SERVICE_DROP_RATE_NUM__573
+    data_type: long
+    sql: '`S_573C5`'
+  - name: NBIOT_SETUP_SUCCESS_RATE_A__166
+    data_type: long
+    sql: '`S_166C1`'
+  - name: NBIOT_SETUP_SUCCESS_RATE_B__166
+    data_type: long
+    sql: '`S_166C0`'
+  - name: NBIOT_SETUP_SUCCESS_RATE_C__172
+    data_type: long
+    sql: '`S_172C1`'
+  - name: NBIOT_SETUP_SUCCESS_RATE_D__172
+    data_type: long
+    sql: '`S_172C0`'
+  - name: NBIOT_UL_PACKET_LOSS_RATE_DEN__580
+    data_type: long
+    sql: '`S_580C2`'
+  - name: NBIOT_UL_PACKET_LOSS_RATE_NUM__580
+    data_type: long
+    sql: '`S_580C3`'
+  - name: NBIOT_UL_RESIDUAL_BLER_DEN__198
+    data_type: long
+    sql: '`S_198C5`'
+  - name: NBIOT_UL_RESIDUAL_BLER_NUM__198
+    data_type: long
+    sql: '`S_198C9`'
+  - name: NBIOT_UL_RESOURCE_UTILIZATION_RATIO_DEN__193
+    data_type: long
+    sql: '`S_193C2`'
+  - name: NBIOT_UL_RESOURCE_UTILIZATION_RATIO_NUM__193
+    data_type: long
+    sql: '`S_193C1`'
+  - name: PLMN
+    data_type: string
+  - name: QCI
+    data_type: string
+  - name: S_109C0
+    data_type: long
+  - name: S_109C1
+    data_type: long
+  - name: S_109C2
+    data_type: long
+  - name: S_166C0
+    data_type: long
+  - name: S_166C1
+    data_type: long
+  - name: S_166C10
+    data_type: long
+  - name: S_166C11
+    data_type: long
+  - name: S_166C12
+    data_type: long
+  - name: S_166C2
+    data_type: long
+  - name: S_166C3
+    data_type: long
+  - name: S_166C4
+    data_type: long
+  - name: S_166C5
+    data_type: long
+  - name: S_166C6
+    data_type: long
+  - name: S_166C7
+    data_type: long
+  - name: S_166C8
+    data_type: long
+  - name: S_166C9
+    data_type: long
+  - name: S_167C0
+    data_type: long
+  - name: S_167C1
+    data_type: long
+  - name: S_167C10
+    data_type: long
+  - name: S_167C11
+    data_type: long
+  - name: S_167C12
+    data_type: long
+  - name: S_167C13
+    data_type: long
+  - name: S_167C14
+    data_type: long
+  - name: S_167C15
+    data_type: long
+  - name: S_167C16
+    data_type: long
+  - name: S_167C17
+    data_type: long
+  - name: S_167C18
+    data_type: long
+  - name: S_167C19
+    data_type: long
+  - name: S_167C2
+    data_type: long
+  - name: S_167C20
+    data_type: long
+  - name: S_167C3
+    data_type: long
+  - name: S_167C4
+    data_type: long
+  - name: S_167C5
+    data_type: long
+  - name: S_167C6
+    data_type: long
+  - name: S_167C7
+    data_type: long
+  - name: S_167C8
+    data_type: long
+  - name: S_167C9
+    data_type: long
+  - name: S_168C0
+    data_type: long
+  - name: S_168C1
+    data_type: long
+  - name: S_168C10
+    data_type: long
+  - name: S_168C11
+    data_type: long
+  - name: S_168C12
+    data_type: long
+  - name: S_168C13
+    data_type: long
+  - name: S_168C14
+    data_type: long
+  - name: S_168C15
+    data_type: long
+  - name: S_168C16
+    data_type: long
+  - name: S_168C17
+    data_type: long
+  - name: S_168C18
+    data_type: long
+  - name: S_168C2
+    data_type: long
+  - name: S_168C3
+    data_type: long
+  - name: S_168C4
+    data_type: double
+  - name: S_168C5
+    data_type: long
+  - name: S_168C6
+    data_type: long
+  - name: S_168C7
+    data_type: long
+  - name: S_168C8
+    data_type: long
+  - name: S_168C9
+    data_type: long
+  - name: S_169C0
+    data_type: double
+  - name: S_169C1
+    data_type: long
+  - name: S_169C2
+    data_type: long
+  - name: S_169C3
+    data_type: long
+  - name: S_170C0
+    data_type: long
+  - name: S_170C1
+    data_type: long
+  - name: S_170C10
+    data_type: long
+  - name: S_170C100
+    data_type: long
+  - name: S_170C101
+    data_type: long
+  - name: S_170C102
+    data_type: long
+  - name: S_170C103
+    data_type: long
+  - name: S_170C104
+    data_type: long
+  - name: S_170C105
+    data_type: long
+  - name: S_170C106
+    data_type: long
+  - name: S_170C107
+    data_type: long
+  - name: S_170C108
+    data_type: long
+  - name: S_170C109
+    data_type: long
+  - name: S_170C11
+    data_type: long
+  - name: S_170C110
+    data_type: long
+  - name: S_170C111
+    data_type: long
+  - name: S_170C112
+    data_type: long
+  - name: S_170C113
+    data_type: long
+  - name: S_170C114
+    data_type: long
+  - name: S_170C115
+    data_type: long
+  - name: S_170C116
+    data_type: long
+  - name: S_170C117
+    data_type: long
+  - name: S_170C118
+    data_type: long
+  - name: S_170C119
+    data_type: long
+  - name: S_170C12
+    data_type: long
+  - name: S_170C120
+    data_type: long
+  - name: S_170C121
+    data_type: long
+  - name: S_170C122
+    data_type: long
+  - name: S_170C123
+    data_type: long
+  - name: S_170C124
+    data_type: long
+  - name: S_170C125
+    data_type: long
+  - name: S_170C126
+    data_type: long
+  - name: S_170C127
+    data_type: long
+  - name: S_170C128
+    data_type: long
+  - name: S_170C129
+    data_type: long
+  - name: S_170C13
+    data_type: long
+  - name: S_170C130
+    data_type: long
+  - name: S_170C131
+    data_type: long
+  - name: S_170C132
+    data_type: long
+  - name: S_170C133
+    data_type: long
+  - name: S_170C134
+    data_type: long
+  - name: S_170C135
+    data_type: long
+  - name: S_170C136
+    data_type: long
+  - name: S_170C137
+    data_type: long
+  - name: S_170C138
+    data_type: long
+  - name: S_170C139
+    data_type: long
+  - name: S_170C14
+    data_type: long
+  - name: S_170C140
+    data_type: long
+  - name: S_170C141
+    data_type: long
+  - name: S_170C142
+    data_type: long
+  - name: S_170C143
+    data_type: long
+  - name: S_170C144
+    data_type: long
+  - name: S_170C145
+    data_type: long
+  - name: S_170C146
+    data_type: long
+  - name: S_170C147
+    data_type: long
+  - name: S_170C148
+    data_type: long
+  - name: S_170C149
+    data_type: long
+  - name: S_170C15
+    data_type: long
+  - name: S_170C150
+    data_type: long
+  - name: S_170C151
+    data_type: long
+  - name: S_170C152
+    data_type: long
+  - name: S_170C153
+    data_type: long
+  - name: S_170C16
+    data_type: long
+  - name: S_170C17
+    data_type: long
+  - name: S_170C18
+    data_type: long
+  - name: S_170C19
+    data_type: long
+  - name: S_170C2
+    data_type: long
+  - name: S_170C20
+    data_type: long
+  - name: S_170C21
+    data_type: long
+  - name: S_170C22
+    data_type: long
+  - name: S_170C23
+    data_type: long
+  - name: S_170C24
+    data_type: long
+  - name: S_170C25
+    data_type: long
+  - name: S_170C26
+    data_type: long
+  - name: S_170C27
+    data_type: long
+  - name: S_170C28
+    data_type: long
+  - name: S_170C29
+    data_type: long
+  - name: S_170C3
+    data_type: long
+  - name: S_170C30
+    data_type: long
+  - name: S_170C31
+    data_type: long
+  - name: S_170C32
+    data_type: long
+  - name: S_170C33
+    data_type: long
+  - name: S_170C34
+    data_type: long
+  - name: S_170C35
+    data_type: long
+  - name: S_170C36
+    data_type: long
+  - name: S_170C37
+    data_type: long
+  - name: S_170C38
+    data_type: long
+  - name: S_170C39
+    data_type: long
+  - name: S_170C4
+    data_type: long
+  - name: S_170C40
+    data_type: long
+  - name: S_170C41
+    data_type: long
+  - name: S_170C42
+    data_type: long
+  - name: S_170C43
+    data_type: long
+  - name: S_170C44
+    data_type: long
+  - name: S_170C45
+    data_type: long
+  - name: S_170C46
+    data_type: long
+  - name: S_170C47
+    data_type: long
+  - name: S_170C48
+    data_type: long
+  - name: S_170C49
+    data_type: long
+  - name: S_170C5
+    data_type: long
+  - name: S_170C50
+    data_type: long
+  - name: S_170C51
+    data_type: long
+  - name: S_170C52
+    data_type: long
+  - name: S_170C53
+    data_type: long
+  - name: S_170C54
+    data_type: long
+  - name: S_170C55
+    data_type: long
+  - name: S_170C56
+    data_type: long
+  - name: S_170C57
+    data_type: long
+  - name: S_170C58
+    data_type: long
+  - name: S_170C59
+    data_type: long
+  - name: S_170C6
+    data_type: long
+  - name: S_170C60
+    data_type: long
+  - name: S_170C61
+    data_type: long
+  - name: S_170C62
+    data_type: long
+  - name: S_170C63
+    data_type: long
+  - name: S_170C64
+    data_type: long
+  - name: S_170C65
+    data_type: long
+  - name: S_170C66
+    data_type: long
+  - name: S_170C67
+    data_type: long
+  - name: S_170C68
+    data_type: long
+  - name: S_170C69
+    data_type: long
+  - name: S_170C7
+    data_type: long
+  - name: S_170C70
+    data_type: long
+  - name: S_170C71
+    data_type: long
+  - name: S_170C72
+    data_type: long
+  - name: S_170C73
+    data_type: long
+  - name: S_170C74
+    data_type: long
+  - name: S_170C75
+    data_type: long
+  - name: S_170C76
+    data_type: long
+  - name: S_170C77
+    data_type: long
+  - name: S_170C78
+    data_type: long
+  - name: S_170C79
+    data_type: long
+  - name: S_170C8
+    data_type: long
+  - name: S_170C80
+    data_type: long
+  - name: S_170C81
+    data_type: long
+  - name: S_170C82
+    data_type: long
+  - name: S_170C83
+    data_type: long
+  - name: S_170C84
+    data_type: long
+  - name: S_170C85
+    data_type: long
+  - name: S_170C86
+    data_type: long
+  - name: S_170C87
+    data_type: long
+  - name: S_170C88
+    data_type: long
+  - name: S_170C89
+    data_type: long
+  - name: S_170C9
+    data_type: long
+  - name: S_170C90
+    data_type: long
+  - name: S_170C91
+    data_type: long
+  - name: S_170C92
+    data_type: long
+  - name: S_170C93
+    data_type: long
+  - name: S_170C94
+    data_type: long
+  - name: S_170C95
+    data_type: long
+  - name: S_170C96
+    data_type: long
+  - name: S_170C97
+    data_type: long
+  - name: S_170C98
+    data_type: long
+  - name: S_170C99
+    data_type: long
+  - name: S_172C0
+    data_type: long
+  - name: S_172C1
+    data_type: long
+  - name: S_172C2
+    data_type: long
+  - name: S_172C3
+    data_type: long
+  - name: S_172C4
+    data_type: long
+  - name: S_172C5
+    data_type: long
+  - name: S_172C6
+    data_type: long
+  - name: S_173C0
+    data_type: double
+  - name: S_173C1
+    data_type: long
+  - name: S_173C2
+    data_type: long
+  - name: S_173C3
+    data_type: long
+  - name: S_175C0
+    data_type: long
+  - name: S_175C1
+    data_type: long
+  - name: S_176C0
+    data_type: long
+  - name: S_176C1
+    data_type: long
+  - name: S_176C10
+    data_type: long
+  - name: S_176C11
+    data_type: long
+  - name: S_176C12
+    data_type: long
+  - name: S_176C13
+    data_type: long
+  - name: S_176C14
+    data_type: long
+  - name: S_176C15
+    data_type: long
+  - name: S_176C16
+    data_type: long
+  - name: S_176C17
+    data_type: long
+  - name: S_176C18
+    data_type: long
+  - name: S_176C19
+    data_type: long
+  - name: S_176C2
+    data_type: long
+  - name: S_176C20
+    data_type: long
+  - name: S_176C21
+    data_type: long
+  - name: S_176C22
+    data_type: long
+  - name: S_176C23
+    data_type: long
+  - name: S_176C24
+    data_type: long
+  - name: S_176C3
+    data_type: long
+  - name: S_176C4
+    data_type: long
+  - name: S_176C5
+    data_type: long
+  - name: S_176C6
+    data_type: long
+  - name: S_176C7
+    data_type: long
+  - name: S_176C8
+    data_type: long
+  - name: S_176C9
+    data_type: long
+  - name: S_178C0
+    data_type: double
+  - name: S_178C0_1024
+    data_type: double
+  - name: S_178C1
+    data_type: long
+  - name: S_178C1_1024
+    data_type: long
+  - name: S_178C2
+    data_type: long
+  - name: S_178C3
+    data_type: double
+  - name: S_178C3_1024
+    data_type: double
+  - name: S_178C4
+    data_type: long
+  - name: S_178C4_1024
+    data_type: long
+  - name: S_178C5
+    data_type: long
+  - name: S_178C6
+    data_type: long
+  - name: S_178C7
+    data_type: long
+  - name: S_179C0
+    data_type: double
+  - name: S_179C0_1024
+    data_type: double
+  - name: S_179C1
+    data_type: long
+  - name: S_179C1_1024
+    data_type: long
+  - name: S_179C2
+    data_type: long
+  - name: S_179C3
+    data_type: double
+  - name: S_179C3_1024
+    data_type: double
+  - name: S_179C4
+    data_type: long
+  - name: S_179C4_1024
+    data_type: long
+  - name: S_179C5
+    data_type: long
+  - name: S_179C6
+    data_type: double
+  - name: S_179C6_1024
+    data_type: double
+  - name: S_179C7
+    data_type: long
+  - name: S_179C7_1024
+    data_type: long
+  - name: S_179C8
+    data_type: long
+  - name: S_193C0
+    data_type: double
+  - name: S_193C1
+    data_type: long
+  - name: S_193C2
+    data_type: long
+  - name: S_193C3
+    data_type: double
+  - name: S_193C4
+    data_type: long
+  - name: S_193C5
+    data_type: long
+  - name: S_193C6
+    data_type: long
+  - name: S_193C7
+    data_type: long
+  - name: S_194C0
+    data_type: double
+  - name: S_194C1
+    data_type: double
+  - name: S_194C2
+    data_type: long
+  - name: S_195C0
+    data_type: double
+  - name: S_195C1
+    data_type: double
+  - name: S_195C2
+    data_type: long
+  - name: S_196C0
+    data_type: long
+  - name: S_196C1
+    data_type: long
+  - name: S_196C2
+    data_type: long
+  - name: S_196C3
+    data_type: long
+  - name: S_196C4
+    data_type: long
+  - name: S_196C5
+    data_type: long
+  - name: S_196C6
+    data_type: long
+  - name: S_196C7
+    data_type: long
+  - name: S_197C0
+    data_type: double
+  - name: S_197C1
+    data_type: double
+  - name: S_197C2
+    data_type: double
+  - name: S_197C3
+    data_type: double
+  - name: S_197C4
+    data_type: double
+  - name: S_197C5
+    data_type: long
+  - name: S_197C6
+    data_type: long
+  - name: S_197C7
+    data_type: long
+  - name: S_197C8
+    data_type: long
+  - name: S_197C9
+    data_type: long
+  - name: S_198C0
+    data_type: double
+  - name: S_198C1
+    data_type: double
+  - name: S_198C2
+    data_type: double
+  - name: S_198C3
+    data_type: double
+  - name: S_198C4
+    data_type: double
+  - name: S_198C5
+    data_type: long
+  - name: S_198C6
+    data_type: long
+  - name: S_198C7
+    data_type: long
+  - name: S_198C8
+    data_type: long
+  - name: S_198C9
+    data_type: long
+  - name: S_199C0
+    data_type: long
+  - name: S_199C1
+    data_type: long
+  - name: S_199C10
+    data_type: long
+  - name: S_199C11
+    data_type: long
+  - name: S_199C12
+    data_type: long
+  - name: S_199C13
+    data_type: long
+  - name: S_199C14
+    data_type: long
+  - name: S_199C15
+    data_type: long
+  - name: S_199C16
+    data_type: long
+  - name: S_199C17
+    data_type: long
+  - name: S_199C18
+    data_type: long
+  - name: S_199C19
+    data_type: long
+  - name: S_199C2
+    data_type: long
+  - name: S_199C20
+    data_type: long
+  - name: S_199C21
+    data_type: long
+  - name: S_199C22
+    data_type: long
+  - name: S_199C23
+    data_type: long
+  - name: S_199C24
+    data_type: long
+  - name: S_199C25
+    data_type: long
+  - name: S_199C26
+    data_type: long
+  - name: S_199C27
+    data_type: long
+  - name: S_199C3
+    data_type: long
+  - name: S_199C4
+    data_type: long
+  - name: S_199C5
+    data_type: long
+  - name: S_199C6
+    data_type: long
+  - name: S_199C7
+    data_type: long
+  - name: S_199C8
+    data_type: long
+  - name: S_199C9
+    data_type: long
+  - name: S_200C0
+    data_type: long
+  - name: S_200C1
+    data_type: long
+  - name: S_200C10
+    data_type: long
+  - name: S_200C11
+    data_type: long
+  - name: S_200C12
+    data_type: long
+  - name: S_200C13
+    data_type: long
+  - name: S_200C14
+    data_type: long
+  - name: S_200C15
+    data_type: long
+  - name: S_200C16
+    data_type: long
+  - name: S_200C17
+    data_type: long
+  - name: S_200C18
+    data_type: long
+  - name: S_200C19
+    data_type: long
+  - name: S_200C2
+    data_type: long
+  - name: S_200C20
+    data_type: long
+  - name: S_200C21
+    data_type: long
+  - name: S_200C22
+    data_type: long
+  - name: S_200C23
+    data_type: long
+  - name: S_200C24
+    data_type: long
+  - name: S_200C25
+    data_type: long
+  - name: S_200C26
+    data_type: long
+  - name: S_200C27
+    data_type: long
+  - name: S_200C28
+    data_type: long
+  - name: S_200C29
+    data_type: long
+  - name: S_200C3
+    data_type: long
+  - name: S_200C30
+    data_type: long
+  - name: S_200C31
+    data_type: long
+  - name: S_200C32
+    data_type: long
+  - name: S_200C33
+    data_type: long
+  - name: S_200C34
+    data_type: long
+  - name: S_200C35
+    data_type: long
+  - name: S_200C36
+    data_type: long
+  - name: S_200C37
+    data_type: long
+  - name: S_200C38
+    data_type: long
+  - name: S_200C39
+    data_type: long
+  - name: S_200C4
+    data_type: long
+  - name: S_200C40
+    data_type: long
+  - name: S_200C41
+    data_type: long
+  - name: S_200C42
+    data_type: long
+  - name: S_200C43
+    data_type: long
+  - name: S_200C5
+    data_type: long
+  - name: S_200C6
+    data_type: long
+  - name: S_200C7
+    data_type: long
+  - name: S_200C8
+    data_type: long
+  - name: S_200C9
+    data_type: long
+  - name: S_473C0
+    data_type: long
+  - name: S_473C1
+    data_type: long
+  - name: S_473C10
+    data_type: long
+  - name: S_473C11
+    data_type: long
+  - name: S_473C12
+    data_type: long
+  - name: S_473C13
+    data_type: long
+  - name: S_473C14
+    data_type: long
+  - name: S_473C15
+    data_type: long
+  - name: S_473C16
+    data_type: long
+  - name: S_473C17
+    data_type: long
+  - name: S_473C18
+    data_type: long
+  - name: S_473C19
+    data_type: long
+  - name: S_473C2
+    data_type: long
+  - name: S_473C20
+    data_type: long
+  - name: S_473C21
+    data_type: long
+  - name: S_473C3
+    data_type: long
+  - name: S_473C4
+    data_type: long
+  - name: S_473C5
+    data_type: long
+  - name: S_473C6
+    data_type: long
+  - name: S_473C7
+    data_type: long
+  - name: S_473C8
+    data_type: long
+  - name: S_473C9
+    data_type: long
+  - name: S_49C0
+    data_type: long
+  - name: S_49C1
+    data_type: long
+  - name: S_561C0
+    data_type: long
+  - name: S_561C1
+    data_type: long
+  - name: S_562C0
+    data_type: long
+  - name: S_562C1
+    data_type: long
+  - name: S_562C10
+    data_type: long
+  - name: S_562C2
+    data_type: long
+  - name: S_562C3
+    data_type: long
+  - name: S_562C4
+    data_type: long
+  - name: S_562C5
+    data_type: long
+  - name: S_562C6
+    data_type: long
+  - name: S_562C7
+    data_type: long
+  - name: S_562C8
+    data_type: long
+  - name: S_562C9
+    data_type: long
+  - name: S_563C0
+    data_type: double
+  - name: S_563C1
+    data_type: long
+  - name: S_563C2
+    data_type: long
+  - name: S_563C3
+    data_type: long
+  - name: S_564C0
+    data_type: long
+  - name: S_564C1
+    data_type: long
+  - name: S_564C2
+    data_type: long
+  - name: S_564C3
+    data_type: long
+  - name: S_564C4
+    data_type: long
+  - name: S_564C5
+    data_type: long
+  - name: S_564C6
+    data_type: long
+  - name: S_564C7
+    data_type: long
+  - name: S_564C8
+    data_type: long
+  - name: S_564C9
+    data_type: long
+  - name: S_565C0
+    data_type: long
+  - name: S_565C1
+    data_type: long
+  - name: S_565C2
+    data_type: long
+  - name: S_565C3
+    data_type: long
+  - name: S_566C0
+    data_type: long
+  - name: S_566C1
+    data_type: long
+  - name: S_566C10
+    data_type: long
+  - name: S_566C11
+    data_type: long
+  - name: S_566C12
+    data_type: long
+  - name: S_566C13
+    data_type: long
+  - name: S_566C2
+    data_type: long
+  - name: S_566C3
+    data_type: long
+  - name: S_566C4
+    data_type: long
+  - name: S_566C5
+    data_type: long
+  - name: S_566C6
+    data_type: long
+  - name: S_566C7
+    data_type: long
+  - name: S_566C8
+    data_type: long
+  - name: S_566C9
+    data_type: long
+  - name: S_567C0
+    data_type: long
+  - name: S_567C1
+    data_type: long
+  - name: S_567C10
+    data_type: long
+  - name: S_567C11
+    data_type: long
+  - name: S_567C12
+    data_type: long
+  - name: S_567C2
+    data_type: long
+  - name: S_567C3
+    data_type: long
+  - name: S_567C4
+    data_type: long
+  - name: S_567C5
+    data_type: long
+  - name: S_567C6
+    data_type: long
+  - name: S_567C7
+    data_type: long
+  - name: S_567C8
+    data_type: long
+  - name: S_567C9
+    data_type: long
+  - name: S_568C0
+    data_type: double
+  - name: S_568C1
+    data_type: long
+  - name: S_568C2
+    data_type: long
+  - name: S_568C3
+    data_type: long
+  - name: S_569C0
+    data_type: long
+  - name: S_569C1
+    data_type: long
+  - name: S_569C10
+    data_type: long
+  - name: S_569C11
+    data_type: long
+  - name: S_569C2
+    data_type: long
+  - name: S_569C3
+    data_type: long
+  - name: S_569C4
+    data_type: long
+  - name: S_569C5
+    data_type: long
+  - name: S_569C6
+    data_type: long
+  - name: S_569C7
+    data_type: long
+  - name: S_569C8
+    data_type: long
+  - name: S_569C9
+    data_type: long
+  - name: S_570C0
+    data_type: long
+  - name: S_570C1
+    data_type: long
+  - name: S_571C0
+    data_type: long
+  - name: S_571C1
+    data_type: long
+  - name: S_571C2
+    data_type: long
+  - name: S_571C3
+    data_type: long
+  - name: S_571C4
+    data_type: long
+  - name: S_571C5
+    data_type: long
+  - name: S_571C6
+    data_type: long
+  - name: S_571C7
+    data_type: long
+  - name: S_571C8
+    data_type: long
+  - name: S_571C9
+    data_type: long
+  - name: S_572C0
+    data_type: long
+  - name: S_572C1
+    data_type: long
+  - name: S_572C2
+    data_type: long
+  - name: S_573C0
+    data_type: long
+  - name: S_573C1
+    data_type: long
+  - name: S_573C10
+    data_type: long
+  - name: S_573C11
+    data_type: long
+  - name: S_573C12
+    data_type: long
+  - name: S_573C2
+    data_type: long
+  - name: S_573C3
+    data_type: long
+  - name: S_573C4
+    data_type: long
+  - name: S_573C5
+    data_type: long
+  - name: S_573C6
+    data_type: long
+  - name: S_573C7
+    data_type: long
+  - name: S_573C8
+    data_type: long
+  - name: S_573C9
+    data_type: long
+  - name: S_574C0
+    data_type: long
+  - name: S_574C1
+    data_type: long
+  - name: S_574C2
+    data_type: long
+  - name: S_574C3
+    data_type: long
+  - name: S_575C0
+    data_type: long
+  - name: S_575C1
+    data_type: long
+  - name: S_575C10
+    data_type: long
+  - name: S_575C11
+    data_type: long
+  - name: S_575C12
+    data_type: long
+  - name: S_575C13
+    data_type: long
+  - name: S_575C14
+    data_type: long
+  - name: S_575C15
+    data_type: long
+  - name: S_575C16
+    data_type: long
+  - name: S_575C17
+    data_type: long
+  - name: S_575C18
+    data_type: long
+  - name: S_575C19
+    data_type: long
+  - name: S_575C2
+    data_type: long
+  - name: S_575C20
+    data_type: long
+  - name: S_575C21
+    data_type: long
+  - name: S_575C22
+    data_type: long
+  - name: S_575C23
+    data_type: long
+  - name: S_575C3
+    data_type: long
+  - name: S_575C4
+    data_type: long
+  - name: S_575C5
+    data_type: long
+  - name: S_575C6
+    data_type: long
+  - name: S_575C7
+    data_type: long
+  - name: S_575C8
+    data_type: long
+  - name: S_575C9
+    data_type: long
+  - name: S_576C0
+    data_type: long
+  - name: S_576C0_1024
+    data_type: long
+  - name: S_576C1
+    data_type: double
+  - name: S_576C10
+    data_type: double
+  - name: S_576C10_1024
+    data_type: double
+  - name: S_576C11
+    data_type: double
+  - name: S_576C11_1024
+    data_type: double
+  - name: S_576C12
+    data_type: long
+  - name: S_576C12_1024
+    data_type: long
+  - name: S_576C13
+    data_type: long
+  - name: S_576C14
+    data_type: double
+  - name: S_576C14_1024
+    data_type: double
+  - name: S_576C15
+    data_type: long
+  - name: S_576C16
+    data_type: long
+  - name: S_576C17
+    data_type: long
+  - name: S_576C1_1024
+    data_type: double
+  - name: S_576C2
+    data_type: double
+  - name: S_576C2_1024
+    data_type: double
+  - name: S_576C3
+    data_type: long
+  - name: S_576C4
+    data_type: long
+  - name: S_576C4_1024
+    data_type: long
+  - name: S_576C5
+    data_type: double
+  - name: S_576C5_1024
+    data_type: double
+  - name: S_576C6
+    data_type: double
+  - name: S_576C6_1024
+    data_type: double
+  - name: S_576C7
+    data_type: long
+  - name: S_576C8
+    data_type: long
+  - name: S_576C9
+    data_type: long
+  - name: S_577C0
+    data_type: long
+  - name: S_577C0_1024
+    data_type: long
+  - name: S_577C1
+    data_type: long
+  - name: S_577C10
+    data_type: long
+  - name: S_577C10_1024
+    data_type: long
+  - name: S_577C11
+    data_type: long
+  - name: S_577C11_1024
+    data_type: long
+  - name: S_577C1_1024
+    data_type: long
+  - name: S_577C2
+    data_type: long
+  - name: S_577C2_1024
+    data_type: long
+  - name: S_577C3
+    data_type: long
+  - name: S_577C3_1024
+    data_type: long
+  - name: S_577C4
+    data_type: long
+  - name: S_577C4_1024
+    data_type: long
+  - name: S_577C5
+    data_type: long
+  - name: S_577C5_1024
+    data_type: long
+  - name: S_577C6
+    data_type: long
+  - name: S_577C6_1024
+    data_type: long
+  - name: S_577C7
+    data_type: long
+  - name: S_577C7_1024
+    data_type: long
+  - name: S_577C8
+    data_type: long
+  - name: S_577C8_1024
+    data_type: long
+  - name: S_577C9
+    data_type: long
+  - name: S_577C9_1024
+    data_type: long
+  - name: S_578C0
+    data_type: double
+  - name: S_578C1
+    data_type: long
+  - name: S_578C2
+    data_type: double
+  - name: S_578C3
+    data_type: long
+  - name: S_578C4
+    data_type: long
+  - name: S_579C0
+    data_type: double
+  - name: S_579C1
+    data_type: double
+  - name: S_579C2
+    data_type: long
+  - name: S_580C0
+    data_type: double
+  - name: S_580C1
+    data_type: double
+  - name: S_580C2
+    data_type: long
+  - name: S_580C3
+    data_type: long
+  - name: S_580C4
+    data_type: long
+  - name: S_580C5
+    data_type: long
+  - name: S_581C0
+    data_type: double
+  - name: S_581C0_1024
+    data_type: double
+  - name: S_581C1
+    data_type: long
+  - name: S_581C2
+    data_type: long
+  - name: S_581C3
+    data_type: double
+  - name: S_581C3_1024
+    data_type: double
+  - name: S_581C4
+    data_type: long
+  - name: S_581C5
+    data_type: long
+  - name: S_650C0
+    data_type: double
+  - name: S_650C1
+    data_type: long
+  - name: S_650C2
+    data_type: long
+  - name: S_651C0
+    data_type: long
+  - name: S_651C1
+    data_type: long
+  - name: S_651C2
+    data_type: long
+  - name: S_652C0
+    data_type: long
+  - name: S_652C1
+    data_type: long
+  - name: S_652C10
+    data_type: long
+  - name: S_652C11
+    data_type: long
+  - name: S_652C12
+    data_type: long
+  - name: S_652C13
+    data_type: long
+  - name: S_652C14
+    data_type: long
+  - name: S_652C15
+    data_type: long
+  - name: S_652C16
+    data_type: long
+  - name: S_652C17
+    data_type: long
+  - name: S_652C18
+    data_type: long
+  - name: S_652C19
+    data_type: long
+  - name: S_652C2
+    data_type: long
+  - name: S_652C20
+    data_type: long
+  - name: S_652C21
+    data_type: long
+  - name: S_652C22
+    data_type: long
+  - name: S_652C23
+    data_type: long
+  - name: S_652C24
+    data_type: long
+  - name: S_652C25
+    data_type: long
+  - name: S_652C26
+    data_type: long
+  - name: S_652C27
+    data_type: long
+  - name: S_652C28
+    data_type: long
+  - name: S_652C29
+    data_type: long
+  - name: S_652C3
+    data_type: long
+  - name: S_652C30
+    data_type: long
+  - name: S_652C31
+    data_type: long
+  - name: S_652C32
+    data_type: long
+  - name: S_652C33
+    data_type: long
+  - name: S_652C34
+    data_type: long
+  - name: S_652C35
+    data_type: long
+  - name: S_652C36
+    data_type: long
+  - name: S_652C37
+    data_type: long
+  - name: S_652C38
+    data_type: long
+  - name: S_652C39
+    data_type: long
+  - name: S_652C4
+    data_type: long
+  - name: S_652C40
+    data_type: long
+  - name: S_652C41
+    data_type: long
+  - name: S_652C42
+    data_type: long
+  - name: S_652C43
+    data_type: long
+  - name: S_652C44
+    data_type: long
+  - name: S_652C45
+    data_type: long
+  - name: S_652C46
+    data_type: long
+  - name: S_652C47
+    data_type: long
+  - name: S_652C48
+    data_type: long
+  - name: S_652C49
+    data_type: long
+  - name: S_652C5
+    data_type: long
+  - name: S_652C6
+    data_type: long
+  - name: S_652C7
+    data_type: long
+  - name: S_652C8
+    data_type: long
+  - name: S_652C9
+    data_type: long
+  - name: S_659C0
+    data_type: long
+  - name: S_659C1
+    data_type: long
+  - name: S_659C10
+    data_type: long
+  - name: S_659C11
+    data_type: long
+  - name: S_659C12
+    data_type: long
+  - name: S_659C13
+    data_type: long
+  - name: S_659C14
+    data_type: long
+  - name: S_659C15
+    data_type: long
+  - name: S_659C16
+    data_type: long
+  - name: S_659C17
+    data_type: long
+  - name: S_659C18
+    data_type: long
+  - name: S_659C19
+    data_type: long
+  - name: S_659C2
+    data_type: long
+  - name: S_659C20
+    data_type: long
+  - name: S_659C3
+    data_type: long
+  - name: S_659C4
+    data_type: long
+  - name: S_659C5
+    data_type: long
+  - name: S_659C6
+    data_type: long
+  - name: S_659C7
+    data_type: long
+  - name: S_659C8
+    data_type: long
+  - name: S_659C9
+    data_type: long
+  - name: S_784C0
+    data_type: long
+  - name: S_784C1
+    data_type: long
+  - name: S_79C0
+    data_type: double
+  - name: S_79C1
+    data_type: long
+  - name: S_79C2
+    data_type: long
+  - name: S_79C3
+    data_type: double
+  - name: S_79C4
+    data_type: long
+  - name: S_917C0
+    data_type: long
+  - name: S_917C1
+    data_type: long
+  - name: S_917C2
+    data_type: long
+  - name: SYSTEM_ID
+    data_type: long
+  - name: version
+    data_type: string

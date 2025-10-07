@@ -1,0 +1,43 @@
+unique_name: lte-semi-persistent-scheduling-in-mac
+object_type: dataset
+label: lte-semi-persistent-scheduling-in-mac
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-semi-persistent-scheduling-in-mac-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: SpsActUeAvgCnt_count
+  data_type: double
+- name: SpsActUeAvgTot_count
+  data_type: double
+- name: SpsActUeAvg_count
+  data_type: double
+- name: ULSpsActivationAtt_count
+  data_type: double
+- name: ULSpsActivationSucc_count
+  data_type: double
+- name: ULSpsDeactivationAtt_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,45 @@
+unique_name: nr-ue-number-per-bpu
+object_type: dataset
+label: nr-ue-number-per-bpu
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ue-number-per-bpu-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BPU_ID
+  data_type: string
+- name: SCellUeNumPerBpuAvg_count
+  data_type: double
+- name: SCellUeNumPerBpuCnt_count
+  data_type: double
+- name: SCellUeNumPerBpuMax_count
+  data_type: double
+- name: SCellUeNumPerBpuTot_count
+  data_type: double
+- name: SpCellUeNumPerBpuAvg_count
+  data_type: double
+- name: SpCellUeNumPerBpuCnt_count
+  data_type: double
+- name: SpCellUeNumPerBpuMax_count
+  data_type: double
+- name: SpCellUeNumPerBpuTot_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

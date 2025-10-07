@@ -1,0 +1,73 @@
+unique_name: lte-nb-iot-pdcp-packet
+object_type: dataset
+label: lte-nb-iot-pdcp-packet
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-pdcp-packet-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NBIoT_EnbQciDLByteCnt_s
+  data_type: double
+- name: NBIoT_EnbQciDLByte_Kbytes
+  data_type: double
+- name: NBIoT_EnbQciDLThruMax_Kbps
+  data_type: double
+- name: NBIoT_EnbQciDLThruMin_Kbps
+  data_type: double
+- name: NBIoT_EnbQciDLThru_Kbps
+  data_type: double
+- name: NBIoT_EnbQciULByteCnt_s
+  data_type: double
+- name: NBIoT_EnbQciULByte_Kbytes
+  data_type: double
+- name: NBIoT_EnbQciULThruMax_Kbps
+  data_type: double
+- name: NBIoT_EnbQciULThruMin_Kbps
+  data_type: double
+- name: NBIoT_EnbQciULThru_Kbps
+  data_type: double
+- name: NBIoT_PacketDLCnt_count
+  data_type: double
+- name: NBIoT_PacketULCnt_count
+  data_type: double
+- name: NBIoT_PdcpIpLatencyDL_ms
+  data_type: double
+- name: NBIoT_PdcpIpTLatDL_ms
+  data_type: double
+- name: NBIoT_PdcpIpThroughputDL_Kbps
+  data_type: double
+- name: NBIoT_PdcpLatSamplesCnt_count
+  data_type: double
+- name: NBIoT_PdcpTimeDl_ms
+  data_type: double
+- name: NBIoT_PdcpVolDlByte_Kbytes
+  data_type: double
+- name: NBIoT_cNum
+  data_type: string
+- name: QCI
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NBIOT_PDCP_DATA_DL_VL__576
+  data_type: double
+  sql: NBIoT_EnbQciDLByte_Kbytes/1000
+- name: NBIOT_PDCP_DATA_UL_VL__576
+  data_type: double
+  sql: NBIoT_EnbQciULByte_Kbytes/1000

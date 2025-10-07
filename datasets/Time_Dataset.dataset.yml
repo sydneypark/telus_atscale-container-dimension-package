@@ -1,0 +1,36 @@
+unique_name: Time_Dataset.dataset
+object_type: dataset
+label: Time_Dataset.dataset
+connection_id: BQ_NE_Cell.connection
+table: Time_Dataset
+immutable: true
+
+columns:
+  - name: Day
+    data_type: date
+  - name: HalfHour
+    data_type: datetime
+  - name: Hour
+    data_type: datetime
+  - name: Month
+    data_type: date
+  - name: Quarter
+    data_type: date
+  - name: QuarterHour
+    data_type: datetime
+  - name: Week
+    data_type: date
+  - name: Year
+    data_type: date
+  - name: EasternDay
+    data_type: date
+  - name: MountainDay
+    data_type: date
+  - name: PacificDay
+    data_type: date
+  - name: HourOfDay
+    data_type: string
+  - name: TimeOfDay
+    data_type: string
+  - name: DayOfWeek
+    data_type: long

@@ -1,0 +1,55 @@
+unique_name: lte-ta-information-of-the-source-cell-when-performing-incoming-
+object_type: dataset
+label: lte-ta-information-of-the-source-cell-when-performing-incoming-
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-ta-information-of-the-source-cell-when-performing-incoming-and-outgoing-handover-per-neighbor-cell-relation-ncr-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NeighborCell
+  data_type: string
+- name: SourceCellTAIncomingHandoverAvg_TA
+  data_type: double
+- name: SourceCellTAIncomingHandoverCnt_count
+  data_type: double
+- name: SourceCellTAIncomingHandoverMax_TA
+  data_type: double
+- name: SourceCellTAIncomingHandoverMin_TA
+  data_type: double
+- name: SourceCellTAIncomingHandoverTot_TA
+  data_type: double
+- name: SourceCellTAOutgoingHandoverAvg_TA
+  data_type: double
+- name: SourceCellTAOutgoingHandoverCnt_count
+  data_type: double
+- name: SourceCellTAOutgoingHandoverMax_TA
+  data_type: double
+- name: SourceCellTAOutgoingHandoverMin_TA
+  data_type: double
+- name: SourceCellTAOutgoingHandoverTot_TA
+  data_type: double
+- name: TaHoNcrCid_NeighborCell_ID
+  data_type: double
+- name: TaHoNcrCnt_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

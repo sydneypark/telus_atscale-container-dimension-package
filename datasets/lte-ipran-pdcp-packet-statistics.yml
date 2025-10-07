@@ -1,0 +1,37 @@
+unique_name: lte-ipran-pdcp-packet-statistics
+object_type: dataset
+label: lte-ipran-pdcp-packet-statistics
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-ipran-pdcp-packet-statistics-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: IPRAN_EnbQciDLByteCnt_s
+  data_type: double
+- name: IPRAN_EnbQciDLByte_Kbytes
+  data_type: double
+- name: IPRAN_EnbQciDLThru_Kbps
+  data_type: double
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

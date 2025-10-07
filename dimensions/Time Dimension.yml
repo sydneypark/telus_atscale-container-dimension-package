@@ -1,0 +1,141 @@
+unique_name: Time Dimension
+object_type: dimension
+label: Time Dimension
+type: time
+
+hierarchies:
+
+  - unique_name: Time Dimension
+    label: Time Dimension
+    filter_empty: "yes"
+
+    levels:
+
+      - unique_name: 1y
+
+      - unique_name: 1q
+
+      - unique_name: 1mon
+
+      - unique_name: 1d
+
+        aliases:
+
+          - unique_name: 1w
+            label: Weekly
+            dataset: Time_Dataset.dataset
+            name_column: Week
+            sort_column: Week
+
+          - unique_name: EasternDay
+            label: Eastern Day
+            dataset: Time_Dataset.dataset
+            name_column: EasternDay
+            sort_column: EasternDay
+            folder: DailyTime
+
+          - unique_name: MountainDay
+            label: Mountain Day
+            dataset: Time_Dataset.dataset
+            name_column: MountainDay
+            sort_column: MountainDay
+            folder: DailyTime
+
+          - unique_name: PacificDay
+            label: Pacific Day
+            dataset: Time_Dataset.dataset
+            name_column: PacificDay
+            sort_column: PacificDay
+            folder: DailyTime
+
+      - unique_name: 1h
+
+      - unique_name: 30m
+
+      - unique_name: 15m
+
+        aliases:
+
+          - unique_name: DayOfWeek
+            label: DayOfWeek
+            dataset: Time_Dataset.dataset
+            name_column: DayOfWeek
+            sort_column: DayOfWeek
+            folder: Timewrap
+
+          - unique_name: HourOfDay
+            label: HourOfDay
+            dataset: Time_Dataset.dataset
+            name_column: HourOfDay
+            sort_column: HourOfDay
+            folder: Timewrap
+
+          - unique_name: TimeOfDay
+            label: TimeOfDay
+            dataset: Time_Dataset.dataset
+            name_column: TimeOfDay
+            sort_column: TimeOfDay
+            folder: Timewrap
+
+level_attributes:
+
+  - unique_name: 15m
+    label: Quarter Hourly
+    is_unique_key: true
+    dataset: Time_Dataset.dataset
+    key_columns:
+      - QuarterHour
+    name_column: QuarterHour
+    time_unit: minute
+
+  - unique_name: 1d
+    label: Daily
+    dataset: Time_Dataset.dataset
+    key_columns:
+      - Day
+    name_column: Day
+    time_unit: day
+
+  - unique_name: 1h
+    label: Hourly
+    dataset: Time_Dataset.dataset
+    key_columns:
+      - Hour
+    name_column: Hour
+    time_unit: hour
+
+  - unique_name: 1mon
+    label: Monthly
+    dataset: Time_Dataset.dataset
+    key_columns:
+      - Month
+    name_column: Month
+    time_unit: month
+
+  - unique_name: 1q
+    label: Quarterly
+    dataset: Time_Dataset.dataset
+    key_columns:
+      - Quarter
+    name_column: Quarter
+    time_unit: quarter
+
+  - unique_name: 1y
+    label: Yearly
+    dataset: Time_Dataset.dataset
+    key_columns:
+      - Year
+    name_column: Year
+    time_unit: year
+
+  - unique_name: 30m
+    label: Half Hourly
+    dataset: Time_Dataset.dataset
+    key_columns:
+      - HalfHour
+    name_column: HalfHour
+    time_unit: minute
+
+modeler_metadata:
+  version: "0"
+  modified: "false"

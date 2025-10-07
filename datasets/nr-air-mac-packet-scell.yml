@@ -1,0 +1,52 @@
+unique_name: nr-air-mac-packet-scell
+object_type: dataset
+label: nr-air-mac-packet-scell
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-air-mac-packet-scell-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AirMacDLByteCnt_SCELL_count
+  data_type: double
+- name: AirMacDLByteMax_SCELL_Kbytes
+  data_type: double
+- name: AirMacDLByte_SCELL_Kbytes
+  data_type: double
+- name: AirMacDLThruAvg_SCELL_Kbps
+  data_type: double
+- name: AirMacDLThruMax_SCELL_Kbps
+  data_type: double
+- name: AirMacULByteCnt_SCELL_count
+  data_type: double
+- name: AirMacULByteMax_SCELL_Kbytes
+  data_type: double
+- name: AirMacULByte_SCELL_Kbytes
+  data_type: double
+- name: AirMacULThruAvg_SCELL_Kbps
+  data_type: double
+- name: AirMacULThruMax_SCELL_Kbps
+  data_type: double
+- name: CellIdentity
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: SA_NR_SCELL_VL__5004
+  data_type: double
+  sql: AirMacULByte_SCELL_Kbytes*1.024/1000

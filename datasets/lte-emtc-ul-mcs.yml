@@ -1,0 +1,85 @@
+unique_name: lte-emtc-ul-mcs
+object_type: dataset
+label: lte-emtc-ul-mcs
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-ul-mcs-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CEModeA_ULTransmittedMcs0_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs10_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs11_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs12_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs13_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs14_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs15_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs1_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs2_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs3_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs4_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs5_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs6_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs7_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs8_count
+  data_type: double
+- name: CEModeA_ULTransmittedMcs9_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs0_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs10_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs1_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs2_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs3_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs4_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs5_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs6_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs7_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs8_count
+  data_type: double
+- name: CEModeB_ULTransmittedMcs9_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

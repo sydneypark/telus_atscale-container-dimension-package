@@ -1,0 +1,73 @@
+unique_name: nr-sgnb-addition-due-to-sgnb-change
+object_type: dataset
+label: nr-sgnb-addition-due-to-sgnb-change
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-sgnb-addition-due-to-sgnb-change-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: EndcAddSgnbChgAtt_count
+  data_type: double
+- name: EndcAddSgnbChgFail_CpFail_count
+  data_type: double
+- name: EndcAddSgnbChgFail_DuFail_count
+  data_type: double
+- name: EndcAddSgnbChgFail_MenbFail_count
+  data_type: double
+- name: EndcAddSgnbChgFail_Tdcoverall_count
+  data_type: double
+- name: EndcAddSgnbChgFail_UpFail_count
+  data_type: double
+- name: EndcAddSgnbChgPrepFail_CpFail_count
+  data_type: double
+- name: EndcAddSgnbChgPrepFail_DuFail_count
+  data_type: double
+- name: EndcAddSgnbChgPrepFail_DuTimeout_count
+  data_type: double
+- name: EndcAddSgnbChgPrepFail_MenbFail_count
+  data_type: double
+- name: EndcAddSgnbChgPrepFail_UpFail_count
+  data_type: double
+- name: EndcAddSgnbChgPrepFail_UpTimeout_count
+  data_type: double
+- name: EndcAddSgnbChgPrepSucc_count
+  data_type: double
+- name: EndcAddSgnbChgSucc_count
+  data_type: double
+- name: MeNB_ID
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NSA_NR_AFR_SGNB_A__5091
+  data_type: double
+  sql: coalesce(`EndcAddSgnbChgSucc_count`,0)
+- name: NSA_NR_AFR_SGNB_B__5091
+  data_type: double
+  sql: coalesce(`EndcAddSgnbChgAtt_count`,0)
+- name: NSA_NR_AFR_SLO_DEN__5091
+  data_type: double
+  sql: EndcAddSgnbChgAtt_count
+- name: NSA_NR_AFR_SLO_NUM__5091
+  data_type: double
+  sql: EndcAddSgnbChgAtt_count-`EndcAddSgnbChgSucc_count`

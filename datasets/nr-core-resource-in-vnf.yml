@@ -1,0 +1,45 @@
+unique_name: nr-core-resource-in-vnf
+object_type: dataset
+label: nr-core-resource-in-vnf
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-core-resource-in-vnf-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CoreUsageAvg_pct
+  data_type: double
+- name: CoreUsageCnt_count
+  data_type: double
+- name: CoreUsageMaxDuration_s
+  data_type: double
+- name: CoreUsageMax_pct
+  data_type: double
+- name: CoreUsageMin_pct
+  data_type: double
+- name: CoreUsageTot_pct
+  data_type: double
+- name: Core_ID
+  data_type: string
+- name: VNFC_ID
+  data_type: string
+- name: VNFC_Type
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

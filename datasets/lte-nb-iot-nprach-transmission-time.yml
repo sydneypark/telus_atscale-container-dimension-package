@@ -1,0 +1,47 @@
+unique_name: lte-nb-iot-nprach-transmission-time
+object_type: dataset
+label: lte-nb-iot-nprach-transmission-time
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-nb-iot-nprach-transmission-time-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: NBIoT_ContentionResolutionForAccess_count
+  data_type: double
+- name: NBIoT_ContentionResolutionForSr_count
+  data_type: double
+- name: NBIoT_Preambles_count
+  data_type: double
+- name: NBIoT_RandomAccessDelayAverage_TTI
+  data_type: double
+- name: NBIoT_RandomAccessDelayCount_count
+  data_type: double
+- name: NBIoT_RandomAccessDelayTotal_TTI
+  data_type: double
+- name: NBIoT_RandomAccessResponses_count
+  data_type: double
+- name: NBIoT_ScheduledTransmission_count
+  data_type: double
+- name: NBIoT_cNum
+  data_type: string
+- name: NBIoT_classLevel
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,45 @@
+unique_name: nr-cu-initiated-f1-ue-context-modification-in-gnb-cu
+object_type: dataset
+label: nr-cu-initiated-f1-ue-context-modification-in-gnb-cu
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-cu-initiated-f1-ue-context-modification-in-gnb-cu-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CUModCause
+  data_type: string
+- name: CU_F1CuInitUeModAtt_count
+  data_type: double
+- name: CU_F1CuInitUeModFail_DUFailure_count
+  data_type: double
+- name: CU_F1CuInitUeModFail_DUTimeout_count
+  data_type: double
+- name: CU_F1CuInitUeModFail_Others_count
+  data_type: double
+- name: CU_F1CuInitUeModSucc_count
+  data_type: double
+- name: CellIdentity
+  data_type: string
+- name: DC
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

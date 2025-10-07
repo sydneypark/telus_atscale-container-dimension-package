@@ -1,0 +1,87 @@
+unique_name: lte-air-mac-packet
+object_type: dataset
+label: lte-air-mac-packet
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-air-mac-packet-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: AirMacDLByteCnt_count
+  data_type: double
+- name: AirMacDLByteCurr_Kbytes
+  data_type: double
+- name: AirMacDLByte_Kbytes
+  data_type: double
+- name: AirMacDLEfctivThruAvg_Kbps
+  data_type: double
+- name: AirMacDLThruAvg_Kbps
+  data_type: double
+- name: AirMacDLThruMax_Kbps
+  data_type: double
+- name: AirMacDLThruMin_Kbps
+  data_type: double
+- name: AirMacDLTti_TTI
+  data_type: double
+- name: AirMacULByteCnt_count
+  data_type: double
+- name: AirMacULByteCurr_Kbytes
+  data_type: double
+- name: AirMacULByte_Kbytes
+  data_type: double
+- name: AirMacULEfctivThruAvg_Kbps
+  data_type: double
+- name: AirMacULThruAvg_Kbps
+  data_type: double
+- name: AirMacULThruMax_Kbps
+  data_type: double
+- name: AirMacULThruMin_Kbps
+  data_type: double
+- name: AirMacULTti_TTI
+  data_type: double
+- name: ULIpThruAvg_Kbps
+  data_type: double
+- name: ULIpThruTime_TTI
+  data_type: double
+- name: ULIpThruVol_Kbytes
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: DL_SE_NUM__53
+  data_type: double
+  sql: AirMacDLByte_Kbytes*8*1024
+- name: LTE_UL_THPT_SLO_DEN__53
+  data_type: double
+  sql: ULIpThruTime_TTI/1000
+- name: LTE_UL_THPT_SLO_NUM__53
+  data_type: double
+  sql: ULIpThruVol_Kbytes*8/1000
+- name: UL_SE_NUM__53
+  data_type: double
+  sql: AirMacULByte_Kbytes*8*1024
+- name: UL_THPT_DEN__53
+  data_type: double
+  sql: ULIpThruTime_TTI/1.8
+- name: UL_THPT_NUM__53
+  data_type: double
+  sql: ULIpThruVol_Kbytes*8000

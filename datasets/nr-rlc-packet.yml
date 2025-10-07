@@ -1,0 +1,59 @@
+unique_name: nr-rlc-packet
+object_type: dataset
+label: nr-rlc-packet
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-rlc-packet-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: QCI
+  data_type: string
+- name: RlcAmRetxRate_pct
+  data_type: double
+- name: RlcDLByteCnt_count
+  data_type: double
+- name: RlcDLByteRe_Kbytes
+  data_type: double
+- name: RlcDLByte_Kbytes
+  data_type: double
+- name: RlcDLPktCnt_count
+  data_type: double
+- name: RlcDLRePktCnt_count
+  data_type: double
+- name: RlcDLThru_Kbps
+  data_type: double
+- name: RlcULByteCnt_count
+  data_type: double
+- name: RlcULByte_Kbytes
+  data_type: double
+- name: RlcULPktCnt_count
+  data_type: double
+- name: RlcULThru_Kbps
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NSA_NR_DL_TRAFFIC_VOLUME__5046
+  data_type: double
+  sql: RlcDLByte_Kbytes/1000
+- name: NSA_NR_UL_TRAFFIC_VOLUME__5046
+  data_type: double
+  sql: RlcULByte_Kbytes/1000

@@ -1,0 +1,6 @@
+unique_name: BQ_pm_samsung.connection
+label: BQ_pm_samsung
+object_type: connection
+as_connection: wade_bigq
+database: tu-nfv-cte-wddt-01-pr
+schema: pm_samsung

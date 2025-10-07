@@ -1,0 +1,33 @@
+unique_name: lte-supplementary-counters-for-d-cran-inter-site-scell-activati
+object_type: dataset
+label: lte-supplementary-counters-for-d-cran-inter-site-scell-activati
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-supplementary-counters-for-d-cran-inter-site-scell-activation-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: SCellActFailMaxCellPair_onPrimaryDU_count
+  data_type: double
+- name: SCellActFailMaxCellPair_onSecondaryDU_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

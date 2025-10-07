@@ -1,0 +1,51 @@
+unique_name: nr-pdcp-volume-per-gnb-id-per-qci-per-plmn
+object_type: dataset
+label: nr-pdcp-volume-per-gnb-id-per-qci-per-plmn
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-pdcp-volume-per-gnb-id-per-qci-per-plmn-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: PLMN_UE
+  data_type: string
+- name: PdcpSduByteDL_Mbytes
+  data_type: double
+- name: PdcpSduByteUL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeNonSplitNrDL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeNonSplitNrUL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeSplitLteDL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeSplitLteUL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeSplitNrDL_Mbytes
+  data_type: double
+- name: PdcpSduVolumeSplitNrUL_Mbytes
+  data_type: double
+- name: QCI
+  data_type: string
+- name: UPC_ID
+  data_type: string
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

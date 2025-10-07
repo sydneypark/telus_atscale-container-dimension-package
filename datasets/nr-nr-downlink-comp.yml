@@ -1,0 +1,37 @@
+unique_name: nr-nr-downlink-comp
+object_type: dataset
+label: nr-nr-downlink-comp
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-nr-downlink-comp-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: DlCompTotCompPoolCtrl_count
+  data_type: double
+- name: DlCompTotCompPoolUE_count
+  data_type: double
+- name: DlCompTotNullLayer_count
+  data_type: double
+- name: DlCompTotNullSlot_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

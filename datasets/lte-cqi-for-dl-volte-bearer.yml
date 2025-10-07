@@ -1,0 +1,75 @@
+unique_name: lte-cqi-for-dl-volte-bearer
+object_type: dataset
+label: lte-cqi-for-dl-volte-bearer
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-cqi-for-dl-volte-bearer-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DLLayer
+  data_type: string
+- name: DLVoLTECQI0_count
+  data_type: double
+- name: DLVoLTECQI10_count
+  data_type: double
+- name: DLVoLTECQI11_count
+  data_type: double
+- name: DLVoLTECQI12_count
+  data_type: double
+- name: DLVoLTECQI13_count
+  data_type: double
+- name: DLVoLTECQI14_count
+  data_type: double
+- name: DLVoLTECQI15_count
+  data_type: double
+- name: DLVoLTECQI1_count
+  data_type: double
+- name: DLVoLTECQI2_count
+  data_type: double
+- name: DLVoLTECQI3_count
+  data_type: double
+- name: DLVoLTECQI4_count
+  data_type: double
+- name: DLVoLTECQI5_count
+  data_type: double
+- name: DLVoLTECQI6_count
+  data_type: double
+- name: DLVoLTECQI7_count
+  data_type: double
+- name: DLVoLTECQI8_count
+  data_type: double
+- name: DLVoLTECQI9_count
+  data_type: double
+- name: DLVoLTECQIAvg_CQI
+  data_type: double
+- name: DLVoLTECQIErase_count
+  data_type: double
+- name: DLVoLTECQIMax_CQI
+  data_type: double
+- name: DLVoLTECQIMin_CQI
+  data_type: double
+- name: cNum
+  data_type: string
+- name: codeword
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

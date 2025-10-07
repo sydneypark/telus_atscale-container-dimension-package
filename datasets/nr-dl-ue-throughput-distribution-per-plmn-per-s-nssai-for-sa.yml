@@ -1,0 +1,59 @@
+unique_name: nr-dl-ue-throughput-distribution-per-plmn-per-s-nssai-for-sa
+object_type: dataset
+label: nr-dl-ue-throughput-distribution-per-plmn-per-s-nssai-for-sa
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-dl-ue-throughput-distribution-per-plmn-per-s-nssai-for-sa-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: DLUEThroughputBin0_SA_count
+  data_type: double
+- name: DLUEThroughputBin10_SA_count
+  data_type: double
+- name: DLUEThroughputBin11_SA_count
+  data_type: double
+- name: DLUEThroughputBin1_SA_count
+  data_type: double
+- name: DLUEThroughputBin2_SA_count
+  data_type: double
+- name: DLUEThroughputBin3_SA_count
+  data_type: double
+- name: DLUEThroughputBin4_SA_count
+  data_type: double
+- name: DLUEThroughputBin5_SA_count
+  data_type: double
+- name: DLUEThroughputBin6_SA_count
+  data_type: double
+- name: DLUEThroughputBin7_SA_count
+  data_type: double
+- name: DLUEThroughputBin8_SA_count
+  data_type: double
+- name: DLUEThroughputBin9_SA_count
+  data_type: double
+- name: PLMN_UE
+  data_type: string
+- name: SNSSAI
+  data_type: string
+- name: _5QI
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

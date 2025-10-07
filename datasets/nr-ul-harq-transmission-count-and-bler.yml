@@ -1,0 +1,71 @@
+unique_name: nr-ul-harq-transmission-count-and-bler
+object_type: dataset
+label: nr-ul-harq-transmission-count-and-bler
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ul-harq-transmission-count-and-bler-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: BLERof1stTxTrial_UL_pct
+  data_type: double
+- name: BLERof2ndTxTrial_UL_pct
+  data_type: double
+- name: BLERof3rdTxTrial_UL_pct
+  data_type: double
+- name: BLERof4thTxTrial_UL_pct
+  data_type: double
+- name: BLERof5thTxTrial_UL_pct
+  data_type: double
+- name: BLERof6thTxTrial_UL_pct
+  data_type: double
+- name: BLERof7thTxTrial_UL_pct
+  data_type: double
+- name: BLERof8thTxTrial_UL_pct
+  data_type: double
+- name: CellIdentity
+  data_type: string
+- name: Nrof1stTxTrial_UL_count
+  data_type: double
+- name: Nrof2ndTxTrial_UL_count
+  data_type: double
+- name: Nrof3rdTxTrial_UL_count
+  data_type: double
+- name: Nrof4thTxTrial_UL_count
+  data_type: double
+- name: Nrof5thTxTrial_UL_count
+  data_type: double
+- name: Nrof6thTxTrial_UL_count
+  data_type: double
+- name: Nrof7thTxTrial_UL_count
+  data_type: double
+- name: Nrof8thTxTrial_UL_count
+  data_type: double
+- name: NrofResidualError_UL_count
+  data_type: double
+- name: Residual_BLER_UL_pct
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
+- name: NR_UL_RBLER_PCT_DEN__5055
+  data_type: double
+  sql: Nrof1stTxTrial_UL_count
+- name: NR_UL_RBLER_PCT_NUM__5055
+  data_type: double
+  sql: NrofResidualError_UL_count

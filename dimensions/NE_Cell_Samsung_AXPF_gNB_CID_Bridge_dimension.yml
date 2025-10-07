@@ -1,0 +1,39 @@
+unique_name: NE_Cell_Samsung_AXPF_gNB_CID_Bridge_dimension
+object_type: dimension
+label: NE_Cell_Samsung_AXPF_gNB_CID_Bridge_dimension
+type: standard
+
+hierarchies:
+
+  - unique_name: NE_Cell_Samsung_AXPF_gNB_CID_Bridge_hierarchy
+    label: NE_Cell_Samsung_AXPF_gNB_CID_Bridge_hierarchy
+    filter_empty: "yes"
+    is_hidden: true
+    levels:
+
+      - unique_name: NE_Cell_Samsung_AXPF_gNB_CID_Bridge_level
+
+level_attributes:
+
+  - unique_name: NE_Cell_Samsung_AXPF_gNB_CID_Bridge_level
+    label: NE_Cell_Samsung_AXPF_gNB_CID_Bridge_level
+    dataset: NE_Cell_Samsung_AXPF_gNB_CID_Bridge.dataset
+    key_columns:
+      - gNB_ID
+      - CellIdentity
+    name_column: key
+
+relationships:
+  - unique_name: >-
+      NE_Cell_Samsung_AXPF_gNB_CID_Bridge.dataset_key_to_NE_Cell
+      Dimension_NE_Cell Level
+    from:
+      dataset: NE_Cell_Samsung_AXPF_gNB_CID_Bridge.dataset
+      hierarchy: NE_Cell_Samsung_AXPF_gNB_CID_Bridge_hierarchy
+      join_columns:
+        - key
+      level: NE_Cell_Samsung_AXPF_gNB_CID_Bridge_level
+    to:
+      dimension: NE_Cell Dimension
+      level: NE_Cell Level
+    type: embedded

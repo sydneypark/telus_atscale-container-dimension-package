@@ -1,0 +1,59 @@
+unique_name: lte-massive-mimo-statistics-for-downlink-tti-usage
+object_type: dataset
+label: lte-massive-mimo-statistics-for-downlink-tti-usage
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-massive-mimo-statistics-for-downlink-tti-usage-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: TotDLAvailableTti_count
+  data_type: double
+- name: TotDLScheduledTti_count
+  data_type: double
+- name: TotDLWithTM3ScheduledTtiUsage_pct
+  data_type: double
+- name: TotDLWithTM3TtiUsage_pct
+  data_type: double
+- name: TotDLWithTM3Tti_count
+  data_type: double
+- name: TotDLWithTM4ScheduledTtiUsage_pct
+  data_type: double
+- name: TotDLWithTM4TtiUsage_pct
+  data_type: double
+- name: TotDLWithTM4Tti_count
+  data_type: double
+- name: TotDLWithTM7MUScheduledTtiUsage_pct
+  data_type: double
+- name: TotDLWithTM7MUTtiUsage_pct
+  data_type: double
+- name: TotDLWithTM7MUTti_count
+  data_type: double
+- name: TotDLWithTM7ScheduledTtiUsage_pct
+  data_type: double
+- name: TotDLWithTM7TtiUsage_pct
+  data_type: double
+- name: TotDLWithTM7Tti_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

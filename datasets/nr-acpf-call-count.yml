@@ -1,0 +1,37 @@
+unique_name: nr-acpf-call-count
+object_type: dataset
+label: nr-acpf-call-count
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-acpf-call-count-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CallCountAvg_count
+  data_type: double
+- name: CallCountCnt_count
+  data_type: double
+- name: CallCountMax_count
+  data_type: double
+- name: CallCountMin_count
+  data_type: double
+- name: CallCountTot_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

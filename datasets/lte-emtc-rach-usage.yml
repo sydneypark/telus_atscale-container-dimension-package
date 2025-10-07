@@ -1,0 +1,61 @@
+unique_name: lte-emtc-rach-usage
+object_type: dataset
+label: lte-emtc-rach-usage
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-rach-usage-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: cNum
+  data_type: string
+- name: ceLevel
+  data_type: string
+- name: eMTC_PreambleSent10_count
+  data_type: double
+- name: eMTC_PreambleSent11_count
+  data_type: double
+- name: eMTC_PreambleSent1_count
+  data_type: double
+- name: eMTC_PreambleSent2_count
+  data_type: double
+- name: eMTC_PreambleSent3_count
+  data_type: double
+- name: eMTC_PreambleSent4_count
+  data_type: double
+- name: eMTC_PreambleSent5_count
+  data_type: double
+- name: eMTC_PreambleSent6_count
+  data_type: double
+- name: eMTC_PreambleSent7_count
+  data_type: double
+- name: eMTC_PreambleSent8_count
+  data_type: double
+- name: eMTC_PreambleSent9_count
+  data_type: double
+- name: eMTC_RACHContentionCnt_count
+  data_type: double
+- name: eMTC_RACHContentionTot_count
+  data_type: double
+- name: eMTC_RACHContention_pct
+  data_type: double
+- name: eMTC_RACHReportsRcvNum_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

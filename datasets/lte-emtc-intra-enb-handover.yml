@@ -1,0 +1,85 @@
+unique_name: lte-emtc-intra-enb-handover
+object_type: dataset
+label: lte-emtc-intra-enb-handover
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-intra-enb-handover-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: HoCause
+  data_type: string
+- name: IntraEnbAtt_count
+  data_type: double
+- name: IntraEnbCnt_count
+  data_type: double
+- name: IntraEnbFail_CpCcFail_count
+  data_type: double
+- name: IntraEnbFail_CpCcTo_count
+  data_type: double
+- name: IntraEnbFail_RrcHcTo_count
+  data_type: double
+- name: IntraEnbFail_RrcSigFail_count
+  data_type: double
+- name: IntraEnbFail_S1apCuFail_count
+  data_type: double
+- name: IntraEnbFail_S1apLinkFail_count
+  data_type: double
+- name: IntraEnbFail_S1apSigFail_count
+  data_type: double
+- name: IntraEnbFail_UpGtpFail_count
+  data_type: double
+- name: IntraEnbFail_UpMacFail_count
+  data_type: double
+- name: IntraEnbFail_UpRlcFail_count
+  data_type: double
+- name: IntraEnbNbrCid_tcID
+  data_type: double
+- name: IntraEnbPrepFail_CpBhCacFail_count
+  data_type: double
+- name: IntraEnbPrepFail_CpCapaCacFail_count
+  data_type: double
+- name: IntraEnbPrepFail_CpCcFail_count
+  data_type: double
+- name: IntraEnbPrepFail_CpCcTo_count
+  data_type: double
+- name: IntraEnbPrepFail_CpQosCacFail_count
+  data_type: double
+- name: IntraEnbPrepFail_RrcSigFail_count
+  data_type: double
+- name: IntraEnbPrepFail_S1apCuFail_count
+  data_type: double
+- name: IntraEnbPrepFail_S1apLinkFail_count
+  data_type: double
+- name: IntraEnbPrepFail_S1apSigFail_count
+  data_type: double
+- name: IntraEnbPrepFail_UpMacFail_count
+  data_type: double
+- name: IntraEnbPrepFail_UpRlcFail_count
+  data_type: double
+- name: IntraEnbPrepSucc_count
+  data_type: double
+- name: IntraEnbSucc_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: tcID
+  data_type: string
+- name: time_offset
+  data_type: string

@@ -1,0 +1,51 @@
+unique_name: nr-ue-associated-e1ap-message-in-gnb-cu-cp
+object_type: dataset
+label: nr-ue-associated-e1ap-message-in-gnb-cu-cp
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-ue-associated-e1ap-message-in-gnb-cu-cp-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: Rx_E1apBearerContextModificationFailure_count
+  data_type: double
+- name: Rx_E1apBearerContextModificationRequired_count
+  data_type: double
+- name: Rx_E1apBearerContextModificationResponse_count
+  data_type: double
+- name: Rx_E1apBearerContextReleaseComplete_count
+  data_type: double
+- name: Rx_E1apBearerContextReleaseRequest_count
+  data_type: double
+- name: Rx_E1apBearerContextSetupFailure_count
+  data_type: double
+- name: Rx_E1apBearerContextSetupResponse_count
+  data_type: double
+- name: Tx_E1apBearerContextModificationConfirm_count
+  data_type: double
+- name: Tx_E1apBearerContextModificationRequest_count
+  data_type: double
+- name: Tx_E1apBearerContextReleaseCommand_count
+  data_type: double
+- name: Tx_E1apBearerContextSetupRequest_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

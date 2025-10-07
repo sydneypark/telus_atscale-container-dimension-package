@@ -1,0 +1,57 @@
+unique_name: nr-mro-per-neighbor-cell
+object_type: dataset
+label: nr-mro-per-neighbor-cell
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-mro-per-neighbor-cell-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: CellIdentity
+  data_type: string
+- name: CoverageHoleNbr_count
+  data_type: double
+- name: HoToWrongCellHofOther_count
+  data_type: double
+- name: HoToWrongCellHofTarget_count
+  data_type: double
+- name: HoToWrongCellRlfAfterHoOther_count
+  data_type: double
+- name: HoToWrongCellRlfAfterHoTargetToOther_count
+  data_type: double
+- name: HoToWrongCellRlfAfterHoTarget_count
+  data_type: double
+- name: MroProblem_count
+  data_type: double
+- name: TargetNCI
+  data_type: string
+- name: TooEarlyHoHof_count
+  data_type: double
+- name: TooEarlyHoRlfAfterHo_count
+  data_type: double
+- name: TooLateHoRlfAfterTriggering_count
+  data_type: double
+- name: TooLateHoRlfBeforeA2Mr_count
+  data_type: double
+- name: TooLateHoRlfBeforeTriggering_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gNB_ID
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

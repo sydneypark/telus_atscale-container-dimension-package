@@ -1,0 +1,45 @@
+unique_name: nr-xnu-delay-measurement-data-per-upc-id-per-xnu-ip-index-per-5
+object_type: dataset
+label: nr-xnu-delay-measurement-data-per-upc-id-per-xnu-ip-index-per-5
+connection_id: telus_pm_samsung_nr_v1
+table: telus-pm-samsung-nr-xnu-delay-measurement-data-per-upc-id-per-xnu-ip-index-per-5qi-per-s-nssai-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: SNSSAI
+  data_type: string
+- name: UPC_ID
+  data_type: string
+- name: XNU_IP_INDEX
+  data_type: string
+- name: XNuDelayAvg_ms
+  data_type: double
+- name: XNuDelayCnt_count
+  data_type: double
+- name: XNuDelayMax_ms
+  data_type: double
+- name: XNuDelayMin_ms
+  data_type: double
+- name: XNuDelayTot_ms
+  data_type: double
+- name: _5QI
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

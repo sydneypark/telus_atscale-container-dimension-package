@@ -1,0 +1,323 @@
+unique_name: s_uadpf_cnum_a.dataset
+object_type: dataset
+label: s_uadpf_cnum_a.dataset
+connection_id: BQ_pm_samsung.connection
+table: s_uadpf_cnum_a
+incremental:
+  column: INIT_TIME
+  grace_period: 86400s
+immutable: true
+
+columns:
+  - name: cNum
+    data_type: string
+  - name: DL_CA_THPT_DEN__1020
+    data_type: long
+    sql: '`S_1020C1`'
+  - name: DL_CA_THPT_NUM__1020
+    data_type: long
+    sql: '`S_1020C0`*8000'
+  - name: DscpId
+    data_type: string
+  - name: FamilyID
+    data_type: long
+  - name: file_key
+    data_type: string
+  - name: INIT_TIME
+    data_type: datetime
+  - name: INSERT_TS
+    data_type: datetime
+  - name: LOCATION
+    data_type: string
+  - name: PLMN
+    data_type: string
+  - name: PRC_ID
+    data_type: string
+  - name: QCI
+    data_type: string
+  - name: S_1019C0
+    data_type: double
+  - name: S_1019C1
+    data_type: long
+  - name: S_1019C2
+    data_type: double
+  - name: S_1019C3
+    data_type: long
+  - name: S_1019C4
+    data_type: long
+  - name: S_1019C5
+    data_type: double
+  - name: S_1020C0
+    data_type: long
+  - name: S_1020C1
+    data_type: long
+  - name: S_1020C2
+    data_type: double
+  - name: S_1020C3
+    data_type: long
+  - name: S_1020C4
+    data_type: long
+  - name: S_1020C5
+    data_type: double
+  - name: S_1021C0
+    data_type: long
+  - name: S_1021C1
+    data_type: long
+  - name: S_1021C2
+    data_type: long
+  - name: S_1021C3
+    data_type: long
+  - name: S_1021C4
+    data_type: long
+  - name: S_1021C5
+    data_type: long
+  - name: S_1022C0
+    data_type: long
+  - name: S_1022C1
+    data_type: long
+  - name: S_1022C10
+    data_type: long
+  - name: S_1022C11
+    data_type: long
+  - name: S_1022C2
+    data_type: long
+  - name: S_1022C3
+    data_type: long
+  - name: S_1022C4
+    data_type: long
+  - name: S_1022C5
+    data_type: long
+  - name: S_1022C6
+    data_type: long
+  - name: S_1022C7
+    data_type: long
+  - name: S_1022C8
+    data_type: long
+  - name: S_1022C9
+    data_type: long
+  - name: S_1023C0
+    data_type: long
+  - name: S_1023C1
+    data_type: double
+  - name: S_1023C10
+    data_type: long
+  - name: S_1023C11
+    data_type: long
+  - name: S_1023C12
+    data_type: long
+  - name: S_1023C13
+    data_type: long
+  - name: S_1023C14
+    data_type: double
+  - name: S_1023C15
+    data_type: double
+  - name: S_1023C16
+    data_type: double
+  - name: S_1023C17
+    data_type: long
+  - name: S_1023C18
+    data_type: long
+  - name: S_1023C19
+    data_type: long
+  - name: S_1023C2
+    data_type: double
+  - name: S_1023C20
+    data_type: long
+  - name: S_1023C21
+    data_type: double
+  - name: S_1023C22
+    data_type: long
+  - name: S_1023C23
+    data_type: long
+  - name: S_1023C24
+    data_type: double
+  - name: S_1023C3
+    data_type: double
+  - name: S_1023C4
+    data_type: long
+  - name: S_1023C5
+    data_type: long
+  - name: S_1023C6
+    data_type: long
+  - name: S_1023C7
+    data_type: double
+  - name: S_1023C8
+    data_type: double
+  - name: S_1023C9
+    data_type: double
+  - name: S_1024C0
+    data_type: long
+  - name: S_1024C1
+    data_type: long
+  - name: S_1024C2
+    data_type: long
+  - name: S_1024C3
+    data_type: double
+  - name: S_1024C4
+    data_type: double
+  - name: S_1024C5
+    data_type: double
+  - name: S_1024C6
+    data_type: long
+  - name: S_1024C7
+    data_type: long
+  - name: S_1024C8
+    data_type: double
+  - name: S_1025C0
+    data_type: long
+  - name: S_1025C1
+    data_type: long
+  - name: S_1025C10
+    data_type: double
+  - name: S_1025C11
+    data_type: double
+  - name: S_1025C2
+    data_type: double
+  - name: S_1025C3
+    data_type: long
+  - name: S_1025C4
+    data_type: long
+  - name: S_1025C5
+    data_type: double
+  - name: S_1025C6
+    data_type: long
+  - name: S_1025C7
+    data_type: long
+  - name: S_1025C8
+    data_type: long
+  - name: S_1025C9
+    data_type: long
+  - name: S_1026C0
+    data_type: double
+  - name: S_1026C1
+    data_type: double
+  - name: S_1026C2
+    data_type: long
+  - name: S_1027C0
+    data_type: double
+  - name: S_1027C1
+    data_type: long
+  - name: S_1027C2
+    data_type: long
+  - name: S_1028C0
+    data_type: long
+  - name: S_1028C1
+    data_type: long
+  - name: S_1028C10
+    data_type: long
+  - name: S_1028C11
+    data_type: long
+  - name: S_1028C2
+    data_type: long
+  - name: S_1028C3
+    data_type: long
+  - name: S_1028C4
+    data_type: long
+  - name: S_1028C5
+    data_type: long
+  - name: S_1028C6
+    data_type: long
+  - name: S_1028C7
+    data_type: long
+  - name: S_1028C8
+    data_type: long
+  - name: S_1028C9
+    data_type: long
+  - name: S_1030C0
+    data_type: long
+  - name: S_1030C1
+    data_type: long
+  - name: S_1030C10
+    data_type: long
+  - name: S_1030C11
+    data_type: long
+  - name: S_1030C12
+    data_type: long
+  - name: S_1030C13
+    data_type: long
+  - name: S_1030C2
+    data_type: long
+  - name: S_1030C3
+    data_type: long
+  - name: S_1030C4
+    data_type: long
+  - name: S_1030C5
+    data_type: long
+  - name: S_1030C6
+    data_type: long
+  - name: S_1030C7
+    data_type: long
+  - name: S_1030C8
+    data_type: long
+  - name: S_1030C9
+    data_type: long
+  - name: S_1031C0
+    data_type: double
+  - name: S_1031C1
+    data_type: double
+  - name: S_1031C2
+    data_type: long
+  - name: S_1031C3
+    data_type: double
+  - name: S_1031C4
+    data_type: double
+  - name: S_1031C5
+    data_type: long
+  - name: S_1031C6
+    data_type: long
+  - name: S_1031C7
+    data_type: long
+  - name: S_1032C0
+    data_type: double
+  - name: S_1032C1
+    data_type: double
+  - name: S_1032C2
+    data_type: long
+  - name: S_1032C3
+    data_type: double
+  - name: S_1032C4
+    data_type: double
+  - name: S_1032C5
+    data_type: long
+  - name: S_1032C6
+    data_type: long
+  - name: S_1032C7
+    data_type: long
+  - name: S_1032C8
+    data_type: long
+  - name: S_1032C9
+    data_type: long
+  - name: S_1033C0
+    data_type: double
+  - name: S_1033C1
+    data_type: long
+  - name: S_1033C2
+    data_type: long
+  - name: S_1033C3
+    data_type: double
+  - name: S_1033C4
+    data_type: long
+  - name: S_1033C5
+    data_type: long
+  - name: S_1197C0
+    data_type: long
+  - name: S_1197C1
+    data_type: long
+  - name: S_1197C2
+    data_type: long
+  - name: S_1197C3
+    data_type: long
+  - name: S_1197C4
+    data_type: long
+  - name: SUPPORT_QCI
+    data_type: string
+  - name: SYSTEM_ID
+    data_type: long
+  - name: version
+    data_type: string
+  - name: VOLTE_UL_PLR_DEN__1032
+    data_type: long
+    sql: "if(`QCI`=\"1\",`S_1032C6`,NULL)"
+  - name: VOLTE_UL_PLR_NUM__1032
+    data_type: long
+    sql: "if(`QCI`=\"1\",`S_1032C7`,NULL)"

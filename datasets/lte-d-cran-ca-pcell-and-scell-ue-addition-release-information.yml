@@ -1,0 +1,45 @@
+unique_name: lte-d-cran-ca-pcell-and-scell-ue-addition-release-information
+object_type: dataset
+label: lte-d-cran-ca-pcell-and-scell-ue-addition-release-information
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-d-cran-ca-pcell-and-scell-ue-addition-release-information-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: DCRanCaPCellUEAvg_count
+  data_type: double
+- name: DCRanCaPCellUECnt_count
+  data_type: double
+- name: DCRanCaPCellUEMax_count
+  data_type: double
+- name: DCRanCaPCellUETot_count
+  data_type: double
+- name: DCRanCaSCellUEAvg_count
+  data_type: double
+- name: DCRanCaSCellUECnt_count
+  data_type: double
+- name: DCRanCaSCellUEMax_count
+  data_type: double
+- name: DCRanCaSCellUETot_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

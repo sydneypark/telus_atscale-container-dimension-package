@@ -1,0 +1,39 @@
+unique_name: lte-idle-mobility-information-for-primary-carrier-change-for-ca
+object_type: dataset
+label: lte-idle-mobility-information-for-primary-carrier-change-for-ca
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-idle-mobility-information-for-primary-carrier-change-for-ca-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: IdleMobilityPccForCACntTargetEarfcnDL_TargetEarfcnDl
+  data_type: double
+- name: IdleMobilityPccForCACnt_count
+  data_type: double
+- name: PLMN
+  data_type: string
+- name: TargetEarfcnDl
+  data_type: string
+- name: UeCountForIdleMobility_count
+  data_type: double
+- name: cNum
+  data_type: string
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

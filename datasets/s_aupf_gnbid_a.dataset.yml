@@ -1,0 +1,484 @@
+unique_name: s_aupf_gnbid_a.dataset
+object_type: dataset
+label: s_aupf_gnbid_a.dataset
+connection_id: BQ_pm_samsung.connection
+table: s_aupf_gnbid_a
+incremental:
+  column: INIT_TIME
+  grace_period: 86400s
+immutable: true
+
+columns:
+  - name: 5G_Traffic_DEN__5126
+    data_type: long
+    sql: "if(`version`='22.B.0',1024*1024*(`S_5126C1` - `S_5126C6`),NULL)"
+  - name: 5G_Traffic_NUM__5126
+    data_type: long
+    sql: "if(`version`='22.B.0',1024*1024*8*`S_5126C1`,NULL)"
+  - name: _5QI
+    data_type: string
+  - name: DL_PDCP_SDU_DATA_VL_5QI__5196
+    data_type: double
+    sql: '`S_5196C1`*1.024*1.024'
+  - name: DL_PDCP_SDU_DATA_VL__5126
+    data_type: double
+    sql: '`S_5126C1`*1.024*1.024'
+  - name: FamilyID
+    data_type: long
+  - name: file_key
+    data_type: string
+  - name: gNB_ID
+    data_type: string
+  - name: INIT_TIME
+    data_type: datetime
+  - name: INSERT_TS
+    data_type: datetime
+  - name: LOCATION
+    data_type: string
+  - name: NR_DL_PDCP_PACKET_LOSS_GNBLEVEL_RATE_DEN__5195
+    data_type: long
+    sql: '`S_5195C5`+`S_5195C10`'
+  - name: NR_DL_PDCP_PACKET_LOSS_GNBLEVEL_RATE_NUM__5195
+    data_type: long
+    sql: '`S_5195C10`'
+  - name: NR_SA_DL_PDCP_PACKET_GNBLEVEL_DELAY_DEN__5195
+    data_type: long
+    sql: '`S_5195C18`'
+  - name: NR_SA_DL_PDCP_PACKET_GNBLEVEL_DELAY_NUM__5195
+    data_type: long
+    sql: '`S_5195C17`'
+  - name: NR_UL_PDCP_PACKET_LOSS_GNBLEVEL_RATE_DEN__5195
+    data_type: long
+    sql: '`S_5195C2`+`S_5195C8`'
+  - name: NR_UL_PDCP_PACKET_LOSS_GNBLEVEL_RATE_NUM__5195
+    data_type: long
+    sql: '`S_5195C8`'
+  - name: QCI
+    data_type: string
+  - name: S_5125C0
+    data_type: long
+  - name: S_5125C1
+    data_type: double
+  - name: S_5125C10
+    data_type: long
+  - name: S_5125C11
+    data_type: double
+  - name: S_5125C12
+    data_type: long
+  - name: S_5125C13
+    data_type: double
+  - name: S_5125C14
+    data_type: long
+  - name: S_5125C15
+    data_type: long
+  - name: S_5125C16
+    data_type: long
+  - name: S_5125C17
+    data_type: long
+  - name: S_5125C18
+    data_type: long
+  - name: S_5125C19
+    data_type: long
+  - name: S_5125C2
+    data_type: long
+  - name: S_5125C20
+    data_type: double
+  - name: S_5125C21
+    data_type: double
+  - name: S_5125C22
+    data_type: double
+  - name: S_5125C23
+    data_type: long
+  - name: S_5125C24
+    data_type: double
+  - name: S_5125C25
+    data_type: double
+  - name: S_5125C26
+    data_type: long
+  - name: S_5125C27
+    data_type: long
+  - name: S_5125C28
+    data_type: double
+  - name: S_5125C29
+    data_type: long
+  - name: S_5125C3
+    data_type: long
+  - name: S_5125C30
+    data_type: long
+  - name: S_5125C31
+    data_type: double
+  - name: S_5125C32
+    data_type: long
+  - name: S_5125C33
+    data_type: long
+  - name: S_5125C34
+    data_type: double
+  - name: S_5125C35
+    data_type: long
+  - name: S_5125C36
+    data_type: long
+  - name: S_5125C37
+    data_type: double
+  - name: S_5125C38
+    data_type: long
+  - name: S_5125C39
+    data_type: long
+  - name: S_5125C4
+    data_type: double
+  - name: S_5125C40
+    data_type: double
+  - name: S_5125C41
+    data_type: long
+  - name: S_5125C42
+    data_type: long
+  - name: S_5125C43
+    data_type: double
+  - name: S_5125C44
+    data_type: long
+  - name: S_5125C45
+    data_type: long
+  - name: S_5125C46
+    data_type: double
+  - name: S_5125C47
+    data_type: long
+  - name: S_5125C48
+    data_type: long
+  - name: S_5125C49
+    data_type: long
+  - name: S_5125C5
+    data_type: long
+  - name: S_5125C50
+    data_type: long
+  - name: S_5125C51
+    data_type: double
+  - name: S_5125C52
+    data_type: long
+  - name: S_5125C53
+    data_type: long
+  - name: S_5125C54
+    data_type: double
+  - name: S_5125C55
+    data_type: double
+  - name: S_5125C56
+    data_type: long
+  - name: S_5125C57
+    data_type: long
+  - name: S_5125C58
+    data_type: double
+  - name: S_5125C59
+    data_type: long
+  - name: S_5125C6
+    data_type: long
+  - name: S_5125C60
+    data_type: long
+  - name: S_5125C61
+    data_type: long
+  - name: S_5125C62
+    data_type: long
+  - name: S_5125C63
+    data_type: double
+  - name: S_5125C64
+    data_type: long
+  - name: S_5125C65
+    data_type: long
+  - name: S_5125C66
+    data_type: double
+  - name: S_5125C7
+    data_type: long
+  - name: S_5125C8
+    data_type: long
+  - name: S_5125C9
+    data_type: double
+  - name: S_5126C0
+    data_type: long
+  - name: S_5126C1
+    data_type: long
+  - name: S_5126C10
+    data_type: double
+  - name: S_5126C11
+    data_type: double
+  - name: S_5126C12
+    data_type: double
+  - name: S_5126C13
+    data_type: double
+  - name: S_5126C14
+    data_type: double
+  - name: S_5126C15
+    data_type: double
+  - name: S_5126C16
+    data_type: long
+  - name: S_5126C17
+    data_type: long
+  - name: S_5126C18
+    data_type: long
+  - name: S_5126C19
+    data_type: long
+  - name: S_5126C2
+    data_type: long
+  - name: S_5126C20
+    data_type: long
+  - name: S_5126C21
+    data_type: long
+  - name: S_5126C22
+    data_type: long
+  - name: S_5126C23
+    data_type: long
+  - name: S_5126C24
+    data_type: long
+  - name: S_5126C25
+    data_type: long
+  - name: S_5126C26
+    data_type: long
+  - name: S_5126C27
+    data_type: long
+  - name: S_5126C28
+    data_type: long
+  - name: S_5126C29
+    data_type: long
+  - name: S_5126C3
+    data_type: long
+  - name: S_5126C30
+    data_type: long
+  - name: S_5126C31
+    data_type: long
+  - name: S_5126C32
+    data_type: long
+  - name: S_5126C33
+    data_type: long
+  - name: S_5126C34
+    data_type: long
+  - name: S_5126C35
+    data_type: long
+  - name: S_5126C36
+    data_type: long
+  - name: S_5126C37
+    data_type: long
+  - name: S_5126C38
+    data_type: long
+  - name: S_5126C39
+    data_type: long
+  - name: S_5126C4
+    data_type: long
+  - name: S_5126C40
+    data_type: double
+  - name: S_5126C41
+    data_type: double
+  - name: S_5126C42
+    data_type: double
+  - name: S_5126C43
+    data_type: double
+  - name: S_5126C44
+    data_type: double
+  - name: S_5126C45
+    data_type: double
+  - name: S_5126C46
+    data_type: double
+  - name: S_5126C47
+    data_type: double
+  - name: S_5126C48
+    data_type: double
+  - name: S_5126C49
+    data_type: double
+  - name: S_5126C5
+    data_type: long
+  - name: S_5126C50
+    data_type: double
+  - name: S_5126C51
+    data_type: double
+  - name: S_5126C52
+    data_type: double
+  - name: S_5126C53
+    data_type: double
+  - name: S_5126C54
+    data_type: double
+  - name: S_5126C55
+    data_type: double
+  - name: S_5126C56
+    data_type: double
+  - name: S_5126C57
+    data_type: double
+  - name: S_5126C58
+    data_type: double
+  - name: S_5126C59
+    data_type: double
+  - name: S_5126C6
+    data_type: long
+  - name: S_5126C60
+    data_type: double
+  - name: S_5126C61
+    data_type: double
+  - name: S_5126C62
+    data_type: double
+  - name: S_5126C63
+    data_type: double
+  - name: S_5126C64
+    data_type: long
+  - name: S_5126C65
+    data_type: double
+  - name: S_5126C66
+    data_type: long
+  - name: S_5126C67
+    data_type: long
+  - name: S_5126C68
+    data_type: long
+  - name: S_5126C69
+    data_type: double
+  - name: S_5126C7
+    data_type: long
+  - name: S_5126C70
+    data_type: double
+  - name: S_5126C71
+    data_type: double
+  - name: S_5126C72
+    data_type: long
+  - name: S_5126C73
+    data_type: double
+  - name: S_5126C74
+    data_type: long
+  - name: S_5126C75
+    data_type: long
+  - name: S_5126C76
+    data_type: long
+  - name: S_5126C77
+    data_type: double
+  - name: S_5126C78
+    data_type: double
+  - name: S_5126C79
+    data_type: double
+  - name: S_5126C8
+    data_type: double
+  - name: S_5126C9
+    data_type: double
+  - name: S_5195C0
+    data_type: long
+  - name: S_5195C1
+    data_type: double
+  - name: S_5195C10
+    data_type: long
+  - name: S_5195C11
+    data_type: double
+  - name: S_5195C12
+    data_type: long
+  - name: S_5195C13
+    data_type: double
+  - name: S_5195C14
+    data_type: long
+  - name: S_5195C15
+    data_type: double
+  - name: S_5195C16
+    data_type: double
+  - name: S_5195C17
+    data_type: long
+  - name: S_5195C18
+    data_type: long
+  - name: S_5195C19
+    data_type: double
+  - name: S_5195C2
+    data_type: long
+  - name: S_5195C20
+    data_type: long
+  - name: S_5195C21
+    data_type: long
+  - name: S_5195C3
+    data_type: long
+  - name: S_5195C4
+    data_type: double
+  - name: S_5195C5
+    data_type: long
+  - name: S_5195C6
+    data_type: long
+  - name: S_5195C7
+    data_type: long
+  - name: S_5195C8
+    data_type: long
+  - name: S_5195C9
+    data_type: double
+  - name: S_5196C0
+    data_type: long
+  - name: S_5196C1
+    data_type: long
+  - name: S_5196C10
+    data_type: double
+  - name: S_5196C11
+    data_type: double
+  - name: S_5196C12
+    data_type: double
+  - name: S_5196C13
+    data_type: double
+  - name: S_5196C14
+    data_type: double
+  - name: S_5196C15
+    data_type: double
+  - name: S_5196C16
+    data_type: long
+  - name: S_5196C17
+    data_type: long
+  - name: S_5196C18
+    data_type: long
+  - name: S_5196C19
+    data_type: long
+  - name: S_5196C2
+    data_type: double
+  - name: S_5196C20
+    data_type: long
+  - name: S_5196C21
+    data_type: long
+  - name: S_5196C3
+    data_type: double
+  - name: S_5196C4
+    data_type: long
+  - name: S_5196C5
+    data_type: long
+  - name: S_5196C6
+    data_type: long
+  - name: S_5196C7
+    data_type: long
+  - name: S_5196C8
+    data_type: long
+  - name: S_5196C9
+    data_type: long
+  - name: SA_NR_DL_PDCP_SDU_DATA_VL__5126
+    data_type: double
+    sql: '`S_5126C1`*1.024*1.024'
+  - name: SA_NR_DL_PDCP_SDU_LOSS_RATE_DEN__5195
+    data_type: long
+    sql: '`S_5195C5`'
+  - name: SA_NR_DL_PDCP_SDU_LOSS_RATE_NUM__5195
+    data_type: long
+    sql: '`S_5195C10`'
+  - name: SA_NR_DL_TRAFFIC_VL__5196
+    data_type: double
+    sql: "if(`version`='22.B.0',`S_5196C1`*1024*1024/1000000,NULL)"
+  - name: SA_NR_UL_PDCP_SDU_DATA_VL_5QI__5195
+    data_type: double
+    sql: '`S_5195C0`*1.024*1.024'
+  - name: SA_NR_UL_PDCP_SDU_DATA_VL__5125
+    data_type: double
+    sql: '`S_5125C0`*1.024*1.024'
+  - name: SA_NR_UL_PDCP_SDU_LOSS_RATE_DEN__5195
+    data_type: long
+    sql: '`S_5195C2`+`S_5195C8`'
+  - name: SA_NR_UL_PDCP_SDU_LOSS_RATE_NUM__5195
+    data_type: long
+    sql: '`S_5195C8`'
+  - name: SA_NR_UL_TRAFFIC_VL__5195
+    data_type: double
+    sql: "if(`version`='22.B.0',`S_5195C0`*1024*1024/1000000,NULL)"
+  - name: SLO_SA_NR_DL_TRAFFIC_VOL__5195
+    data_type: double
+    sql: '`S_5195C3`'
+  - name: SLO_SA_NR_UL_TRAFFIC_VOL__5195
+    data_type: double
+    sql: '`S_5195C0`'
+  - name: SYSTEM_ID
+    data_type: long
+  - name: UL_PDCP_SDU_DATA_VL_5QI__5195
+    data_type: double
+    sql: '`S_5195C0`*1.024*1.024'
+  - name: UL_PDCP_SDU_DATA_VL__5125
+    data_type: double
+    sql: '`S_5125C0`*1.024*1.024'
+  - name: UPC_ID
+    data_type: string
+  - name: version
+    data_type: string

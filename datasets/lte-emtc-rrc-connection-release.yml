@@ -1,0 +1,85 @@
+unique_name: lte-emtc-rrc-connection-release
+object_type: dataset
+label: lte-emtc-rrc-connection-release
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-rrc-connection-release-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: cNum
+  data_type: string
+- name: eMTC_ConnRelease_CpBhCacFail_count
+  data_type: double
+- name: eMTC_ConnRelease_CpCapaCacFail_count
+  data_type: double
+- name: eMTC_ConnRelease_CpCcFail_count
+  data_type: double
+- name: eMTC_ConnRelease_CpCcNormal_count
+  data_type: double
+- name: eMTC_ConnRelease_CpCcTo_count
+  data_type: double
+- name: eMTC_ConnRelease_CpPreemption_count
+  data_type: double
+- name: eMTC_ConnRelease_CpQosCacFail_count
+  data_type: double
+- name: eMTC_ConnRelease_MmeOverload_count
+  data_type: double
+- name: eMTC_ConnRelease_RAI_count
+  data_type: double
+- name: eMTC_ConnRelease_RrcHcTo_count
+  data_type: double
+- name: eMTC_ConnRelease_RrcSigFail_count
+  data_type: double
+- name: eMTC_ConnRelease_RrcSigTo_count
+  data_type: double
+- name: eMTC_ConnRelease_S1apCuFail_count
+  data_type: double
+- name: eMTC_ConnRelease_S1apLinkFail_count
+  data_type: double
+- name: eMTC_ConnRelease_S1apRoTo_count
+  data_type: double
+- name: eMTC_ConnRelease_S1apSigFail_count
+  data_type: double
+- name: eMTC_ConnRelease_S1apSigTo_count
+  data_type: double
+- name: eMTC_ConnRelease_UpGtpFail_count
+  data_type: double
+- name: eMTC_ConnRelease_UpMacFail_count
+  data_type: double
+- name: eMTC_ConnRelease_UpMacUEInact_count
+  data_type: double
+- name: eMTC_ConnRelease_UpPdcpFail_count
+  data_type: double
+- name: eMTC_ConnRelease_UpRlcFail_count
+  data_type: double
+- name: eMTC_ConnRelease_X2apCuFail_count
+  data_type: double
+- name: eMTC_ConnRelease_X2apLinkFail_count
+  data_type: double
+- name: eMTC_ConnRelease_X2apRoTo_count
+  data_type: double
+- name: eMTC_ConnRelease_X2apSigFail_count
+  data_type: double
+- name: eMTC_ConnSuspend_UpMacUEInact_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: mcID
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string

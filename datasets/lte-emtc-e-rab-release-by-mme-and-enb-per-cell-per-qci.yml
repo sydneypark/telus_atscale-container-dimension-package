@@ -1,0 +1,47 @@
+unique_name: lte-emtc-e-rab-release-by-mme-and-enb-per-cell-per-qci
+object_type: dataset
+label: lte-emtc-e-rab-release-by-mme-and-enb-per-cell-per-qci
+connection_id: telus_pm_samsung_lte_v1
+table: telus-pm-samsung-lte-emtc-e-rab-release-by-mme-and-enb-per-cell-per-qci-view
+incremental:
+  column: init_time
+  grace_period: 86400s
+columns:
+- name: QCI
+  data_type: string
+- name: cNum
+  data_type: string
+- name: eMTC_RelAbnormalByEnbActQci_count
+  data_type: double
+- name: eMTC_RelAbnormalByEnbQci_count
+  data_type: double
+- name: eMTC_RelAbnormalByMmeActQci_count
+  data_type: double
+- name: eMTC_RelAbnormalByMmeQci_count
+  data_type: double
+- name: eMTC_RelNormalByEnbActQci_count
+  data_type: double
+- name: eMTC_RelNormalByEnbQci_count
+  data_type: double
+- name: eMTC_RelNormalByMmeActQci_count
+  data_type: double
+- name: eMTC_RelNormalByMmeQci_count
+  data_type: double
+- name: family
+  data_type: string
+- name: gran_period
+  data_type: string
+- name: init_time
+  data_type: datetime
+- name: location_str
+  data_type: string
+- name: ne_id
+  data_type: string
+- name: ne_name
+  data_type: string
+- name: sw_version
+  data_type: string
+- name: system_id
+  data_type: string
+- name: time_offset
+  data_type: string
