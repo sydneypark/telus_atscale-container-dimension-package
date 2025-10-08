@@ -1,7 +1,7 @@
 unique_name: nr-sa-cu-up-csl-per-gnb-hexa
 object_type: dataset
 label: nr-sa-cu-up-csl-per-gnb-hexa
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-sa-cu-up-csl-per-gnb-hexa-view
 incremental:
   column: init_time

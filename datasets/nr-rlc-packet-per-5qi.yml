@@ -1,7 +1,7 @@
 unique_name: nr-rlc-packet-per-5qi
 object_type: dataset
 label: nr-rlc-packet-per-5qi
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-rlc-packet-per-5qi-view
 incremental:
   column: init_time

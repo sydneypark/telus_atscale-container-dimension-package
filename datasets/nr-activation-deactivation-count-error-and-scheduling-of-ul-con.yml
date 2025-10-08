@@ -1,7 +1,7 @@
 unique_name: nr-activation-deactivation-count-error-and-scheduling-of-ul-con
 object_type: dataset
 label: nr-activation-deactivation-count-error-and-scheduling-of-ul-con
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-activation-deactivation-count-error-and-scheduling-of-ul-configured-grant-type2-view
 incremental:
   column: init_time

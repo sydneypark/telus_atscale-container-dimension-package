@@ -1,7 +1,7 @@
 unique_name: lte-ue-category-per-cell
 object_type: dataset
 label: lte-ue-category-per-cell
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-ue-category-per-cell-view
 incremental:
   column: init_time

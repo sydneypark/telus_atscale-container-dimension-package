@@ -22,5 +22,5 @@ columns:
     data_type: double
   - name: SectorLongitudeRural
     data_type: double
-connection_id: telus_test
+connection_id: BQ_NE_Cell.connection
 table: SectorLatLon

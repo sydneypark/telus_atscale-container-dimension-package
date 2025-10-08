@@ -1,7 +1,7 @@
 unique_name: h_rnc_a.dataset
 object_type: dataset
 label: h_rnc_a.dataset
-connection_id: telus_test
+connection_id: BQ.connection
 table: h_rnc_a
 incremental:
   column: INIT_TIME

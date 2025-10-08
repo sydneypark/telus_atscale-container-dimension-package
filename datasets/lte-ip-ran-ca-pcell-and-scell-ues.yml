@@ -1,7 +1,7 @@
 unique_name: lte-ip-ran-ca-pcell-and-scell-ues
 object_type: dataset
 label: lte-ip-ran-ca-pcell-and-scell-ues
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-ip-ran-ca-pcell-and-scell-ues-view
 incremental:
   column: init_time

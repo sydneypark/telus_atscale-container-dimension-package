@@ -1,7 +1,7 @@
 unique_name: nr-core-resource-in-vnf
 object_type: dataset
 label: nr-core-resource-in-vnf
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-core-resource-in-vnf-view
 incremental:
   column: init_time

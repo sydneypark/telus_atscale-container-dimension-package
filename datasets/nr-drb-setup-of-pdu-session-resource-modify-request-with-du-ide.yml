@@ -1,7 +1,7 @@
 unique_name: nr-drb-setup-of-pdu-session-resource-modify-request-with-du-ide
 object_type: dataset
 label: nr-drb-setup-of-pdu-session-resource-modify-request-with-du-ide
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-drb-setup-of-pdu-session-resource-modify-request-with-du-identifier-view
 incremental:
   column: init_time

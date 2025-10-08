@@ -1,7 +1,7 @@
 unique_name: nr-sgnb-addition-due-to-sgnb-change
 object_type: dataset
 label: nr-sgnb-addition-due-to-sgnb-change
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-sgnb-addition-due-to-sgnb-change-view
 incremental:
   column: init_time

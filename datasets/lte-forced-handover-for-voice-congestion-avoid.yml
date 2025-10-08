@@ -1,7 +1,7 @@
 unique_name: lte-forced-handover-for-voice-congestion-avoid
 object_type: dataset
 label: lte-forced-handover-for-voice-congestion-avoid
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-forced-handover-for-voice-congestion-avoid-view
 incremental:
   column: init_time

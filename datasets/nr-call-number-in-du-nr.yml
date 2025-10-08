@@ -1,7 +1,7 @@
 unique_name: nr-call-number-in-du-nr
 object_type: dataset
 label: nr-call-number-in-du-nr
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-call-number-in-du-nr-view
 incremental:
   column: init_time

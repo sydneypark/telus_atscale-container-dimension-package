@@ -1,7 +1,7 @@
 unique_name: nr-acpf-cell-count
 object_type: dataset
 label: nr-acpf-cell-count
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-acpf-cell-count-view
 incremental:
   column: init_time

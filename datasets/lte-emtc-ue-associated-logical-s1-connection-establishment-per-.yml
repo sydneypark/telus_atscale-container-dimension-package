@@ -1,7 +1,7 @@
 unique_name: lte-emtc-ue-associated-logical-s1-connection-establishment-per-
 object_type: dataset
 label: lte-emtc-ue-associated-logical-s1-connection-establishment-per-
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-emtc-ue-associated-logical-s1-connection-establishment-per-ce-level-view
 incremental:
   column: init_time

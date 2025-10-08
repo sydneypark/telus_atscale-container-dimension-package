@@ -1,7 +1,7 @@
 unique_name: nr-downlink-active-ue-number-per-5qi-for-redcap
 object_type: dataset
 label: nr-downlink-active-ue-number-per-5qi-for-redcap
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-downlink-active-ue-number-per-5qi-for-redcap-view
 incremental:
   column: init_time

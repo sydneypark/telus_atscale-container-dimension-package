@@ -1,7 +1,7 @@
 unique_name: lte-telus-pm-samsung-nr-sgnb-addition-due-to-intra-lte-handover
 object_type: dataset
 label: lte-telus-pm-samsung-nr-sgnb-addition-due-to-intra-lte-handover
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-nr-sgnb-addition-due-to-intra-lte-handover-without-sgnb-change-with-du-identifier-view
 incremental:
   column: init_time

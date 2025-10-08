@@ -1,7 +1,7 @@
 unique_name: lte-inter-rat-mlb-handover-out
 object_type: dataset
 label: lte-inter-rat-mlb-handover-out
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-inter-rat-mlb-handover-out-view
 incremental:
   column: init_time

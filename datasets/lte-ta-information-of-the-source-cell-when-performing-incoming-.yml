@@ -1,7 +1,7 @@
 unique_name: lte-ta-information-of-the-source-cell-when-performing-incoming-
 object_type: dataset
 label: lte-ta-information-of-the-source-cell-when-performing-incoming-
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-ta-information-of-the-source-cell-when-performing-incoming-and-outgoing-handover-per-neighbor-cell-relation-ncr-view
 incremental:
   column: init_time

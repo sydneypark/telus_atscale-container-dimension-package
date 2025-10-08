@@ -1,7 +1,7 @@
 unique_name: lte-energy-saving-time-by-pa-bias-control
 object_type: dataset
 label: lte-energy-saving-time-by-pa-bias-control
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-energy-saving-time-by-pa-bias-control-view
 incremental:
   column: init_time

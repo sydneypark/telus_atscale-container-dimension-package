@@ -1,7 +1,7 @@
 unique_name: lte-emtc-paging-attempts
 object_type: dataset
 label: lte-emtc-paging-attempts
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-emtc-paging-attempts-view
 incremental:
   column: init_time

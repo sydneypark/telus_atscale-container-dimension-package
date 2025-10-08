@@ -1,7 +1,7 @@
 unique_name: lte-mro-rlf-voice-classification
 object_type: dataset
 label: lte-mro-rlf-voice-classification
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-mro-rlf-voice-classification-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-uplink-multi-user-mimo-in-massive-mimo-configuration
 object_type: dataset
 label: lte-uplink-multi-user-mimo-in-massive-mimo-configuration
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-uplink-multi-user-mimo-in-massive-mimo-configuration-view
 incremental:
   column: init_time

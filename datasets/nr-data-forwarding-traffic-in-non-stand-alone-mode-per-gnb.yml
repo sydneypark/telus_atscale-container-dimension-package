@@ -1,7 +1,7 @@
 unique_name: nr-data-forwarding-traffic-in-non-stand-alone-mode-per-gnb
 object_type: dataset
 label: nr-data-forwarding-traffic-in-non-stand-alone-mode-per-gnb
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-data-forwarding-traffic-in-non-stand-alone-mode-per-gnb-view
 incremental:
   column: init_time

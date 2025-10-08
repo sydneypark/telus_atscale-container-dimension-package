@@ -1,7 +1,7 @@
 unique_name: lte-availability
 object_type: dataset
 label: lte-availability
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-availability-view
 incremental:
   column: init_time

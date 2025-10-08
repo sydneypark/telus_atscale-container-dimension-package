@@ -1,7 +1,7 @@
 unique_name: nr-acpf-call-count
 object_type: dataset
 label: nr-acpf-call-count
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-acpf-call-count-view
 incremental:
   column: init_time

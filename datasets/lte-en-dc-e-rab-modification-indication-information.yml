@@ -1,7 +1,7 @@
 unique_name: lte-en-dc-e-rab-modification-indication-information
 object_type: dataset
 label: lte-en-dc-e-rab-modification-indication-information
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-en-dc-e-rab-modification-indication-information-view
 incremental:
   column: init_time

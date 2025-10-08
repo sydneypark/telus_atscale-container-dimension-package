@@ -1,7 +1,7 @@
 unique_name: nr-denied-nsa-call-by-overload-protection
 object_type: dataset
 label: nr-denied-nsa-call-by-overload-protection
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-denied-nsa-call-by-overload-protection-view
 incremental:
   column: init_time

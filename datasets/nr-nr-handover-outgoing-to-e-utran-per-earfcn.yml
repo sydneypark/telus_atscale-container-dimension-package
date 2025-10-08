@@ -1,7 +1,7 @@
 unique_name: nr-nr-handover-outgoing-to-e-utran-per-earfcn
 object_type: dataset
 label: nr-nr-handover-outgoing-to-e-utran-per-earfcn
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-nr-handover-outgoing-to-e-utran-per-earfcn-view
 incremental:
   column: init_time

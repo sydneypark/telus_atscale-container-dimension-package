@@ -1,7 +1,7 @@
 unique_name: lte-outgoing-handover-with-drx
 object_type: dataset
 label: lte-outgoing-handover-with-drx
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-outgoing-handover-with-drx-view
 incremental:
   column: init_time

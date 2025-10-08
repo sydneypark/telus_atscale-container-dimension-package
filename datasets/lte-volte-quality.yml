@@ -1,7 +1,7 @@
 unique_name: lte-volte-quality
 object_type: dataset
 label: lte-volte-quality
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-volte-quality-view
 incremental:
   column: init_time

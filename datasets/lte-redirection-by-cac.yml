@@ -1,7 +1,7 @@
 unique_name: lte-redirection-by-cac
 object_type: dataset
 label: lte-redirection-by-cac
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-redirection-by-cac-view
 incremental:
   column: init_time

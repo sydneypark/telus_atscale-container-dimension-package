@@ -1,7 +1,7 @@
 unique_name: nr-interference-power-per-prb-per-path-nr
 object_type: dataset
 label: nr-interference-power-per-prb-per-path-nr
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-interference-power-per-prb-per-path-nr-view
 incremental:
   column: init_time

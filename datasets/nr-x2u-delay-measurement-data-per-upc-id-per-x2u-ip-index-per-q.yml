@@ -1,7 +1,7 @@
 unique_name: nr-x2u-delay-measurement-data-per-upc-id-per-x2u-ip-index-per-q
 object_type: dataset
 label: nr-x2u-delay-measurement-data-per-upc-id-per-x2u-ip-index-per-q
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-x2u-delay-measurement-data-per-upc-id-per-x2u-ip-index-per-qci-view
 incremental:
   column: init_time

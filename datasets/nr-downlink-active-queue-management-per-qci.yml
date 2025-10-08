@@ -1,7 +1,7 @@
 unique_name: nr-downlink-active-queue-management-per-qci
 object_type: dataset
 label: nr-downlink-active-queue-management-per-qci
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-downlink-active-queue-management-per-qci-view
 incremental:
   column: init_time

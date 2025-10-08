@@ -1,7 +1,7 @@
 unique_name: lte-csfb-ps-out-handover
 object_type: dataset
 label: lte-csfb-ps-out-handover
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-csfb-ps-out-handover-view
 incremental:
   column: init_time

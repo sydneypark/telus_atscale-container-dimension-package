@@ -1,7 +1,7 @@
 unique_name: h_sva_ac_neid_ap_id_a.dataset
 object_type: dataset
 label: h_sva_ac_neid_ap_id_a.dataset
-connection_id: telus_test
+connection_id: BQ.connection
 table: h_sva_ac_neid_ap_id_a
 incremental:
   column: INIT_TIME

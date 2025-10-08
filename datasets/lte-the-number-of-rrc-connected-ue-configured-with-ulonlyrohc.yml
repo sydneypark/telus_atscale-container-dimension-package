@@ -1,7 +1,7 @@
 unique_name: lte-the-number-of-rrc-connected-ue-configured-with-ulonlyrohc
 object_type: dataset
 label: lte-the-number-of-rrc-connected-ue-configured-with-ulonlyrohc
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-the-number-of-rrc-connected-ue-configured-with-ulonlyrohc-view
 incremental:
   column: init_time

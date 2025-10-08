@@ -1,7 +1,7 @@
 unique_name: lte-emtc-ul-mcs
 object_type: dataset
 label: lte-emtc-ul-mcs
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-emtc-ul-mcs-view
 incremental:
   column: init_time

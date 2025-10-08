@@ -1,7 +1,7 @@
 unique_name: lte-dl-mcs
 object_type: dataset
 label: lte-dl-mcs
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-dl-mcs-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-rlc-integrity
 object_type: dataset
 label: nr-rlc-integrity
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-rlc-integrity-view
 incremental:
   column: init_time

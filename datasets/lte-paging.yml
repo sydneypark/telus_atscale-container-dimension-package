@@ -1,7 +1,7 @@
 unique_name: lte-paging
 object_type: dataset
 label: lte-paging
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-paging-view
 incremental:
   column: init_time

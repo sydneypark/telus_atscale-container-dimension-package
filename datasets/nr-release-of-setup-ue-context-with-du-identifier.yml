@@ -1,7 +1,7 @@
 unique_name: nr-release-of-setup-ue-context-with-du-identifier
 object_type: dataset
 label: nr-release-of-setup-ue-context-with-du-identifier
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-release-of-setup-ue-context-with-du-identifier-view
 incremental:
   column: init_time

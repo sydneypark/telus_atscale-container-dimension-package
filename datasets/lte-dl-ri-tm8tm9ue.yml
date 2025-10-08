@@ -1,7 +1,7 @@
 unique_name: lte-dl-ri-tm8tm9ue
 object_type: dataset
 label: lte-dl-ri-tm8tm9ue
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-dl-ri-tm8tm9ue-view
 incremental:
   column: init_time

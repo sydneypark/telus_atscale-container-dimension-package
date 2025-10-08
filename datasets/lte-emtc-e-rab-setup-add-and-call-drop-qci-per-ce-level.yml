@@ -1,7 +1,7 @@
 unique_name: lte-emtc-e-rab-setup-add-and-call-drop-qci-per-ce-level
 object_type: dataset
 label: lte-emtc-e-rab-setup-add-and-call-drop-qci-per-ce-level
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-emtc-e-rab-setup-add-and-call-drop-qci-per-ce-level-view
 incremental:
   column: init_time

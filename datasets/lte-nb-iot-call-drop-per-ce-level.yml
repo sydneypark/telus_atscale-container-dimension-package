@@ -1,7 +1,7 @@
 unique_name: lte-nb-iot-call-drop-per-ce-level
 object_type: dataset
 label: lte-nb-iot-call-drop-per-ce-level
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-nb-iot-call-drop-per-ce-level-view
 incremental:
   column: init_time

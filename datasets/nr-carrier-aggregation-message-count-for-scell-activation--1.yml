@@ -1,7 +1,7 @@
 unique_name: nr-carrier-aggregation-message-count-for-scell-activation--1
 object_type: dataset
 label: nr-carrier-aggregation-message-count-for-scell-activation--1
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-carrier-aggregation-message-count-for-scell-activation-deactivation-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-uplink-extended-iot-level
 object_type: dataset
 label: lte-uplink-extended-iot-level
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-uplink-extended-iot-level-view
 incremental:
   column: init_time

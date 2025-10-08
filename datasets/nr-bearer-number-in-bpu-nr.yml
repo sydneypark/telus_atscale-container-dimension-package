@@ -1,7 +1,7 @@
 unique_name: nr-bearer-number-in-bpu-nr
 object_type: dataset
 label: nr-bearer-number-in-bpu-nr
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-bearer-number-in-bpu-nr-view
 incremental:
   column: init_time

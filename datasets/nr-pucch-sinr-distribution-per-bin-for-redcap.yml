@@ -1,7 +1,7 @@
 unique_name: nr-pucch-sinr-distribution-per-bin-for-redcap
 object_type: dataset
 label: nr-pucch-sinr-distribution-per-bin-for-redcap
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-pucch-sinr-distribution-per-bin-for-redcap-view
 incremental:
   column: init_time

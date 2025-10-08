@@ -1,7 +1,7 @@
 unique_name: nr-commercial-mobile-alert-system
 object_type: dataset
 label: nr-commercial-mobile-alert-system
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-commercial-mobile-alert-system-view
 incremental:
   column: init_time

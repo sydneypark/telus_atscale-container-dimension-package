@@ -1,7 +1,7 @@
 unique_name: lte-rrc-connection-release-of-en-dc-capable-ue
 object_type: dataset
 label: lte-rrc-connection-release-of-en-dc-capable-ue
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-rrc-connection-release-of-en-dc-capable-ue-view
 incremental:
   column: init_time

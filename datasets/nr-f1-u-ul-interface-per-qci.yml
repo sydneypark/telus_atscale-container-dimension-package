@@ -1,7 +1,7 @@
 unique_name: nr-f1-u-ul-interface-per-qci
 object_type: dataset
 label: nr-f1-u-ul-interface-per-qci
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-f1-u-ul-interface-per-qci-view
 incremental:
   column: init_time

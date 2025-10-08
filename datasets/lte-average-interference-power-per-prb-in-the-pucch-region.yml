@@ -1,7 +1,7 @@
 unique_name: lte-average-interference-power-per-prb-in-the-pucch-region
 object_type: dataset
 label: lte-average-interference-power-per-prb-in-the-pucch-region
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-average-interference-power-per-prb-in-the-pucch-region-view
 incremental:
   column: init_time

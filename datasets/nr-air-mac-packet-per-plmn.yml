@@ -1,7 +1,7 @@
 unique_name: nr-air-mac-packet-per-plmn
 object_type: dataset
 label: nr-air-mac-packet-per-plmn
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-air-mac-packet-per-plmn-view
 incremental:
   column: init_time

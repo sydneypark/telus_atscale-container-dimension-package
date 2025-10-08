@@ -1,7 +1,7 @@
 unique_name: nr-uplink-ue-throughput-for-sa
 object_type: dataset
 label: nr-uplink-ue-throughput-for-sa
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-uplink-ue-throughput-for-sa-view
 incremental:
   column: init_time

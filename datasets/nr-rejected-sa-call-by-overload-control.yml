@@ -1,7 +1,7 @@
 unique_name: nr-rejected-sa-call-by-overload-control
 object_type: dataset
 label: nr-rejected-sa-call-by-overload-control
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-rejected-sa-call-by-overload-control-view
 incremental:
   column: init_time

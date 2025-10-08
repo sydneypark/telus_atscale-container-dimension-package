@@ -1,7 +1,7 @@
 unique_name: nr-physical-random-access-channel-in-nr-for-beam
 object_type: dataset
 label: nr-physical-random-access-channel-in-nr-for-beam
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-physical-random-access-channel-in-nr-for-beam-view
 incremental:
   column: init_time

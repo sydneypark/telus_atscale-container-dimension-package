@@ -1,7 +1,7 @@
 unique_name: nr-pdu-session-resource-setup-per-plmn-per-snssai
 object_type: dataset
 label: nr-pdu-session-resource-setup-per-plmn-per-snssai
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-pdu-session-resource-setup-per-plmn-per-snssai-view
 incremental:
   column: init_time

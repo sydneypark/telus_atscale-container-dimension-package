@@ -1,7 +1,7 @@
 unique_name: s_enb_cnum_tcid_a.dataset
 object_type: dataset
 label: s_enb_cnum_tcid_a.dataset
-connection_id: telus_test
+connection_id: BQ_pm_samsung.connection
 table: s_enb_cnum_tcid_a
 incremental:
   column: INIT_TIME

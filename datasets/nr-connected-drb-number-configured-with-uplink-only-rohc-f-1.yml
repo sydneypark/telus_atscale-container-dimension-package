@@ -1,7 +1,7 @@
 unique_name: nr-connected-drb-number-configured-with-uplink-only-rohc-f-1
 object_type: dataset
 label: nr-connected-drb-number-configured-with-uplink-only-rohc-f-1
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-connected-drb-number-configured-with-uplink-only-rohc-for-sa-view
 incremental:
   column: init_time

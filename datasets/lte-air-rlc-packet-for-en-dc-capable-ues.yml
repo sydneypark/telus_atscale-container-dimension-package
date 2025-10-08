@@ -1,7 +1,7 @@
 unique_name: lte-air-rlc-packet-for-en-dc-capable-ues
 object_type: dataset
 label: lte-air-rlc-packet-for-en-dc-capable-ues
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-air-rlc-packet-for-en-dc-capable-ues-view
 incremental:
   column: init_time

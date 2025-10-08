@@ -1,7 +1,7 @@
 unique_name: lte-emtc-ue-context-release
 object_type: dataset
 label: lte-emtc-ue-context-release
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-emtc-ue-context-release-view
 incremental:
   column: init_time

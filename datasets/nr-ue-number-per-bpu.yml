@@ -1,7 +1,7 @@
 unique_name: nr-ue-number-per-bpu
 object_type: dataset
 label: nr-ue-number-per-bpu
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-ue-number-per-bpu-view
 incremental:
   column: init_time

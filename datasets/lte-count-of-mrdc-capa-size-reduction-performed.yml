@@ -1,7 +1,7 @@
 unique_name: lte-count-of-mrdc-capa-size-reduction-performed
 object_type: dataset
 label: lte-count-of-mrdc-capa-size-reduction-performed
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-count-of-mrdc-capa-size-reduction-performed-view
 incremental:
   column: init_time

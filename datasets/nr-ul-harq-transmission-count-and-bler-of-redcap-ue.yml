@@ -1,7 +1,7 @@
 unique_name: nr-ul-harq-transmission-count-and-bler-of-redcap-ue
 object_type: dataset
 label: nr-ul-harq-transmission-count-and-bler-of-redcap-ue
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-ul-harq-transmission-count-and-bler-of-redcap-ue-view
 incremental:
   column: init_time

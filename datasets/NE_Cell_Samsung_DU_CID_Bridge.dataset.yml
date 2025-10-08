@@ -1,7 +1,7 @@
 unique_name: NE_Cell_Samsung_DU_CID_Bridge.dataset
 object_type: dataset
 label: NE_Cell_Samsung_DU_CID_Bridge.dataset
-connection_id: telus_test
+connection_id: BQ_NE_Cell.connection
 table: NE_Cell_Samsung_DU_CID_Bridge_temp
 immutable: true
 

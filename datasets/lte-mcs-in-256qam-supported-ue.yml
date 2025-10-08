@@ -1,7 +1,7 @@
 unique_name: lte-mcs-in-256qam-supported-ue
 object_type: dataset
 label: lte-mcs-in-256qam-supported-ue
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-mcs-in-256qam-supported-ue-view
 incremental:
   column: init_time

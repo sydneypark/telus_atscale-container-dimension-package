@@ -1,7 +1,7 @@
 unique_name: lte-intra-enb-out-handover-of-power-class-2-ue
 object_type: dataset
 label: lte-intra-enb-out-handover-of-power-class-2-ue
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-intra-enb-out-handover-of-power-class-2-ue-view
 incremental:
   column: init_time

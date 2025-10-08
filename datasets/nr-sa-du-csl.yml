@@ -1,7 +1,7 @@
 unique_name: nr-sa-du-csl
 object_type: dataset
 label: nr-sa-du-csl
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-sa-du-csl-view
 incremental:
   column: init_time

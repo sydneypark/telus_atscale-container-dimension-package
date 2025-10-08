@@ -1,7 +1,7 @@
 unique_name: nr-active-session-time-for-drb-per-plmn-per-snssai-with-du-iden
 object_type: dataset
 label: nr-active-session-time-for-drb-per-plmn-per-snssai-with-du-iden
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-active-session-time-for-drb-per-plmn-per-snssai-with-du-identifier-view
 incremental:
   column: init_time

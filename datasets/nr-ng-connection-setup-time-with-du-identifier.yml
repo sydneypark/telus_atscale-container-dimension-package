@@ -1,7 +1,7 @@
 unique_name: nr-ng-connection-setup-time-with-du-identifier
 object_type: dataset
 label: nr-ng-connection-setup-time-with-du-identifier
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-ng-connection-setup-time-with-du-identifier-view
 incremental:
   column: init_time

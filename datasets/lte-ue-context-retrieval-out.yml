@@ -1,7 +1,7 @@
 unique_name: lte-ue-context-retrieval-out
 object_type: dataset
 label: lte-ue-context-retrieval-out
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-ue-context-retrieval-out-view
 incremental:
   column: init_time

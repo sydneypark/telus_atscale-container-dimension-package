@@ -1,7 +1,7 @@
 unique_name: nr-blocked-pdcch-information-dl-ul-dl-and-ul
 object_type: dataset
 label: nr-blocked-pdcch-information-dl-ul-dl-and-ul
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-blocked-pdcch-information-dl-ul-dl-and-ul-view
 incremental:
   column: init_time

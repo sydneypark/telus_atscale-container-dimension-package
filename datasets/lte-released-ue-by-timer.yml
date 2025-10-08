@@ -1,7 +1,7 @@
 unique_name: lte-released-ue-by-timer
 object_type: dataset
 label: lte-released-ue-by-timer
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-released-ue-by-timer-view
 incremental:
   column: init_time

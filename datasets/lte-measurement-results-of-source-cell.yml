@@ -1,7 +1,7 @@
 unique_name: lte-measurement-results-of-source-cell
 object_type: dataset
 label: lte-measurement-results-of-source-cell
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-measurement-results-of-source-cell-view
 incremental:
   column: init_time

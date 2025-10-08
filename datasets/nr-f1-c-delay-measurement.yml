@@ -1,7 +1,7 @@
 unique_name: nr-f1-c-delay-measurement
 object_type: dataset
 label: nr-f1-c-delay-measurement
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-f1-c-delay-measurement-view
 incremental:
   column: init_time

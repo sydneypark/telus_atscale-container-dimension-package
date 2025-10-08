@@ -1,7 +1,7 @@
 unique_name: lte-pucch-sinr-distribution-per-bin
 object_type: dataset
 label: lte-pucch-sinr-distribution-per-bin
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-pucch-sinr-distribution-per-bin-view
 incremental:
   column: init_time

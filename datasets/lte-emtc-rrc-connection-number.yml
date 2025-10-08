@@ -1,7 +1,7 @@
 unique_name: lte-emtc-rrc-connection-number
 object_type: dataset
 label: lte-emtc-rrc-connection-number
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-emtc-rrc-connection-number-view
 incremental:
   column: init_time

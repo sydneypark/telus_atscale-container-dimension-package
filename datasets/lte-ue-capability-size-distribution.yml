@@ -1,7 +1,7 @@
 unique_name: lte-ue-capability-size-distribution
 object_type: dataset
 label: lte-ue-capability-size-distribution
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-ue-capability-size-distribution-view
 incremental:
   column: init_time

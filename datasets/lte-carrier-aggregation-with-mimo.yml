@@ -1,7 +1,7 @@
 unique_name: lte-carrier-aggregation-with-mimo
 object_type: dataset
 label: lte-carrier-aggregation-with-mimo
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-carrier-aggregation-with-mimo-view
 incremental:
   column: init_time

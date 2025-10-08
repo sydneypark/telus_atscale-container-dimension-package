@@ -1,7 +1,7 @@
 unique_name: bhh_lte_huawei.dataset
 object_type: dataset
 label: bhh_lte_huawei
-connection_id: telus_test
+connection_id: ran_bhh.connection
 table: bhh_lte_huawei
 immutable: true
 

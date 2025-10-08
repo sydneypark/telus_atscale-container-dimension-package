@@ -1,7 +1,7 @@
 unique_name: lte-l1-l2-internal-statistics
 object_type: dataset
 label: lte-l1-l2-internal-statistics
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-l1-l2-internal-statistics-view
 incremental:
   column: init_time

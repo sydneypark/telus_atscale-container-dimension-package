@@ -1,7 +1,7 @@
 unique_name: lte-en-dc-outgoing-intra-frequency-handover-with-handover-cause
 object_type: dataset
 label: lte-en-dc-outgoing-intra-frequency-handover-with-handover-cause
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-en-dc-outgoing-intra-frequency-handover-with-handover-cause-view
 incremental:
   column: init_time

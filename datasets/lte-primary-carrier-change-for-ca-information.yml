@@ -1,7 +1,7 @@
 unique_name: lte-primary-carrier-change-for-ca-information
 object_type: dataset
 label: lte-primary-carrier-change-for-ca-information
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-primary-carrier-change-for-ca-information-view
 incremental:
   column: init_time

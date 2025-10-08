@@ -1,7 +1,7 @@
 unique_name: lte-dl-ack-nack-dtx-ratio
 object_type: dataset
 label: lte-dl-ack-nack-dtx-ratio
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-dl-ack-nack-dtx-ratio-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-preemption-handover-per-e-rab
 object_type: dataset
 label: lte-preemption-handover-per-e-rab
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-preemption-handover-per-e-rab-view
 incremental:
   column: init_time

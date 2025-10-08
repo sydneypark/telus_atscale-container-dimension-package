@@ -1,7 +1,7 @@
 unique_name: nr-upc-bearer-count-rate
 object_type: dataset
 label: nr-upc-bearer-count-rate
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-upc-bearer-count-rate-view
 incremental:
   column: init_time

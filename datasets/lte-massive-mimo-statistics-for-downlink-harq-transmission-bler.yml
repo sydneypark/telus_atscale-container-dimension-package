@@ -1,7 +1,7 @@
 unique_name: lte-massive-mimo-statistics-for-downlink-harq-transmission-bler
 object_type: dataset
 label: lte-massive-mimo-statistics-for-downlink-harq-transmission-bler
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-massive-mimo-statistics-for-downlink-harq-transmission-bler-view
 incremental:
   column: init_time

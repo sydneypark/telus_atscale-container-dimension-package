@@ -1,7 +1,7 @@
 unique_name: nr-scg-failure-operation
 object_type: dataset
 label: nr-scg-failure-operation
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-scg-failure-operation-view
 incremental:
   column: init_time

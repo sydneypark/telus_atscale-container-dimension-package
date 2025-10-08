@@ -1,7 +1,7 @@
 unique_name: lte-ho-per-nr-neighbor-cell-between-the-lte-system-and-the-nr-s
 object_type: dataset
 label: lte-ho-per-nr-neighbor-cell-between-the-lte-system-and-the-nr-s
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-ho-per-nr-neighbor-cell-between-the-lte-system-and-the-nr-system-view
 incremental:
   column: init_time

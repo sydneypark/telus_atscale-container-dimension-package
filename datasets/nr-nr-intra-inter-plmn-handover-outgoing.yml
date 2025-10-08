@@ -1,7 +1,7 @@
 unique_name: nr-nr-intra-inter-plmn-handover-outgoing
 object_type: dataset
 label: nr-nr-intra-inter-plmn-handover-outgoing
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-nr-intra-inter-plmn-handover-outgoing-view
 incremental:
   column: init_time

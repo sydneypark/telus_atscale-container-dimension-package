@@ -1,7 +1,7 @@
 unique_name: lte-5g-endc-capable-ues
 object_type: dataset
 label: lte-5g-endc-capable-ues
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-5g-endc-capable-ues-view
 incremental:
   column: init_time

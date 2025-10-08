@@ -1,7 +1,7 @@
 unique_name: nr-ue-connection-number-per-gnb-per-du-id-per-cell
 object_type: dataset
 label: nr-ue-connection-number-per-gnb-per-du-id-per-cell
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-ue-connection-number-per-gnb-per-du-id-per-cell-view
 incremental:
   column: init_time

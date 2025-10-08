@@ -1,7 +1,7 @@
 unique_name: lte-disk-usage-in-lte
 object_type: dataset
 label: lte-disk-usage-in-lte
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-disk-usage-in-lte-view
 incremental:
   column: init_time

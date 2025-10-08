@@ -1,7 +1,7 @@
 unique_name: lte-load-balancing-handover
 object_type: dataset
 label: lte-load-balancing-handover
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-load-balancing-handover-view
 incremental:
   column: init_time

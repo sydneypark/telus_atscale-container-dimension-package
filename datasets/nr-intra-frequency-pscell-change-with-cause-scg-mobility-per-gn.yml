@@ -1,7 +1,7 @@
 unique_name: nr-intra-frequency-pscell-change-with-cause-scg-mobility-per-gn
 object_type: dataset
 label: nr-intra-frequency-pscell-change-with-cause-scg-mobility-per-gn
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-intra-frequency-pscell-change-with-cause-scg-mobility-per-gnb-with-du-identifier-view
 incremental:
   column: init_time

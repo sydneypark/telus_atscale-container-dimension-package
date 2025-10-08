@@ -1,7 +1,7 @@
 unique_name: nr-uplink-last-tti-transmission-for-nsa
 object_type: dataset
 label: nr-uplink-last-tti-transmission-for-nsa
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-uplink-last-tti-transmission-for-nsa-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-timing-alignment-for-nb-iot
 object_type: dataset
 label: lte-timing-alignment-for-nb-iot
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-timing-alignment-for-nb-iot-view
 incremental:
   column: init_time

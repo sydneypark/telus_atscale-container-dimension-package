@@ -1,7 +1,7 @@
 unique_name: lte-x2-link-time
 object_type: dataset
 label: lte-x2-link-time
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-x2-link-time-view
 incremental:
   column: init_time

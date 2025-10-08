@@ -1,7 +1,7 @@
 unique_name: nr-downlink-prb-number-with-ri
 object_type: dataset
 label: nr-downlink-prb-number-with-ri
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-downlink-prb-number-with-ri-view
 incremental:
   column: init_time

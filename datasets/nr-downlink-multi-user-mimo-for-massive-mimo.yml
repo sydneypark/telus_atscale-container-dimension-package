@@ -1,7 +1,7 @@
 unique_name: nr-downlink-multi-user-mimo-for-massive-mimo
 object_type: dataset
 label: nr-downlink-multi-user-mimo-for-massive-mimo
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-downlink-multi-user-mimo-for-massive-mimo-view
 incremental:
   column: init_time

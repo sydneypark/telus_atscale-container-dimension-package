@@ -1,7 +1,7 @@
 unique_name: bhh_lte_samsung.dataset
 object_type: dataset
 label: bhh_lte_samsung
-connection_id: telus_test
+connection_id: ran_bhh.connection
 table: bhh_lte_samsung
 immutable: true
 

@@ -1,7 +1,7 @@
 unique_name: lte-rrc-connection-establishment
 object_type: dataset
 label: lte-rrc-connection-establishment
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-rrc-connection-establishment-view
 incremental:
   column: init_time

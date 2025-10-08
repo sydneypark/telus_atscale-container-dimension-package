@@ -1,7 +1,7 @@
 unique_name: nr-idle-load-balancing
 object_type: dataset
 label: nr-idle-load-balancing
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-idle-load-balancing-view
 incremental:
   column: init_time

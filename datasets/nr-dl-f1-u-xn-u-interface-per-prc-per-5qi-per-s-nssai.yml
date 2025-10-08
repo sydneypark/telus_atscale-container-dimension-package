@@ -1,7 +1,7 @@
 unique_name: nr-dl-f1-u-xn-u-interface-per-prc-per-5qi-per-s-nssai
 object_type: dataset
 label: nr-dl-f1-u-xn-u-interface-per-prc-per-5qi-per-s-nssai
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-dl-f1-u-xn-u-interface-per-prc-per-5qi-per-s-nssai-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-pdcp-packet
 object_type: dataset
 label: lte-pdcp-packet
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-pdcp-packet-view
 incremental:
   column: init_time

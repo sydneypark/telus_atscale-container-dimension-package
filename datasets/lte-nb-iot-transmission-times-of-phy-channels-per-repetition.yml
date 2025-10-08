@@ -1,7 +1,7 @@
 unique_name: lte-nb-iot-transmission-times-of-phy-channels-per-repetition
 object_type: dataset
 label: lte-nb-iot-transmission-times-of-phy-channels-per-repetition
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-nb-iot-transmission-times-of-phy-channels-per-repetition-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-ul-massive-mimo-statistics-for-per-prb-layer-distribution
 object_type: dataset
 label: lte-ul-massive-mimo-statistics-for-per-prb-layer-distribution
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-ul-massive-mimo-statistics-for-per-prb-layer-distribution-view
 incremental:
   column: init_time

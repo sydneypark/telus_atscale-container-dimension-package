@@ -1,7 +1,7 @@
 unique_name: nr-pdcp-packet-per-gnb-id
 object_type: dataset
 label: nr-pdcp-packet-per-gnb-id
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-pdcp-packet-per-gnb-id-view
 incremental:
   column: init_time

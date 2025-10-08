@@ -1,7 +1,7 @@
 unique_name: nr-blocked-pdcch-information-dl-ul-dl-and-ul-for-redcap-ue
 object_type: dataset
 label: nr-blocked-pdcch-information-dl-ul-dl-and-ul-for-redcap-ue
-connection_id: telus_test
+connection_id: telus_pm_samsung_nr_v1
 table: telus-pm-samsung-nr-blocked-pdcch-information-dl-ul-dl-and-ul-for-redcap-ue-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-ondemand-handover-intraenb-in
 object_type: dataset
 label: lte-ondemand-handover-intraenb-in
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-ondemand-handover-intraenb-in-view
 incremental:
   column: init_time

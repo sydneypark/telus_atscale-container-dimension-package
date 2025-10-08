@@ -1,7 +1,7 @@
 unique_name: lte-nb-iot-active-e-rab-number
 object_type: dataset
 label: lte-nb-iot-active-e-rab-number
-connection_id: telus_test
+connection_id: telus_pm_samsung_lte_v1
 table: telus-pm-samsung-lte-nb-iot-active-e-rab-number-view
 incremental:
   column: init_time
