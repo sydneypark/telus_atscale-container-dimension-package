@@ -3,4 +3,4 @@ label: telus_pm_samsung_nr_v1
 object_type: connection
 as_connection: wade_bigq
 database: ci-pipeline-199520
-schema: Ram_Telus_10_23
+schema: 1young
