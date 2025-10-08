@@ -1,7 +1,7 @@
 unique_name: lte-en-dc-radiolinkfailureinformation
 object_type: dataset
 label: lte-en-dc-radiolinkfailureinformation
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-en-dc-radiolinkfailureinformation-view
 incremental:
   column: init_time

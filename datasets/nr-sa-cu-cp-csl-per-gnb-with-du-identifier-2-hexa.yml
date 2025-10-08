@@ -1,7 +1,7 @@
 unique_name: nr-sa-cu-cp-csl-per-gnb-with-du-identifier-2-hexa
 object_type: dataset
 label: nr-sa-cu-cp-csl-per-gnb-with-du-identifier-2-hexa
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-sa-cu-cp-csl-per-gnb-with-du-identifier-2-hexa-view
 incremental:
   column: init_time

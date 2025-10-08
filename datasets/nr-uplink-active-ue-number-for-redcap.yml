@@ -1,7 +1,7 @@
 unique_name: nr-uplink-active-ue-number-for-redcap
 object_type: dataset
 label: nr-uplink-active-ue-number-for-redcap
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-uplink-active-ue-number-for-redcap-view
 incremental:
   column: init_time

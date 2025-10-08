@@ -1,7 +1,7 @@
 unique_name: nr-mro-per-cell
 object_type: dataset
 label: nr-mro-per-cell
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-mro-per-cell-view
 incremental:
   column: init_time

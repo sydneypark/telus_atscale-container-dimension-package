@@ -1,7 +1,7 @@
 unique_name: nr-ethernet-packet-for-cnf
 object_type: dataset
 label: nr-ethernet-packet-for-cnf
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-ethernet-packet-for-cnf-view
 incremental:
   column: init_time

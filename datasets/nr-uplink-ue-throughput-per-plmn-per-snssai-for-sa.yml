@@ -1,7 +1,7 @@
 unique_name: nr-uplink-ue-throughput-per-plmn-per-snssai-for-sa
 object_type: dataset
 label: nr-uplink-ue-throughput-per-plmn-per-snssai-for-sa
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-uplink-ue-throughput-per-plmn-per-snssai-for-sa-view
 incremental:
   column: init_time

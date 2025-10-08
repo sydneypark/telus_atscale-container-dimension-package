@@ -1,7 +1,7 @@
 unique_name: lte-rrc-connection-establishment-message
 object_type: dataset
 label: lte-rrc-connection-establishment-message
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-rrc-connection-establishment-message-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-active-drx
 object_type: dataset
 label: lte-active-drx
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-active-drx-view
 incremental:
   column: init_time

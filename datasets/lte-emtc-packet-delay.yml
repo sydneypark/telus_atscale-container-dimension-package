@@ -1,7 +1,7 @@
 unique_name: lte-emtc-packet-delay
 object_type: dataset
 label: lte-emtc-packet-delay
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-emtc-packet-delay-view
 incremental:
   column: init_time

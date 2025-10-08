@@ -1,7 +1,7 @@
 unique_name: lte-access-class-barring-enhanced
 object_type: dataset
 label: lte-access-class-barring-enhanced
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-access-class-barring-enhanced-view
 incremental:
   column: init_time

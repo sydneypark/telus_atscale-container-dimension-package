@@ -1,7 +1,7 @@
 unique_name: lte-lte-cce-utilization-per-slot
 object_type: dataset
 label: lte-lte-cce-utilization-per-slot
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-lte-cce-utilization-per-slot-view
 incremental:
   column: init_time

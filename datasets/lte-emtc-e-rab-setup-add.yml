@@ -1,7 +1,7 @@
 unique_name: lte-emtc-e-rab-setup-add
 object_type: dataset
 label: lte-emtc-e-rab-setup-add
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-emtc-e-rab-setup-add-view
 incremental:
   column: init_time

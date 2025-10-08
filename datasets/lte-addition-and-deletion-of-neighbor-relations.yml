@@ -1,7 +1,7 @@
 unique_name: lte-addition-and-deletion-of-neighbor-relations
 object_type: dataset
 label: lte-addition-and-deletion-of-neighbor-relations
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-addition-and-deletion-of-neighbor-relations-view
 incremental:
   column: init_time

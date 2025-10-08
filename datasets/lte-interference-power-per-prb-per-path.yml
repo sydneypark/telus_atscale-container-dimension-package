@@ -1,7 +1,7 @@
 unique_name: lte-interference-power-per-prb-per-path
 object_type: dataset
 label: lte-interference-power-per-prb-per-path
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-interference-power-per-prb-per-path-view
 incremental:
   column: init_time

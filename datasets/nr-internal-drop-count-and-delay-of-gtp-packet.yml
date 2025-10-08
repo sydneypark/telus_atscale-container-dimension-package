@@ -1,7 +1,7 @@
 unique_name: nr-internal-drop-count-and-delay-of-gtp-packet
 object_type: dataset
 label: nr-internal-drop-count-and-delay-of-gtp-packet
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-internal-drop-count-and-delay-of-gtp-packet-view
 incremental:
   column: init_time

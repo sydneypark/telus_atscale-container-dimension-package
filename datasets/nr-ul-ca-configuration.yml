@@ -1,7 +1,7 @@
 unique_name: nr-ul-ca-configuration
 object_type: dataset
 label: nr-ul-ca-configuration
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-ul-ca-configuration-view
 incremental:
   column: init_time

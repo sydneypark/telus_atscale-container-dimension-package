@@ -1,7 +1,7 @@
 unique_name: lte-utran-srvcc
 object_type: dataset
 label: lte-utran-srvcc
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-utran-srvcc-view
 incremental:
   column: init_time

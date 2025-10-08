@@ -1,7 +1,7 @@
 unique_name: nr-redcap-downlink-wideband-cqi
 object_type: dataset
 label: nr-redcap-downlink-wideband-cqi
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-redcap-downlink-wideband-cqi-view
 incremental:
   column: init_time

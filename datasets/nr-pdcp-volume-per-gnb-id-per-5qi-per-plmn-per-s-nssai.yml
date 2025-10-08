@@ -1,7 +1,7 @@
 unique_name: nr-pdcp-volume-per-gnb-id-per-5qi-per-plmn-per-s-nssai
 object_type: dataset
 label: nr-pdcp-volume-per-gnb-id-per-5qi-per-plmn-per-s-nssai
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-pdcp-volume-per-gnb-id-per-5qi-per-plmn-per-s-nssai-view
 incremental:
   column: init_time

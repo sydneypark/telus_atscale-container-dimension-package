@@ -1,7 +1,7 @@
 unique_name: lte-enhanced-sbc-selection-information
 object_type: dataset
 label: lte-enhanced-sbc-selection-information
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-enhanced-sbc-selection-information-view
 incremental:
   column: init_time

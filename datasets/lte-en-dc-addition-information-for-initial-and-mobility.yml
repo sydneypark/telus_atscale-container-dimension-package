@@ -1,7 +1,7 @@
 unique_name: lte-en-dc-addition-information-for-initial-and-mobility
 object_type: dataset
 label: lte-en-dc-addition-information-for-initial-and-mobility
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-en-dc-addition-information-for-initial-and-mobility-view
 incremental:
   column: init_time

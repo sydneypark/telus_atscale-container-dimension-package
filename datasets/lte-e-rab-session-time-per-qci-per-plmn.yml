@@ -1,7 +1,7 @@
 unique_name: lte-e-rab-session-time-per-qci-per-plmn
 object_type: dataset
 label: lte-e-rab-session-time-per-qci-per-plmn
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-e-rab-session-time-per-qci-per-plmn-view
 incremental:
   column: init_time

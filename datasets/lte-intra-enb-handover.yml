@@ -1,7 +1,7 @@
 unique_name: lte-intra-enb-handover
 object_type: dataset
 label: lte-intra-enb-handover
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-intra-enb-handover-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-upc-load
 object_type: dataset
 label: nr-upc-load
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-upc-load-view
 incremental:
   column: init_time

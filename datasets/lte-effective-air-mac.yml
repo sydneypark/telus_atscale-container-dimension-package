@@ -1,7 +1,7 @@
 unique_name: lte-effective-air-mac
 object_type: dataset
 label: lte-effective-air-mac
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-effective-air-mac-view
 incremental:
   column: init_time

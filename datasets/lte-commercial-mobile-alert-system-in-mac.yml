@@ -1,7 +1,7 @@
 unique_name: lte-commercial-mobile-alert-system-in-mac
 object_type: dataset
 label: lte-commercial-mobile-alert-system-in-mac
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-commercial-mobile-alert-system-in-mac-view
 incremental:
   column: init_time

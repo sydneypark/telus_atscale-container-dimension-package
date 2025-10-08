@@ -1,7 +1,7 @@
 unique_name: lte-dl-pmi
 object_type: dataset
 label: lte-dl-pmi
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-dl-pmi-view
 incremental:
   column: init_time

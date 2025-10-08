@@ -1,7 +1,7 @@
 unique_name: nr-gps-jamming
 object_type: dataset
 label: nr-gps-jamming
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-gps-jamming-view
 incremental:
   column: init_time

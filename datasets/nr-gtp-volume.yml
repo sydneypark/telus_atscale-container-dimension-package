@@ -1,7 +1,7 @@
 unique_name: nr-gtp-volume
 object_type: dataset
 label: nr-gtp-volume
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-gtp-volume-view
 incremental:
   column: init_time

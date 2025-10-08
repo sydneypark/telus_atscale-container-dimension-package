@@ -1,7 +1,7 @@
 unique_name: lte-inter-rat-handover-cancellation
 object_type: dataset
 label: lte-inter-rat-handover-cancellation
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-inter-rat-handover-cancellation-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-emtc-rach-usage
 object_type: dataset
 label: lte-emtc-rach-usage
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-emtc-rach-usage-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-power-headroom-report-for-redcap
 object_type: dataset
 label: nr-power-headroom-report-for-redcap
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-power-headroom-report-for-redcap-view
 incremental:
   column: init_time

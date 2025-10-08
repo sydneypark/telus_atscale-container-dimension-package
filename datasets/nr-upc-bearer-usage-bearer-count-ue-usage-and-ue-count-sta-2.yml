@@ -1,7 +1,7 @@
 unique_name: nr-upc-bearer-usage-bearer-count-ue-usage-and-ue-count-sta-2
 object_type: dataset
 label: nr-upc-bearer-usage-bearer-count-ue-usage-and-ue-count-sta-2
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-upc-bearer-usage-bearer-count-ue-usage-and-ue-count-stats-per-spidincludinginvalid-view
 incremental:
   column: init_time

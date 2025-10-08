@@ -1,7 +1,7 @@
 unique_name: lte-lte-served-bearer-status-per-du
 object_type: dataset
 label: lte-lte-served-bearer-status-per-du
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-lte-served-bearer-status-per-du-view
 incremental:
   column: init_time

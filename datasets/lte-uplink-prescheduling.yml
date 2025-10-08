@@ -1,7 +1,7 @@
 unique_name: lte-uplink-prescheduling
 object_type: dataset
 label: lte-uplink-prescheduling
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-uplink-prescheduling-view
 incremental:
   column: init_time

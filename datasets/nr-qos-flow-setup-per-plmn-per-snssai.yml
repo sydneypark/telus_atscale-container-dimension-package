@@ -1,7 +1,7 @@
 unique_name: nr-qos-flow-setup-per-plmn-per-snssai
 object_type: dataset
 label: nr-qos-flow-setup-per-plmn-per-snssai
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-qos-flow-setup-per-plmn-per-snssai-view
 incremental:
   column: init_time

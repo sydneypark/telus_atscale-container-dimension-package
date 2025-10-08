@@ -1,7 +1,7 @@
 unique_name: nr-ca-scell-addition-and-release-in-gnb-cu
 object_type: dataset
 label: nr-ca-scell-addition-and-release-in-gnb-cu
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-ca-scell-addition-and-release-in-gnb-cu-view
 incremental:
   column: init_time

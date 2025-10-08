@@ -1,7 +1,7 @@
 unique_name: lte-nb-iot-call-fail-per-ce-level
 object_type: dataset
 label: lte-nb-iot-call-fail-per-ce-level
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-nb-iot-call-fail-per-ce-level-view
 incremental:
   column: init_time

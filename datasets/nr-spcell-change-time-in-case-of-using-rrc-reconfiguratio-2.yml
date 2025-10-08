@@ -1,7 +1,7 @@
 unique_name: nr-spcell-change-time-in-case-of-using-rrc-reconfiguratio-2
 object_type: dataset
 label: nr-spcell-change-time-in-case-of-using-rrc-reconfiguratio-2
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-spcell-change-time-in-case-of-using-rrc-reconfiguration-via-srb3-with-du-identifier-view
 incremental:
   column: init_time

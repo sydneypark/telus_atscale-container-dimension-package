@@ -1,7 +1,7 @@
 unique_name: nr-uplink-mimo-for-redcap-ues
 object_type: dataset
 label: nr-uplink-mimo-for-redcap-ues
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-uplink-mimo-for-redcap-ues-view
 incremental:
   column: init_time

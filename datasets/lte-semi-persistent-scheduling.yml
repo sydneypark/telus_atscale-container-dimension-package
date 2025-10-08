@@ -1,7 +1,7 @@
 unique_name: lte-semi-persistent-scheduling
 object_type: dataset
 label: lte-semi-persistent-scheduling
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-semi-persistent-scheduling-view
 incremental:
   column: init_time

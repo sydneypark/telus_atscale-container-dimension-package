@@ -1,7 +1,7 @@
 unique_name: lte-activation-deactivation-for-inter-site-ca-using-non-ideal-b
 object_type: dataset
 label: lte-activation-deactivation-for-inter-site-ca-using-non-ideal-b
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-activation-deactivation-for-inter-site-ca-using-non-ideal-backhaul-view
 incremental:
   column: init_time

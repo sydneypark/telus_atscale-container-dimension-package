@@ -1,7 +1,7 @@
 unique_name: nr-rach-usage
 object_type: dataset
 label: nr-rach-usage
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-rach-usage-view
 incremental:
   column: init_time

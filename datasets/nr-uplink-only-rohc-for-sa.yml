@@ -1,7 +1,7 @@
 unique_name: nr-uplink-only-rohc-for-sa
 object_type: dataset
 label: nr-uplink-only-rohc-for-sa
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-uplink-only-rohc-for-sa-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-connected-e-rab-number-configured-with-uplink-only-rohc--1
 object_type: dataset
 label: nr-connected-e-rab-number-configured-with-uplink-only-rohc--1
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-connected-e-rab-number-configured-with-uplink-only-rohc-for-nsa-view
 incremental:
   column: init_time

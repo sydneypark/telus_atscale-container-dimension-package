@@ -1,7 +1,7 @@
 unique_name: lte-rrc-connection-number-per-plmn
 object_type: dataset
 label: lte-rrc-connection-number-per-plmn
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-rrc-connection-number-per-plmn-view
 incremental:
   column: init_time

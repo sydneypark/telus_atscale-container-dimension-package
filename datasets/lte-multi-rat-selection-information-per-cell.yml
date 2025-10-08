@@ -1,7 +1,7 @@
 unique_name: lte-multi-rat-selection-information-per-cell
 object_type: dataset
 label: lte-multi-rat-selection-information-per-cell
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-multi-rat-selection-information-per-cell-view
 incremental:
   column: init_time

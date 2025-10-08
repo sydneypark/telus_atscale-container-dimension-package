@@ -1,7 +1,7 @@
 unique_name: nr-rrc-connection-reconfiguration-with-du-identifier
 object_type: dataset
 label: nr-rrc-connection-reconfiguration-with-du-identifier
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-rrc-connection-reconfiguration-with-du-identifier-view
 incremental:
   column: init_time

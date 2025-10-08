@@ -1,7 +1,7 @@
 unique_name: nr-tx-rf-measurement
 object_type: dataset
 label: nr-tx-rf-measurement
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-tx-rf-measurement-view
 incremental:
   column: init_time

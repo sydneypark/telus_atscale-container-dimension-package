@@ -1,7 +1,7 @@
 unique_name: nr-menb-initiated-sgnb-modification-with-mcg-mobility-per-g-2
 object_type: dataset
 label: nr-menb-initiated-sgnb-modification-with-mcg-mobility-per-g-2
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-menb-initiated-sgnb-modification-with-mcg-mobility-per-gnb-with-du-identifier-view
 incremental:
   column: init_time

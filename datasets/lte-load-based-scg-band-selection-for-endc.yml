@@ -1,7 +1,7 @@
 unique_name: lte-load-based-scg-band-selection-for-endc
 object_type: dataset
 label: lte-load-based-scg-band-selection-for-endc
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-load-based-scg-band-selection-for-endc-view
 incremental:
   column: init_time

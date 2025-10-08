@@ -1,7 +1,7 @@
 unique_name: lte-tti-bundling
 object_type: dataset
 label: lte-tti-bundling
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-tti-bundling-view
 incremental:
   column: init_time

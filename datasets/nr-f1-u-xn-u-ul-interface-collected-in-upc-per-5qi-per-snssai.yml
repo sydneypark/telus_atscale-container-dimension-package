@@ -1,7 +1,7 @@
 unique_name: nr-f1-u-xn-u-ul-interface-collected-in-upc-per-5qi-per-snssai
 object_type: dataset
 label: nr-f1-u-xn-u-ul-interface-collected-in-upc-per-5qi-per-snssai
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-f1-u-xn-u-ul-interface-collected-in-upc-per-5qi-per-snssai-view
 incremental:
   column: init_time

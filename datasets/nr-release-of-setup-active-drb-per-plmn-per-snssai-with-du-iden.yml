@@ -1,7 +1,7 @@
 unique_name: nr-release-of-setup-active-drb-per-plmn-per-snssai-with-du-iden
 object_type: dataset
 label: nr-release-of-setup-active-drb-per-plmn-per-snssai-with-du-iden
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-release-of-setup-active-drb-per-plmn-per-snssai-with-du-identifier-view
 incremental:
   column: init_time

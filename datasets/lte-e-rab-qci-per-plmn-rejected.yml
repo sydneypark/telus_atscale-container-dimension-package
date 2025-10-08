@@ -1,7 +1,7 @@
 unique_name: lte-e-rab-qci-per-plmn-rejected
 object_type: dataset
 label: lte-e-rab-qci-per-plmn-rejected
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-e-rab-qci-per-plmn-rejected-view
 incremental:
   column: init_time

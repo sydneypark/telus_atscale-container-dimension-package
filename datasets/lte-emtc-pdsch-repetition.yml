@@ -1,7 +1,7 @@
 unique_name: lte-emtc-pdsch-repetition
 object_type: dataset
 label: lte-emtc-pdsch-repetition
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-emtc-pdsch-repetition-view
 incremental:
   column: init_time

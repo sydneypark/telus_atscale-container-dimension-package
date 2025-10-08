@@ -1,7 +1,7 @@
 unique_name: lte-outgoing-intra-lte-inter-plmn-and-intra-plmn-outgoing-hando
 object_type: dataset
 label: lte-outgoing-intra-lte-inter-plmn-and-intra-plmn-outgoing-hando
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-outgoing-intra-lte-inter-plmn-and-intra-plmn-outgoing-handover-view
 incremental:
   column: init_time

@@ -2,5 +2,5 @@ unique_name: ran_bhh.connection
 label: ran_bhh
 object_type: connection
 as_connection: wade_bigq
-database: tu-nfv-cte-wddt-01-pr
-schema: ran_bhh
+database: ci-pipeline-199520
+schema: Ram_Telus_10_23

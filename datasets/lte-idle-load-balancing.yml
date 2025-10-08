@@ -1,7 +1,7 @@
 unique_name: lte-idle-load-balancing
 object_type: dataset
 label: lte-idle-load-balancing
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-idle-load-balancing-view
 incremental:
   column: init_time

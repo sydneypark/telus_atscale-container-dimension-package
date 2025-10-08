@@ -1,7 +1,7 @@
 unique_name: nr-pscell-change-refused-with-mcg-mobility-cause-or-message-not
 object_type: dataset
 label: nr-pscell-change-refused-with-mcg-mobility-cause-or-message-not
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-pscell-change-refused-with-mcg-mobility-cause-or-message-not-compatible-with-receiver-state-cause-per-cell-with-du-identifier-view
 incremental:
   column: init_time

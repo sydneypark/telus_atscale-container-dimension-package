@@ -1,7 +1,7 @@
 unique_name: lte-pdcp-packet-per-plmn-per-prc
 object_type: dataset
 label: lte-pdcp-packet-per-plmn-per-prc
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-pdcp-packet-per-plmn-per-prc-view
 incremental:
   column: init_time

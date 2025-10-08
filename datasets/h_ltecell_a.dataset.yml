@@ -1,7 +1,7 @@
 unique_name: h_ltecell_a.dataset
 object_type: dataset
 label: h_ltecell_a.dataset
-connection_id: con1
+connection_id: telus_test
 table: h_ltecell_a
 incremental:
   column: INIT_TIME

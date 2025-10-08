@@ -1,7 +1,7 @@
 unique_name: lte-sgnb-release-due-to-re-establishment
 object_type: dataset
 label: lte-sgnb-release-due-to-re-establishment
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-sgnb-release-due-to-re-establishment-view
 incremental:
   column: init_time

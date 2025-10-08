@@ -1,7 +1,7 @@
 unique_name: lte-energy-saving-time-by-dl-mimo-tx-branch-off
 object_type: dataset
 label: lte-energy-saving-time-by-dl-mimo-tx-branch-off
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-energy-saving-time-by-dl-mimo-tx-branch-off-view
 incremental:
   column: init_time

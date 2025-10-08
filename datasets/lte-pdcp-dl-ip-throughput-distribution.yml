@@ -1,7 +1,7 @@
 unique_name: lte-pdcp-dl-ip-throughput-distribution
 object_type: dataset
 label: lte-pdcp-dl-ip-throughput-distribution
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-pdcp-dl-ip-throughput-distribution-view
 incremental:
   column: init_time

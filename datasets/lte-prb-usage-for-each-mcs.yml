@@ -1,7 +1,7 @@
 unique_name: lte-prb-usage-for-each-mcs
 object_type: dataset
 label: lte-prb-usage-for-each-mcs
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-prb-usage-for-each-mcs-view
 incremental:
   column: init_time

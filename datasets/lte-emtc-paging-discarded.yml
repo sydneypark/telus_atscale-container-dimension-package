@@ -1,7 +1,7 @@
 unique_name: lte-emtc-paging-discarded
 object_type: dataset
 label: lte-emtc-paging-discarded
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-emtc-paging-discarded-view
 incremental:
   column: init_time

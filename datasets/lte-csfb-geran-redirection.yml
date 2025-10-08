@@ -1,7 +1,7 @@
 unique_name: lte-csfb-geran-redirection
 object_type: dataset
 label: lte-csfb-geran-redirection
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-csfb-geran-redirection-view
 incremental:
   column: init_time

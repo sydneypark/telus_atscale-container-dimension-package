@@ -1,7 +1,7 @@
 unique_name: lte-inter-rat-mro-for-nr
 object_type: dataset
 label: lte-inter-rat-mro-for-nr
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-inter-rat-mro-for-nr-view
 incremental:
   column: init_time

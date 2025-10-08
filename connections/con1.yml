@@ -1,6 +1,0 @@
-unique_name: con1
-label: con1
-object_type: connection
-as_connection: Bigquery-Ci-Pipeline
-database: ci-pipeline-199520
-schema: Ram_Telus_10_23

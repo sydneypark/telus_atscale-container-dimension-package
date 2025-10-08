@@ -2,5 +2,5 @@ unique_name: BQ.connection
 label: BQ
 object_type: connection
 as_connection: wade_bigq
-database: tu-nfv-cte-wddt-01-pr
-schema: pm_huawei
+database: ci-pipeline-199520
+schema: Ram_Telus_10_23

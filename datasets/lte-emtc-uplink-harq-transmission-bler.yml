@@ -1,7 +1,7 @@
 unique_name: lte-emtc-uplink-harq-transmission-bler
 object_type: dataset
 label: lte-emtc-uplink-harq-transmission-bler
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-emtc-uplink-harq-transmission-bler-view
 incremental:
   column: init_time

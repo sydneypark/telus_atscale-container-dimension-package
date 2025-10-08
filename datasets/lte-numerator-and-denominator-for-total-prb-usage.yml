@@ -1,7 +1,7 @@
 unique_name: lte-numerator-and-denominator-for-total-prb-usage
 object_type: dataset
 label: lte-numerator-and-denominator-for-total-prb-usage
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-numerator-and-denominator-for-total-prb-usage-view
 incremental:
   column: init_time

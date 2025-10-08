@@ -1,7 +1,7 @@
 unique_name: lte-total-prb-usage-per-plmn
 object_type: dataset
 label: lte-total-prb-usage-per-plmn
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-total-prb-usage-per-plmn-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-pdcp-loss-drop-dl-ip-throughput-pdcp-per-plmn-per-prc
 object_type: dataset
 label: lte-pdcp-loss-drop-dl-ip-throughput-pdcp-per-plmn-per-prc
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-pdcp-loss-drop-dl-ip-throughput-pdcp-per-plmn-per-prc-view
 incremental:
   column: init_time

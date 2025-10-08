@@ -1,7 +1,7 @@
 unique_name: lte-tm9-capable-rrc-connection-number
 object_type: dataset
 label: lte-tm9-capable-rrc-connection-number
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-tm9-capable-rrc-connection-number-view
 incremental:
   column: init_time

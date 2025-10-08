@@ -1,7 +1,7 @@
 unique_name: lte-volte-and-carrier-aggregation-addition-information
 object_type: dataset
 label: lte-volte-and-carrier-aggregation-addition-information
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-volte-and-carrier-aggregation-addition-information-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-pdcp-packet-per-cell-identity-per-plmn-per-qci
 object_type: dataset
 label: nr-pdcp-packet-per-cell-identity-per-plmn-per-qci
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-pdcp-packet-per-cell-identity-per-plmn-per-qci-view
 incremental:
   column: init_time

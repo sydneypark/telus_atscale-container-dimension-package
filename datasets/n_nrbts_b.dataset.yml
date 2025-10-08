@@ -1,7 +1,7 @@
 unique_name: n_nrbts_b.dataset
 object_type: dataset
 label: n_nrbts_b.dataset
-connection_id: con1
+connection_id: telus_test
 table: n_nrbts_b
 incremental:
   column: INIT_TIME

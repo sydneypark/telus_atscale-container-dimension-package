@@ -1,7 +1,7 @@
 unique_name: lte-bin-distribution-of-sinr-for-ul-volte-bearer
 object_type: dataset
 label: lte-bin-distribution-of-sinr-for-ul-volte-bearer
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-bin-distribution-of-sinr-for-ul-volte-bearer-view
 incremental:
   column: init_time

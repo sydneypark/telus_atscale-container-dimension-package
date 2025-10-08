@@ -1,7 +1,7 @@
 unique_name: nr-admission-control-fail
 object_type: dataset
 label: nr-admission-control-fail
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-admission-control-fail-view
 incremental:
   column: init_time

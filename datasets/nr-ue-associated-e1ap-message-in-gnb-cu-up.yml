@@ -1,7 +1,7 @@
 unique_name: nr-ue-associated-e1ap-message-in-gnb-cu-up
 object_type: dataset
 label: nr-ue-associated-e1ap-message-in-gnb-cu-up
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-ue-associated-e1ap-message-in-gnb-cu-up-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-dl-tbsize-for-modulation
 object_type: dataset
 label: lte-dl-tbsize-for-modulation
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-dl-tbsize-for-modulation-view
 incremental:
   column: init_time

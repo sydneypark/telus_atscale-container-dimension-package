@@ -1,7 +1,7 @@
 unique_name: lte-ping-pong-handover-classification
 object_type: dataset
 label: lte-ping-pong-handover-classification
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-ping-pong-handover-classification-view
 incremental:
   column: init_time

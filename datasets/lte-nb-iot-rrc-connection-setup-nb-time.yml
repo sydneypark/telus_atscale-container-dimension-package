@@ -1,7 +1,7 @@
 unique_name: lte-nb-iot-rrc-connection-setup-nb-time
 object_type: dataset
 label: lte-nb-iot-rrc-connection-setup-nb-time
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-nb-iot-rrc-connection-setup-nb-time-view
 incremental:
   column: init_time

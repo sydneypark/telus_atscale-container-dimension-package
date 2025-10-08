@@ -1,7 +1,7 @@
 unique_name: nr-security-algorithm-nia0-nea0-activation-result-with-global-i
 object_type: dataset
 label: nr-security-algorithm-nia0-nea0-activation-result-with-global-i
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-security-algorithm-nia0-nea0-activation-result-with-global-identifier-with-du-identifier-view
 incremental:
   column: init_time

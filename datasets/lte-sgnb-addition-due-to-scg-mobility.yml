@@ -1,7 +1,7 @@
 unique_name: lte-sgnb-addition-due-to-scg-mobility
 object_type: dataset
 label: lte-sgnb-addition-due-to-scg-mobility
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-sgnb-addition-due-to-scg-mobility-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-ul-256qam-active
 object_type: dataset
 label: lte-ul-256qam-active
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-ul-256qam-active-view
 incremental:
   column: init_time

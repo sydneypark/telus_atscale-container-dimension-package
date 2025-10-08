@@ -1,7 +1,7 @@
 unique_name: lte-dss-related-information
 object_type: dataset
 label: lte-dss-related-information
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-dss-related-information-view
 incremental:
   column: init_time

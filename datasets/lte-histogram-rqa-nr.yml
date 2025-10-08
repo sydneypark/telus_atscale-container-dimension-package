@@ -1,7 +1,7 @@
 unique_name: lte-histogram-rqa-nr
 object_type: dataset
 label: lte-histogram-rqa-nr
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-histogram-rqa-nr-view
 incremental:
   column: init_time

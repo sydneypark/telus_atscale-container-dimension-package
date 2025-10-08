@@ -1,7 +1,7 @@
 unique_name: nr-inter-sn-pscell-change-per-gnb
 object_type: dataset
 label: nr-inter-sn-pscell-change-per-gnb
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-inter-sn-pscell-change-per-gnb-view
 incremental:
   column: init_time

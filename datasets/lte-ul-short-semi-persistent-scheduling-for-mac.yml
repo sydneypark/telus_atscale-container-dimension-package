@@ -1,7 +1,7 @@
 unique_name: lte-ul-short-semi-persistent-scheduling-for-mac
 object_type: dataset
 label: lte-ul-short-semi-persistent-scheduling-for-mac
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-ul-short-semi-persistent-scheduling-for-mac-view
 incremental:
   column: init_time

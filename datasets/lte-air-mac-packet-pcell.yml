@@ -1,7 +1,7 @@
 unique_name: lte-air-mac-packet-pcell
 object_type: dataset
 label: lte-air-mac-packet-pcell
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-air-mac-packet-pcell-view
 incremental:
   column: init_time

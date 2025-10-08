@@ -1,7 +1,7 @@
 unique_name: lte-gtp-forward-traffic
 object_type: dataset
 label: lte-gtp-forward-traffic
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-gtp-forward-traffic-view
 incremental:
   column: init_time

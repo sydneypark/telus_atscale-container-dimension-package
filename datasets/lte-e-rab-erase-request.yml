@@ -1,7 +1,7 @@
 unique_name: lte-e-rab-erase-request
 object_type: dataset
 label: lte-e-rab-erase-request
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-e-rab-erase-request-view
 incremental:
   column: init_time

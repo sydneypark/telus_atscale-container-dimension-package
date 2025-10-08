@@ -1,7 +1,7 @@
 unique_name: lte-inter-frequency-handover-for-en-dc
 object_type: dataset
 label: lte-inter-frequency-handover-for-en-dc
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-inter-frequency-handover-for-en-dc-view
 incremental:
   column: init_time

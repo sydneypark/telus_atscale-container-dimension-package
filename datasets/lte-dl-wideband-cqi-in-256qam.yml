@@ -1,7 +1,7 @@
 unique_name: lte-dl-wideband-cqi-in-256qam
 object_type: dataset
 label: lte-dl-wideband-cqi-in-256qam
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-dl-wideband-cqi-in-256qam-view
 incremental:
   column: init_time

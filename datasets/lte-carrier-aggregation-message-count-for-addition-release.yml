@@ -1,7 +1,7 @@
 unique_name: lte-carrier-aggregation-message-count-for-addition-release
 object_type: dataset
 label: lte-carrier-aggregation-message-count-for-addition-release
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-carrier-aggregation-message-count-for-addition-release-view
 incremental:
   column: init_time

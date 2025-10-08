@@ -1,7 +1,7 @@
 unique_name: lte-active-tm9-ue-number
 object_type: dataset
 label: lte-active-tm9-ue-number
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-active-tm9-ue-number-view
 incremental:
   column: init_time

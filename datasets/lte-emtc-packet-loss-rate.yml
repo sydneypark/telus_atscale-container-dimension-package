@@ -1,7 +1,7 @@
 unique_name: lte-emtc-packet-loss-rate
 object_type: dataset
 label: lte-emtc-packet-loss-rate
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-emtc-packet-loss-rate-view
 incremental:
   column: init_time

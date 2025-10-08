@@ -1,7 +1,7 @@
 unique_name: nr-du-power-consumption
 object_type: dataset
 label: nr-du-power-consumption
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-du-power-consumption-view
 incremental:
   column: init_time

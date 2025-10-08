@@ -1,7 +1,7 @@
 unique_name: nr-nr-handover-outgoing
 object_type: dataset
 label: nr-nr-handover-outgoing
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-nr-handover-outgoing-view
 incremental:
   column: init_time

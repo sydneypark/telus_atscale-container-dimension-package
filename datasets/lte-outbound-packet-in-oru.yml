@@ -1,7 +1,7 @@
 unique_name: lte-outbound-packet-in-oru
 object_type: dataset
 label: lte-outbound-packet-in-oru
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-outbound-packet-in-oru-view
 incremental:
   column: init_time

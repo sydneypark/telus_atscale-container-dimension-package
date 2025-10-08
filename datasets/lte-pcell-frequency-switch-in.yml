@@ -1,7 +1,7 @@
 unique_name: lte-pcell-frequency-switch-in
 object_type: dataset
 label: lte-pcell-frequency-switch-in
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-pcell-frequency-switch-in-view
 incremental:
   column: init_time

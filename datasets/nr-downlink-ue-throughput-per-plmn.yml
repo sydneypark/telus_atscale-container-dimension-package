@@ -1,7 +1,7 @@
 unique_name: nr-downlink-ue-throughput-per-plmn
 object_type: dataset
 label: nr-downlink-ue-throughput-per-plmn
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-downlink-ue-throughput-per-plmn-view
 incremental:
   column: init_time

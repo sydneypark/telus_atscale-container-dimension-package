@@ -1,7 +1,7 @@
 unique_name: lte-cqi-for-dl-volte-bearer
 object_type: dataset
 label: lte-cqi-for-dl-volte-bearer
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-cqi-for-dl-volte-bearer-view
 incremental:
   column: init_time

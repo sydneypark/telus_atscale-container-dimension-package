@@ -1,7 +1,7 @@
 unique_name: lte-resource-per-pod
 object_type: dataset
 label: lte-resource-per-pod
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-resource-per-pod-view
 incremental:
   column: init_time

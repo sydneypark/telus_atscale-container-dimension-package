@@ -1,7 +1,7 @@
 unique_name: lte-supplementary-counters-for-d-cran-inter-site-scell-activati
 object_type: dataset
 label: lte-supplementary-counters-for-d-cran-inter-site-scell-activati
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-supplementary-counters-for-d-cran-inter-site-scell-activation-view
 incremental:
   column: init_time

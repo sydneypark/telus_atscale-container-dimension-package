@@ -1,7 +1,7 @@
 unique_name: lte-sinr-distribution
 object_type: dataset
 label: lte-sinr-distribution
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-sinr-distribution-view
 incremental:
   column: init_time

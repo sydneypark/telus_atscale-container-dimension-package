@@ -1,7 +1,7 @@
 unique_name: lte-ca-ue-per-bpu
 object_type: dataset
 label: lte-ca-ue-per-bpu
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-ca-ue-per-bpu-view
 incremental:
   column: init_time

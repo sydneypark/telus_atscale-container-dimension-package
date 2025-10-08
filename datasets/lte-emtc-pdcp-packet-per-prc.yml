@@ -1,7 +1,7 @@
 unique_name: lte-emtc-pdcp-packet-per-prc
 object_type: dataset
 label: lte-emtc-pdcp-packet-per-prc
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-emtc-pdcp-packet-per-prc-view
 incremental:
   column: init_time

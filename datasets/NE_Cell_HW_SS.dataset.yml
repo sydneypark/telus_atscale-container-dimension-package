@@ -1,7 +1,7 @@
 unique_name: NE_Cell_HW_SS.dataset
 object_type: dataset
 label: NE_Cell_HW_SS.dataset
-connection_id: con1
+connection_id: telus_test
 table: NE_Cell_HW_SS
 immutable: true
 

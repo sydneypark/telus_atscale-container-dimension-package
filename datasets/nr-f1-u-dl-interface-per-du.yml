@@ -1,7 +1,7 @@
 unique_name: nr-f1-u-dl-interface-per-du
 object_type: dataset
 label: nr-f1-u-dl-interface-per-du
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-f1-u-dl-interface-per-du-view
 incremental:
   column: init_time

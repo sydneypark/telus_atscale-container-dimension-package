@@ -1,7 +1,7 @@
 unique_name: lte-rssi-of-each-path-measured-by-mac
 object_type: dataset
 label: lte-rssi-of-each-path-measured-by-mac
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-rssi-of-each-path-measured-by-mac-view
 incremental:
   column: init_time

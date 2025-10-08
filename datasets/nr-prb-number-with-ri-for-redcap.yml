@@ -1,7 +1,7 @@
 unique_name: nr-prb-number-with-ri-for-redcap
 object_type: dataset
 label: nr-prb-number-with-ri-for-redcap
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-prb-number-with-ri-for-redcap-view
 incremental:
   column: init_time

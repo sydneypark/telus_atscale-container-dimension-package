@@ -1,7 +1,7 @@
 unique_name: lte-outgoing-frequency-priority-based-handover
 object_type: dataset
 label: lte-outgoing-frequency-priority-based-handover
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-outgoing-frequency-priority-based-handover-view
 incremental:
   column: init_time

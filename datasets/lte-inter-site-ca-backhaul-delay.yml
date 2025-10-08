@@ -1,7 +1,7 @@
 unique_name: lte-inter-site-ca-backhaul-delay
 object_type: dataset
 label: lte-inter-site-ca-backhaul-delay
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-inter-site-ca-backhaul-delay-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-dc-ran-ue-number-in-gnb-du
 object_type: dataset
 label: nr-dc-ran-ue-number-in-gnb-du
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-dc-ran-ue-number-in-gnb-du-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-uplink-multi-user-mimo
 object_type: dataset
 label: lte-uplink-multi-user-mimo
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-uplink-multi-user-mimo-view
 incremental:
   column: init_time

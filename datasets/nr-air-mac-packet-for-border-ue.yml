@@ -1,7 +1,7 @@
 unique_name: nr-air-mac-packet-for-border-ue
 object_type: dataset
 label: nr-air-mac-packet-for-border-ue
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-air-mac-packet-for-border-ue-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-intra-nr-inter-frequency-outgoing-handover-with-du-identifie
 object_type: dataset
 label: nr-intra-nr-inter-frequency-outgoing-handover-with-du-identifie
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-intra-nr-inter-frequency-outgoing-handover-with-du-identifier-view
 incremental:
   column: init_time

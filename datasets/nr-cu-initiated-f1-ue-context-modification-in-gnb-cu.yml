@@ -1,7 +1,7 @@
 unique_name: nr-cu-initiated-f1-ue-context-modification-in-gnb-cu
 object_type: dataset
 label: nr-cu-initiated-f1-ue-context-modification-in-gnb-cu
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-cu-initiated-f1-ue-context-modification-in-gnb-cu-view
 incremental:
   column: init_time

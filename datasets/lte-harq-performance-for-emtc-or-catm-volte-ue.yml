@@ -1,7 +1,7 @@
 unique_name: lte-harq-performance-for-emtc-or-catm-volte-ue
 object_type: dataset
 label: lte-harq-performance-for-emtc-or-catm-volte-ue
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-harq-performance-for-emtc-or-catm-volte-ue-view
 incremental:
   column: init_time

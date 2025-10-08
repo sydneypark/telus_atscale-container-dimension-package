@@ -1,7 +1,7 @@
 unique_name: lte-upm-rlf-classification
 object_type: dataset
 label: lte-upm-rlf-classification
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-upm-rlf-classification-view
 incremental:
   column: init_time

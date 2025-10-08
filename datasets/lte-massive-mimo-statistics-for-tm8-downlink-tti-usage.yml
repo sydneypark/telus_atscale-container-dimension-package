@@ -1,7 +1,7 @@
 unique_name: lte-massive-mimo-statistics-for-tm8-downlink-tti-usage
 object_type: dataset
 label: lte-massive-mimo-statistics-for-tm8-downlink-tti-usage
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-massive-mimo-statistics-for-tm8-downlink-tti-usage-view
 incremental:
   column: init_time

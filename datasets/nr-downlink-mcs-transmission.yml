@@ -1,7 +1,7 @@
 unique_name: nr-downlink-mcs-transmission
 object_type: dataset
 label: nr-downlink-mcs-transmission
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-downlink-mcs-transmission-view
 incremental:
   column: init_time

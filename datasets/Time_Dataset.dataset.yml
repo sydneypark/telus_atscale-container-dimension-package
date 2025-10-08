@@ -1,7 +1,7 @@
 unique_name: Time_Dataset.dataset
 object_type: dataset
 label: Time_Dataset.dataset
-connection_id: con1
+connection_id: telus_test
 table: Time_Dataset
 immutable: true
 

@@ -1,7 +1,7 @@
 unique_name: nr-sgnb-initiated-sgnb-release-by-measurement-report-per-g-1
 object_type: dataset
 label: nr-sgnb-initiated-sgnb-release-by-measurement-report-per-g-1
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-sgnb-initiated-sgnb-release-by-measurement-report-per-gnb-view
 incremental:
   column: init_time

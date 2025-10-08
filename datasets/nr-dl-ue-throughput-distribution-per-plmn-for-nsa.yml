@@ -1,7 +1,7 @@
 unique_name: nr-dl-ue-throughput-distribution-per-plmn-for-nsa
 object_type: dataset
 label: nr-dl-ue-throughput-distribution-per-plmn-for-nsa
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-dl-ue-throughput-distribution-per-plmn-for-nsa-view
 incremental:
   column: init_time

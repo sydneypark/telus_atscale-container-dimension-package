@@ -1,7 +1,7 @@
 unique_name: nr-ue-associated-logical-ng-connection-establishment-per-plmn-w
 object_type: dataset
 label: nr-ue-associated-logical-ng-connection-establishment-per-plmn-w
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-ue-associated-logical-ng-connection-establishment-per-plmn-with-du-identifier-view
 incremental:
   column: init_time

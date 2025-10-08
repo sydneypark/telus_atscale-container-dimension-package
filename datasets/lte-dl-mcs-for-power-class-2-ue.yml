@@ -1,7 +1,7 @@
 unique_name: lte-dl-mcs-for-power-class-2-ue
 object_type: dataset
 label: lte-dl-mcs-for-power-class-2-ue
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-dl-mcs-for-power-class-2-ue-view
 incremental:
   column: init_time

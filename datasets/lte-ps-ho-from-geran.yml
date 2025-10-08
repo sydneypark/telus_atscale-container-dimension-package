@@ -1,7 +1,7 @@
 unique_name: lte-ps-ho-from-geran
 object_type: dataset
 label: lte-ps-ho-from-geran
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-ps-ho-from-geran-view
 incremental:
   column: init_time

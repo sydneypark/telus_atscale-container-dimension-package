@@ -1,7 +1,7 @@
 unique_name: lte-nb-iot-npdsch-harq-transmission-times
 object_type: dataset
 label: lte-nb-iot-npdsch-harq-transmission-times
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-nb-iot-npdsch-harq-transmission-times-view
 incremental:
   column: init_time

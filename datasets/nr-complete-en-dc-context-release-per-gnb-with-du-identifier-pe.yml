@@ -1,7 +1,7 @@
 unique_name: nr-complete-en-dc-context-release-per-gnb-with-du-identifier-pe
 object_type: dataset
 label: nr-complete-en-dc-context-release-per-gnb-with-du-identifier-pe
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-complete-en-dc-context-release-per-gnb-with-du-identifier-per-plmn-view
 incremental:
   column: init_time

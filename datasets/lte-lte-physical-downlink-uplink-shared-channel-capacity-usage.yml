@@ -1,7 +1,7 @@
 unique_name: lte-lte-physical-downlink-uplink-shared-channel-capacity-usage
 object_type: dataset
 label: lte-lte-physical-downlink-uplink-shared-channel-capacity-usage
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-lte-physical-downlink-uplink-shared-channel-capacity-usage-view
 incremental:
   column: init_time

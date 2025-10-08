@@ -1,7 +1,7 @@
 unique_name: lte-mac-counter-for-intersite-ca-using-nonideal-backhaul
 object_type: dataset
 label: lte-mac-counter-for-intersite-ca-using-nonideal-backhaul
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-mac-counter-for-intersite-ca-using-nonideal-backhaul-view
 incremental:
   column: init_time

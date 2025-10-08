@@ -1,7 +1,7 @@
 unique_name: lte-uplink-comp-joint-reception
 object_type: dataset
 label: lte-uplink-comp-joint-reception
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-uplink-comp-joint-reception-view
 incremental:
   column: init_time

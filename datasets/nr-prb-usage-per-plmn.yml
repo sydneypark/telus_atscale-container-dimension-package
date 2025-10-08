@@ -1,7 +1,7 @@
 unique_name: nr-prb-usage-per-plmn
 object_type: dataset
 label: nr-prb-usage-per-plmn
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-prb-usage-per-plmn-view
 incremental:
   column: init_time

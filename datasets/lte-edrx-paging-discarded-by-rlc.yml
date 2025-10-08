@@ -1,7 +1,7 @@
 unique_name: lte-edrx-paging-discarded-by-rlc
 object_type: dataset
 label: lte-edrx-paging-discarded-by-rlc
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-edrx-paging-discarded-by-rlc-view
 incremental:
   column: init_time

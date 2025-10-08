@@ -1,7 +1,7 @@
 unique_name: lte-laa-channel-status
 object_type: dataset
 label: lte-laa-channel-status
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-laa-channel-status-view
 incremental:
   column: init_time

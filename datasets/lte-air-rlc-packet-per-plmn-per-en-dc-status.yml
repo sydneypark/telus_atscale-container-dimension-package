@@ -1,7 +1,7 @@
 unique_name: lte-air-rlc-packet-per-plmn-per-en-dc-status
 object_type: dataset
 label: lte-air-rlc-packet-per-plmn-per-en-dc-status
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-air-rlc-packet-per-plmn-per-en-dc-status-view
 incremental:
   column: init_time

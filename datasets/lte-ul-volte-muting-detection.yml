@@ -1,7 +1,7 @@
 unique_name: lte-ul-volte-muting-detection
 object_type: dataset
 label: lte-ul-volte-muting-detection
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-ul-volte-muting-detection-view
 incremental:
   column: init_time

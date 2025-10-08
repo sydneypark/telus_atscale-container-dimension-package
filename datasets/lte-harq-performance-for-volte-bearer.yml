@@ -1,7 +1,7 @@
 unique_name: lte-harq-performance-for-volte-bearer
 object_type: dataset
 label: lte-harq-performance-for-volte-bearer
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-harq-performance-for-volte-bearer-view
 incremental:
   column: init_time

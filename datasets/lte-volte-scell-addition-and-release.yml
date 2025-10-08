@@ -1,7 +1,7 @@
 unique_name: lte-volte-scell-addition-and-release
 object_type: dataset
 label: lte-volte-scell-addition-and-release
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-volte-scell-addition-and-release-view
 incremental:
   column: init_time

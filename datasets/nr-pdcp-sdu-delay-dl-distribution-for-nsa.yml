@@ -1,7 +1,7 @@
 unique_name: nr-pdcp-sdu-delay-dl-distribution-for-nsa
 object_type: dataset
 label: nr-pdcp-sdu-delay-dl-distribution-for-nsa
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-pdcp-sdu-delay-dl-distribution-for-nsa-view
 incremental:
   column: init_time

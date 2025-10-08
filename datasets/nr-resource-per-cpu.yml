@@ -1,7 +1,7 @@
 unique_name: nr-resource-per-cpu
 object_type: dataset
 label: nr-resource-per-cpu
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-nr-resource-per-cpu-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-active-ue-number-including-en-dc-configured-ue-only
 object_type: dataset
 label: lte-active-ue-number-including-en-dc-configured-ue-only
-connection_id: con1
+connection_id: telus_test
 table: telus-pm-samsung-lte-active-ue-number-including-en-dc-configured-ue-only-view
 incremental:
   column: init_time
