@@ -1,7 +1,7 @@
 unique_name: nr-rrc-connection-establishment
 object_type: dataset
 label: nr-rrc-connection-establishment
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-rrc-connection-establishment-view
 incremental:
   column: init_time

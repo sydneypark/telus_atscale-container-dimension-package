@@ -1,7 +1,7 @@
 unique_name: lte-nb-iot-context-release-by-mme-and-enb-per-cell-per-ce-level
 object_type: dataset
 label: lte-nb-iot-context-release-by-mme-and-enb-per-cell-per-ce-level
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-nb-iot-context-release-by-mme-and-enb-per-cell-per-ce-level-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-energy-power-and-environmental-statistics-of-mplane
 object_type: dataset
 label: nr-energy-power-and-environmental-statistics-of-mplane
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-energy-power-and-environmental-statistics-of-mplane-view
 incremental:
   column: init_time

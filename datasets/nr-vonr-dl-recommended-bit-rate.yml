@@ -1,7 +1,7 @@
 unique_name: nr-vonr-dl-recommended-bit-rate
 object_type: dataset
 label: nr-vonr-dl-recommended-bit-rate
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-vonr-dl-recommended-bit-rate-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-emtc-pdcp-drop-rate-per-prc
 object_type: dataset
 label: lte-emtc-pdcp-drop-rate-per-prc
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-emtc-pdcp-drop-rate-per-prc-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-pdcp-ul-throughput-distribution-per-prc
 object_type: dataset
 label: lte-pdcp-ul-throughput-distribution-per-prc
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-pdcp-ul-throughput-distribution-per-prc-view
 incremental:
   column: init_time

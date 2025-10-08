@@ -1,7 +1,7 @@
 unique_name: nr-downlink-wideband-cqi-as-scell
 object_type: dataset
 label: nr-downlink-wideband-cqi-as-scell
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-downlink-wideband-cqi-as-scell-view
 incremental:
   column: init_time

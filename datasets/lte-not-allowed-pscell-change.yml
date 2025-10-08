@@ -1,7 +1,7 @@
 unique_name: lte-not-allowed-pscell-change
 object_type: dataset
 label: lte-not-allowed-pscell-change
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-not-allowed-pscell-change-view
 incremental:
   column: init_time

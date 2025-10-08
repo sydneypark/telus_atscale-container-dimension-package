@@ -1,7 +1,7 @@
 unique_name: h_nrcell_a.dataset
 object_type: dataset
 label: h_nrcell_a.dataset
-connection_id: BQ.connection
+connection_id: con1
 table: h_nrcell_a
 incremental:
   column: INIT_TIME

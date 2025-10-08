@@ -1,7 +1,7 @@
 unique_name: lte-lte-call-context-per-bpu
 object_type: dataset
 label: lte-lte-call-context-per-bpu
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-lte-call-context-per-bpu-view
 incremental:
   column: init_time

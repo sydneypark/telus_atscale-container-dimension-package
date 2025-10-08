@@ -1,7 +1,7 @@
 unique_name: lte-volte-handover-time
 object_type: dataset
 label: lte-volte-handover-time
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-volte-handover-time-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-ue-associated-logical-s1-connection-establishment
 object_type: dataset
 label: lte-ue-associated-logical-s1-connection-establishment
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-ue-associated-logical-s1-connection-establishment-view
 incremental:
   column: init_time

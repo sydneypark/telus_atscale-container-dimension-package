@@ -1,7 +1,7 @@
 unique_name: nr-rohc-for-sa
 object_type: dataset
 label: nr-rohc-for-sa
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-rohc-for-sa-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-ca-ue-per-number-of-cc
 object_type: dataset
 label: lte-ca-ue-per-number-of-cc
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-ca-ue-per-number-of-cc-view
 incremental:
   column: init_time

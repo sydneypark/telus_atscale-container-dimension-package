@@ -1,7 +1,7 @@
 unique_name: lte-outgoing-intra-frequency-handover-per-plmn
 object_type: dataset
 label: lte-outgoing-intra-frequency-handover-per-plmn
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-outgoing-intra-frequency-handover-per-plmn-view
 incremental:
   column: init_time

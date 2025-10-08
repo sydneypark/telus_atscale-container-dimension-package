@@ -1,7 +1,7 @@
 unique_name: Time_Dataset.dataset
 object_type: dataset
 label: Time_Dataset.dataset
-connection_id: BQ_NE_Cell.connection
+connection_id: con1
 table: Time_Dataset
 immutable: true
 

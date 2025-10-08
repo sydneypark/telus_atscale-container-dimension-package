@@ -1,7 +1,7 @@
 unique_name: lte-emtc-mpdcch-allocation
 object_type: dataset
 label: lte-emtc-mpdcch-allocation
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-emtc-mpdcch-allocation-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-pusch-sinr-distribution-per-bin
 object_type: dataset
 label: nr-pusch-sinr-distribution-per-bin
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-pusch-sinr-distribution-per-bin-view
 incremental:
   column: init_time

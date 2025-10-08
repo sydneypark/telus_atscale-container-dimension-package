@@ -1,7 +1,7 @@
 unique_name: lte-du-power-consumption
 object_type: dataset
 label: lte-du-power-consumption
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-du-power-consumption-view
 incremental:
   column: init_time

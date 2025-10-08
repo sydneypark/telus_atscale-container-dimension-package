@@ -1,7 +1,7 @@
 unique_name: lte-nb-iot-ip-latency
 object_type: dataset
 label: lte-nb-iot-ip-latency
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-nb-iot-ip-latency-view
 incremental:
   column: init_time

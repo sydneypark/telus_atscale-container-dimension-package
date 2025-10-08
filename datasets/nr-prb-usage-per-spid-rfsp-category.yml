@@ -1,7 +1,7 @@
 unique_name: nr-prb-usage-per-spid-rfsp-category
 object_type: dataset
 label: nr-prb-usage-per-spid-rfsp-category
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-prb-usage-per-spid-rfsp-category-view
 incremental:
   column: init_time

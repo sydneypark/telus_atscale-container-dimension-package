@@ -1,7 +1,7 @@
 unique_name: lte-pdcp-ip-tp-statistics-for-last-tti
 object_type: dataset
 label: lte-pdcp-ip-tp-statistics-for-last-tti
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-pdcp-ip-tp-statistics-for-last-tti-view
 incremental:
   column: init_time

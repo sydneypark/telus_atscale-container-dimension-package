@@ -1,7 +1,7 @@
 unique_name: lte-en-dc-addition-information-per-nr-ncr
 object_type: dataset
 label: lte-en-dc-addition-information-per-nr-ncr
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-en-dc-addition-information-per-nr-ncr-view
 incremental:
   column: init_time

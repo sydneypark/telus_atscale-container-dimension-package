@@ -1,7 +1,7 @@
 unique_name: lte-energy-saving-feature-orchestration
 object_type: dataset
 label: lte-energy-saving-feature-orchestration
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-energy-saving-feature-orchestration-view
 incremental:
   column: init_time

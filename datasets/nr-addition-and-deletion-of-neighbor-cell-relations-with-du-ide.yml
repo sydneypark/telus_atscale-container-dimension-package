@@ -1,7 +1,7 @@
 unique_name: nr-addition-and-deletion-of-neighbor-cell-relations-with-du-ide
 object_type: dataset
 label: nr-addition-and-deletion-of-neighbor-cell-relations-with-du-ide
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-addition-and-deletion-of-neighbor-cell-relations-with-du-identifier-view
 incremental:
   column: init_time

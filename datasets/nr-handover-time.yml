@@ -1,7 +1,7 @@
 unique_name: nr-handover-time
 object_type: dataset
 label: nr-handover-time
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-handover-time-view
 incremental:
   column: init_time

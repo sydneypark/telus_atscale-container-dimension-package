@@ -1,7 +1,7 @@
 unique_name: lte-ondemand-handover-s1-out
 object_type: dataset
 label: lte-ondemand-handover-s1-out
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-ondemand-handover-s1-out-view
 incremental:
   column: init_time

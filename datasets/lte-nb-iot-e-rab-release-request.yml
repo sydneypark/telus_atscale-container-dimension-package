@@ -1,7 +1,7 @@
 unique_name: lte-nb-iot-e-rab-release-request
 object_type: dataset
 label: lte-nb-iot-e-rab-release-request
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-nb-iot-e-rab-release-request-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-utran-mro-with-connection-failure
 object_type: dataset
 label: lte-utran-mro-with-connection-failure
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-utran-mro-with-connection-failure-view
 incremental:
   column: init_time

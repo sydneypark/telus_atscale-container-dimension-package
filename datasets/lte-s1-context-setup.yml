@@ -1,7 +1,7 @@
 unique_name: lte-s1-context-setup
 object_type: dataset
 label: lte-s1-context-setup
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-s1-context-setup-view
 incremental:
   column: init_time

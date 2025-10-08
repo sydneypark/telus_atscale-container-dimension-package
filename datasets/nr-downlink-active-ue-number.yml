@@ -1,7 +1,7 @@
 unique_name: nr-downlink-active-ue-number
 object_type: dataset
 label: nr-downlink-active-ue-number
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-downlink-active-ue-number-view
 incremental:
   column: init_time

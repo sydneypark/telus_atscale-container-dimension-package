@@ -1,7 +1,7 @@
 unique_name: lte-ul-prb-per-mcs
 object_type: dataset
 label: lte-ul-prb-per-mcs
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-ul-prb-per-mcs-view
 incremental:
   column: init_time

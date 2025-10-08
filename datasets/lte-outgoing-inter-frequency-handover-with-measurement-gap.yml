@@ -1,7 +1,7 @@
 unique_name: lte-outgoing-inter-frequency-handover-with-measurement-gap
 object_type: dataset
 label: lte-outgoing-inter-frequency-handover-with-measurement-gap
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-outgoing-inter-frequency-handover-with-measurement-gap-view
 incremental:
   column: init_time

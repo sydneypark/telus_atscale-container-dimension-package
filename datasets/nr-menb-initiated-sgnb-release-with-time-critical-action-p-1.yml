@@ -1,7 +1,7 @@
 unique_name: nr-menb-initiated-sgnb-release-with-time-critical-action-p-1
 object_type: dataset
 label: nr-menb-initiated-sgnb-release-with-time-critical-action-p-1
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-menb-initiated-sgnb-release-with-time-critical-action-per-gnb-view
 incremental:
   column: init_time

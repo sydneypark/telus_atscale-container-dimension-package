@@ -1,7 +1,7 @@
 unique_name: nr-f1u-delay-measurement-data-per-upc-id-per-gnb-du-id-per-5qi-
 object_type: dataset
 label: nr-f1u-delay-measurement-data-per-upc-id-per-gnb-du-id-per-5qi-
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-f1u-delay-measurement-data-per-upc-id-per-gnb-du-id-per-5qi-per-s-nssai-view
 incremental:
   column: init_time

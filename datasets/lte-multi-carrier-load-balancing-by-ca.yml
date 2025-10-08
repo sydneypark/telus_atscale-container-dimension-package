@@ -1,7 +1,7 @@
 unique_name: lte-multi-carrier-load-balancing-by-ca
 object_type: dataset
 label: lte-multi-carrier-load-balancing-by-ca
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-multi-carrier-load-balancing-by-ca-view
 incremental:
   column: init_time

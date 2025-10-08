@@ -1,7 +1,7 @@
 unique_name: nr-optic-delay-measurement-for-d-cran
 object_type: dataset
 label: nr-optic-delay-measurement-for-d-cran
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-optic-delay-measurement-for-d-cran-view
 incremental:
   column: init_time

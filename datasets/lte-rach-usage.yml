@@ -1,7 +1,7 @@
 unique_name: lte-rach-usage
 object_type: dataset
 label: lte-rach-usage
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-rach-usage-view
 incremental:
   column: init_time

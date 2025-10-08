@@ -1,7 +1,7 @@
 unique_name: nr-eutran-redirection-out
 object_type: dataset
 label: nr-eutran-redirection-out
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-eutran-redirection-out-view
 incremental:
   column: init_time

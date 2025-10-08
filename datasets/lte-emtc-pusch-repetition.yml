@@ -1,7 +1,7 @@
 unique_name: lte-emtc-pusch-repetition
 object_type: dataset
 label: lte-emtc-pusch-repetition
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-emtc-pusch-repetition-view
 incremental:
   column: init_time

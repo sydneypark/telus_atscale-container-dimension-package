@@ -1,7 +1,7 @@
 unique_name: nr-l1-l2-internal-statistics-in-nr
 object_type: dataset
 label: nr-l1-l2-internal-statistics-in-nr
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-l1-l2-internal-statistics-in-nr-view
 incremental:
   column: init_time

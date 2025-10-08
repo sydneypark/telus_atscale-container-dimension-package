@@ -1,7 +1,7 @@
 unique_name: lte-en-dc-split-bearer-release-information
 object_type: dataset
 label: lte-en-dc-split-bearer-release-information
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-en-dc-split-bearer-release-information-view
 incremental:
   column: init_time

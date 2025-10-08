@@ -1,7 +1,7 @@
 unique_name: lte-ul-carrier-aggregation-information
 object_type: dataset
 label: lte-ul-carrier-aggregation-information
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-ul-carrier-aggregation-information-view
 incremental:
   column: init_time

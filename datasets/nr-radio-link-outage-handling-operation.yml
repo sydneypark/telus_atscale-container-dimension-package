@@ -1,7 +1,7 @@
 unique_name: nr-radio-link-outage-handling-operation
 object_type: dataset
 label: nr-radio-link-outage-handling-operation
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-radio-link-outage-handling-operation-view
 incremental:
   column: init_time

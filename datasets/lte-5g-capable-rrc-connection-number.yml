@@ -1,7 +1,7 @@
 unique_name: lte-5g-capable-rrc-connection-number
 object_type: dataset
 label: lte-5g-capable-rrc-connection-number
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-5g-capable-rrc-connection-number-view
 incremental:
   column: init_time

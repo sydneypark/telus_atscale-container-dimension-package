@@ -1,7 +1,7 @@
 unique_name: lte-emtc-e-rab-release-by-mme-and-enb-per-cell-per-qci
 object_type: dataset
 label: lte-emtc-e-rab-release-by-mme-and-enb-per-cell-per-qci
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-emtc-e-rab-release-by-mme-and-enb-per-cell-per-qci-view
 incremental:
   column: init_time

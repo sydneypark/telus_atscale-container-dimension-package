@@ -1,7 +1,7 @@
 unique_name: lte-csfb-psho-to-geran
 object_type: dataset
 label: lte-csfb-psho-to-geran
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-csfb-psho-to-geran-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-downlink-multi-user-mimo-statistics-for-massive-mimo
 object_type: dataset
 label: lte-downlink-multi-user-mimo-statistics-for-massive-mimo
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-downlink-multi-user-mimo-statistics-for-massive-mimo-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: lte-emtc-inter-frequency-handover-in
 object_type: dataset
 label: lte-emtc-inter-frequency-handover-in
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-emtc-inter-frequency-handover-in-view
 incremental:
   column: init_time

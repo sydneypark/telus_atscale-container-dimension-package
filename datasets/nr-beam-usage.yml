@@ -1,7 +1,7 @@
 unique_name: nr-beam-usage
 object_type: dataset
 label: nr-beam-usage
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-beam-usage-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-rlc-packet
 object_type: dataset
 label: nr-rlc-packet
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-rlc-packet-view
 incremental:
   column: init_time

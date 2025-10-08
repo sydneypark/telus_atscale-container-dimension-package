@@ -1,7 +1,7 @@
 unique_name: lte-emtc-x2-in-handover
 object_type: dataset
 label: lte-emtc-x2-in-handover
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-emtc-x2-in-handover-view
 incremental:
   column: init_time

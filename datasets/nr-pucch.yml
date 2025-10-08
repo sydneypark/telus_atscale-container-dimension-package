@@ -1,7 +1,7 @@
 unique_name: nr-pucch
 object_type: dataset
 label: nr-pucch
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-pucch-view
 incremental:
   column: init_time

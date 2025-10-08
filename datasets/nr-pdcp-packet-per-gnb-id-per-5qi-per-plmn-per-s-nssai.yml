@@ -1,7 +1,7 @@
 unique_name: nr-pdcp-packet-per-gnb-id-per-5qi-per-plmn-per-s-nssai
 object_type: dataset
 label: nr-pdcp-packet-per-gnb-id-per-5qi-per-plmn-per-s-nssai
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-pdcp-packet-per-gnb-id-per-5qi-per-plmn-per-s-nssai-view
 incremental:
   column: init_time

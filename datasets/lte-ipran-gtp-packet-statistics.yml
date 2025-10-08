@@ -1,7 +1,7 @@
 unique_name: lte-ipran-gtp-packet-statistics
 object_type: dataset
 label: lte-ipran-gtp-packet-statistics
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-ipran-gtp-packet-statistics-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: bhh_nr_samsung_acpf.dataset
 object_type: dataset
 label: bhh_nr_samsung_acpf
-connection_id: ran_bhh.connection
+connection_id: con1
 table: bhh_nr_samsung_acpf
 immutable: true
 

@@ -1,7 +1,7 @@
 unique_name: nr-dl-harq-transmission-count-and-bler-for-vonr-5qi-1-bearer-se
 object_type: dataset
 label: nr-dl-harq-transmission-count-and-bler-for-vonr-5qi-1-bearer-se
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-dl-harq-transmission-count-and-bler-for-vonr-5qi-1-bearer-setup-ue-view
 incremental:
   column: init_time

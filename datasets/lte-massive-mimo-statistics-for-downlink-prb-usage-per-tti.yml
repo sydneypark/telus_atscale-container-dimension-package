@@ -1,7 +1,7 @@
 unique_name: lte-massive-mimo-statistics-for-downlink-prb-usage-per-tti
 object_type: dataset
 label: lte-massive-mimo-statistics-for-downlink-prb-usage-per-tti
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-massive-mimo-statistics-for-downlink-prb-usage-per-tti-view
 incremental:
   column: init_time

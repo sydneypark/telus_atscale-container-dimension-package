@@ -1,7 +1,7 @@
 unique_name: nr-connected-ue-number-configured-with-uplink-only-rohc-fo-4
 object_type: dataset
 label: nr-connected-ue-number-configured-with-uplink-only-rohc-fo-4
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-connected-ue-number-configured-with-uplink-only-rohc-for-sa-with-du-identifier-view
 incremental:
   column: init_time

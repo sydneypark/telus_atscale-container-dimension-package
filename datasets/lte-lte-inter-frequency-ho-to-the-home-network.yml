@@ -1,7 +1,7 @@
 unique_name: lte-lte-inter-frequency-ho-to-the-home-network
 object_type: dataset
 label: lte-lte-inter-frequency-ho-to-the-home-network
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-lte-inter-frequency-ho-to-the-home-network-view
 incremental:
   column: init_time

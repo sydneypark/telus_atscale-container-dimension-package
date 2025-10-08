@@ -1,7 +1,7 @@
 unique_name: nr-downlink-maximum-rb-limit-per-bearer
 object_type: dataset
 label: nr-downlink-maximum-rb-limit-per-bearer
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-downlink-maximum-rb-limit-per-bearer-view
 incremental:
   column: init_time

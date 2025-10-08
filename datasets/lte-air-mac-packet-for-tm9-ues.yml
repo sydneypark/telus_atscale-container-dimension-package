@@ -1,7 +1,7 @@
 unique_name: lte-air-mac-packet-for-tm9-ues
 object_type: dataset
 label: lte-air-mac-packet-for-tm9-ues
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-air-mac-packet-for-tm9-ues-view
 incremental:
   column: init_time

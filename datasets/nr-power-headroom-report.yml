@@ -1,7 +1,7 @@
 unique_name: nr-power-headroom-report
 object_type: dataset
 label: nr-power-headroom-report
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-power-headroom-report-view
 incremental:
   column: init_time

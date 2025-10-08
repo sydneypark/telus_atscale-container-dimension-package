@@ -1,7 +1,7 @@
 unique_name: nr-rssi-of-each-path-measured-by-mac
 object_type: dataset
 label: nr-rssi-of-each-path-measured-by-mac
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-rssi-of-each-path-measured-by-mac-view
 incremental:
   column: init_time

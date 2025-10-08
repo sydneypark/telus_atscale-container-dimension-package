@@ -1,7 +1,7 @@
 unique_name: lte-commercial-mobile-alert-system
 object_type: dataset
 label: lte-commercial-mobile-alert-system
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-commercial-mobile-alert-system-view
 incremental:
   column: init_time

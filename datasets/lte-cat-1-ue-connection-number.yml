@@ -1,7 +1,7 @@
 unique_name: lte-cat-1-ue-connection-number
 object_type: dataset
 label: lte-cat-1-ue-connection-number
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-cat-1-ue-connection-number-view
 incremental:
   column: init_time

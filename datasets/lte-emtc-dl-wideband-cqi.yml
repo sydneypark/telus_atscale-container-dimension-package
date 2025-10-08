@@ -1,7 +1,7 @@
 unique_name: lte-emtc-dl-wideband-cqi
 object_type: dataset
 label: lte-emtc-dl-wideband-cqi
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-emtc-dl-wideband-cqi-view
 incremental:
   column: init_time

@@ -1,7 +1,7 @@
 unique_name: nr-drb-connection-number-per-gnb-per-plmn
 object_type: dataset
 label: nr-drb-connection-number-per-gnb-per-plmn
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-drb-connection-number-per-gnb-per-plmn-view
 incremental:
   column: init_time

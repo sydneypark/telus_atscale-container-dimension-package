@@ -1,7 +1,7 @@
 unique_name: lte-ue-context-release-by-double-s1
 object_type: dataset
 label: lte-ue-context-release-by-double-s1
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-ue-context-release-by-double-s1-view
 incremental:
   column: init_time

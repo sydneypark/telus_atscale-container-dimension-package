@@ -1,7 +1,7 @@
 unique_name: lte-emtc-2nd-nb-state
 object_type: dataset
 label: lte-emtc-2nd-nb-state
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-emtc-2nd-nb-state-view
 incremental:
   column: init_time

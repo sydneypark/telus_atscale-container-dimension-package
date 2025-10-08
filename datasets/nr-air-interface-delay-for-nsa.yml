@@ -1,7 +1,7 @@
 unique_name: nr-air-interface-delay-for-nsa
 object_type: dataset
 label: nr-air-interface-delay-for-nsa
-connection_id: telus_pm_samsung_nr_v1
+connection_id: con1
 table: telus-pm-samsung-nr-air-interface-delay-for-nsa-view
 incremental:
   column: init_time

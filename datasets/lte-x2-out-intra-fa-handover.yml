@@ -1,7 +1,7 @@
 unique_name: lte-x2-out-intra-fa-handover
 object_type: dataset
 label: lte-x2-out-intra-fa-handover
-connection_id: telus_pm_samsung_lte_v1
+connection_id: con1
 table: telus-pm-samsung-lte-x2-out-intra-fa-handover-view
 incremental:
   column: init_time
